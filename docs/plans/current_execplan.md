@@ -420,3 +420,112 @@ Milestone 1 已完成。实际交付包括 `src/preprocess.py`、`src/run_prepro
 ## Outcomes and retrospective
 
 Milestone 2 已完成。正式 run `trustref_20260813T074437348987Z_34d5fa5c` 从5条完整 normal train synthetic clean 序列建立800×4参考矩阵，Ledoit–Wolf收缩系数为`0.0036545028372638863`。协方差最小特征值为`0.0051141175843415695`、条件数为`272.85259024321965`，逆矩阵单位阵最大误差为`2.4868995751603507e-14`；全部值有限且协方差正定。首次集成测试暴露NPZ object序列ID安全加载失败，修复为Unicode后专项3项和最终全套12项测试通过（`12 passed in 2.92s`）。独立重跑的参考数组和参数逐值一致。验收标准满足，但本次只证明统计参考估计实现正确、数值稳定和可复现，未证明异常识别有效。下一轮只计算平方马氏距离，不同时设置阈值或报告检测指标。
+
+---
+
+# Milestone 3 执行增补：平方马氏距离
+
+## Purpose
+
+本增补把 Milestone 2 已冻结的正常参考中心和精度矩阵应用到 Milestone 1 的全部标准化污染观测，计算每个序列、每个时间点的平方马氏距离 `d²`，并同时计算正常参考集自身的 `d²` 以供下一轮只用训练参考分布选择阈值。本轮交付公式实现、输入身份校验、可复现结果文件和测试；不选择 q90/q99、不映射连续可信度，也不报告异常检测性能。
+
+## Current state
+
+- M1 run `preprocess_20260728T101115651491Z_40442611` 已保存 `(30, 160, 4)` 的有限标准化观测、完整 sequence/time/split 身份和特征顺序。
+- M2 run `trustref_20260813T074437348987Z_34d5fa5c` 已保存 800×4 正常参考矩阵、中心、正定收缩协方差和精度矩阵。
+- 当前 12 项测试通过；尚无马氏距离实现、距离产物、阈值、可信度或检测指标。
+- 仓库已于 2026-08-14 初始化 Git，`main` 已跟踪 GitHub `yanyan72/potrochemical`；历史产物中的无 Git 版本标记保持原样。
+- 真实数据仍为 `Pending external data / 等待外部数据`。
+
+## Scientific assumptions
+
+1. 对标准化特征向量 `x` 使用平方马氏距离 `d²=(x-μ)^T P (x-μ)`，其中 `μ` 和精度矩阵 `P=Σ⁻¹` 完全读取 M2，不在 M3 重新拟合。
+2. `d²` 保留平方尺度，避免本轮无必要的开方；数值上只允许把浮点舍入产生的极小负值裁剪为 0，显著负值应报错。
+3. M1 的 train/val/test 全部只做 transform。val/test 不参与中心、协方差、精度或本轮任何阈值拟合。
+4. 参考集距离用于下一轮形成训练参考距离分布，但本轮不计算分位数，避免把距离实现与阈值选择混在同一小步。
+5. 输入仍全部为 synthetic；距离大不等于已经证明异常，必须等阈值、标签评估和多异常类型分析完成后才能讨论识别效果。
+
+## Scope
+
+### Included
+
+- 向量化平方马氏距离函数，保留任意前导 shape；
+- 公式、shape、有限性、非负性、输入不修改和手工计算一致性测试；
+- M1/M2 run ID、SHA-256、特征顺序、序列顺序、split、中心和精度一致性校验；
+- 全部标准化观测及参考集距离的 NPZ 持久化；
+- 唯一 run、配置快照、元数据、输出哈希和 Git code version；
+- 正式 synthetic run、独立临时目录重跑和文档交接。
+
+### Excluded
+
+- q90/q99 或其他阈值；
+- high/uncertain/low 分组和连续可信度；
+- Precision、Recall、F1、PR-AUC、PCA 或混淆矩阵；
+- 数据修正、预测模型、物理约束、风险、区块链或界面；
+- 真实数据实验和工业结论。
+
+## Milestones
+
+### M3.1 距离函数
+
+- 输入：形状 `[..., feature]` 的有限标准化数组、M2 中心和精度矩阵。
+- 修改文件：`src/trust_score.py`、`tests/test_trust_score.py`。
+- 输出：与显式二次型一致、shape 保持且非负有限的 `d²`。
+- 测试：手工公式一致、中心距离为0、三维输入输出二维、输入不变、非法 shape/非有限值/非正定精度拒绝。
+- 验收标准：确定性、无参数拟合、数值误差处理有明确边界。
+
+### M3.2 命令入口与产物
+
+- 输入：固定的 M1 NPZ/metadata 和 M2 NPZ/params/metadata。
+- 修改文件：`src/run_trust_scoring.py`、`configs/milestone3_mahalanobis.yaml`、`tests/test_trust_scoring_pipeline.py`。
+- 输出：`mahalanobis_distances.npz`、`metadata.json`、`config_snapshot.yaml`。
+- 运行命令：`python -m src.run_trust_scoring --config configs/milestone3_mahalanobis.yaml`。
+- 验收标准：观测距离 shape 为 `(30,160)`，参考距离为 `(800,)`，全部有限非负；输入身份或哈希不一致立即失败；已有 run 不覆盖。
+
+### M3.3 正式运行、复现与记录
+
+- 输入：通过测试的实现和固定配置。
+- 修改文件：README、`docs/project_log.md`、STATUS、TASKS、DECISIONS、ARCHITECTURE、SESSION_HANDOFF 和本计划。
+- 验收标准：全套测试、语法编译和正式 run 成功；独立重跑数组逐值一致；文档只陈述距离计算正确性，不越界声称异常识别有效。
+
+## Data leakage controls
+
+- M3 不调用任何 `fit`；中心和精度只来自 M2 的完整 `train + normal + synthetic clean` 参考。
+- 标准化观测只读取 M1 产物，而 M1 参数只来自 clean train。
+- val/test 只应用既定中心和精度，不能影响任何统计参数。
+- 人工异常标签和 mask 不参与距离计算；它们只保留给后续独立评价。
+- 下一轮阈值只能从参考集或正常训练距离分布估计，不能从 val/test 标签调参。
+
+## Reproducibility
+
+- 距离计算为确定性向量运算，不新增随机种子。
+- 配置冻结上游 run ID、文件名、SHA-256、特征顺序和距离类型。
+- 输出记录输入/输出哈希、shape、有限性/非负性诊断、绝对路径和 Git commit。
+- 正式结果使用唯一 `trustscore_<timestamp>_<config_hash>` 目录；独立重跑写入 `/tmp`，不覆盖正式结果。
+
+## Validation
+
+- 单元测试：公式、shape、边界、输入不变和异常输入。
+- 集成测试：上游三阶段生成到距离产物、身份核验、哈希和不覆盖。
+- 正式实验：固定当前 M1/M2 产物运行一次。
+- 复现审计：独立 `/tmp` 重跑，比较全部 NPZ 数组逐值一致，并比较除运行时间/路径/run ID 外的确定性元数据。
+
+## Progress
+
+- [x] 2026-08-14：恢复仓库、Git、M0–M2、测试与正式结果状态，确定本轮只实现平方马氏距离。
+- [x] 2026-08-14：完成 M3.1 距离函数和3项单元测试，公式、shape、有限性、正定性与输入不变检查通过。
+- [x] 2026-08-14：完成 M3.2 命令入口、配置和端到端身份核验测试；专项4项、全量16项测试通过。
+- [ ] 完成 M3.3 正式运行、独立复现、文档、Git 提交和 GitHub 推送。
+
+## Decision log
+
+- 2026-08-14：本轮保存 `d²` 而不是 `d`，与项目公式和后续基于参考距离分布的 q90/q99 定义保持一致。
+- 2026-08-14：距离阶段与阈值阶段分开，确保本轮只验证二次型实现和输入身份，不利用标签选择阈值。
+
+## Surprises and discoveries
+
+- 状态文档仍记录“仓库无 Git”，但实际 Git 已于 2026-08-14 初始化并推送；M3 完成记录中需修正当前状态，同时保留历史 run 的原始 code version。
+
+## Outcomes and retrospective
+
+待 M3 正式运行和验证后填写。

@@ -1,0 +1,34 @@
+project:
+  name: petrochemical_trust_risk
+  experiment_name: milestone3_squared_mahalanobis
+
+input:
+  preprocessing_data_root: data/processed
+  preprocessing_run_id: preprocess_20260728T101115651491Z_40442611
+  preprocessing_arrays_filename: standardized_observations.npz
+  preprocessing_arrays_sha256: a18b8b3d7f5c1994f291b104e277c763535ec56dd746c1b55f7f073c83a9e44a
+  preprocessing_metadata_filename: metadata.json
+  preprocessing_metadata_sha256: 3cb11cbfcc34226f76dc8b266d8941e1cc23120315bc26cb5c4a8eba2ec05fae
+  reference_data_root: data/processed
+  reference_run_id: trustref_20260813T074437348987Z_34d5fa5c
+  reference_arrays_filename: reference_set.npz
+  reference_arrays_sha256: f22e4f7b90558a363b2a527ea84633f6fa64df165d2ebae524252f6015caccd2
+  reference_params_filename: trust_reference_params.json
+  reference_params_sha256: 00d3a9718c77f67157437b94339299d283c9f7e99a5bbad5709589e8748e109b
+  reference_metadata_filename: metadata.json
+  reference_metadata_sha256: 69eb72ce3a1f7573d49521a981b3e4684421e68f7c4484869f7b52a40bde256e
+
+data:
+  features:
+    - temperature
+    - pressure
+    - vibration
+    - concentration
+
+distance:
+  method: squared_mahalanobis
+  parameter_source: milestone2_clean_train_normal_ledoit_wolf
+  negative_tolerance: 1.0e-10
+
+output:
+  data_root: data/processed
