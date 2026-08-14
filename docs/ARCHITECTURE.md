@@ -75,7 +75,7 @@
 
 - 已由 `src/trust_reference.py` 实现：clean train normal 参考集合；
 - 已由 `src/trust_reference.py` 实现：Ledoit–Wolf 收缩协方差和精度矩阵；
-- 马氏距离；
+- 已由 `src/trust_score.py` 实现：使用冻结 M2 参数的平方马氏距离；
 - 阈值；
 - 连续可信度；
 - 高/中/低可信集合标签。

@@ -1,0 +1,79 @@
+{
+  "trust_scoring_run_id": "trustscore_20260814T140937863216Z_09a4bd41",
+  "generated_at_utc": "2026-08-14T14:09:37.871831+00:00",
+  "data_source": "synthetic",
+  "input_preprocessing_run_id": "preprocess_20260728T101115651491Z_40442611",
+  "input_reference_run_id": "trustref_20260813T074437348987Z_34d5fa5c",
+  "config_sha256": "09a4bd41b49bfa332a97c256315e8abcec6a5dcf24ea9bb3f8d6b1bd3f30326a",
+  "distances_npz_sha256": "587892147cb6a818213c85fe69a0180deb20e99069829affdc532b36755dfd53",
+  "code_version": "e1748bf0f9c2096ad700ec7d1e61212122f4a609",
+  "feature_names": [
+    "temperature",
+    "pressure",
+    "vibration",
+    "concentration"
+  ],
+  "distance_method": "squared_mahalanobis",
+  "parameter_source": "milestone2_clean_train_normal_ledoit_wolf",
+  "transform_only": true,
+  "thresholds_computed": false,
+  "trust_scores_computed": false,
+  "anomaly_metrics_computed": false,
+  "observation_shape": [
+    30,
+    160,
+    4
+  ],
+  "observation_distance_shape": [
+    30,
+    160
+  ],
+  "reference_shape": [
+    800,
+    4
+  ],
+  "reference_distance_shape": [
+    800
+  ],
+  "split_sequence_counts": {
+    "train": 18,
+    "val": 6,
+    "test": 6
+  },
+  "observation_distance_summary": {
+    "count": 4800,
+    "minimum": 0.023012334111355618,
+    "maximum": 13004.834691635755,
+    "mean": 283.3951245872942,
+    "median": 171.45521619499675,
+    "non_finite_count": 0,
+    "negative_count": 0
+  },
+  "reference_distance_summary": {
+    "count": 800,
+    "minimum": 0.12766020043397946,
+    "maximum": 24.026885127638717,
+    "mean": 3.6697625736134127,
+    "median": 2.914257021883051,
+    "non_finite_count": 0,
+    "negative_count": 0
+  },
+  "input_sha256": {
+    "preprocessing_arrays": "a18b8b3d7f5c1994f291b104e277c763535ec56dd746c1b55f7f073c83a9e44a",
+    "preprocessing_metadata": "3cb11cbfcc34226f76dc8b266d8941e1cc23120315bc26cb5c4a8eba2ec05fae",
+    "reference_arrays": "f22e4f7b90558a363b2a527ea84633f6fa64df165d2ebae524252f6015caccd2",
+    "reference_params": "00d3a9718c77f67157437b94339299d283c9f7e99a5bbad5709589e8748e109b",
+    "reference_metadata": "69eb72ce3a1f7573d49521a981b3e4684421e68f7c4484869f7b52a40bde256e"
+  },
+  "files": {
+    "preprocessing_arrays": "/Users/liliyan/Desktop/petrochemical_traceability_codex_starter/data/processed/preprocess_20260728T101115651491Z_40442611/standardized_observations.npz",
+    "preprocessing_metadata": "/Users/liliyan/Desktop/petrochemical_traceability_codex_starter/data/processed/preprocess_20260728T101115651491Z_40442611/metadata.json",
+    "reference_arrays": "/Users/liliyan/Desktop/petrochemical_traceability_codex_starter/data/processed/trustref_20260813T074437348987Z_34d5fa5c/reference_set.npz",
+    "reference_params": "/Users/liliyan/Desktop/petrochemical_traceability_codex_starter/data/processed/trustref_20260813T074437348987Z_34d5fa5c/trust_reference_params.json",
+    "reference_metadata": "/Users/liliyan/Desktop/petrochemical_traceability_codex_starter/data/processed/trustref_20260813T074437348987Z_34d5fa5c/metadata.json",
+    "distances_npz": "/Users/liliyan/Desktop/petrochemical_traceability_codex_starter/data/processed/trustscore_20260814T140937863216Z_09a4bd41/mahalanobis_distances.npz",
+    "config_snapshot": "/Users/liliyan/Desktop/petrochemical_traceability_codex_starter/data/processed/trustscore_20260814T140937863216Z_09a4bd41/config_snapshot.yaml",
+    "metadata_json": "/Users/liliyan/Desktop/petrochemical_traceability_codex_starter/data/processed/trustscore_20260814T140937863216Z_09a4bd41/metadata.json"
+  },
+  "scientific_scope_note": "Synthetic squared Mahalanobis distances using frozen clean-train-normal oracle reference parameters. No thresholds, trust groups, trust scores, anomaly metrics, forecasts, or industrial validity are computed."
+}

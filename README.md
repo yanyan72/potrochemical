@@ -1,5 +1,7 @@
 # 区块链 + AI 石化质量可信预警研究
 
+GitHub 仓库：<https://github.com/yanyan72/potrochemical>
+
 ## 1. 项目简介
 
 本项目研究石化产品在生产、仓储、运输等过程中的质量状态预测、风险累积与可信预警。项目不把“区块链 + AI”作为简单技术拼接，而是尝试建立以下算法闭环：
@@ -134,7 +136,19 @@ python -m src.run_trust_reference \
   --config configs/milestone2_trust_reference.yaml
 ```
 
-结果保存在 `data/processed/trustref_<timestamp>_<config_hash>/`，包括标准化正常参考矩阵、参考序列 ID、中心、协方差、精度矩阵、收缩系数、数值诊断、输入/输出哈希和配置快照。当前正式 run 使用 5 条 normal train 序列、800 个四维参考点；协方差最小特征值大于 0，逆矩阵残差约为 `2.49e-14`。这只证明统计参考估计可复现且数值可用，尚未计算马氏距离、阈值、可信度或异常识别指标。
+结果保存在 `data/processed/trustref_<timestamp>_<config_hash>/`，包括标准化正常参考矩阵、参考序列 ID、中心、协方差、精度矩阵、收缩系数、数值诊断、输入/输出哈希和配置快照。当前正式 run 使用 5 条 normal train 序列、800 个四维参考点；协方差最小特征值大于 0，逆矩阵残差约为 `2.49e-14`。Milestone 2 本身只证明统计参考估计可复现且数值可用；马氏距离由下面的 Milestone 3 独立实现，阈值、可信度和异常识别指标仍未计算。
+
+### Milestone 3 已可运行
+
+当前已使用 Milestone 2 冻结的中心和精度矩阵，对 Milestone 1 的全部标准化 synthetic 观测以及正常参考集计算平方马氏距离：
+
+```bash
+source .venv/bin/activate
+python -m src.run_trust_scoring \
+  --config configs/milestone3_mahalanobis.yaml
+```
+
+结果保存在 `data/processed/trustscore_<timestamp>_<config_hash>/`。正式 run `trustscore_20260814T140937863216Z_09a4bd41` 保存了 `(30,160)` 的全部观测距离和 `(800,)` 的参考距离；4,800 个观测距离与 800 个参考距离均有限、非负，独立重跑的 8 个 NPZ 数组逐值一致。该结果仅证明平方二次型计算、输入身份核验和持久化可复现；尚未选择 q90/q99、划分可信组、计算连续可信度或评价异常识别性能。
 
 ### 真实数据状态
 

@@ -2,6 +2,95 @@
 
 本文件按日期记录已经真实完成并验证的科研工程工作。所有结果均应区分“代码已实现”“测试已通过”和“实验已经证明有效”。当前数据来源全部为 synthetic/simulated；真实数据状态为 `Pending external data / 等待外部数据`。
 
+## 2026-08-14：Milestone 3 平方马氏距离
+
+### 本次目标
+
+使用 Milestone 2 已保存的正常参考中心和精度矩阵，计算 Milestone 1 全部标准化观测及正常参考集自身的平方马氏距离。本轮只验证距离公式、输入身份、持久化和复现性，不选择阈值，不评价异常识别性能。
+
+### 完成内容
+
+- 新增 `src/trust_score.py`，实现保留任意前导 shape 的向量化平方马氏距离；
+- 新增 `src/run_trust_scoring.py`，核对 M1/M2 run ID、SHA-256、特征顺序、sequence/time/split 身份和参考参数跨文件一致性；
+- 新增 `configs/milestone3_mahalanobis.yaml`；
+- 新增 `tests/test_trust_score.py` 和 `tests/test_trust_scoring_pipeline.py`；
+- 保存全部观测距离、参考距离、序列 ID、时间索引、split、参考序列 ID、配置和元数据；
+- 正式结果记录实现提交 `e1748bf0f9c2096ad700ec7d1e61212122f4a609`；
+- 仓库当前已初始化 Git，`main` 跟踪 GitHub `yanyan72/potrochemical`。历史 M0–M2 产物中的 `unavailable_no_git_repository` 保持不变，因为它们反映生成当时状态。
+
+### 方法说明
+
+对标准化四维向量 `x`，计算：
+
+```text
+d² = (x - μ)ᵀ P (x - μ)
+```
+
+其中 `μ` 是 M2 正常训练参考中心，`P` 是 Ledoit–Wolf 收缩协方差的精度矩阵。M3 不重新拟合任何参数；train、val、test 都只应用同一组冻结参数。精度矩阵必须有限、对称和正定，距离必须有限、非负。
+
+### 实际命令
+
+```bash
+PYTHONDONTWRITEBYTECODE=1 MPLCONFIGDIR=/tmp/petrochemical_mplconfig \
+  .venv/bin/python -m pytest tests/test_trust_score.py \
+  tests/test_trust_scoring_pipeline.py -q -p no:cacheprovider
+PYTHONDONTWRITEBYTECODE=1 MPLCONFIGDIR=/tmp/petrochemical_mplconfig \
+  .venv/bin/python -m pytest -q -p no:cacheprovider
+PYTHONPYCACHEPREFIX=/tmp/petrochemical_pycache \
+  .venv/bin/python -m compileall -q src tests
+.venv/bin/python -m src.run_trust_scoring \
+  --config configs/milestone3_mahalanobis.yaml
+.venv/bin/python -m src.run_trust_scoring \
+  --config configs/milestone3_mahalanobis.yaml \
+  --output-root /tmp/petrochemical_trustscore_audit_20260814 \
+  --run-id trustscore_audit_20260814
+```
+
+### 测试记录
+
+- 首次专项测试：`4 passed in 19.42s`；首次运行包含 Matplotlib 字体缓存初始化；
+- 加强参数来源检查后的专项测试：`4 passed in 2.13s`；
+- 实现完成后的全套测试：`16 passed in 3.45s`；
+- 文档与结果审查后的最终全套测试：`16 passed in 3.63s`；
+- `compileall`：通过；
+- 没有失败测试、未解决错误或运行警告；
+- 独立 `/tmp` 重跑：NPZ 中8个数组全部逐值一致，输出 NPZ SHA-256 相同。
+
+### 正式实验结果
+
+- run ID：`trustscore_20260814T140937863216Z_09a4bd41`；
+- 数据来源：synthetic/simulated；
+- 输入观测：30条序列×160步×4特征；train/val/test序列数为18/6/6；
+- 观测距离 shape：`(30,160)`，共4,800个；
+- 参考距离 shape：`(800,)`；
+- 观测 `d²`：最小`0.023012334111355618`，最大`13004.834691635755`，均值`283.3951245872942`，中位数`171.45521619499675`；
+- 参考 `d²`：最小`0.12766020043397946`，最大`24.026885127638717`，均值`3.6697625736134127`，中位数`2.914257021883051`；
+- 两组距离的非有限值数和负值数均为0；
+- 配置 SHA-256：`09a4bd41b49bfa332a97c256315e8abcec6a5dcf24ea9bb3f8d6b1bd3f30326a`；
+- 距离 NPZ SHA-256：`587892147cb6a818213c85fe69a0180deb20e99069829affdc532b36755dfd53`；
+- code version：`e1748bf0f9c2096ad700ec7d1e61212122f4a609`。
+
+观测距离整体大于 normal 参考距离，可能同时受到已设计的非 normal 工况和人工污染影响；本轮没有阈值、分组或标签指标，因此不能据此声称异常已经被正确识别。
+
+### 结果路径
+
+- `data/processed/trustscore_20260814T140937863216Z_09a4bd41/mahalanobis_distances.npz`；
+- `data/processed/trustscore_20260814T140937863216Z_09a4bd41/metadata.json`；
+- `data/processed/trustscore_20260814T140937863216Z_09a4bd41/config_snapshot.yaml`；
+- 独立审计：`/tmp/petrochemical_trustscore_audit_20260814/trustscore_audit_20260814/`。
+
+### 已知限制
+
+- 全部输入和结果为 synthetic，不能替代真实工业验证；
+- M2 使用 synthetic clean oracle 参考，真实部署不能假设可见隐藏真值；
+- 参考仅含5条 normal train 序列，800个时间点存在序列内相关性；
+- 当前未计算阈值、可信组、连续可信度、PCA或任何异常识别指标；
+- 当前 Python 3.14 尚未在规范建议的 Python 3.11 复验。
+
+### 下一步唯一计划
+
+只使用已保存的800个正常训练参考距离计算 q90/q99 基线阈值，并对全部距离划分 `high/uncertain/low` 可信组；补充分位数公式、边界归组、train-only 阈值来源、shape 和复现测试。本小步先不计算连续可信度、PCA 或 Precision/Recall/F1/PR-AUC。
+
 ## 2026-08-13：Milestone 2 正常参考集合与收缩协方差
 
 ### 本次目标

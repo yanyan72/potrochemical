@@ -4,29 +4,31 @@
 
 ## 本次会话目标
 
-实现标准化 clean train normal 参考集合和 Ledoit–Wolf 收缩协方差，保存统计参数并验证数值稳定性。本轮不计算马氏距离、阈值、可信度、异常指标或预测模型。
+使用已冻结的 Milestone 2 正常参考中心和精度矩阵，计算正常参考集及 Milestone 1 全部标准化观测的平方马氏距离。本轮不选择阈值、不计算连续可信度、异常指标或预测模型。
 
 ## 已完成内容
 
-- 恢复 M0/M1 状态并扩展 ExecPlan；
-- 发现 `.venv` 缺少 requirements 已声明的 scikit-learn，并安装 1.9.0；
-- 实现 `train + normal` 完整序列选择；
-- 使用 M1 clean-train 参数标准化 synthetic clean 参考值；
-- 实现 Ledoit–Wolf 中心、协方差、精度、收缩系数和数值诊断；
-- 实现唯一 run、输入哈希核验和 JSON/NPZ/YAML 持久化；
-- 新增3项测试，覆盖 sklearn 一致性、正定性、逆矩阵残差、序列筛选和不覆盖；
-- 修复 reference sequence IDs 被保存为 object dtype、无法默认安全加载的问题；
-- 运行正式实验和独立 `/tmp` 重跑；
-- 更新 README、project_log、ARCHITECTURE、STATUS、TASKS、DECISIONS、ExecPlan 和本 handoff。
+- 恢复并核查 Git、M0–M2、12项历史测试和正式结果状态；
+- 更新 ExecPlan，明确 M3 的输入、范围、泄漏控制、复现和验收标准；
+- 新增向量化平方马氏距离函数，支持任意前导 shape；
+- 检查输入有限性、特征维度、精度矩阵对称正定性和浮点负误差；
+- 新增 M3 配置和命令入口；
+- 核验 M1/M2 run ID、文件 SHA-256、data source、特征顺序、sequence/time/split、参考参数来源和 NPZ/JSON 一致性；
+- 保存观测距离、参考距离和完整身份数组；
+- 新增3项距离单元测试和1项端到端测试；
+- 完成正式 synthetic run 和独立 `/tmp` 重跑；
+- 更新 README、project_log、ARCHITECTURE、STATUS、TASKS、DECISIONS、ExecPlan 和本 handoff；
+- 实现提交为 `e1748bf0f9c2096ad700ec7d1e61212122f4a609`。
 
 ## 本轮新增或修改文件
 
 - `README.md`
-- `configs/milestone2_trust_reference.yaml`
-- `src/trust_reference.py`
-- `src/run_trust_reference.py`
-- `tests/test_trust_reference.py`
-- `tests/test_trust_reference_pipeline.py`
+- `configs/milestone3_mahalanobis.yaml`
+- `src/trust_score.py`
+- `src/run_trust_scoring.py`
+- `tests/test_trust_score.py`
+- `tests/test_trust_scoring_pipeline.py`
+- `data/processed/trustscore_20260814T140937863216Z_09a4bd41/`
 - `docs/project_log.md`
 - `docs/ARCHITECTURE.md`
 - `docs/DECISIONS.md`
@@ -38,52 +40,59 @@
 ## 实际运行命令
 
 ```bash
-.venv/bin/pip install 'scikit-learn>=1.4,<2'
 PYTHONDONTWRITEBYTECODE=1 MPLCONFIGDIR=/tmp/petrochemical_mplconfig \
-  .venv/bin/python -m pytest tests/test_trust_reference.py \
-  tests/test_trust_reference_pipeline.py -q -p no:cacheprovider
+  .venv/bin/python -m pytest tests/test_trust_score.py \
+  tests/test_trust_scoring_pipeline.py -q -p no:cacheprovider
 PYTHONDONTWRITEBYTECODE=1 MPLCONFIGDIR=/tmp/petrochemical_mplconfig \
   .venv/bin/python -m pytest -q -p no:cacheprovider
 PYTHONPYCACHEPREFIX=/tmp/petrochemical_pycache \
   .venv/bin/python -m compileall -q src tests
-.venv/bin/python -m src.run_trust_reference \
-  --config configs/milestone2_trust_reference.yaml
+.venv/bin/python -m src.run_trust_scoring \
+  --config configs/milestone3_mahalanobis.yaml
+.venv/bin/python -m src.run_trust_scoring \
+  --config configs/milestone3_mahalanobis.yaml \
+  --output-root /tmp/petrochemical_trustscore_audit_20260814 \
+  --run-id trustscore_audit_20260814
 ```
-
-另在 `/tmp/petrochemical_trustref_audit_20260813/` 重跑并比较所有 NPZ 数组和参数 JSON。
 
 ## 测试和实验结果
 
-- 第一次全套测试：`1 failed, 11 passed in 16.55s`；失败原因是 NPZ 中序列 ID 为 object dtype，默认安全加载拒绝 pickle；
-- 修复后专项测试：`3 passed in 2.14s`；
-- 最终全套测试：`12 passed in 2.92s`；
+- 首次专项测试：`4 passed in 19.42s`；
+- 参数来源检查加强后专项测试：`4 passed in 2.13s`；
+- 最终全量测试：`16 passed in 3.63s`；
 - 语法编译：通过；
-- 正式 run：`trustref_20260813T074437348987Z_34d5fa5c`；
-- 参考集合：5 条 normal train 序列、800×4；
-- 收缩系数：`0.0036545028372638863`；
-- 最小特征值：`0.0051141175843415695`；
-- 条件数：`272.85259024321965`；
-- 逆矩阵残差：`2.4868995751603507e-14`；
-- 独立重跑全部数组和参数逐值一致；
-- 没有尚未解决的失败测试。
+- 正式 run：`trustscore_20260814T140937863216Z_09a4bd41`；
+- 观测距离：`(30,160)`，4,800个，全部有限非负；
+- 参考距离：`(800,)`，全部有限非负；
+- 观测距离范围：`0.023012334111355618`至`13004.834691635755`；
+- 参考距离范围：`0.12766020043397946`至`24.026885127638717`；
+- 距离 NPZ SHA-256：`587892147cb6a818213c85fe69a0180deb20e99069829affdc532b36755dfd53`；
+- 独立重跑：NPZ中8个数组逐值一致；
+- 没有尚未解决的错误、失败测试或警告。
 
 ## 正式结果路径
 
-- 目录：`data/processed/trustref_20260813T074437348987Z_34d5fa5c/`；
-- 参考数组：`reference_set.npz`；
-- 参数：`trust_reference_params.json`；
+- 目录：`data/processed/trustscore_20260814T140937863216Z_09a4bd41/`；
+- 距离数组：`mahalanobis_distances.npz`；
 - 元数据：`metadata.json`；
 - 配置快照：`config_snapshot.yaml`。
 
 ## 科学边界与限制
 
 - 全部结果是 synthetic；真实数据仍为 `Pending external data / 等待外部数据`；
-- clean 参考是 oracle baseline，不代表部署时可见隐藏真值；
-- 5条正常序列的800个时间点存在序列内相关性，不应当作800个完全独立实验样本；
-- 当前只证明收缩协方差数值稳定和可复现，未证明异常识别有效；
-- M1标准化参数来自全部 clean train，因此非normal train会间接影响尺度，但val/test未参与；
-- 仓库无Git，Python仍为3.14。
+- M2 clean reference 是 oracle baseline，不代表真实部署可见隐藏真值；
+- normal train 只有5条序列，800个时间点不是800个独立实验样本；
+- 观测距离较大可能来自非 normal 工况或人工污染，本轮没有阈值和标签评价，不能声称异常检测有效；
+- 尚未计算 q90/q99、可信组、连续可信度、PCA 或异常识别指标；
+- 当前 Python 3.14，尚未在 Python 3.11 复验。
+
+## Git 状态
+
+- GitHub：`https://github.com/yanyan72/potrochemical`；
+- 分支：`main`；
+- 正式 M3 结果记录的代码提交：`e1748bf0f9c2096ad700ec7d1e61212122f4a609`；
+- 本轮文档和正式结果随最终交付提交至 `main` 并推送 GitHub。
 
 ## 下一步唯一优先任务
 
-计算参考集和全部标准化观测的平方马氏距离，补公式、shape、有限性、输入身份和复现测试。先不设置q90/q99阈值，也不报告异常指标。
+只使用已保存的800个正常训练参考距离计算 q90/q99 基线阈值，并对全部距离划分 `high/uncertain/low` 可信组；补充分位数公式、边界归组、train-only 阈值来源、shape 和复现测试。本小步先不计算连续可信度、PCA 或 Precision/Recall/F1/PR-AUC。
