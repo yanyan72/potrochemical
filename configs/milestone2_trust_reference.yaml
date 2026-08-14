@@ -1,0 +1,35 @@
+project:
+  name: petrochemical_trust_risk
+  experiment_name: milestone2_clean_train_normal_ledoit_wolf
+
+input:
+  simulation_data_root: data/processed
+  simulation_run_id: milestone0_20260719T153039079827Z_0abad9ce
+  simulation_csv_filename: simulated_timeseries.csv
+  simulation_csv_sha256: 70c7347cf89d56db91afca30777d73c91815437b1f23a2decbf18656d07ac099
+  preprocessing_data_root: data/processed
+  preprocessing_run_id: preprocess_20260728T101115651491Z_40442611
+  preprocessing_arrays_filename: standardized_observations.npz
+  preprocessing_arrays_sha256: a18b8b3d7f5c1994f291b104e277c763535ec56dd746c1b55f7f073c83a9e44a
+  preprocessing_params_filename: preprocessor_params.json
+  preprocessing_params_sha256: 46cbcd1876b0e29948accd18595d75401eeba1eeda49960ce40e36e52b809253
+  preprocessing_metadata_filename: metadata.json
+  preprocessing_metadata_sha256: 3cb11cbfcc34226f76dc8b266d8941e1cc23120315bc26cb5c4a8eba2ec05fae
+
+data:
+  features:
+    - temperature
+    - pressure
+    - vibration
+    - concentration
+
+reference:
+  fit_split: train
+  fit_condition: normal
+  fit_source: clean
+  standardization_params_source: milestone1_clean_train
+  covariance_estimator: ledoit_wolf
+  assume_centered: false
+
+output:
+  data_root: data/processed

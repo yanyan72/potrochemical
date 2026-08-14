@@ -1,0 +1,51 @@
+{
+  "trust_reference_run_id": "trustref_20260813T074437348987Z_34d5fa5c",
+  "generated_at_utc": "2026-08-13T07:44:37.380275+00:00",
+  "data_source": "synthetic",
+  "input_simulation_run_id": "milestone0_20260719T153039079827Z_0abad9ce",
+  "input_preprocessing_run_id": "preprocess_20260728T101115651491Z_40442611",
+  "config_sha256": "34d5fa5c1faa0c757d6c3d98afdbc1db0686c38204c8d69a114fd9e10e05b618",
+  "reference_npz_sha256": "f22e4f7b90558a363b2a527ea84633f6fa64df165d2ebae524252f6015caccd2",
+  "params_json_sha256": "00d3a9718c77f67157437b94339299d283c9f7e99a5bbad5709589e8748e109b",
+  "code_version": "unavailable_no_git_repository",
+  "sklearn_version": "1.9.0",
+  "feature_names": [
+    "temperature",
+    "pressure",
+    "vibration",
+    "concentration"
+  ],
+  "fit_split": "train",
+  "fit_condition": "normal",
+  "fit_source": "standardized_clean_train_normal",
+  "covariance_estimator": "ledoit_wolf",
+  "assume_centered": false,
+  "num_reference_sequences": 5,
+  "sequence_length": 160,
+  "num_reference_rows": 800,
+  "shrinkage": 0.0036545028372638863,
+  "diagnostics": {
+    "covariance_symmetry_max_abs_error": 0.0,
+    "precision_symmetry_max_abs_error": 3.552713678800501e-15,
+    "covariance_min_eigenvalue": 0.0051141175843415695,
+    "covariance_max_eigenvalue": 1.3954002296960009,
+    "covariance_condition_number": 272.85259024321965,
+    "inverse_identity_max_abs_error": 2.4868995751603507e-14
+  },
+  "input_sha256": {
+    "simulation_csv": "70c7347cf89d56db91afca30777d73c91815437b1f23a2decbf18656d07ac099",
+    "preprocessing_arrays": "a18b8b3d7f5c1994f291b104e277c763535ec56dd746c1b55f7f073c83a9e44a",
+    "preprocessing_params": "46cbcd1876b0e29948accd18595d75401eeba1eeda49960ce40e36e52b809253",
+    "preprocessing_metadata": "3cb11cbfcc34226f76dc8b266d8941e1cc23120315bc26cb5c4a8eba2ec05fae"
+  },
+  "files": {
+    "simulation_csv": "/Users/liliyan/Desktop/petrochemical_traceability_codex_starter/data/processed/milestone0_20260719T153039079827Z_0abad9ce/simulated_timeseries.csv",
+    "preprocessing_arrays": "/Users/liliyan/Desktop/petrochemical_traceability_codex_starter/data/processed/preprocess_20260728T101115651491Z_40442611/standardized_observations.npz",
+    "preprocessing_params": "/Users/liliyan/Desktop/petrochemical_traceability_codex_starter/data/processed/preprocess_20260728T101115651491Z_40442611/preprocessor_params.json",
+    "reference_npz": "/Users/liliyan/Desktop/petrochemical_traceability_codex_starter/data/processed/trustref_20260813T074437348987Z_34d5fa5c/reference_set.npz",
+    "trust_reference_params_json": "/Users/liliyan/Desktop/petrochemical_traceability_codex_starter/data/processed/trustref_20260813T074437348987Z_34d5fa5c/trust_reference_params.json",
+    "config_snapshot": "/Users/liliyan/Desktop/petrochemical_traceability_codex_starter/data/processed/trustref_20260813T074437348987Z_34d5fa5c/config_snapshot.yaml",
+    "metadata_json": "/Users/liliyan/Desktop/petrochemical_traceability_codex_starter/data/processed/trustref_20260813T074437348987Z_34d5fa5c/metadata.json"
+  },
+  "scientific_scope_note": "Synthetic clean-train-normal oracle reference only. This run estimates Ledoit-Wolf covariance but does not compute Mahalanobis distances, thresholds, trust scores, anomaly metrics, forecasts, or industrial validity."
+}

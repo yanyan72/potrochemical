@@ -1,0 +1,62 @@
+{
+  "dataset_id": "milestone0_20260719T153039079827Z_0abad9ce",
+  "generated_at_utc": "2026-07-19T15:30:39.490951+00:00",
+  "data_source": "synthetic",
+  "seed": 42,
+  "corruption_seed": 10042,
+  "corruption_reference_split": "clean_train_only",
+  "config_sha256": "0abad9ce3eda901d9501e4fe0051296aab25bd5ca37048c1a0e2e30bdd1e0c2e",
+  "data_csv_sha256": "70c7347cf89d56db91afca30777d73c91815437b1f23a2decbf18656d07ac099",
+  "code_version": "unavailable_no_git_repository",
+  "time_unit": "abstract_sampling_step",
+  "feature_units": {
+    "temperature": "K",
+    "pressure": "MPa",
+    "vibration": "mm/s",
+    "concentration": "fraction",
+    "quality": "dimensionless_fraction",
+    "time_index": "abstract_sampling_step"
+  },
+  "num_sequences": 30,
+  "sequence_length": 160,
+  "num_rows": 4800,
+  "num_features": 4,
+  "requested_corruption_ratio": 0.1,
+  "achieved_corruption_ratio": 0.1,
+  "corrupted_rows": 480,
+  "event_count": 216,
+  "event_count_by_type": {
+    "spike": 96,
+    "bias": 8,
+    "drift": 7,
+    "missing": 9,
+    "random_replacement": 96
+  },
+  "corrupted_row_count_by_type": {
+    "bias": 96,
+    "drift": 96,
+    "missing": 96,
+    "random_replacement": 96,
+    "spike": 96
+  },
+  "split_sequence_counts": {
+    "test": 6,
+    "train": 18,
+    "val": 6
+  },
+  "condition_sequence_counts": {
+    "compound": 7,
+    "high_temperature": 7,
+    "high_vibration": 7,
+    "normal": 9
+  },
+  "files": {
+    "data_csv": "/Users/liliyan/Desktop/petrochemical_traceability_codex_starter/data/processed/milestone0_20260719T153039079827Z_0abad9ce/simulated_timeseries.csv",
+    "mask_npz": "/Users/liliyan/Desktop/petrochemical_traceability_codex_starter/data/processed/milestone0_20260719T153039079827Z_0abad9ce/corruption_mask.npz",
+    "events_json": "/Users/liliyan/Desktop/petrochemical_traceability_codex_starter/data/processed/milestone0_20260719T153039079827Z_0abad9ce/corruption_events.json",
+    "config_snapshot": "/Users/liliyan/Desktop/petrochemical_traceability_codex_starter/data/processed/milestone0_20260719T153039079827Z_0abad9ce/config_snapshot.yaml",
+    "example_figure": "/Users/liliyan/Desktop/petrochemical_traceability_codex_starter/results/figures/milestone0_20260719T153039079827Z_0abad9ce/corruption_examples.png",
+    "metadata_json": "/Users/liliyan/Desktop/petrochemical_traceability_codex_starter/data/processed/milestone0_20260719T153039079827Z_0abad9ce/metadata.json"
+  },
+  "scientific_scope_note": "Synthetic Milestone 0 data only; no industrial performance, trust model, forecasting model, physics model, blockchain, or UI."
+}

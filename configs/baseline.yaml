@@ -1,0 +1,53 @@
+project:
+  name: petrochemical_trust_risk
+  seed: 42
+  experiment_name: phase1_trust_baseline
+
+data:
+  num_train_sequences: 1000
+  num_val_sequences: 200
+  num_test_sequences: 200
+  sequence_length: 200
+  delta_t: 1.0
+  features: [temperature, pressure, vibration, concentration]
+  quality_min: 0.0
+  quality_max: 1.0
+  input_window: 24
+  horizon: 1
+
+simulation:
+  normal_ratio: 0.40
+  temperature_abnormal_ratio: 0.25
+  vibration_abnormal_ratio: 0.15
+  compound_abnormal_ratio: 0.20
+  observation_noise_std: 0.01
+
+corruption:
+  enabled: true
+  ratios: [0.0, 0.05, 0.10, 0.20, 0.30]
+  types: [spike, bias, drift, missing, random_replacement]
+
+trust:
+  method: mahalanobis
+  covariance: ledoit_wolf
+  high_quantile: 0.90
+  low_quantile: 0.99
+  trust_mapping: exponential
+  local_window: 5
+
+model:
+  name: lstm
+  hidden_size: 32
+  num_layers: 1
+  dropout: 0.0
+  batch_size: 64
+  learning_rate: 0.001
+  epochs: 50
+  loss: huber
+
+evaluation:
+  seeds: [11, 22, 33, 44, 55]
+  metrics: [mae, rmse, r2]
+  anomaly_metrics: [precision, recall, f1, pr_auc]
+  save_predictions: true
+  save_figures: true

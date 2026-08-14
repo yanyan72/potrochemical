@@ -1,0 +1,53 @@
+project:
+  name: petrochemical_trust_risk
+  seed: 42
+  experiment_name: milestone0_simulation_corruption
+data:
+  num_train_sequences: 18
+  num_val_sequences: 6
+  num_test_sequences: 6
+  sequence_length: 160
+  delta_t: 1.0
+  features:
+  - temperature
+  - pressure
+  - vibration
+  - concentration
+simulation:
+  normal_ratio: 0.4
+  temperature_abnormal_ratio: 0.25
+  vibration_abnormal_ratio: 0.15
+  compound_abnormal_ratio: 0.2
+  ar_rho: 0.92
+  cycle_length: 48
+  process_noise_scale: 1.0
+  quality_noise_std: 0.00015
+  base_degradation_rate: 0.00012
+  temperature_condition_offset: 11.0
+  vibration_condition_offset: 0.38
+corruption:
+  enabled: true
+  ratio: 0.1
+  seed_offset: 10000
+  types:
+  - spike
+  - bias
+  - drift
+  - missing
+  - random_replacement
+  replacement_strategy: empirical_train_value
+  min_segment_length: 6
+  max_segment_length: 18
+  magnitude_std:
+    spike:
+    - 4.0
+    - 7.0
+    bias:
+    - 2.0
+    - 4.0
+    drift:
+    - 3.0
+    - 5.0
+output:
+  data_root: data/processed
+  figures_root: results/figures

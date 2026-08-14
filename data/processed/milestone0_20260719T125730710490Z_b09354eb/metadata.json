@@ -1,0 +1,51 @@
+{
+  "dataset_id": "milestone0_20260719T125730710490Z_b09354eb",
+  "generated_at_utc": "2026-07-19T12:57:31.006160+00:00",
+  "data_source": "synthetic",
+  "seed": 42,
+  "corruption_seed": 10042,
+  "config_sha256": "b09354eb3f973fd863aa69f371dda510ccb6b9ede42ea870ef15ac3ff7fa9b02",
+  "data_csv_sha256": "4bc9e3178b844d4faf8187d15f65958d3d40965c92daf969095a3105acb1cc77",
+  "code_version": "unavailable_no_git_repository",
+  "time_unit": "abstract_sampling_step",
+  "feature_units": {
+    "temperature": "K",
+    "pressure": "MPa",
+    "vibration": "mm/s",
+    "concentration": "fraction",
+    "quality": "dimensionless_fraction",
+    "time_index": "abstract_sampling_step"
+  },
+  "num_sequences": 30,
+  "sequence_length": 160,
+  "num_rows": 4800,
+  "num_features": 4,
+  "requested_corruption_ratio": 0.1,
+  "achieved_corruption_ratio": 0.1,
+  "corrupted_rows": 480,
+  "event_count": 187,
+  "event_count_by_type": {
+    "spike": 160,
+    "bias": 13,
+    "drift": 14
+  },
+  "split_sequence_counts": {
+    "test": 6,
+    "train": 18,
+    "val": 6
+  },
+  "condition_sequence_counts": {
+    "compound": 7,
+    "high_temperature": 7,
+    "high_vibration": 7,
+    "normal": 9
+  },
+  "files": {
+    "data_csv": "/Users/liliyan/Desktop/petrochemical_traceability_codex_starter/data/processed/milestone0_20260719T125730710490Z_b09354eb/simulated_timeseries.csv",
+    "mask_npz": "/Users/liliyan/Desktop/petrochemical_traceability_codex_starter/data/processed/milestone0_20260719T125730710490Z_b09354eb/corruption_mask.npz",
+    "events_json": "/Users/liliyan/Desktop/petrochemical_traceability_codex_starter/data/processed/milestone0_20260719T125730710490Z_b09354eb/corruption_events.json",
+    "config_snapshot": "/Users/liliyan/Desktop/petrochemical_traceability_codex_starter/data/processed/milestone0_20260719T125730710490Z_b09354eb/config_snapshot.yaml",
+    "example_figure": "/Users/liliyan/Desktop/petrochemical_traceability_codex_starter/results/figures/milestone0_20260719T125730710490Z_b09354eb/corruption_examples.png"
+  },
+  "scientific_scope_note": "Synthetic Milestone 0 data only; no industrial performance, trust model, forecasting model, physics model, blockchain, or UI."
+}

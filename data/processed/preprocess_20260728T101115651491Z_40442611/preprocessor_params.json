@@ -1,0 +1,30 @@
+{
+  "feature_names": [
+    "temperature",
+    "pressure",
+    "vibration",
+    "concentration"
+  ],
+  "imputation_strategy": "feature_median",
+  "imputation_values": [
+    319.825571511305,
+    2.2380841198873083,
+    0.49240213172092906,
+    0.8419794815767547
+  ],
+  "means": [
+    320.05888361815755,
+    2.2411563964605956,
+    0.589954314806785,
+    0.8406627360364394
+  ],
+  "scales": [
+    5.267781805101983,
+    0.06528300254172896,
+    0.17422802676569224,
+    0.014646676697522105
+  ],
+  "std_ddof": 1,
+  "fit_source": "clean_train",
+  "fit_split": "train"
+}

@@ -1,0 +1,40 @@
+{
+  "preprocessing_run_id": "preprocess_20260728T101115651491Z_40442611",
+  "generated_at_utc": "2026-07-28T10:11:15.697662+00:00",
+  "data_source": "synthetic",
+  "input_dataset_id": "milestone0_20260719T153039079827Z_0abad9ce",
+  "input_csv_sha256": "70c7347cf89d56db91afca30777d73c91815437b1f23a2decbf18656d07ac099",
+  "config_sha256": "4044261103efb25530d2120fcb4d5d22b78edb9f2653e326d7bc254bcdbc17b7",
+  "arrays_npz_sha256": "a18b8b3d7f5c1994f291b104e277c763535ec56dd746c1b55f7f073c83a9e44a",
+  "code_version": "unavailable_no_git_repository",
+  "feature_names": [
+    "temperature",
+    "pressure",
+    "vibration",
+    "concentration"
+  ],
+  "fit_source": "clean_train",
+  "fit_split": "train",
+  "imputation_strategy": "feature_median",
+  "standardization": "train_mean_and_sample_std",
+  "std_ddof": 1,
+  "num_sequences": 30,
+  "sequence_length": 160,
+  "num_features": 4,
+  "split_sequence_counts": {
+    "train": 18,
+    "val": 6,
+    "test": 6
+  },
+  "missing_values_before": 96,
+  "missing_values_after_imputation": 0,
+  "non_finite_values_after_standardization": 0,
+  "files": {
+    "input_csv": "/Users/liliyan/Desktop/petrochemical_traceability_codex_starter/data/processed/milestone0_20260719T153039079827Z_0abad9ce/simulated_timeseries.csv",
+    "arrays_npz": "/Users/liliyan/Desktop/petrochemical_traceability_codex_starter/data/processed/preprocess_20260728T101115651491Z_40442611/standardized_observations.npz",
+    "preprocessor_params_json": "/Users/liliyan/Desktop/petrochemical_traceability_codex_starter/data/processed/preprocess_20260728T101115651491Z_40442611/preprocessor_params.json",
+    "config_snapshot": "/Users/liliyan/Desktop/petrochemical_traceability_codex_starter/data/processed/preprocess_20260728T101115651491Z_40442611/config_snapshot.yaml",
+    "metadata_json": "/Users/liliyan/Desktop/petrochemical_traceability_codex_starter/data/processed/preprocess_20260728T101115651491Z_40442611/metadata.json"
+  },
+  "scientific_scope_note": "Synthetic preprocessing baseline only; clean-train fit does not represent real deployment access to hidden ground truth. No trust score, anomaly detection, forecasting, physics, blockchain, or UI."
+}

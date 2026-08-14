@@ -1,0 +1,21 @@
+project:
+  name: petrochemical_trust_risk
+  experiment_name: milestone1_leakage_safe_preprocessing
+input:
+  data_root: data/processed
+  run_id: milestone0_20260719T153039079827Z_0abad9ce
+  csv_filename: simulated_timeseries.csv
+  expected_csv_sha256: 70c7347cf89d56db91afca30777d73c91815437b1f23a2decbf18656d07ac099
+data:
+  features:
+  - temperature
+  - pressure
+  - vibration
+  - concentration
+preprocessing:
+  imputation_strategy: feature_median
+  fit_source: clean_train
+  fit_split: train
+  std_ddof: 1
+output:
+  data_root: data/processed
