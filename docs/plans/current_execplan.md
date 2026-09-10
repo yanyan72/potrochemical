@@ -529,3 +529,116 @@ Milestone 2 已完成。正式 run `trustref_20260813T074437348987Z_34d5fa5c` �
 ## Outcomes and retrospective
 
 Milestone 3 已完成。实际交付包括平方马氏距离函数、冻结 M2 参数的 transform-only 命令入口、独立配置、4项新增测试、输入身份/哈希核验和唯一结果目录。正式 run `trustscore_20260814T140937863216Z_09a4bd41` 生成 `(30,160)` 的观测距离和 `(800,)` 的参考距离，所有值有限非负；最新全套16项测试和语法编译通过，独立重跑的8个NPZ数组逐值一致。该结果只证明公式实现、输入链路和复现性正确，尚未证明异常识别有效。下一轮只从正常训练参考距离估计q90/q99并划分可信组，不同时实现连续可信度或评价指标。
+
+---
+
+# Milestone 4 执行增补：E1 可信度校准与首次检测评价
+
+## Purpose
+
+本增补完成用户指定的第一版 E1 闭环：只从 M3 保存的正常训练参考平方马氏距离估计 q90/q99，划分 high/uncertain/low 可信组，使用训练参考尺度生成单调连续可信度，输出逐时间点审计表、第一张距离/可信度时间序列图和第一组检测指标表。最后根据验证集而非测试集表现，判断是否适合直接进入预测实验。
+
+## Current state
+
+- M0 正式 run 保存 4,800 行 synthetic 标签和五类人工污染；train/val/test 污染行分别为 308/86/86。
+- M3 正式 run `trustscore_20260814T140937863216Z_09a4bd41` 保存 `(30,160)` 观测 `d²` 和800个 normal-train clean 参考 `d²`。
+- 当前没有阈值、可信组、连续可信度、检测图或指标表；16项测试通过。
+- M2 单一 normal-condition 参考可能把合法 high-temperature/high-vibration/compound 工况变化误判为传感器污染，这是 E1 必须检查的核心风险。
+- 全部数据仍为 synthetic；真实数据为 `Pending external data / 等待外部数据`。
+
+## Scientific assumptions
+
+1. q90/q99 使用 `numpy.quantile(..., method="linear")`，输入只能是 M3 的800个 normal-train clean 参考 `d²`，不得包含观测标签、验证集或测试集。
+2. 分组边界固定为：`d² <= q90` 为 high，`q90 < d² <= q99` 为 uncertain，`d² > q99` 为 low。
+3. 连续可信度采用 `w=exp(-d²/(2τ))`，第一版 `τ=q90`；因此 `w(0)=1`，距离增大时单调不升，范围为 `[0,1]`。q90 是训练参考尺度基线，不宣称最优。
+4. 二元检测分别报告 q90（high之外均判为候选异常）和 q99（仅low判为异常）规则；PR-AUC使用连续 `d²` 作为异常分数。
+5. 第一张正式指标表只计算 train 和 validation。test 保存逐点分数和分组，但不计算指标、不参与是否进入预测阶段的判断，避免在方法尚可能修订时消耗测试集。
+6. `condition` 表示干净过程工况，`corruption_label` 表示人工传感器污染，两者严格区分。若非normal工况误报率高，应先修订可信参考设计，而不是将工况变化改写成污染标签。
+
+## Scope
+
+### Included
+
+- 训练参考 q90/q99、分组和指数可信度；
+- 无泄漏、单调性、范围、边界和非法输入测试；
+- 每时间点 CSV，至少含 sequence_id、time_index、corruption_label、corruption_type、mahalanobis_distance、trust_score，并附 split、condition、`d²` 和 trust_group；
+- train/validation 的 q90/q99 Precision、Recall、F1、PR-AUC、误报率、漏报率；
+- 每类异常召回率和各工况未污染点误报率；
+- 一张 validation 代表序列的 distance/trust 时间图；
+- 输入哈希/身份校验、唯一 run、配置快照、元数据、正式 run 和独立重跑。
+
+### Excluded
+
+- 使用 test 指标调参或决定路线；
+- PCA、混淆矩阵和数据修正；
+- Persistence、线性回归、LSTM 或其他预测模型；
+- 物理约束、风险、区块链和界面；
+- 真实数据实验和工业有效性结论。
+
+## Milestones
+
+### M4.1 阈值、分组和连续映射
+
+- 输入：800个正常训练参考 `d²`。
+- 修改文件：`src/trust_score.py`、`tests/test_trust_score.py`。
+- 输出：可序列化校准参数、trust_group 和 trust_score。
+- 测试：q90/q99与 NumPy 直接结果一致；改变任意观测/val/test不改变阈值；边界归组准确；可信度单调、有限、范围正确且零距离为1。
+- 验收标准：函数不接收标签、不进行隐式拟合、不修改输入。
+
+### M4.2 E1评价入口与产物
+
+- 输入：固定 M0 CSV、固定 M3 NPZ/metadata 和 M4 配置。
+- 修改文件：`src/evaluate_trust.py`、`src/run_e1_evaluation.py`、`configs/milestone4_e1_trust.yaml`、相关测试。
+- 输出：逐点 CSV、校准 JSON、metadata、配置快照、distance/trust PNG、检测指标 CSV、每类召回 CSV、工况误报 CSV。
+- 运行命令：`python -m src.run_e1_evaluation --config configs/milestone4_e1_trust.yaml`。
+- 验收标准：4,800行身份和标签逐行一致；全部分数有限；test不出现在指标表；全部文件非空且不覆盖。
+
+### M4.3 正式评价与阶段门控
+
+- 输入：通过测试的实现和固定正式上游产物。
+- 修改文件：README、project_log、STATUS、TASKS、DECISIONS、ARCHITECTURE、SESSION_HANDOFF 和本计划。
+- 输出：真实阈值、验证指标、图、限制，以及“进入预测”或“先修订E1”的证据化决定。
+- 验收标准：全套测试和语法编译通过；独立重跑确定性产物一致；不把 synthetic 指标写成工业性能。
+
+## Data leakage controls
+
+- `fit_trust_calibration` 只能接收 normal-train clean reference distances；API不接收 observation、split或标签。
+- M0 标签只在阈值和可信度计算完成后用于评价与绘图。
+- test逐点结果可保存，但不进入任何指标表、阈值、映射参数或阶段门控。
+- 配置和metadata显式记录 `calibration_source=normal_train_clean_reference`、`evaluation_splits=[train,val]`、`holdout_split=test`。
+
+## Reproducibility
+
+- 本轮计算均为确定性，不新增随机数。
+- 配置冻结输入 run ID、文件 SHA-256、分位数、quantile method、tau来源、评价split和绘图选择规则。
+- 正式输出使用唯一 `e1trust_<timestamp>_<config_hash>`；数据、图和表使用相同run ID且拒绝覆盖。
+- 保存全部输入/输出哈希、Git commit和确定性参数；独立 `/tmp` 重跑比较 CSV/JSON/表和图。
+
+## Validation
+
+- 单元测试：分位数、无泄漏接口、分组边界、可信度单调和数值范围。
+- 指标测试：已知混淆矩阵的Precision/Recall/F1/FPR/FNR和每类召回。
+- 集成测试：手工小型 M0/M3 产物到全部E1文件，验证test指标被保留。
+- 正式实验：当前正式 M0/M3 输入运行一次，人工查看图并审查指标。
+
+## Progress
+
+- [x] 2026-09-10：审查路线可行性，增加test指标保留、工况误报检查和阶段门控约束。
+- [x] 2026-09-10：完成 M4.1；q90/q99、三组边界和 `τ=q90` 指数映射的7项相关测试通过。
+- [x] 2026-09-10：完成 M4.2；逐点CSV、三类指标表、validation时间图、输入身份和test保留测试完成；专项11项、全量24项测试通过。
+- [ ] 完成 M4.3 正式运行、复现审计、结论和文档。
+
+## Decision log
+
+- 2026-09-10：连续可信度第一版采用 `τ=q90` 的指数映射，原因是参数完全来自训练参考、形式简单且单调；后续如比较映射，只能作为单因素消融。
+- 2026-09-10：本轮不报告test检测指标，因为E1首次结果可能暴露参考集合设计问题；test保持最终确认用途。
+- 2026-09-10：增加按工况未污染点误报率，以判断单一normal参考是否把合法工况变化误认为传感器污染。
+
+## Surprises and discoveries
+
+- 系统 `python3` 不含 pandas，读取正式CSV失败；项目 `.venv/bin/python` 可正常读取。后续命令统一使用项目虚拟环境，该失败不属于代码错误。
+- 第一轮端到端测试为 `1 failed, 10 passed`，原因是测试夹具没有任何值位于q90与q99之间，却要求输出uncertain组；将一个样例距离改为9.5以真实覆盖边界后，专项测试为`11 passed`。算法实现无需修改。
+
+## Outcomes and retrospective
+
+待正式E1运行后填写。

@@ -1,0 +1,46 @@
+project:
+  name: petrochemical_trust_risk
+  experiment_name: milestone4_e1_trust_calibration_evaluation
+
+input:
+  simulation_data_root: data/processed
+  simulation_run_id: milestone0_20260719T153039079827Z_0abad9ce
+  simulation_csv_filename: simulated_timeseries.csv
+  simulation_csv_sha256: 70c7347cf89d56db91afca30777d73c91815437b1f23a2decbf18656d07ac099
+  trust_scoring_data_root: data/processed
+  trust_scoring_run_id: trustscore_20260814T140937863216Z_09a4bd41
+  trust_scoring_arrays_filename: mahalanobis_distances.npz
+  trust_scoring_arrays_sha256: 587892147cb6a818213c85fe69a0180deb20e99069829affdc532b36755dfd53
+  trust_scoring_metadata_filename: metadata.json
+  trust_scoring_metadata_sha256: 65fd73fa6cdc5052e8ca6b61e929d3af2f9f470dc7a0a070d9bdd03a07809a69
+
+calibration:
+  source: normal_train_clean_reference_distances
+  high_quantile: 0.90
+  low_quantile: 0.99
+  quantile_method: linear
+
+trust_mapping:
+  method: exponential
+  formula: exp(-d2/(2*tau))
+  tau_source: q90
+
+evaluation:
+  evaluation_splits:
+    - train
+    - val
+  holdout_split: test
+  threshold_names:
+    - q90
+    - q99
+  positive_label: is_corrupted
+  anomaly_score: squared_mahalanobis_distance
+
+plot:
+  split: val
+  sequence_selection: most_corrupted_then_sequence_id
+
+output:
+  data_root: data/processed
+  figures_root: results/figures
+  tables_root: results/tables
