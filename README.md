@@ -150,6 +150,18 @@ python -m src.run_trust_scoring \
 
 结果保存在 `data/processed/trustscore_<timestamp>_<config_hash>/`。正式 run `trustscore_20260814T140937863216Z_09a4bd41` 保存了 `(30,160)` 的全部观测距离和 `(800,)` 的参考距离；4,800 个观测距离与 800 个参考距离均有限、非负，独立重跑的 8 个 NPZ 数组逐值一致。该结果仅证明平方二次型计算、输入身份核验和持久化可复现；尚未选择 q90/q99、划分可信组、计算连续可信度或评价异常识别性能。
 
+### Milestone 4：E1 首次可信度评价已可运行
+
+当前已只用800个 normal-train clean 参考距离计算 q90/q99，并使用 `trust=exp(-d²/(2q90))` 生成连续可信度。运行：
+
+```bash
+source .venv/bin/activate
+python -m src.run_e1_evaluation \
+  --config configs/milestone4_e1_trust.yaml
+```
+
+正式 synthetic run `e1trust_20260910T035417735017Z_29f039af` 得到 q90=`7.4975`、q99=`13.8335`。validation 的 q99 规则 Recall=`0.9302`，但 Precision=`0.0967`、F1=`0.1752`、未污染点误报率=`0.8547`；compound、high-temperature 和 high-vibration 未污染点均被100%误报。PR-AUC=`0.4797` 高于 validation 污染率 `0.0896`，说明距离有排序信号，但单一 normal 工况参考无法区分合法工况变化与传感器污染。因此当前阶段门控结论是：**暂不进入预测模型，先实现工况条件化参考并重新评价 E1。** test 逐点分数已保存，但本轮不计算 test 指标，也不用于调整方法。
+
 ### 真实数据状态
 
 `Pending external data / 等待外部数据`。当前没有实验室或企业真实数据，因此不实施真实数据清洗和工业验证，也不会编造企业、设备、批次或检测记录。未来接口与最小字段说明见 `data/raw/real/README.md`；在外部数据到位前，项目继续使用明确标记为 synthetic/simulated 的数据验证算法正确性和鲁棒性。

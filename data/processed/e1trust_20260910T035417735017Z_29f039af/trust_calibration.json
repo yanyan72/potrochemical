@@ -1,0 +1,11 @@
+{
+  "high_quantile": 0.9,
+  "low_quantile": 0.99,
+  "high_threshold_squared": 7.497480759602013,
+  "low_threshold_squared": 13.833465760805584,
+  "quantile_method": "linear",
+  "tau": 7.497480759602013,
+  "tau_source": "q90",
+  "fit_source": "normal_train_clean_reference_distances",
+  "num_reference_distances": 800
+}

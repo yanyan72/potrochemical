@@ -2,6 +2,128 @@
 
 本文件按日期记录已经真实完成并验证的科研工程工作。所有结果均应区分“代码已实现”“测试已通过”和“实验已经证明有效”。当前数据来源全部为 synthetic/simulated；真实数据状态为 `Pending external data / 等待外部数据`。
 
+## 2026-09-10：Milestone 4 第一版 E1 可信度校准与检测评价
+
+### 本次目标
+
+只使用正常训练参考距离实现 q90/q99、连续 trust 和三档可信组；输出每个时间点的可审计结果，生成第一张 distance/trust 时间图和第一组异常检测指标，并根据 validation 结果决定是否进入预测实验。本轮不实现任何预测模型。
+
+### 路线审查与约束
+
+路线可行，但为避免测试泄漏和错误归因，增加三项约束：阈值和 tau 只能来自800个 normal-train clean 参考距离；首次指标只计算 train/validation，test 只保存逐点结果；除总体检测指标外，必须检查各合法工况未污染点的误报率。
+
+### 完成内容
+
+- 在 `src/trust_score.py` 实现训练参考 q90/q99 校准、三档边界归组和指数 trust；
+- 新增 `src/evaluate_trust.py`，计算 Precision、Recall、F1、PR-AUC、FPR、FNR、分异常类型召回和分工况误报；
+- 新增 `src/run_e1_evaluation.py` 和 `configs/milestone4_e1_trust.yaml`，完成上游 run/hash/身份检查、唯一 run 和全部产物持久化；
+- 新增或扩展 `tests/test_trust_score.py`、`tests/test_evaluate_trust.py`、`tests/test_e1_pipeline.py`；
+- 为4,800个时间点输出 `sequence_id`、`time_index`、`split`、`condition`、`corruption_label`、`corruption_type`、`mahalanobis_distance_squared`、`mahalanobis_distance`、`trust_score`、`trust_group`；
+- 生成第一张 validation distance/trust 时间序列图和三张 CSV 指标表；
+- 完成正式 synthetic run 和独立 `/tmp` 复现审计；
+- 实现提交：`6dc612a9bd485c729761376a19f1088f21fbae8c`。
+
+### 方法说明
+
+参考平方马氏距离记为 `d²_ref`。第一版校准为：
+
+```text
+q90 = Quantile(d²_ref, 0.90, method="linear")
+q99 = Quantile(d²_ref, 0.99, method="linear")
+
+d² <= q90          -> high
+q90 < d² <= q99    -> uncertain
+d² > q99           -> low
+
+trust = exp(-d² / (2 * q90))
+```
+
+该映射在零距离处为1，随距离增加单调不升，范围为 `[0,1]`。q90/q99和tau均不接收观测标签、validation或test数据。二元检测分别用 `d²>q90` 和 `d²>q99`，PR-AUC使用连续 `d²` 作为异常分数。
+
+### 实际命令
+
+```bash
+PYTHONDONTWRITEBYTECODE=1 MPLCONFIGDIR=/tmp/petrochemical_mplconfig \
+  .venv/bin/python -m pytest tests/test_trust_score.py -q -p no:cacheprovider
+PYTHONDONTWRITEBYTECODE=1 MPLCONFIGDIR=/tmp/petrochemical_mplconfig \
+  .venv/bin/python -m pytest tests/test_trust_score.py \
+  tests/test_evaluate_trust.py tests/test_e1_pipeline.py -q -p no:cacheprovider
+PYTHONDONTWRITEBYTECODE=1 MPLCONFIGDIR=/tmp/petrochemical_mplconfig \
+  .venv/bin/python -m pytest -q -p no:cacheprovider
+PYTHONPYCACHEPREFIX=/tmp/petrochemical_pycache \
+  .venv/bin/python -m compileall -q src tests
+PYTHONDONTWRITEBYTECODE=1 MPLCONFIGDIR=/tmp/petrochemical_mplconfig \
+  .venv/bin/python -m src.run_e1_evaluation \
+  --config configs/milestone4_e1_trust.yaml
+```
+
+复现审计使用临时配置将输出写入 `/tmp/petrochemical_e1_audit/`，不覆盖正式结果。
+
+### 测试与问题记录
+
+- q90/q99、无泄漏接口、边界、单调性和非法输入：`7 passed`；
+- 第一轮包含端到端测试：`1 failed, 10 passed`。原因是测试夹具没有数值落入 q90–q99，却错误要求存在 uncertain 组；修正一项夹具值后算法无需修改；
+- 修正后 E1 专项：`11 passed`；
+- 实现完成后的全套：`24 passed in 3.63s`；
+- 文档与结果复核后的最终全套：`24 passed in 4.12s`；
+- `compileall`：通过；
+- 系统 `python3` 缺少 pandas，统一改用项目 `.venv/bin/python`；这不是代码失败；
+- 第一次审计临时配置错误改写了输入路径，产生 `FileNotFoundError`；修正临时配置后成功，正式结果未受影响；
+- 独立重跑的逐点CSV、校准JSON、三张指标表和PNG均与正式产物逐字节一致；
+- 当前无未解决的代码错误或失败测试。
+
+### 正式实验结果
+
+- run ID：`e1trust_20260910T035417735017Z_29f039af`；
+- 数据来源：synthetic/simulated；
+- code version：`6dc612a9bd485c729761376a19f1088f21fbae8c`；
+- 配置 SHA-256：`29f039af462a1d0777768b33445411330a8409a3d6bdc3cf76d6de7bdd9d2fef`；
+- 参考距离数：800；q90=`7.497480759602013`；q99=`13.833465760805584`；
+- 逐点结果：4,800行；trust范围`0.0`至`0.9984665059040305`；
+- 分组：high 1,192、uncertain 116、low 3,492；
+- 绘图序列：validation 的 `val_0003`。
+
+validation q99 结果：
+
+- 960点中污染86点，污染率`0.0896`；
+- TP=80、FP=747、FN=6、TN=127；
+- Precision=`0.0967`、Recall=`0.9302`、F1=`0.1752`、PR-AUC=`0.4797`；
+- FPR=`0.8547`、FNR=`0.0698`；
+- 分类型召回：bias=`1.00`、drift=`1.00`、missing=`0.75`、random replacement=`0.9091`、spike=`1.00`；
+- 未污染点 q99 FPR：normal=`0.0078`；compound、high-temperature、high-vibration均为`1.00`。
+
+test有960行逐点结果，但没有test指标，且没有用于门控或调参。
+
+### 结果解释与门控决定
+
+PR-AUC高于validation污染率，说明距离能够在一定程度上给污染点排序；但q99下85%以上未污染点被误报，原因集中在合法的非normal工况。第一版单一normal参考没有学会“不同合法工况也可能正常”，不能直接用于可信度修正或预测输入。因此本轮结论不是“检测有效”，而是“发现了参考集合定义的结构性问题”。
+
+**阶段门控：暂不进入预测实验。** 下一步先实现工况条件化训练参考并用同一套指标重评。
+
+### 正式结果路径
+
+- `data/processed/e1trust_20260910T035417735017Z_29f039af/pointwise_trust_scores.csv`；
+- `data/processed/e1trust_20260910T035417735017Z_29f039af/trust_calibration.json`；
+- `data/processed/e1trust_20260910T035417735017Z_29f039af/metadata.json`；
+- `data/processed/e1trust_20260910T035417735017Z_29f039af/config_snapshot.yaml`；
+- `results/tables/e1trust_20260910T035417735017Z_29f039af/detection_metrics.csv`；
+- `results/tables/e1trust_20260910T035417735017Z_29f039af/corruption_type_recall.csv`；
+- `results/tables/e1trust_20260910T035417735017Z_29f039af/condition_false_positive_rates.csv`；
+- `results/figures/e1trust_20260910T035417735017Z_29f039af/distance_trust_timeseries.png`。
+
+### 已知限制
+
+- 全部结果为synthetic，不能替代真实工业或实验室验证；
+- clean oracle参考不代表真实部署可见隐藏真值；
+- 单一normal参考无法覆盖合法非normal工况；
+- test尚未评价，这是防止泄漏的主动设计；
+- 当前结果未证明可信度可改善预测；
+- 当前Python 3.14尚未在建议的Python 3.11复验。
+
+### 下一步唯一计划
+
+按synthetic工况建立训练参考：每个condition只使用对应clean train序列拟合中心、收缩协方差、q90/q99和tau，再复用相同的无泄漏测试、逐点输出与train/validation指标。只有工况误报显著下降后，才进入persistence和线性回归预测基线。
+
 ## 2026-08-14：Milestone 3 平方马氏距离
 
 ### 本次目标

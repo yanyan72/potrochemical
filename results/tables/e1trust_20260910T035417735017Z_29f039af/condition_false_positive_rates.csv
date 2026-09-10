@@ -1,0 +1,17 @@
+split,threshold_name,condition,num_uncorrupted,false_positive,false_positive_rate
+train,q90,compound,549,549,1
+train,q99,compound,549,549,1
+train,q90,high_temperature,758,758,1
+train,q99,high_temperature,758,758,1
+train,q90,high_vibration,559,559,1
+train,q99,high_vibration,559,559,1
+train,q90,normal,706,73,0.10339943342776203
+train,q99,normal,706,7,0.0099150141643059488
+val,q90,compound,459,459,1
+val,q99,compound,459,459,1
+val,q90,high_temperature,138,138,1
+val,q99,high_temperature,138,138,1
+val,q90,high_vibration,149,149,1
+val,q99,high_vibration,149,149,1
+val,q90,normal,128,10,0.078125
+val,q99,normal,128,1,0.0078125

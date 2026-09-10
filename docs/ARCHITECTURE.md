@@ -76,9 +76,10 @@
 - 已由 `src/trust_reference.py` 实现：clean train normal 参考集合；
 - 已由 `src/trust_reference.py` 实现：Ledoit–Wolf 收缩协方差和精度矩阵；
 - 已由 `src/trust_score.py` 实现：使用冻结 M2 参数的平方马氏距离；
-- 阈值；
-- 连续可信度；
-- 高/中/低可信集合标签。
+- 已由 `src/trust_score.py` 实现：normal-train参考q90/q99阈值；
+- 已由 `src/trust_score.py` 实现：`τ=q90`指数连续可信度；
+- 已由 `src/trust_score.py` 实现：high/uncertain/low可信集合标签；
+- 待修订：按已知工况建立条件化参考，避免工况变化与传感器污染混淆。
 
 ### `src/repair.py`
 
@@ -110,6 +111,13 @@
 - 分工况指标；
 - 多种污染比例；
 - 图表和表格保存。
+
+### `src/evaluate_trust.py` 与 `src/run_e1_evaluation.py`
+
+- 已实现：train/validation 的 q90/q99 检测指标；
+- 已实现：每类异常召回率和各工况未污染点误报率；
+- 已实现：逐时间点可信度CSV和distance/trust时间图；
+- 已实现：test逐点推理保留，但test指标不参与首次E1方法判断。
 
 ## 第二阶段模块
 

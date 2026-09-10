@@ -1,0 +1,62 @@
+{
+  "e1_run_id": "e1trust_20260910T035417735017Z_29f039af",
+  "generated_at_utc": "2026-09-10T03:54:18.054428+00:00",
+  "data_source": "synthetic",
+  "input_simulation_run_id": "milestone0_20260719T153039079827Z_0abad9ce",
+  "input_trust_scoring_run_id": "trustscore_20260814T140937863216Z_09a4bd41",
+  "config_sha256": "29f039af462a1d0777768b33445411330a8409a3d6bdc3cf76d6de7bdd9d2fef",
+  "code_version": "6dc612a9bd485c729761376a19f1088f21fbae8c",
+  "calibration": {
+    "high_quantile": 0.9,
+    "low_quantile": 0.99,
+    "high_threshold_squared": 7.497480759602013,
+    "low_threshold_squared": 13.833465760805584,
+    "quantile_method": "linear",
+    "tau": 7.497480759602013,
+    "tau_source": "q90",
+    "fit_source": "normal_train_clean_reference_distances",
+    "num_reference_distances": 800
+  },
+  "evaluation_splits": [
+    "train",
+    "val"
+  ],
+  "holdout_split": "test",
+  "holdout_metrics_computed": false,
+  "num_pointwise_rows": 4800,
+  "trust_score_minimum": 0.0,
+  "trust_score_maximum": 0.9984665059040305,
+  "trust_group_counts": {
+    "high": 1192,
+    "low": 3492,
+    "uncertain": 116
+  },
+  "plot_split": "val",
+  "plot_sequence_id": "val_0003",
+  "input_sha256": {
+    "simulation_csv": "70c7347cf89d56db91afca30777d73c91815437b1f23a2decbf18656d07ac099",
+    "trust_scoring_arrays": "587892147cb6a818213c85fe69a0180deb20e99069829affdc532b36755dfd53",
+    "trust_scoring_metadata": "65fd73fa6cdc5052e8ca6b61e929d3af2f9f470dc7a0a070d9bdd03a07809a69"
+  },
+  "output_sha256": {
+    "pointwise_csv": "a727fd9617fd3a99ee3222681732b21ea84cd7887114c5c12de5da90d192a3cf",
+    "calibration_json": "4a2e7b19c1debe678d00536960f0b99df09382d70ea360b08478f43a7d1b16a5",
+    "detection_metrics_csv": "5719b5e9491aedee4893339d0e81b9dcb8a93c1f072f6ea6d9c55fed6a93664b",
+    "corruption_type_recall_csv": "08e95be75bb6e9cfa2c1eb4135961cd8ec11bab2d3a6635496fab4d690e82e11",
+    "condition_false_positive_rates_csv": "d59f813e871bb738a10b40a558cf99fbf769505c5b75bf324cd601908e32ca9e",
+    "distance_trust_figure_png": "e4501201d764b12619e13accb3aa833ecd617ef6b7d3f936717322fa6caa106a"
+  },
+  "files": {
+    "simulation_csv": "/Users/liliyan/Desktop/petrochemical_traceability_codex_starter/data/processed/milestone0_20260719T153039079827Z_0abad9ce/simulated_timeseries.csv",
+    "trust_scoring_arrays": "/Users/liliyan/Desktop/petrochemical_traceability_codex_starter/data/processed/trustscore_20260814T140937863216Z_09a4bd41/mahalanobis_distances.npz",
+    "pointwise_csv": "/Users/liliyan/Desktop/petrochemical_traceability_codex_starter/data/processed/e1trust_20260910T035417735017Z_29f039af/pointwise_trust_scores.csv",
+    "calibration_json": "/Users/liliyan/Desktop/petrochemical_traceability_codex_starter/data/processed/e1trust_20260910T035417735017Z_29f039af/trust_calibration.json",
+    "detection_metrics_csv": "/Users/liliyan/Desktop/petrochemical_traceability_codex_starter/results/tables/e1trust_20260910T035417735017Z_29f039af/detection_metrics.csv",
+    "corruption_type_recall_csv": "/Users/liliyan/Desktop/petrochemical_traceability_codex_starter/results/tables/e1trust_20260910T035417735017Z_29f039af/corruption_type_recall.csv",
+    "condition_false_positive_rates_csv": "/Users/liliyan/Desktop/petrochemical_traceability_codex_starter/results/tables/e1trust_20260910T035417735017Z_29f039af/condition_false_positive_rates.csv",
+    "distance_trust_figure_png": "/Users/liliyan/Desktop/petrochemical_traceability_codex_starter/results/figures/e1trust_20260910T035417735017Z_29f039af/distance_trust_timeseries.png",
+    "config_snapshot": "/Users/liliyan/Desktop/petrochemical_traceability_codex_starter/data/processed/e1trust_20260910T035417735017Z_29f039af/config_snapshot.yaml",
+    "metadata_json": "/Users/liliyan/Desktop/petrochemical_traceability_codex_starter/data/processed/e1trust_20260910T035417735017Z_29f039af/metadata.json"
+  },
+  "scientific_scope_note": "Synthetic E1 baseline. Thresholds and tau use only normal-train-clean reference distances. Metrics use train/validation; test metrics are held out. Results do not establish industrial validity or forecasting benefit."
+}
