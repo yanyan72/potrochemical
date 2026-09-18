@@ -39,6 +39,7 @@ python -m src.run_e1_evaluation --config configs/milestone4_e1_trust.yaml
 ## 阅读顺序与科学范围
 
 - [状态与结果](docs/STATUS.md)
+- [储运E1b五种子结果与负面发现](docs/RESULTS_LOGISTICS_E1B.md)
 - [研究范围](docs/PROJECT_BRIEF.md)
 - [方法定义](docs/METHOD_LOGISTICS_E1B.md)
 - [实验协议](docs/EXPERIMENT_PLAN.md)

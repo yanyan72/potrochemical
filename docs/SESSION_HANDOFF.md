@@ -5,7 +5,7 @@
 用户2026-09-18确认：主场景运输仓储；生产放Future Work；真实数据后续提供，先推进模拟算法，并授权上传GitHub。当前不需要重新征求开发或推送许可。
 
 本轮新增logistics_simulator/sensor_reliability/run_logistics_e1b、configs/logistics_e1b.yaml和测试。
-目标是完成储运RQ1/RQ2的5种子validation评价。没有质量预测结果，没有真实数据。方法和边界见METHOD_LOGISTICS_E1B.md与PROJECT_EVIDENCE_MATRIX.md。
+已完成储运RQ1/RQ2的5种子validation评价，正式目录`results/logistics_e1b/logistics_e1b_20260918_v1/`，源码提交c4a8bae。分状态边际F1=0.6250，优于合并边际0.3695和分状态条件残差0.5182；条件残差牵连FPR约29.22%，下一阶段以简单边际为主基线。没有质量预测结果，没有真实数据。方法和边界见METHOD_LOGISTICS_E1B.md、RESULTS_LOGISTICS_E1B.md与PROJECT_EVIDENCE_MATRIX.md。
 
 Python 3.11.16完整测试32通过；旧浮点测试已修复。正式实验应在已提交源码上执行，并将结果元数据中的commit与Git对应。
 
