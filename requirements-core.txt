@@ -1,0 +1,8 @@
+# Statistical simulation/scoring stage; PyTorch is not required until forecasting.
+numpy>=1.26,<3
+pandas>=2.2,<3
+scipy>=1.12,<2
+scikit-learn>=1.4,<2
+matplotlib>=3.8,<4
+pyyaml>=6,<7
+pytest>=8,<9

@@ -1,0 +1,44 @@
+experiment: logistics_sensor_reliability_e1b
+data_source: synthetic
+seeds: [42, 43, 44, 45, 46]
+sequence_length: 160
+time_unit: abstract_sampling_step
+sequences_per_regime:
+  train_fit: 8
+  train_cal: 4
+  val: 4
+  test: 4
+features: [temperature, relative_humidity, vibration]
+units: [K, percent_RH, mm_per_s]
+ar_rho: 0.85
+factor_loadings: [0.8, -0.6, 0.5]
+# Illustrative distributions only, NOT product handling limits or chemistry.
+regimes:
+  warehouse:
+    mean: [295.0, 50.0, 0.4]
+    std: [2.0, 4.0, 0.05]
+  transit_smooth:
+    mean: [301.0, 52.0, 1.5]
+    std: [2.5, 5.0, 0.15]
+  transit_rough:
+    mean: [304.0, 45.0, 3.0]
+    std: [3.0, 6.0, 0.3]
+single_reference_regime: warehouse
+threshold_quantile: 0.99
+methods:
+  - single_marginal
+  - pooled_marginal
+  - regime_marginal
+  - pooled_conditional
+  - regime_conditional
+corruption:
+  ratio: 0.10
+  types: [spike, bias, drift, missing, random_replacement]
+  replacement_strategy: empirical_train_value
+  min_segment_length: 6
+  max_segment_length: 18
+  magnitude_std:
+    spike: [2.0, 4.0]
+    bias: [1.0, 2.5]
+    drift: [1.0, 3.0]
+output_root: results/logistics_e1b

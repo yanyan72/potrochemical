@@ -1,134 +1,23 @@
 # ARCHITECTURE
 
-## 总体分层
+## 当前储运路径
 
-```text
-数据层
-  ├─ 仿真数据（当前）/真实传感器数据（Pending external data）
-  ├─ 清洁真值
-  ├─ 污染观测
-  └─ 区块链完整性标记
-        ↓
-可信度层
-  ├─ 标准化
-  ├─ 可信集合估计
-  ├─ 马氏距离/密度
-  ├─ 物理残差
-  └─ 综合可信度
-        ↓
-数据处理层
-  ├─ 保留
-  ├─ 加权
-  ├─ 局部稳健修正
-  └─ 缺失插补
-        ↓
-预测层
-  ├─ 持久性
-  ├─ 线性回归
-  ├─ LSTM
-  └─ 物理约束 LSTM
-        ↓
-风险层
-  ├─ 质量状态 Q
-  ├─ 劣化速率 r
-  ├─ 累积风险 R
-  └─ 阈值越界时间
-        ↓
-审计层
-  ├─ 数据摘要
-  ├─ 参数
-  ├─ 预测
-  ├─ 预警
-  └─ 哈希链
-```
+1. `configs/logistics_e1b.yaml`：示意分布、状态、种子、split规模、污染参数、校准分位数。
+2. `src/logistics_simulator.py`：生成均衡的独立储运状态序列；复用污染注入，保留clean/observed/mask/events。
+3. `src/sensor_reliability.py`：train_fit标准化和LedoitWolf参考；train_cal校准；观测+工况输出逐通道偏离、分数、可用性和告警。
+4. `src/run_logistics_e1b.py`：5种子运行、共同完整行支持集评价、缺失与牵连误报、参数和数据保存、版本与哈希审计。
+5. `results/logistics_e1b/<run_id>/`：唯一运行目录。
 
-> 真实数据接入、清洗和外部有效性验证均为 `Pending external data / 等待外部数据`。当前架构只实现仿真路径，保留真实数据接口但不实现依赖真实数据的代码。
+评分API不接收隐藏污染标签；未知状态下分工况评分不可用。边际方法只需本通道值，条件残差需要同一时刻的全部输入。缺失不能由隐藏真值填补。
 
-## 第一阶段模块
+## 历史路径（继续可复现）
 
-### `src/simulator.py`
+`simulator.py -> corruption.py -> run_preprocessing.py -> run_trust_reference.py -> run_trust_scoring.py -> run_e1_evaluation.py`。
+这是四变量全局评分路径，历史数据/结果不覆盖，不能代替新通道评分。
 
-- 生成正常工况时序；
-- 生成质量真值；
-- 保存生成参数；
-- 固定随机种子；
-- 输出统一数据结构。
+## 后续预测路径
 
-### `src/corruption.py`
+实际数据字典/化验时间 -> 序列级划分 -> 因果窗口与标签对齐 -> 相同预测器的观测、观测+工况、观测+工况+评分三组对照。
+历史质量只有已经出具才可作为输入。无质量标签时不生成伪连续真值。LSTM、选择性修复和真实接入待后续计划。
 
-- spike；
-- bias；
-- drift；
-- missing；
-- random replacement；
-- 返回污染数据、异常掩码和异常元数据。
-
-### `src/preprocess.py`
-
-- 已实现：clean train 逐特征中位数插补参数；
-- 已实现：clean train 均值与样本标准差；
-- 已实现：train/val/test 仅使用已拟合参数 transform；
-- 已实现：保留完整序列、时间索引和 split；
-- 待 Phase 3：滑动窗口构造。
-
-### `src/trust_score.py`
-
-- 已由 `src/trust_reference.py` 实现：clean train normal 参考集合；
-- 已由 `src/trust_reference.py` 实现：Ledoit–Wolf 收缩协方差和精度矩阵；
-- 已由 `src/trust_score.py` 实现：使用冻结 M2 参数的平方马氏距离；
-- 已由 `src/trust_score.py` 实现：normal-train参考q90/q99阈值；
-- 已由 `src/trust_score.py` 实现：`τ=q90`指数连续可信度；
-- 已由 `src/trust_score.py` 实现：high/uncertain/low可信集合标签；
-- 待修订：按已知工况建立条件化参考，避免工况变化与传感器污染混淆。
-
-### `src/repair.py`
-
-- 局部高可信中位数；
-- 可信度融合；
-- 边界处理；
-- 无可信邻居时回退。
-
-### `src/models.py`
-
-- 持久性；
-- 线性模型；
-- LSTM；
-- 后续物理约束模型。
-
-### `src/train.py`
-
-- 配置读取；
-- 种子控制；
-- 训练循环；
-- 检查点；
-- 指标日志；
-- early stopping（后续）。
-
-### `src/evaluate.py`
-
-- 质量预测指标；
-- 异常识别指标；
-- 分工况指标；
-- 多种污染比例；
-- 图表和表格保存。
-
-### `src/evaluate_trust.py` 与 `src/run_e1_evaluation.py`
-
-- 已实现：train/validation 的 q90/q99 检测指标；
-- 已实现：每类异常召回率和各工况未污染点误报率；
-- 已实现：逐时间点可信度CSV和distance/trust时间图；
-- 已实现：test逐点推理保留，但test指标不参与首次E1方法判断。
-
-## 第二阶段模块
-
-- `src/physics.py`
-- `src/risk.py`
-- `src/blockchain.py`
-
-## 数据流原则
-
-1. 清洁真值永远保留；
-2. 污染只作用于观测特征，不覆盖真值；
-3. 可信度模型只用训练数据拟合；
-4. 修正后的数据作为独立版本保存；
-5. 每个实验记录数据版本和配置哈希。
+生产推广、物理约束、区块链仅为远期扩展，不属于当前已实现架构。

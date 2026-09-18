@@ -1,180 +1,52 @@
-# 区块链 + AI 石化质量可信预警研究
+# 石化产品运输与仓储：工况感知传感器级可信度研究
 
-GitHub 仓库：<https://github.com/yanyan72/potrochemical>
+用户于2026-09-18确认：当前聚焦运输、仓储，生产环节仅作未来推广；先推进模拟算法，真实数据后续提供。研究目标是一篇包含真实过程验证的论文。
 
-## 1. 项目简介
+## 当前可运行内容
 
-本项目研究石化产品在生产、仓储、运输等过程中的质量状态预测、风险累积与可信预警。项目不把“区块链 + AI”作为简单技术拼接，而是尝试建立以下算法闭环：
+- 历史M0–M4：四变量模拟、污染注入、预处理、单一normal工况全局可信度及E1评价。
+- 新储运E1b：独立的温度/相对湿度/振动示意基准，仓储/平稳运输/颠簸运输三种固定状态，完整序列均衡划分。
+- 五种逐传感器评分对照：单一参考边际、合并参考边际、分工况边际、合并参考条件残差、分工况条件残差。
+- 可靠训练序列拟合，另一组训练序列校准q99；5个种子，仅评价validation，test保留。
+- 缺失单独报告，不计作数值异常检测成功；记录污染对其他干净通道的牵连误报。
 
-1. 多源传感器数据形成多维时序向量；
-2. 从正常训练数据构建参考可信集合；
-3. 利用距离、密度、物理残差和链上完整性计算数据可信度；
-4. 依据可信度修正或加权污染数据；
-5. 使用 LSTM 预测质量状态；
-6. 用动力学约束限制不合理预测；
-7. 计算累积质量风险和阈值越界时间；
-8. 将原始数据、参数、预测与预警摘要形成可验证记录。
+这不是经过产品标定的储运机理模型。状态合法不等于产品安全；一致性分数不是测量正确概率或质量指标。尚无质量预测收益和真实工业性能结论。
 
-## 2. 当前范围
+## 运行
 
-当前第一阶段聚焦：
-
-> 多维传感器数据可信度识别与可信度增强的质量时序预测。
-
-暂不优先实现：
-
-- 完整联盟链平台；
-- 智能合约业务系统；
-- Transformer/多模态视觉大模型；
-- 全生命周期 UI；
-- 复杂动态参数 PINN。
-
-## 3. 第一阶段路线
-
-```text
-正常仿真时序
-    ↓
-异常注入与真值掩码
-    ↓
-训练集标准化
-    ↓
-可信集合建模
-    ↓
-马氏距离 / 连续可信度
-    ↓
-可信度修正
-    ↓
-普通 LSTM 与可信度 LSTM 对比
-    ↓
-污染比例鲁棒性实验
-```
-
-## 4. 计划目录
-
-```text
-.
-├── AGENTS.md
-├── README.md
-├── MASTER_PROMPT_FOR_CODEX_WORK.md
-├── requirements.txt
-├── configs/
-├── data/
-│   ├── raw/
-│   └── processed/
-├── docs/
-│   ├── PROJECT_BRIEF.md
-│   ├── ARCHITECTURE.md
-│   ├── DATA_SPEC.md
-│   ├── EXPERIMENT_PLAN.md
-│   ├── TASKS.md
-│   ├── DECISIONS.md
-│   ├── STATUS.md
-│   ├── SESSION_HANDOFF.md
-│   └── plans/
-├── prompts/
-├── results/
-│   ├── figures/
-│   ├── tables/
-│   └── models/
-├── src/
-└── tests/
-```
-
-## 5. 建议环境
+建议Python 3.11。当前评分阶段不需要PyTorch：
 
 ```bash
 python3.11 -m venv .venv
 source .venv/bin/activate
-python -m pip install --upgrade pip
-pip install -r requirements.txt
+pip install -r requirements-core.txt
+python -m pytest -q
+python -m src.run_logistics_e1b --config configs/logistics_e1b.yaml
 ```
 
-## 6. 预期命令
+结果在唯一的 `results/logistics_e1b/<run_id>/` 中，包含配置、数据、事件、参数、validation分数、逐种子/工况/污染类型指标、汇总和哈希。不能覆盖同名运行。
 
-以下命令由实现阶段逐步补齐：
+历史命令仍可使用：
 
 ```bash
-python -m src.simulator --config configs/baseline.yaml
-python -m src.trust_score --config configs/baseline.yaml
-python -m src.train --config configs/baseline.yaml
-python -m src.evaluate --config configs/baseline.yaml
-pytest -q
+python -m src.generate_phase1 --config configs/milestone0.yaml
+python -m src.run_preprocessing --config configs/milestone1_preprocess.yaml
+python -m src.run_trust_reference --config configs/milestone2_trust_reference.yaml
+python -m src.run_trust_scoring --config configs/milestone3_mahalanobis.yaml
+python -m src.run_e1_evaluation --config configs/milestone4_e1_trust.yaml
 ```
 
-### Milestone 0 已可运行
+## 阅读顺序与科学范围
 
-当前已实现配置驱动的干净时序仿真，以及 `spike`、`bias`、`drift`、`missing`、`random_replacement` 五类异常注入、逐特征掩码、事件元数据、测试和示例图。异常幅度和随机替换参考值只使用 clean train 序列。运行：
+- [状态与结果](docs/STATUS.md)
+- [研究范围](docs/PROJECT_BRIEF.md)
+- [方法定义](docs/METHOD_LOGISTICS_E1B.md)
+- [实验协议](docs/EXPERIMENT_PLAN.md)
+- [论文主张与证据](docs/PROJECT_EVIDENCE_MATRIX.md)
+- [数据规范](docs/DATA_SPEC.md)
+- [当前执行计划](docs/plans/current_execplan.md)
+- [后续任务](docs/TASKS.md)
 
-```bash
-source .venv/bin/activate
-MPLCONFIGDIR=/tmp/petrochemical_mplconfig python -m pytest -q -p no:cacheprovider
-MPLCONFIGDIR=/tmp/petrochemical_mplconfig python -m src.generate_phase1 \
-  --config configs/milestone0.yaml
-```
+RQ1减少工况误报，RQ2定位污染，RQ3检验对质量预测的增益。三个问题分别验证，不用检测结果代替预测结果。真实数据未到位不阻塞RQ1/RQ2原型；质量指标、产品和化验时间尚未确认，不擅自生成新的产品质量真值。物理约束、区块链、生产过程推广均不属于当前实现范围。
 
-每次生成都会创建唯一 run 目录，不覆盖历史结果。主数据位于 `data/processed/<run_id>/`，示例图位于 `results/figures/<run_id>/`。当前时间步为抽象采样单位，数据全部为仿真，不代表真实工业性能。
-
-### Milestone 1 已可运行
-
-当前已实现无泄漏的预处理基线：只用 clean train 的逐特征中位数拟合 missing 插补值，并只用同一 clean train 的均值和样本标准差拟合标准化参数；train/val/test 污染观测均只调用 `transform`。运行：
-
-```bash
-source .venv/bin/activate
-python -m src.run_preprocessing \
-  --config configs/milestone1_preprocess.yaml
-```
-
-每次运行会在 `data/processed/preprocess_<timestamp>_<config_hash>/` 创建唯一目录，保存插补后数组、标准化数组、原缺失掩码、序列/split 标识、参数 JSON、元数据和配置快照。该结果仍然全部来自仿真数据；clean-train 拟合是受控算法基线，不表示真实部署能够访问隐藏真值。
-
-### Milestone 2 已可运行
-
-当前已建立第一版正常统计参考集合：只选择 `train + normal` 的完整 synthetic clean 序列，沿用 Milestone 1 的 clean-train 标准化参数，再使用 Ledoit–Wolf 方法估计收缩协方差和精度矩阵。运行：
-
-```bash
-source .venv/bin/activate
-python -m src.run_trust_reference \
-  --config configs/milestone2_trust_reference.yaml
-```
-
-结果保存在 `data/processed/trustref_<timestamp>_<config_hash>/`，包括标准化正常参考矩阵、参考序列 ID、中心、协方差、精度矩阵、收缩系数、数值诊断、输入/输出哈希和配置快照。当前正式 run 使用 5 条 normal train 序列、800 个四维参考点；协方差最小特征值大于 0，逆矩阵残差约为 `2.49e-14`。Milestone 2 本身只证明统计参考估计可复现且数值可用；马氏距离由下面的 Milestone 3 独立实现，阈值、可信度和异常识别指标仍未计算。
-
-### Milestone 3 已可运行
-
-当前已使用 Milestone 2 冻结的中心和精度矩阵，对 Milestone 1 的全部标准化 synthetic 观测以及正常参考集计算平方马氏距离：
-
-```bash
-source .venv/bin/activate
-python -m src.run_trust_scoring \
-  --config configs/milestone3_mahalanobis.yaml
-```
-
-结果保存在 `data/processed/trustscore_<timestamp>_<config_hash>/`。正式 run `trustscore_20260814T140937863216Z_09a4bd41` 保存了 `(30,160)` 的全部观测距离和 `(800,)` 的参考距离；4,800 个观测距离与 800 个参考距离均有限、非负，独立重跑的 8 个 NPZ 数组逐值一致。该结果仅证明平方二次型计算、输入身份核验和持久化可复现；尚未选择 q90/q99、划分可信组、计算连续可信度或评价异常识别性能。
-
-### Milestone 4：E1 首次可信度评价已可运行
-
-当前已只用800个 normal-train clean 参考距离计算 q90/q99，并使用 `trust=exp(-d²/(2q90))` 生成连续可信度。运行：
-
-```bash
-source .venv/bin/activate
-python -m src.run_e1_evaluation \
-  --config configs/milestone4_e1_trust.yaml
-```
-
-正式 synthetic run `e1trust_20260910T035417735017Z_29f039af` 得到 q90=`7.4975`、q99=`13.8335`。validation 的 q99 规则 Recall=`0.9302`，但 Precision=`0.0967`、F1=`0.1752`、未污染点误报率=`0.8547`；compound、high-temperature 和 high-vibration 未污染点均被100%误报。PR-AUC=`0.4797` 高于 validation 污染率 `0.0896`，说明距离有排序信号，但单一 normal 工况参考无法区分合法工况变化与传感器污染。因此当前阶段门控结论是：**暂不进入预测模型，先实现工况条件化参考并重新评价 E1。** test 逐点分数已保存，但本轮不计算 test 指标，也不用于调整方法。
-
-### 真实数据状态
-
-`Pending external data / 等待外部数据`。当前没有实验室或企业真实数据，因此不实施真实数据清洗和工业验证，也不会编造企业、设备、批次或检测记录。未来接口与最小字段说明见 `data/raw/real/README.md`；在外部数据到位前，项目继续使用明确标记为 synthetic/simulated 的数据验证算法正确性和鲁棒性。
-
-## 7. 当前状态
-
-请阅读 `docs/STATUS.md` 和 `docs/project_log.md`。每次结束工作前必须更新状态、项目日志和 `docs/SESSION_HANDOFF.md`，确保下一次 Codex 会话只依赖仓库即可恢复上下文。
-
-## 8. 关键原则
-
-- 算法创新优先于场景包装。
-- 先基线，后增强。
-- 先可信度，后物理约束。
-- 先轻量哈希链，后平台。
-- 不伪造数据或结果。
-- 所有结论必须由可复现实验支持。
+主要结果至少5个种子；训练、校准、验证、测试按完整序列互斥；旧数据、旧结果和归档计划保留。

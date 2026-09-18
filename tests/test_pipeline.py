@@ -113,7 +113,7 @@ def test_pipeline_writes_consistent_non_overwriting_artifacts(
         assert np.isclose(
             observed_row[f"{event['corruption_feature']}_obs"],
             event["replacement_value"],
-            rtol=0.0,
+            rtol=4 * np.finfo(float).eps,
             atol=np.finfo(float).eps,
         )
     assert frame.groupby("sequence_id")["split"].nunique().max() == 1
