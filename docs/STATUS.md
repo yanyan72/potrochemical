@@ -29,4 +29,4 @@ Python 3.11.16环境：32 tests passed（4.34秒），compileall和git diff --ch
 
 ## 交付状态
 
-代码/文档已完成本地工作；GitHub写入凭据目前未接通。上传前不称远程已更新。
+代码、文档和正式实验结果已提交并推送至GitHub `main`；实现提交为`c4a8bae`，结果提交为`48c433b`。远程分支已核对。
