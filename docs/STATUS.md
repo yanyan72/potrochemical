@@ -32,4 +32,4 @@ E1b五种子固定状态结果目录：`results/logistics_e1b/logistics_e1b_2026
 
 ## 交付状态
 
-E1b已交付GitHub main至41f4834。E1c实现与结果已完成本地验收，本轮提交和远程核对见Git记录及交接文档；远程确认前不称E1c已上传。
+E1c实现ec46936、结果a85cfef和交接提交631fa1a已推送至GitHub main，并于2026-09-19完成远程核对。E1b及更早结果保留。
