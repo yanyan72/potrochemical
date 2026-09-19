@@ -23,3 +23,5 @@ E1c已完成5种子×10场景×5方法，全部synthetic validation。新增`log
 
 新run_id默认唯一；不要覆盖正式目录。源代码修改先提交，再跑正式实验；结果作为后续提交。若.venv失效，按Python3.11和requirements-core重建；不要绕过科研测试。
 E1b和更早结果保留。GitHub上一次已核对的main为41f4834，本轮E1c发布待远程核对；不在仓库或聊天中保存访问令牌。
+
+2026-09-19发布检查：实现ec46936、结果a85cfef已本地提交；首次push因当前环境无GitHub凭据返回could not read Username。等待分步设备登录回传凭据后推送；不需重做实验。临时授权状态位于/tmp/potrochemical_device_state.json，换取脚本/tmp/github_device_split.py（若仍存在），凭据不得输出到聊天。
