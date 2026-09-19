@@ -1,21 +1,25 @@
 # SESSION_HANDOFF
 
-当前读取顺序：AGENTS、PROJECT_BRIEF、ARCHITECTURE、DATA_SPEC、EXPERIMENT_PLAN、TASKS、DECISIONS、STATUS、当前ExecPlan。
+更新2026-09-19。读取AGENTS、PROJECT_BRIEF、ARCHITECTURE、DATA_SPEC、EXPERIMENT_PLAN、TASKS、DECISIONS、STATUS、当前ExecPlan。
+用户确认运输仓储主场景、生产Future Work、真实数据后续，并再次授权继续推进和上传GitHub；不需重复征求开发/推送许可。
 
-用户2026-09-18确认：主场景运输仓储；生产放Future Work；真实数据后续提供，先推进模拟算法，并授权上传GitHub。当前不需要重新征求开发或推送许可。
+## 最新里程碑
 
-本轮新增logistics_simulator/sensor_reliability/run_logistics_e1b、configs/logistics_e1b.yaml和测试。
-已完成储运RQ1/RQ2的5种子validation评价，正式目录`results/logistics_e1b/logistics_e1b_20260918_v1/`，源码提交c4a8bae。分状态边际F1=0.6250，优于合并边际0.3695和分状态条件残差0.5182；条件残差牵连FPR约29.22%，下一阶段以简单边际为主基线。没有质量预测结果，没有真实数据。方法和边界见METHOD_LOGISTICS_E1B.md、RESULTS_LOGISTICS_E1B.md与PROJECT_EVIDENCE_MATRIX.md。
+E1c已完成5种子×10场景×5方法，全部synthetic validation。新增`logistics_robustness.py`、`run_logistics_robustness.py`、`configs/logistics_e1c.yaml`及7项测试。完整39测试通过（Python3.11.16）；源码提交ec46936；运行`results/logistics_e1c/logistics_e1c_20260919_v1/`，177个产物hash核验。test保存未评价。
 
-Python 3.11.16完整测试32通过；旧浮点测试已修复。正式实验应在已提交源码上执行，并将结果元数据中的commit与Git对应。
+关键修正：条件残差不是始终更差，中等偏置有检出收益；强偏置会牵连干净通道。弱偏置召回仍低。延迟12步造成分状态边际整体clean FPR由0.98%增至7.92%，多通道高Top-1不能代替完整故障集合检出。详情见RESULTS_LOGISTICS_E1C和METHOD_LOGISTICS_E1C。不得直接用E1b/E1c跨协议指标差解释算法进步。
 
-运行：
+## 下一步
+
+先试单一因果时序累积候选，在同等校准误报预算下比较弱偏置、告警延迟和转场误报；保持边际/条件两个基线，不预设最终方法胜出。再处理记录状态不确定性、更强基线、未知/估计工况。
+质量任务需要具体产品、指标、取样与报告可用时间；无质量预测/真实数据结果。外部PDF未改；结果文档已提供论文逐项对应和用户补充信息。
+
+## 复现
+
 ```bash
 .venv/bin/python -m pytest -q
-.venv/bin/python -m src.run_logistics_e1b --config configs/logistics_e1b.yaml
+.venv/bin/python -m src.run_logistics_robustness --config configs/logistics_e1c.yaml
 ```
 
-旧normal全局参考85.47%误报是历史失败结果，不删除；新储运数据不与旧数据进行跨版本指标归因。
-下一步依据本轮结果检查简单边际与条件残差是否有增益，补弱污染/转场；真实质量目标落实后普通预测基线可以并行。
-
-实现提交`c4a8bae`和结果提交`48c433b`已推送至GitHub `main`并完成远程核对。临时设备授权凭据在交付后删除，不把凭据写入仓库。
+新run_id默认唯一；不要覆盖正式目录。源代码修改先提交，再跑正式实验；结果作为后续提交。若.venv失效，按Python3.11和requirements-core重建；不要绕过科研测试。
+E1b和更早结果保留。GitHub上一次已核对的main为41f4834，本轮E1c发布待远程核对；不在仓库或聊天中保存访问令牌。

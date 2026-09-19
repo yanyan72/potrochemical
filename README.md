@@ -6,6 +6,7 @@
 
 - 历史M0–M4：四变量模拟、污染注入、预处理、单一normal工况全局可信度及E1评价。
 - 新储运E1b：独立的温度/相对湿度/振动示意基准，仓储/平稳运输/颠簸运输三种固定状态，完整序列均衡划分。
+- 储运E1c：10个成对压力场景，弱偏置/污染比例/双通道/工况延迟，5种子分层与配对结果、完整故障集合评价。
 - 五种逐传感器评分对照：单一参考边际、合并参考边际、分工况边际、合并参考条件残差、分工况条件残差。
 - 可靠训练序列拟合，另一组训练序列校准q99；5个种子，仅评价validation，test保留。
 - 缺失单独报告，不计作数值异常检测成功；记录污染对其他干净通道的牵连误报。
@@ -22,9 +23,12 @@ source .venv/bin/activate
 pip install -r requirements-core.txt
 python -m pytest -q
 python -m src.run_logistics_e1b --config configs/logistics_e1b.yaml
+python -m src.run_logistics_robustness --config configs/logistics_e1c.yaml
 ```
 
 结果在唯一的 `results/logistics_e1b/<run_id>/` 中，包含配置、数据、事件、参数、validation分数、逐种子/工况/污染类型指标、汇总和哈希。不能覆盖同名运行。
+
+E1c结果位于 `results/logistics_e1c/<run_id>/`，另含配对差、双视图逐通道分数、PNG/PDF图。
 
 历史命令仍可使用：
 
@@ -39,6 +43,8 @@ python -m src.run_e1_evaluation --config configs/milestone4_e1_trust.yaml
 ## 阅读顺序与科学范围
 
 - [状态与结果](docs/STATUS.md)
+- [E1c鲁棒性结果、论文对应与下一步](docs/RESULTS_LOGISTICS_E1C.md)
+- [E1c压力实验协议](docs/METHOD_LOGISTICS_E1C.md)
 - [储运E1b五种子结果与负面发现](docs/RESULTS_LOGISTICS_E1B.md)
 - [研究范围](docs/PROJECT_BRIEF.md)
 - [方法定义](docs/METHOD_LOGISTICS_E1B.md)

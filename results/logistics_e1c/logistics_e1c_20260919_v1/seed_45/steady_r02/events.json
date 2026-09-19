@@ -1,0 +1,194 @@
+[
+  {
+    "sequence_id": "val_warehouse_000",
+    "sequence_index": 0,
+    "start": 48,
+    "end_exclusive": 52,
+    "channels": [
+      0
+    ],
+    "signs": [
+      1.0
+    ],
+    "magnitude_std": 2.0,
+    "scale_source": "clean_train_fit_per_true_regime",
+    "corruption_type": "segment_bias",
+    "split": "val"
+  },
+  {
+    "sequence_id": "val_warehouse_001",
+    "sequence_index": 1,
+    "start": 168,
+    "end_exclusive": 172,
+    "channels": [
+      1
+    ],
+    "signs": [
+      1.0
+    ],
+    "magnitude_std": 2.0,
+    "scale_source": "clean_train_fit_per_true_regime",
+    "corruption_type": "segment_bias",
+    "split": "val"
+  },
+  {
+    "sequence_id": "val_warehouse_002",
+    "sequence_index": 2,
+    "start": 84,
+    "end_exclusive": 88,
+    "channels": [
+      0
+    ],
+    "signs": [
+      1.0
+    ],
+    "magnitude_std": 2.0,
+    "scale_source": "clean_train_fit_per_true_regime",
+    "corruption_type": "segment_bias",
+    "split": "val"
+  },
+  {
+    "sequence_id": "val_warehouse_003",
+    "sequence_index": 3,
+    "start": 72,
+    "end_exclusive": 76,
+    "channels": [
+      0
+    ],
+    "signs": [
+      1.0
+    ],
+    "magnitude_std": 2.0,
+    "scale_source": "clean_train_fit_per_true_regime",
+    "corruption_type": "segment_bias",
+    "split": "val"
+  },
+  {
+    "sequence_id": "val_transit_smooth_000",
+    "sequence_index": 4,
+    "start": 168,
+    "end_exclusive": 172,
+    "channels": [
+      1
+    ],
+    "signs": [
+      -1.0
+    ],
+    "magnitude_std": 2.0,
+    "scale_source": "clean_train_fit_per_true_regime",
+    "corruption_type": "segment_bias",
+    "split": "val"
+  },
+  {
+    "sequence_id": "val_transit_smooth_001",
+    "sequence_index": 5,
+    "start": 36,
+    "end_exclusive": 40,
+    "channels": [
+      2
+    ],
+    "signs": [
+      1.0
+    ],
+    "magnitude_std": 2.0,
+    "scale_source": "clean_train_fit_per_true_regime",
+    "corruption_type": "segment_bias",
+    "split": "val"
+  },
+  {
+    "sequence_id": "val_transit_smooth_002",
+    "sequence_index": 6,
+    "start": 84,
+    "end_exclusive": 88,
+    "channels": [
+      1
+    ],
+    "signs": [
+      -1.0
+    ],
+    "magnitude_std": 2.0,
+    "scale_source": "clean_train_fit_per_true_regime",
+    "corruption_type": "segment_bias",
+    "split": "val"
+  },
+  {
+    "sequence_id": "val_transit_smooth_003",
+    "sequence_index": 7,
+    "start": 132,
+    "end_exclusive": 136,
+    "channels": [
+      0
+    ],
+    "signs": [
+      1.0
+    ],
+    "magnitude_std": 2.0,
+    "scale_source": "clean_train_fit_per_true_regime",
+    "corruption_type": "segment_bias",
+    "split": "val"
+  },
+  {
+    "sequence_id": "val_transit_rough_000",
+    "sequence_index": 8,
+    "start": 72,
+    "end_exclusive": 76,
+    "channels": [
+      0
+    ],
+    "signs": [
+      1.0
+    ],
+    "magnitude_std": 2.0,
+    "scale_source": "clean_train_fit_per_true_regime",
+    "corruption_type": "segment_bias",
+    "split": "val"
+  },
+  {
+    "sequence_id": "val_transit_rough_001",
+    "sequence_index": 9,
+    "start": 72,
+    "end_exclusive": 76,
+    "channels": [
+      2
+    ],
+    "signs": [
+      1.0
+    ],
+    "magnitude_std": 2.0,
+    "scale_source": "clean_train_fit_per_true_regime",
+    "corruption_type": "segment_bias",
+    "split": "val"
+  },
+  {
+    "sequence_id": "val_transit_rough_002",
+    "sequence_index": 10,
+    "start": 96,
+    "end_exclusive": 100,
+    "channels": [
+      1
+    ],
+    "signs": [
+      -1.0
+    ],
+    "magnitude_std": 2.0,
+    "scale_source": "clean_train_fit_per_true_regime",
+    "corruption_type": "segment_bias",
+    "split": "val"
+  },
+  {
+    "sequence_id": "val_transit_rough_003",
+    "sequence_index": 11,
+    "start": 156,
+    "end_exclusive": 160,
+    "channels": [
+      0
+    ],
+    "signs": [
+      1.0
+    ],
+    "magnitude_std": 2.0,
+    "scale_source": "clean_train_fit_per_true_regime",
+    "corruption_type": "segment_bias",
+    "split": "val"
+  }
+]

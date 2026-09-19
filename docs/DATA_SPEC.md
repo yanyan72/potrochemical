@@ -4,6 +4,12 @@
 
 当前全部为synthetic。用户确认真实数据后续提供，尚无产品、批次、仪表或化验来源可宣称。新储运数据与旧M0数据是不同版本，不能直接比较两者指标差值为方法增益。
 
+## 储运E1c新增结构
+
+`configs/logistics_e1c.yaml`使用180步序列，理想训练参考仍为固定状态。每seed保存base_data.npz（clean/sequence_ids/splits/regimes/features/units，含未评分test）及scales.json（仅train_fit工况内标准差）。每场景validation_data.npz保存clean/observed/mask、逐时刻true_regimes和recorded_regimes、切换窗口transition和sequence_ids；scores.npz保存两种视图下各方法的逐通道分数。
+
+事件为分段偏置，可包含1/2个通道，记录起止、通道、符号、标准化幅度和尺度来源。掩码与实际变化逐单元一致；不沿用E1b单通道corruption_type语义。状态延迟仅改变记录标签；瞬时转场映射和跨转场尺度定义见METHOD_LOGISTICS_E1C。当前不宣称真实转场动力学、工况估计或共模故障已验证。
+
 ## 储运E1b结构
 
 一条序列为独立的固定状态储运片段；时间为抽象采样步。状态：warehouse、transit_smooth、transit_rough。每个split均覆盖三个状态。示意通道为temperature(K)、relative_humidity(percent_RH)、vibration(mm_per_s)；实际监测通道需在数据到位后核对。

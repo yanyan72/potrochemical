@@ -10,6 +10,10 @@
 
 评分API不接收隐藏污染标签；未知状态下分工况评分不可用。边际方法只需本通道值，条件残差需要同一时刻的全部输入。缺失不能由隐藏真值填补。
 
+## E1c压力实验路径
+
+`configs/logistics_e1c.yaml -> logistics_robustness.py -> run_logistics_robustness.py`。训练参考复用E1b算法；场景数据包含逐时刻true_regimes/recorded_regimes和transition标记，评分仅接收记录状态。新数据/事件/评分、逐种子分层指标、配对差和图位于`results/logistics_e1c/<run_id>/`。这一路径不修改E1b生成器或评分公式。
+
 ## 历史路径（继续可复现）
 
 `simulator.py -> corruption.py -> run_preprocessing.py -> run_trust_reference.py -> run_trust_scoring.py -> run_e1_evaluation.py`。
