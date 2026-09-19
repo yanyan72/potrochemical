@@ -1,0 +1,58 @@
+# E1c：储运评分鲁棒性协议
+
+本阶段固定E1b的五个评分方法及q99校准规则，检验其适用边界。全部数据为synthetic；没有质量预测、真实传感器故障或工业效果验证。
+
+## 受控比较
+
+配置为`configs/logistics_e1c.yaml`；种子42–46。每序列180步，train_fit/train_cal/val/test每工况仍为8/4/4/4条。基准为固定状态、2倍工况内尺度分段偏置、10%污染行、1个受污染通道。
+
+| 场景 | 相对基准改变 | 对照场景 |
+| --- | --- | --- |
+| steady_m05 / steady_m1 / steady_m4 | 幅度0.5 / 1 / 4倍 | steady_m2_r10_k1 |
+| steady_r02 / steady_r20 | 污染行比例2% / 20% | steady_m2_r10_k1 |
+| steady_k2 | 每污染行2个通道 | steady_m2_r10_k1 |
+| switch_d0 | 每60步循环切换工况，记录即时更新 | steady_m2_r10_k1 |
+| switch_d4 / switch_d12 | 状态记录延迟4 / 12步 | switch_d0 |
+
+每个种子只拟合一次各方法的训练参考。幅度对照共享clean、mask、事件与方向；多通道对照保留单通道偏置并增加一个通道；延迟对照共享完整clean/observed/mask，仅更改算法接收的工况记录。比例对照采用同一块排列和精确行数预算，污染块可能在预算末尾被截短。
+
+## 状态与观测
+
+以E1b固定状态验证片段的标准化扰动`z(t)`为基础。切换场景按当前状态r重新映射：`clean(t)=mu_r + sigma_r * z(t)`。因此扰动连续，而状态均值/尺度瞬时变化。此处是简化的分布切换，不是已标定的物理转场过程。
+
+`true_regimes`用于生成和分层评价；`recorded_regimes(t)=true_regimes(max(0,t-delay))`为评分输入。标签来自理想记录及其人为延迟，没有进行工况识别或未来信息读取。切换后的前12步标记为transition，其他为stable；序列起点不视为切换。分状态结果按真实状态统计，不能按延迟后的记录混淆评价。
+
+## 污染定义与数据边界
+
+每条序列将12步块随机排列，依次选取直至达到`round(ratio * length)`个污染行，末块可截短。随机选择k个通道，符号逐通道独立随机。对受污染通道j：
+
+`observed_j(t) = clean_j(t) + sign_j * magnitude * s_train_fit,r,j`。
+
+`s_train_fit,r,j`只用当前真实工况的clean train_fit估计。在跨工况的偏置块中，原始单位偏置随工况尺度变化；这是保持标准化难度的压力测试，不是恒定物理偏置模型。污染类型仅segment_bias，不能推广为尖峰、漂移、缺失或所有协同故障均已验证。
+
+精确比例在180步时会取整：2%为4/180≈2.22%，10%为18/180，20%为36/180。mask按真实注入单元记录；多通道情形污染行比例不变，但污染单元比例增大。研究多通道时不能把F1变化全部归因于结构鲁棒性，还要同时查看Recall、牵连FPR和每行全部故障检出率。
+
+clean为受控生成真值，只用于理想训练参考及评价；评分函数只接收observed与recorded_regimes。拟合、校准和所有数据划分均沿用完整序列隔离；当前压力场景只从val生成，test只保存在base_data.npz，不评分也不查看性能。
+
+## 指标与产物
+
+同时评价clean和observed副本，按真实工况及all/transition/stable报告，计数保存在逐种子表。方法没有重新校准，训练阈值对所有压力场景相同。
+
+- 单元级Precision、Recall、F1、AP、干净通道FPR；污染行干净通道的bystander FPR。
+- Top-1命中任一受污染通道，必须同时报告随机基准k/p；多通道Top-1不能与单通道直接作优劣结论。
+- all_faults_row_recall：有污染行中，所有真实故障通道都被告警的比例，允许额外误报。
+- exact_fault_set_rate：有污染行中，告警集合与真值完全相同的比例，不允许遗漏或额外误报。
+- 所有均值/样本标准差以5个种子为重复，不以时间点为独立样本；配对差定义为场景减对照，正负是否更好取决于指标，不据此声称统计显著。
+
+运行命令：
+
+```bash
+.venv/bin/python -m pytest -q
+.venv/bin/python -m src.run_logistics_robustness --config configs/logistics_e1c.yaml --run-id logistics_e1c_20260919_v1
+```
+
+输出包括每种子的base_data、成员身份、参考模型、工况尺度，各场景的验证数据/事件/评分，以及metrics_by_seed、summary、paired_differences、paired_summary、PNG/PDF图和元数据哈希。运行目录不可覆盖。
+
+## 论文对应
+
+问题建模需明确“实际状态”和“预测时可用状态记录”；方法章3.4–3.5给出参考和逐通道评分，不增加未实现模块；实验章新增上述敏感性与失效分析；讨论交代转场简化、弱污染可辨识性、状态信息质量及多通道牵连。3.6质量预测仍为待验证协议，摘要不能提前写成成功结论。

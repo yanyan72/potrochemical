@@ -1,0 +1,162 @@
+experiment: logistics_sensor_robustness_e1c
+data_source: synthetic
+seeds:
+- 42
+- 43
+- 44
+- 45
+- 46
+sequence_length: 180
+time_unit: abstract_sampling_step
+sequences_per_regime:
+  train_fit: 8
+  train_cal: 4
+  val: 4
+  test: 4
+features:
+- temperature
+- relative_humidity
+- vibration
+units:
+- K
+- percent_RH
+- mm_per_s
+ar_rho: 0.85
+factor_loadings:
+- 0.8
+- -0.6
+- 0.5
+regimes:
+  warehouse:
+    mean:
+    - 295.0
+    - 50.0
+    - 0.4
+    std:
+    - 2.0
+    - 4.0
+    - 0.05
+  transit_smooth:
+    mean:
+    - 301.0
+    - 52.0
+    - 1.5
+    std:
+    - 2.5
+    - 5.0
+    - 0.15
+  transit_rough:
+    mean:
+    - 304.0
+    - 45.0
+    - 3.0
+    std:
+    - 3.0
+    - 6.0
+    - 0.3
+single_reference_regime: warehouse
+threshold_quantile: 0.99
+methods:
+- single_marginal
+- pooled_marginal
+- regime_marginal
+- pooled_conditional
+- regime_conditional
+corruption:
+  ratio: 0.0
+  types:
+  - spike
+  - bias
+  - drift
+  - missing
+  - random_replacement
+  replacement_strategy: empirical_train_value
+  min_segment_length: 6
+  max_segment_length: 18
+  magnitude_std:
+    spike:
+    - 2.0
+    - 4.0
+    bias:
+    - 1.0
+    - 2.5
+    drift:
+    - 1.0
+    - 3.0
+output_root: results/logistics_e1c
+stress:
+  segment_length: 12
+  transition_interval: 60
+  transition_window: 12
+  baseline: steady_m2_r10_k1
+  scenarios:
+  - name: steady_m2_r10_k1
+    switching: false
+    magnitude: 2.0
+    ratio: 0.1
+    channels: 1
+    delay: 0
+    compare_to: null
+  - name: steady_m05
+    switching: false
+    magnitude: 0.5
+    ratio: 0.1
+    channels: 1
+    delay: 0
+    compare_to: steady_m2_r10_k1
+  - name: steady_m1
+    switching: false
+    magnitude: 1.0
+    ratio: 0.1
+    channels: 1
+    delay: 0
+    compare_to: steady_m2_r10_k1
+  - name: steady_m4
+    switching: false
+    magnitude: 4.0
+    ratio: 0.1
+    channels: 1
+    delay: 0
+    compare_to: steady_m2_r10_k1
+  - name: steady_r02
+    switching: false
+    magnitude: 2.0
+    ratio: 0.02
+    channels: 1
+    delay: 0
+    compare_to: steady_m2_r10_k1
+  - name: steady_r20
+    switching: false
+    magnitude: 2.0
+    ratio: 0.2
+    channels: 1
+    delay: 0
+    compare_to: steady_m2_r10_k1
+  - name: steady_k2
+    switching: false
+    magnitude: 2.0
+    ratio: 0.1
+    channels: 2
+    delay: 0
+    compare_to: steady_m2_r10_k1
+  - name: switch_d0
+    switching: true
+    magnitude: 2.0
+    ratio: 0.1
+    channels: 1
+    delay: 0
+    compare_to: steady_m2_r10_k1
+  - name: switch_d4
+    switching: true
+    magnitude: 2.0
+    ratio: 0.1
+    channels: 1
+    delay: 4
+    compare_to: switch_d0
+  - name: switch_d12
+    switching: true
+    magnitude: 2.0
+    ratio: 0.1
+    channels: 1
+    delay: 12
+    compare_to: switch_d0
