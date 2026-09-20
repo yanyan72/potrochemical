@@ -4,6 +4,10 @@
 
 当前全部为synthetic。用户确认真实数据后续提供，尚无产品、批次、仪表或化验来源可宣称。新储运数据与旧M0数据是不同版本，不能直接比较两者指标差值为方法增益。
 
+## E1e有限窗口产物
+
+E1e复用E1c输入与E1d基线，不新增质量标签。新文件`*_sma_scores.npz`保存SMA的deviation_ratio/reliability/available/alarm。完整窗口未积满为NaN且available=false。metrics表新增temporal、support（common/own）、native_score_coverage、all_timeline_recall/f1和unavailable_positive_fraction；全时间轴指标在两类support中重复，只能计一次。事件新增scoreable_fraction和fully_unavailable；全事件均保留。输入manifest同时保存E1c/E1d元数据hash和审核产物列表。
+
 ## E1d时序评分产物
 
 复用E1c输入，不生成新的真值或质量标签。input_manifest保存源路径/元数据hash和已验证产物；每seed/models.json保存校准序列ID、原参考、alpha、重置规则及阈值。各scenario_scores.npz保存[sequence,time,channel]的deviation_ratio/reliability/available/alarm，key包含残差方法、alpha和clean/observed视图。

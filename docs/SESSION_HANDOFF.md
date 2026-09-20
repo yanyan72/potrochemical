@@ -5,6 +5,10 @@
 
 ## 最新里程碑
 
+E1e完整W=9 SMA已实现，55测试通过（11.53秒），源码2b68a4f，运行results/logistics_e1e/logistics_e1e_20260920_v1。审核源177/基线67/本轮69产物hash，test未评价。与EWMA相比，20组全时间轴F1/Recall均退步，19组共同支持F1下降；切换覆盖86.67%。不升级SMA为主方法，不做无边界窗口搜索。详见RESULTS_LOGISTICS_E1E。E1e本轮仍待提交结果与设备授权推送。
+
+## E1d里程碑
+
 E1d实现有符号EWMA（alpha=1/0.2），47测试通过；源码7ca922a，正式运行results/logistics_e1d/logistics_e1d_20260920_v1，输出67hash通过，源177hash通过，alpha=1复现E1c，test未评分。1倍偏置条件F1 0.0956→0.3031，新告警事件检出45.83%→54.17%，但已检出延迟3.85→4.58步，强偏置拖尾严重。不能宣称普遍收益或工况延迟已解决。详见RESULTS_LOGISTICS_E1D。
 
 ## 上一里程碑
@@ -15,7 +19,7 @@ E1c已完成5种子×10场景×5方法，全部synthetic validation。新增`log
 
 ## 下一步
 
-下一步用有限记忆有符号滑动均值作对照，检查弱偏置、启动期覆盖、告警延迟和拖尾；保持边际/条件及逐点/EWMA基线，不预设胜出。再处理记录状态不确定性、更强基线、未知/估计工况。名义校准预算一致不等于实际validation误报一致。
+下一步独立控制事件持续时长与发生频率，再补一个更强基线。原比例预算同时产生4/6/12步事件，不能称为固定时长下纯频率变化；已补充E1c方法/结果说明但不改旧产物。保留边际/条件及逐点/EWMA；后续处理记录状态不确定性、未知/估计工况。名义校准预算一致不等于实际validation误报一致。
 质量任务需要具体产品、指标、取样与报告可用时间；无质量预测/真实数据结果。外部PDF未改；结果文档已提供论文逐项对应和用户补充信息。
 
 ## 复现
@@ -23,6 +27,7 @@ E1c已完成5种子×10场景×5方法，全部synthetic validation。新增`log
 ```bash
 .venv/bin/python -m pytest -q
 .venv/bin/python -m src.run_temporal_e1d --config configs/logistics_e1d.yaml
+.venv/bin/python -m src.run_finite_memory_e1e --config configs/logistics_e1e.yaml
 ```
 
 新run_id默认唯一；不要覆盖正式目录。源代码修改先提交，再跑正式实验；结果作为后续提交。若.venv失效，按Python3.11和requirements-core重建；不要绕过科研测试。

@@ -18,6 +18,10 @@
 
 `configs/logistics_e1d.yaml -> temporal_reliability.py -> run_temporal_e1d.py`。审核并复用E1c数据/参考，新增因果有符号EWMA和train_cal阈值；评分只接受observed/recorded_regimes。alpha=1逐场景复现原评分；结果保存于`results/logistics_e1d/<run_id>/`，input_manifest指向既有数据，避免复制源运行。
 
+## E1e有限窗口路径
+
+`configs/logistics_e1e.yaml -> finite_memory.py -> run_finite_memory_e1e.py`。审核E1c输入和E1d存档基线，SMA独立校准；统一评价六种方法的共同完整行、各自支持、全时间轴漏检和全事件。新SMA评分/模型保存在`results/logistics_e1e/<run_id>/`，基线通过manifest引用。
+
 ## 历史路径（继续可复现）
 
 `simulator.py -> corruption.py -> run_preprocessing.py -> run_trust_reference.py -> run_trust_scoring.py -> run_e1_evaluation.py`。

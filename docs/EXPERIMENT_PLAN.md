@@ -1,8 +1,12 @@
 # EXPERIMENT_PLAN
 
-## E1d已完成与下一轮
+## E1e已完成与下一轮
 
-E1d在E1c同一数据上比较alpha=1/0.2的有符号残差EWMA；独立train_cal q99，逐点alpha=1与历史评分完全复现。报告实际FPR、事件新告警、延迟、漏检惩罚和事件后拖尾；协议与结果见METHOD_LOGISTICS_E1D、RESULTS_LOGISTICS_E1D。下一轮以有限记忆滑动均值作对照，不预设去掉长记忆就一定更好。test仍保留。
+E1e固定W=9完整SMA，对比存档逐点/EWMA，新增共同支持/原时间轴双口径和事件覆盖。未达到减少拖尾与保留检出的目标；结果见RESULTS_LOGISTICS_E1E。下一轮独立控制事件持续时长与发生频率，再增加一个更强检测基线，不进行无边界窗口调参。E1c的比例配置会同时改变事件时长，不能视为固定时长下纯频率变化。工况不确定性仍为后续。
+
+## E1d已完成
+
+E1d在E1c同一数据上比较alpha=1/0.2的有符号残差EWMA；独立train_cal q99，逐点alpha=1与历史评分完全复现。报告实际FPR、事件新告警、延迟、漏检惩罚和事件后拖尾；协议与结果见METHOD_LOGISTICS_E1D、RESULTS_LOGISTICS_E1D。有限记忆对照已由E1e完成；test仍保留。
 
 ## E1c已完成
 
