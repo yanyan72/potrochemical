@@ -1,8 +1,12 @@
 # EXPERIMENT_PLAN
 
-## E1c已完成与下一轮
+## E1d已完成与下一轮
 
-E1c固定下面五种评分，以10个成对场景检验偏置强度/比例、通道数和工况记录延迟，协议见METHOD_LOGISTICS_E1C，结果见RESULTS_LOGISTICS_E1C。没有重新校准阈值，test未评价。下一轮只先增加一个因果时序累积候选，独立train_cal校准，在相同误报预算下报告弱偏置检出、事件级告警延迟与转场误报；不同时加入修复和预测器。
+E1d在E1c同一数据上比较alpha=1/0.2的有符号残差EWMA；独立train_cal q99，逐点alpha=1与历史评分完全复现。报告实际FPR、事件新告警、延迟、漏检惩罚和事件后拖尾；协议与结果见METHOD_LOGISTICS_E1D、RESULTS_LOGISTICS_E1D。下一轮以有限记忆滑动均值作对照，不预设去掉长记忆就一定更好。test仍保留。
+
+## E1c已完成
+
+E1c固定下面五种评分，以10个成对场景检验偏置强度/比例、通道数和工况记录延迟，协议见METHOD_LOGISTICS_E1C，结果见RESULTS_LOGISTICS_E1C。没有重新校准阈值，test未评价。
 
 ## 已冻结的储运E1b协议
 

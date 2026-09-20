@@ -4,6 +4,11 @@
 
 当前全部为synthetic。用户确认真实数据后续提供，尚无产品、批次、仪表或化验来源可宣称。新储运数据与旧M0数据是不同版本，不能直接比较两者指标差值为方法增益。
 
+## E1d时序评分产物
+
+复用E1c输入，不生成新的真值或质量标签。input_manifest保存源路径/元数据hash和已验证产物；每seed/models.json保存校准序列ID、原参考、alpha、重置规则及阈值。各scenario_scores.npz保存[sequence,time,channel]的deviation_ratio/reliability/available/alarm，key包含残差方法、alpha和clean/observed视图。
+events.csv每行为一个注入块-通道的评价记录，包含起止、事件新告警、提前活跃、成功延迟与漏检截断延迟；它是评价产物，不是模型输入。calibration_audit、metrics_by_seed、events_by_seed、汇总及配对差单独保存。源test没有新评分。
+
 ## 储运E1c新增结构
 
 `configs/logistics_e1c.yaml`使用180步序列，理想训练参考仍为固定状态。每seed保存base_data.npz（clean/sequence_ids/splits/regimes/features/units，含未评分test）及scales.json（仅train_fit工况内标准差）。每场景validation_data.npz保存clean/observed/mask、逐时刻true_regimes和recorded_regimes、切换窗口transition和sequence_ids；scores.npz保存两种视图下各方法的逐通道分数。

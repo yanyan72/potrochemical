@@ -14,6 +14,10 @@
 
 `configs/logistics_e1c.yaml -> logistics_robustness.py -> run_logistics_robustness.py`。训练参考复用E1b算法；场景数据包含逐时刻true_regimes/recorded_regimes和transition标记，评分仅接收记录状态。新数据/事件/评分、逐种子分层指标、配对差和图位于`results/logistics_e1c/<run_id>/`。这一路径不修改E1b生成器或评分公式。
 
+## E1d时序消融路径
+
+`configs/logistics_e1d.yaml -> temporal_reliability.py -> run_temporal_e1d.py`。审核并复用E1c数据/参考，新增因果有符号EWMA和train_cal阈值；评分只接受observed/recorded_regimes。alpha=1逐场景复现原评分；结果保存于`results/logistics_e1d/<run_id>/`，input_manifest指向既有数据，避免复制源运行。
+
 ## 历史路径（继续可复现）
 
 `simulator.py -> corruption.py -> run_preprocessing.py -> run_trust_reference.py -> run_trust_scoring.py -> run_e1_evaluation.py`。
