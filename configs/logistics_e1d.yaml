@@ -1,0 +1,10 @@
+experiment: logistics_temporal_e1d
+data_source: synthetic
+source_run: results/logistics_e1c/logistics_e1c_20260919_v1
+output_root: results/logistics_e1d
+seeds: [42, 43, 44, 45, 46]
+methods: [regime_marginal, regime_conditional]
+alphas: [1.0, 0.2]
+threshold_quantile: 0.99
+post_event_steps: 12
+scenarios: [steady_m05, steady_m1, steady_m2_r10_k1, steady_m4, steady_r02, steady_r20, steady_k2, switch_d0, switch_d4, switch_d12]
