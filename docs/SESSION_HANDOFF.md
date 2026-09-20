@@ -5,7 +5,7 @@
 
 ## 最新里程碑
 
-E1e完整W=9 SMA已实现，55测试通过（11.53秒），源码2b68a4f，运行results/logistics_e1e/logistics_e1e_20260920_v1。审核源177/基线67/本轮69产物hash，test未评价。与EWMA相比，20组全时间轴F1/Recall均退步，19组共同支持F1下降；切换覆盖86.67%。不升级SMA为主方法，不做无边界窗口搜索。详见RESULTS_LOGISTICS_E1E。E1e本轮仍待提交结果与设备授权推送。
+E1e完整W=9 SMA已实现，55测试通过（11.53秒），源码2b68a4f，运行results/logistics_e1e/logistics_e1e_20260920_v1。审核源177/基线67/本轮69产物hash，test未评价。与EWMA相比，20组全时间轴F1/Recall均退步，19组共同支持F1下降；切换覆盖86.67%。不升级SMA为主方法，不做无边界窗口搜索。详见RESULTS_LOGISTICS_E1E。E1e实现2b68a4f、结果a36004c已推送并核对远程main；本次发布完成，后续从上述下一步继续，临时认证文件在最终核对后清理。
 
 ## E1d里程碑
 
