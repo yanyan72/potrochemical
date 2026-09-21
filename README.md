@@ -9,6 +9,7 @@
 - 储运E1c：10个成对压力场景，弱偏置/污染比例/双通道/工况延迟，5种子分层与配对结果、完整故障集合评价。
 - 储运E1d：复用E1c数据，逐点与因果EWMA对照、独立校准、事件新告警/延迟/拖尾，5种子消融。
 - 储运E1e：完整9步滑动均值对照，共同支持/全时间轴双口径与启动期覆盖；结果未支持替换EWMA，负面证据完整保留。
+- 储运E1f：新开发验证集上独立控制事件时长/数量/起点，5种子×12场景及经典CUSUM；固定CUSUM的24组F1均低于EWMA，保留失败证据。
 - 五种逐传感器评分对照：单一参考边际、合并参考边际、分工况边际、合并参考条件残差、分工况条件残差。
 - 可靠训练序列拟合，另一组训练序列校准q99；5个种子，仅评价validation，test保留。
 - 缺失单独报告，不计作数值异常检测成功；记录污染对其他干净通道的牵连误报。
@@ -28,6 +29,7 @@ python -m src.run_logistics_e1b --config configs/logistics_e1b.yaml
 python -m src.run_logistics_robustness --config configs/logistics_e1c.yaml
 python -m src.run_temporal_e1d --config configs/logistics_e1d.yaml
 python -m src.run_finite_memory_e1e --config configs/logistics_e1e.yaml
+python -m src.run_controlled_e1f --config configs/logistics_e1f.yaml
 ```
 
 结果在唯一的 `results/logistics_e1b/<run_id>/` 中，包含配置、数据、事件、参数、validation分数、逐种子/工况/污染类型指标、汇总和哈希。不能覆盖同名运行。
@@ -47,6 +49,8 @@ python -m src.run_e1_evaluation --config configs/milestone4_e1_trust.yaml
 ## 阅读顺序与科学范围
 
 - [状态与结果](docs/STATUS.md)
+- [E1f受控事件结果与下一步](docs/RESULTS_LOGISTICS_E1F.md)
+- [E1f事件配对与CUSUM协议](docs/METHOD_LOGISTICS_E1F.md)
 - [E1e有限窗口结果、失败分析与论文对应](docs/RESULTS_LOGISTICS_E1E.md)
 - [E1e公平支持与覆盖率协议](docs/METHOD_LOGISTICS_E1E.md)
 - [E1d时序消融结果、论文对应与下一步](docs/RESULTS_LOGISTICS_E1D.md)

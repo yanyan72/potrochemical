@@ -4,6 +4,10 @@
 
 当前全部为synthetic。用户确认真实数据后续提供，尚无产品、批次、仪表或化验来源可宣称。新储运数据与旧M0数据是不同版本，不能直接比较两者指标差值为方法增益。
 
+## E1f受控事件产物
+
+新增`seed_*/innovations.npz`（独立标准化创新、序列ID与初始工况），`models.json`保存旧校准ID、新validation ID及逐点/EWMA/CUSUM模型。每场景`validation_data.npz`只含新开发验证数据，`events.json`新增slot、精确duration及最近切换起点偏移。`event_design.csv`汇总设计实例；`events.csv`新增onset_phase及截断延迟/时长，分层表同时保存事件数。所有模型与输入训练参数保持来源可查，无质量标签。详见METHOD_LOGISTICS_E1F。
+
 ## E1e有限窗口产物
 
 E1e复用E1c输入与E1d基线，不新增质量标签。新文件`*_sma_scores.npz`保存SMA的deviation_ratio/reliability/available/alarm。完整窗口未积满为NaN且available=false。metrics表新增temporal、support（common/own）、native_score_coverage、all_timeline_recall/f1和unavailable_positive_fraction；全时间轴指标在两类support中重复，只能计一次。事件新增scoreable_fraction和fully_unavailable；全事件均保留。输入manifest同时保存E1c/E1d元数据hash和审核产物列表。

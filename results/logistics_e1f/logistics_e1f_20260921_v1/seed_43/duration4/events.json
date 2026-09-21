@@ -1,0 +1,458 @@
+[
+  {
+    "sequence_index": 0,
+    "sequence_id": "valf_20260921_43_warehouse_000",
+    "slot": 0,
+    "start": 57,
+    "end_exclusive": 61,
+    "channels": [
+      1
+    ],
+    "signs": [
+      -1.0
+    ],
+    "duration": 4,
+    "magnitude_std": 1.0,
+    "offset_from_nearest_transition": null,
+    "scale_source": "E1c_train_fit_per_true_regime",
+    "split": "val_new",
+    "corruption_type": "segment_bias"
+  },
+  {
+    "sequence_index": 0,
+    "sequence_id": "valf_20260921_43_warehouse_000",
+    "slot": 1,
+    "start": 2,
+    "end_exclusive": 6,
+    "channels": [
+      0
+    ],
+    "signs": [
+      1.0
+    ],
+    "duration": 4,
+    "magnitude_std": 1.0,
+    "offset_from_nearest_transition": null,
+    "scale_source": "E1c_train_fit_per_true_regime",
+    "split": "val_new",
+    "corruption_type": "segment_bias"
+  },
+  {
+    "sequence_index": 1,
+    "sequence_id": "valf_20260921_43_warehouse_001",
+    "slot": 0,
+    "start": 127,
+    "end_exclusive": 131,
+    "channels": [
+      0
+    ],
+    "signs": [
+      1.0
+    ],
+    "duration": 4,
+    "magnitude_std": 1.0,
+    "offset_from_nearest_transition": null,
+    "scale_source": "E1c_train_fit_per_true_regime",
+    "split": "val_new",
+    "corruption_type": "segment_bias"
+  },
+  {
+    "sequence_index": 1,
+    "sequence_id": "valf_20260921_43_warehouse_001",
+    "slot": 1,
+    "start": 91,
+    "end_exclusive": 95,
+    "channels": [
+      1
+    ],
+    "signs": [
+      1.0
+    ],
+    "duration": 4,
+    "magnitude_std": 1.0,
+    "offset_from_nearest_transition": null,
+    "scale_source": "E1c_train_fit_per_true_regime",
+    "split": "val_new",
+    "corruption_type": "segment_bias"
+  },
+  {
+    "sequence_index": 2,
+    "sequence_id": "valf_20260921_43_warehouse_002",
+    "slot": 0,
+    "start": 130,
+    "end_exclusive": 134,
+    "channels": [
+      2
+    ],
+    "signs": [
+      1.0
+    ],
+    "duration": 4,
+    "magnitude_std": 1.0,
+    "offset_from_nearest_transition": null,
+    "scale_source": "E1c_train_fit_per_true_regime",
+    "split": "val_new",
+    "corruption_type": "segment_bias"
+  },
+  {
+    "sequence_index": 2,
+    "sequence_id": "valf_20260921_43_warehouse_002",
+    "slot": 1,
+    "start": 83,
+    "end_exclusive": 87,
+    "channels": [
+      2
+    ],
+    "signs": [
+      1.0
+    ],
+    "duration": 4,
+    "magnitude_std": 1.0,
+    "offset_from_nearest_transition": null,
+    "scale_source": "E1c_train_fit_per_true_regime",
+    "split": "val_new",
+    "corruption_type": "segment_bias"
+  },
+  {
+    "sequence_index": 3,
+    "sequence_id": "valf_20260921_43_warehouse_003",
+    "slot": 0,
+    "start": 38,
+    "end_exclusive": 42,
+    "channels": [
+      1
+    ],
+    "signs": [
+      -1.0
+    ],
+    "duration": 4,
+    "magnitude_std": 1.0,
+    "offset_from_nearest_transition": null,
+    "scale_source": "E1c_train_fit_per_true_regime",
+    "split": "val_new",
+    "corruption_type": "segment_bias"
+  },
+  {
+    "sequence_index": 3,
+    "sequence_id": "valf_20260921_43_warehouse_003",
+    "slot": 1,
+    "start": 121,
+    "end_exclusive": 125,
+    "channels": [
+      2
+    ],
+    "signs": [
+      1.0
+    ],
+    "duration": 4,
+    "magnitude_std": 1.0,
+    "offset_from_nearest_transition": null,
+    "scale_source": "E1c_train_fit_per_true_regime",
+    "split": "val_new",
+    "corruption_type": "segment_bias"
+  },
+  {
+    "sequence_index": 4,
+    "sequence_id": "valf_20260921_43_transit_smooth_000",
+    "slot": 0,
+    "start": 1,
+    "end_exclusive": 5,
+    "channels": [
+      0
+    ],
+    "signs": [
+      -1.0
+    ],
+    "duration": 4,
+    "magnitude_std": 1.0,
+    "offset_from_nearest_transition": null,
+    "scale_source": "E1c_train_fit_per_true_regime",
+    "split": "val_new",
+    "corruption_type": "segment_bias"
+  },
+  {
+    "sequence_index": 4,
+    "sequence_id": "valf_20260921_43_transit_smooth_000",
+    "slot": 1,
+    "start": 122,
+    "end_exclusive": 126,
+    "channels": [
+      1
+    ],
+    "signs": [
+      -1.0
+    ],
+    "duration": 4,
+    "magnitude_std": 1.0,
+    "offset_from_nearest_transition": null,
+    "scale_source": "E1c_train_fit_per_true_regime",
+    "split": "val_new",
+    "corruption_type": "segment_bias"
+  },
+  {
+    "sequence_index": 5,
+    "sequence_id": "valf_20260921_43_transit_smooth_001",
+    "slot": 0,
+    "start": 5,
+    "end_exclusive": 9,
+    "channels": [
+      2
+    ],
+    "signs": [
+      1.0
+    ],
+    "duration": 4,
+    "magnitude_std": 1.0,
+    "offset_from_nearest_transition": null,
+    "scale_source": "E1c_train_fit_per_true_regime",
+    "split": "val_new",
+    "corruption_type": "segment_bias"
+  },
+  {
+    "sequence_index": 5,
+    "sequence_id": "valf_20260921_43_transit_smooth_001",
+    "slot": 1,
+    "start": 76,
+    "end_exclusive": 80,
+    "channels": [
+      2
+    ],
+    "signs": [
+      1.0
+    ],
+    "duration": 4,
+    "magnitude_std": 1.0,
+    "offset_from_nearest_transition": null,
+    "scale_source": "E1c_train_fit_per_true_regime",
+    "split": "val_new",
+    "corruption_type": "segment_bias"
+  },
+  {
+    "sequence_index": 6,
+    "sequence_id": "valf_20260921_43_transit_smooth_002",
+    "slot": 0,
+    "start": 43,
+    "end_exclusive": 47,
+    "channels": [
+      2
+    ],
+    "signs": [
+      -1.0
+    ],
+    "duration": 4,
+    "magnitude_std": 1.0,
+    "offset_from_nearest_transition": null,
+    "scale_source": "E1c_train_fit_per_true_regime",
+    "split": "val_new",
+    "corruption_type": "segment_bias"
+  },
+  {
+    "sequence_index": 6,
+    "sequence_id": "valf_20260921_43_transit_smooth_002",
+    "slot": 1,
+    "start": 1,
+    "end_exclusive": 5,
+    "channels": [
+      0
+    ],
+    "signs": [
+      1.0
+    ],
+    "duration": 4,
+    "magnitude_std": 1.0,
+    "offset_from_nearest_transition": null,
+    "scale_source": "E1c_train_fit_per_true_regime",
+    "split": "val_new",
+    "corruption_type": "segment_bias"
+  },
+  {
+    "sequence_index": 7,
+    "sequence_id": "valf_20260921_43_transit_smooth_003",
+    "slot": 0,
+    "start": 143,
+    "end_exclusive": 147,
+    "channels": [
+      0
+    ],
+    "signs": [
+      1.0
+    ],
+    "duration": 4,
+    "magnitude_std": 1.0,
+    "offset_from_nearest_transition": null,
+    "scale_source": "E1c_train_fit_per_true_regime",
+    "split": "val_new",
+    "corruption_type": "segment_bias"
+  },
+  {
+    "sequence_index": 7,
+    "sequence_id": "valf_20260921_43_transit_smooth_003",
+    "slot": 1,
+    "start": 19,
+    "end_exclusive": 23,
+    "channels": [
+      2
+    ],
+    "signs": [
+      -1.0
+    ],
+    "duration": 4,
+    "magnitude_std": 1.0,
+    "offset_from_nearest_transition": null,
+    "scale_source": "E1c_train_fit_per_true_regime",
+    "split": "val_new",
+    "corruption_type": "segment_bias"
+  },
+  {
+    "sequence_index": 8,
+    "sequence_id": "valf_20260921_43_transit_rough_000",
+    "slot": 0,
+    "start": 103,
+    "end_exclusive": 107,
+    "channels": [
+      2
+    ],
+    "signs": [
+      -1.0
+    ],
+    "duration": 4,
+    "magnitude_std": 1.0,
+    "offset_from_nearest_transition": null,
+    "scale_source": "E1c_train_fit_per_true_regime",
+    "split": "val_new",
+    "corruption_type": "segment_bias"
+  },
+  {
+    "sequence_index": 8,
+    "sequence_id": "valf_20260921_43_transit_rough_000",
+    "slot": 1,
+    "start": 59,
+    "end_exclusive": 63,
+    "channels": [
+      2
+    ],
+    "signs": [
+      1.0
+    ],
+    "duration": 4,
+    "magnitude_std": 1.0,
+    "offset_from_nearest_transition": null,
+    "scale_source": "E1c_train_fit_per_true_regime",
+    "split": "val_new",
+    "corruption_type": "segment_bias"
+  },
+  {
+    "sequence_index": 9,
+    "sequence_id": "valf_20260921_43_transit_rough_001",
+    "slot": 0,
+    "start": 143,
+    "end_exclusive": 147,
+    "channels": [
+      0
+    ],
+    "signs": [
+      1.0
+    ],
+    "duration": 4,
+    "magnitude_std": 1.0,
+    "offset_from_nearest_transition": null,
+    "scale_source": "E1c_train_fit_per_true_regime",
+    "split": "val_new",
+    "corruption_type": "segment_bias"
+  },
+  {
+    "sequence_index": 9,
+    "sequence_id": "valf_20260921_43_transit_rough_001",
+    "slot": 1,
+    "start": 40,
+    "end_exclusive": 44,
+    "channels": [
+      0
+    ],
+    "signs": [
+      1.0
+    ],
+    "duration": 4,
+    "magnitude_std": 1.0,
+    "offset_from_nearest_transition": null,
+    "scale_source": "E1c_train_fit_per_true_regime",
+    "split": "val_new",
+    "corruption_type": "segment_bias"
+  },
+  {
+    "sequence_index": 10,
+    "sequence_id": "valf_20260921_43_transit_rough_002",
+    "slot": 0,
+    "start": 22,
+    "end_exclusive": 26,
+    "channels": [
+      0
+    ],
+    "signs": [
+      1.0
+    ],
+    "duration": 4,
+    "magnitude_std": 1.0,
+    "offset_from_nearest_transition": null,
+    "scale_source": "E1c_train_fit_per_true_regime",
+    "split": "val_new",
+    "corruption_type": "segment_bias"
+  },
+  {
+    "sequence_index": 10,
+    "sequence_id": "valf_20260921_43_transit_rough_002",
+    "slot": 1,
+    "start": 86,
+    "end_exclusive": 90,
+    "channels": [
+      0
+    ],
+    "signs": [
+      -1.0
+    ],
+    "duration": 4,
+    "magnitude_std": 1.0,
+    "offset_from_nearest_transition": null,
+    "scale_source": "E1c_train_fit_per_true_regime",
+    "split": "val_new",
+    "corruption_type": "segment_bias"
+  },
+  {
+    "sequence_index": 11,
+    "sequence_id": "valf_20260921_43_transit_rough_003",
+    "slot": 0,
+    "start": 76,
+    "end_exclusive": 80,
+    "channels": [
+      2
+    ],
+    "signs": [
+      1.0
+    ],
+    "duration": 4,
+    "magnitude_std": 1.0,
+    "offset_from_nearest_transition": null,
+    "scale_source": "E1c_train_fit_per_true_regime",
+    "split": "val_new",
+    "corruption_type": "segment_bias"
+  },
+  {
+    "sequence_index": 11,
+    "sequence_id": "valf_20260921_43_transit_rough_003",
+    "slot": 1,
+    "start": 133,
+    "end_exclusive": 137,
+    "channels": [
+      0
+    ],
+    "signs": [
+      -1.0
+    ],
+    "duration": 4,
+    "magnitude_std": 1.0,
+    "offset_from_nearest_transition": null,
+    "scale_source": "E1c_train_fit_per_true_regime",
+    "split": "val_new",
+    "corruption_type": "segment_bias"
+  }
+]

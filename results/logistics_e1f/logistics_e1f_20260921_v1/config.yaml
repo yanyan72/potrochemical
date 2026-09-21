@@ -1,0 +1,130 @@
+experiment: logistics_controlled_events_e1f
+data_source: synthetic
+source_run: results/logistics_e1c/logistics_e1c_20260919_v1
+baseline_run: results/logistics_e1d/logistics_e1d_20260920_v1
+output_root: results/logistics_e1f
+seeds:
+- 42
+- 43
+- 44
+- 45
+- 46
+methods:
+- regime_marginal
+- regime_conditional
+validation_namespace: 20260921
+cusum_k: 0.5
+threshold_quantile: 0.99
+post_event_steps: 12
+max_duration: 24
+max_events: 3
+minimum_gap: 12
+scenarios:
+- name: steady_d12_n2_m1
+  duration: 12
+  count: 2
+  magnitude: 1.0
+  switching: false
+  delay: 0
+  placement: random
+  offset: 0
+  compare_to: null
+- name: duration4
+  duration: 4
+  count: 2
+  magnitude: 1.0
+  switching: false
+  delay: 0
+  placement: random
+  offset: 0
+  compare_to: steady_d12_n2_m1
+- name: duration24
+  duration: 24
+  count: 2
+  magnitude: 1.0
+  switching: false
+  delay: 0
+  placement: random
+  offset: 0
+  compare_to: steady_d12_n2_m1
+- name: count1
+  duration: 12
+  count: 1
+  magnitude: 1.0
+  switching: false
+  delay: 0
+  placement: random
+  offset: 0
+  compare_to: steady_d12_n2_m1
+- name: count3
+  duration: 12
+  count: 3
+  magnitude: 1.0
+  switching: false
+  delay: 0
+  placement: random
+  offset: 0
+  compare_to: steady_d12_n2_m1
+- name: magnitude2
+  duration: 12
+  count: 2
+  magnitude: 2.0
+  switching: false
+  delay: 0
+  placement: random
+  offset: 0
+  compare_to: steady_d12_n2_m1
+- name: magnitude4
+  duration: 12
+  count: 2
+  magnitude: 4.0
+  switching: false
+  delay: 0
+  placement: random
+  offset: 0
+  compare_to: steady_d12_n2_m1
+- name: switch_random
+  duration: 12
+  count: 2
+  magnitude: 1.0
+  switching: true
+  delay: 0
+  placement: random
+  offset: 0
+  compare_to: steady_d12_n2_m1
+- name: switch_delay12
+  duration: 12
+  count: 2
+  magnitude: 1.0
+  switching: true
+  delay: 12
+  placement: random
+  offset: 0
+  compare_to: switch_random
+- name: switch_at
+  duration: 12
+  count: 2
+  magnitude: 1.0
+  switching: true
+  delay: 0
+  placement: transition
+  offset: 0
+  compare_to: switch_random
+- name: switch_before6
+  duration: 12
+  count: 2
+  magnitude: 1.0
+  switching: true
+  delay: 0
+  placement: transition
+  offset: -6
+  compare_to: switch_at
+- name: switch_after6
+  duration: 12
+  count: 2
+  magnitude: 1.0
+  switching: true
+  delay: 0
+  placement: transition
+  offset: 6
+  compare_to: switch_at

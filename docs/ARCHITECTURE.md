@@ -22,6 +22,10 @@
 
 `configs/logistics_e1e.yaml -> finite_memory.py -> run_finite_memory_e1e.py`。审核E1c输入和E1d存档基线，SMA独立校准；统一评价六种方法的共同完整行、各自支持、全时间轴漏检和全事件。新SMA评分/模型保存在`results/logistics_e1e/<run_id>/`，基线通过manifest引用。
 
+## E1f受控事件路径
+
+`configs/logistics_e1f.yaml -> controlled_events.py + cusum_reliability.py -> run_controlled_e1f.py`。审核E1c训练参考和E1d既有模型，独立随机流生成新开发validation，CUSUM仅用旧train_cal校准。保存配对事件、六种组合双视图分数及相位/方法/场景差至`results/logistics_e1f/<run_id>/`，test不生成、不评价。
+
 ## 历史路径（继续可复现）
 
 `simulator.py -> corruption.py -> run_preprocessing.py -> run_trust_reference.py -> run_trust_scoring.py -> run_e1_evaluation.py`。
