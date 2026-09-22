@@ -31,20 +31,22 @@ def signed_residuals(values: np.ndarray, regimes: np.ndarray, model: dict[str, A
     return residual
 
 
-def causal_ewma(residuals: np.ndarray, records: np.ndarray, alpha: float) -> np.ndarray:
-    """Filter signed residuals, resetting at sequence starts, record changes and gaps.
+def causal_ewma(residuals: np.ndarray, records: np.ndarray, alpha: float,
+                *, reset_on_record_change: bool = True) -> np.ndarray:
+    """Filter residuals with optional record reset; starts/gaps always reset.
 
     Missing current residuals remain NaN. Their state resets to zero; no previous
     residual or score is substituted. The first valid update is alpha * residual.
     """
     residuals = np.asarray(residuals, dtype=float)
     if (residuals.ndim != 3 or records.shape != residuals.shape[:2]
-            or not 0 < alpha <= 1 or np.isinf(residuals).any()):
+            or not 0 < alpha <= 1 or np.isinf(residuals).any()
+            or type(reset_on_record_change) is not bool):
         raise ValueError("Invalid sequence arrays or alpha.")
     result = np.full_like(residuals, np.nan)
     state = np.zeros((residuals.shape[0], residuals.shape[2]))
     for t in range(residuals.shape[1]):
-        if t:
+        if t and reset_on_record_change:
             state[records[:, t] != records[:, t - 1]] = 0.
         valid = np.isfinite(residuals[:, t])
         state[~valid] = 0.
@@ -55,11 +57,13 @@ def causal_ewma(residuals: np.ndarray, records: np.ndarray, alpha: float) -> np.
 
 
 def calibrate_temporal(values: np.ndarray, records: np.ndarray, reference: dict[str, Any],
-                       *, alpha: float, quantile: float) -> dict[str, Any]:
+                       *, alpha: float, quantile: float,
+                       reset_on_record_change: bool = True) -> dict[str, Any]:
     """Calibrate absolute filtered residual quantiles on held-out training sequences."""
     if not 0 < quantile < 1:
         raise ValueError("Invalid quantile.")
-    filtered = causal_ewma(signed_residuals(values, records, reference), records, alpha)
+    filtered = causal_ewma(signed_residuals(values, records, reference), records, alpha,
+                          reset_on_record_change=reset_on_record_change)
     thresholds = {}
     for regime in reference["references"]:
         selected = np.abs(filtered[records == regime])
@@ -70,12 +74,13 @@ def calibrate_temporal(values: np.ndarray, records: np.ndarray, reference: dict[
             raise ValueError("Degenerate temporal thresholds.")
         thresholds[regime] = threshold.tolist()
     return {"reference": deepcopy(reference), "alpha": alpha, "quantile": quantile,
-            "initial_state": "zero", "reset_on_record_change": True, "thresholds": thresholds}
+            "initial_state": "zero", "reset_on_record_change": reset_on_record_change, "thresholds": thresholds}
 
 
 def score_temporal(values: np.ndarray, records: np.ndarray, model: dict[str, Any]) -> dict[str, np.ndarray]:
     """Score complete trajectories causally; hidden fault labels are not arguments."""
-    filtered = causal_ewma(signed_residuals(values, records, model["reference"]), records, model["alpha"])
+    filtered = causal_ewma(signed_residuals(values, records, model["reference"]), records, model["alpha"],
+                          reset_on_record_change=model.get("reset_on_record_change", True))
     ratio = np.full_like(filtered, np.nan)
     for regime, threshold in model["thresholds"].items():
         selected = records == regime
