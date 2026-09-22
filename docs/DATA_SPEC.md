@@ -4,6 +4,10 @@
 
 当前全部为synthetic。用户确认真实数据后续提供，尚无产品、批次、仪表或化验来源可宣称。新储运数据与旧M0数据是不同版本，不能直接比较两者指标差值为方法增益。
 
+## E1g重置消融产物
+
+E1g不生成新数据，manifest引用E1f及E1c。`seed_*/models.json`仅保存新的carry模型（reset_on_record_change=false）及校准/验证ID，阈值未重拟合；`*_carry_scores.npz`保存双视图新分数。metrics.window新增record_transition/record_stable，表示可见记录变化后12步/补集，与真切换窗口可重叠。其余事件与评分字段沿用E1f。metadata记录旧EWMA重放次数、固定状态不变次数及校准等价检查结果。
+
 ## E1f受控事件产物
 
 新增`seed_*/innovations.npz`（独立标准化创新、序列ID与初始工况），`models.json`保存旧校准ID、新validation ID及逐点/EWMA/CUSUM模型。每场景`validation_data.npz`只含新开发验证数据，`events.json`新增slot、精确duration及最近切换起点偏移。`event_design.csv`汇总设计实例；`events.csv`新增onset_phase及截断延迟/时长，分层表同时保存事件数。所有模型与输入训练参数保持来源可查，无质量标签。详见METHOD_LOGISTICS_E1F。

@@ -1,0 +1,31 @@
+experiment: logistics_transition_reset_e1g
+data_source: synthetic
+source_run: results/logistics_e1f/logistics_e1f_20260921_v1
+training_run: results/logistics_e1c/logistics_e1c_20260919_v1
+output_root: results/logistics_e1g
+seeds:
+- 42
+- 43
+- 44
+- 45
+- 46
+methods:
+- regime_marginal
+- regime_conditional
+alpha: 0.2
+threshold_quantile: 0.99
+post_event_steps: 12
+record_window_steps: 12
+scenarios:
+- steady_d12_n2_m1
+- duration4
+- duration24
+- count1
+- count3
+- magnitude2
+- magnitude4
+- switch_random
+- switch_delay12
+- switch_at
+- switch_before6
+- switch_after6

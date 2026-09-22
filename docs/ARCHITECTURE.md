@@ -26,6 +26,10 @@
 
 `configs/logistics_e1f.yaml -> controlled_events.py + cusum_reliability.py -> run_controlled_e1f.py`。审核E1c训练参考和E1d既有模型，独立随机流生成新开发validation，CUSUM仅用旧train_cal校准。保存配对事件、六种组合双视图分数及相位/方法/场景差至`results/logistics_e1f/<run_id>/`，test不生成、不评价。
 
+## E1g重置消融路径
+
+E1g：`configs/logistics_e1g.yaml -> temporal_reliability.py -> run_transition_e1g.py`。EWMA新增reset_on_record_change开关，默认true；读取E1f旧分数和E1c校准数据，验证旧基线/固定工况不变，新增carry分数与可见记录切换分层。输出在`results/logistics_e1g/<run_id>/`，旧产物不修改。
+
 ## 历史路径（继续可复现）
 
 `simulator.py -> corruption.py -> run_preprocessing.py -> run_trust_reference.py -> run_trust_scoring.py -> run_e1_evaluation.py`。

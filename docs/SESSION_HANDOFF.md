@@ -1,9 +1,15 @@
 # SESSION_HANDOFF
 
-更新2026-09-21。读取AGENTS、PROJECT_BRIEF、ARCHITECTURE、DATA_SPEC、EXPERIMENT_PLAN、TASKS、DECISIONS、STATUS、当前ExecPlan。
+更新2026-09-22。读取AGENTS、PROJECT_BRIEF、ARCHITECTURE、DATA_SPEC、EXPERIMENT_PLAN、TASKS、DECISIONS、STATUS、当前ExecPlan。
 用户确认运输仓储主场景、生产Future Work、真实数据后续，并再次授权继续推进和上传GitHub；不需重复征求开发/推送许可。
 
 ## 最新里程碑
+
+E1g本地完成：实现88a7c1d，72测试通过，5种子×12场景×8组合，正式目录results/logistics_e1g/logistics_e1g_20260922_v1。旧EWMA重放240次、固定状态不变140次，源209/177和输出79哈希通过。跨切换条件Recall15.90%→34.17%，延迟记录更新后clean FPR0.72%→41.18%；保留reset工程默认，carry实验选项。test/质量未评价，详见RESULTS_LOGISTICS_E1G。上传待完成，不得称远端已有结果。
+
+用户已明确项目与论文分开；新增PROJECT_ACCEPTANCE。下一步评分组件统一批量入口、模型/字段校验及使用示例，不再把不断增加检测器当完成标准。质量任务仍需产品/指标/时间定义。
+
+## E1f里程碑
 
 E1f已交付：实现1376b49，65测试通过，5种子×12场景×6组合，正式目录results/logistics_e1f/logistics_e1f_20260921_v1。源177/67及输出209哈希通过，未评价test或质量。独立控制时长/数量/起点，随机起点模12覆盖全部相位。CUSUM24组F1均低于EWMA，拖尾均上升；不升级。下一轮仅改变可见工况切换处理，检验跨切换召回损失，报告覆盖与实际误报。详见RESULTS_LOGISTICS_E1F。2026-09-21用户设备授权后，实现和结果30f0b34已上传，git ls-remote确认远端30f0b348d23773a6e571d8a3b1a78431fff37124；随后提交交付记录并在最终核对后清理临时认证文件。
 
@@ -23,7 +29,7 @@ E1c已完成5种子×10场景×5方法，全部synthetic validation。新增`log
 
 ## 下一步
 
-时长/数量/起点分离和CUSUM基线已由E1f完成。保留边际/条件及逐点/EWMA/CUSUM；优先单模块处理可见记录切换与重置，不通过隐藏真状态帮助评分。未知/估计工况另设。名义校准预算一致不等于实际validation误报一致；新开发验证流也不等于最终盲测。
+E1g重置消融已完成，下一轮按PROJECT_ACCEPTANCE收尾可复用评分组件。保留边际/条件及逐点/EWMA/CUSUM/carry实验对照；默认reset，carry没有可靠的自动启用条件。未知/估计工况另设，评分不接收隐藏真状态。名义q99不等于实际等误报；复用开发集不等于最终盲测。
 质量任务需要具体产品、指标、取样与报告可用时间；无质量预测/真实数据结果。外部PDF未改；结果文档已提供论文逐项对应和用户补充信息。
 
 ## 复现
@@ -33,6 +39,7 @@ E1c已完成5种子×10场景×5方法，全部synthetic validation。新增`log
 .venv/bin/python -m src.run_temporal_e1d --config configs/logistics_e1d.yaml
 .venv/bin/python -m src.run_finite_memory_e1e --config configs/logistics_e1e.yaml
 .venv/bin/python -m src.run_controlled_e1f --config configs/logistics_e1f.yaml
+.venv/bin/python -m src.run_transition_e1g --config configs/logistics_e1g.yaml
 ```
 
 新run_id默认唯一；不要覆盖正式目录。源代码修改先提交，再跑正式实验；结果作为后续提交。若.venv失效，按Python3.11和requirements-core重建；不要绕过科研测试。
