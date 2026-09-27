@@ -1,0 +1,11 @@
+{
+  "data_source": "synthetic_hand_constructed_interface_example",
+  "not_an_experiment": true,
+  "contains": [
+    "bias",
+    "missing_sensor",
+    "unknown_regime",
+    "sequence_reset"
+  ],
+  "model_source_sha256": "e8b214a7ad597bbb4688ca1bc190f58d8e6bf2305e1473f85b5ab90689a44bc0"
+}

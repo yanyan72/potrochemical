@@ -1,0 +1,19 @@
+{
+  "schema": "petrochemical.scoring.v1",
+  "data_source": "synthetic",
+  "input_rows": 26,
+  "output_rows": 78,
+  "available_cells": 74,
+  "alarm_cells": 11,
+  "status_counts": {
+    "ok": 74,
+    "unknown_regime": 3,
+    "missing_sensor": 1
+  },
+  "model_sha256": "387cd9bfc3f18979d404e2841149d443ec0b1452d601b43667c344bb273ce386",
+  "observations_sha256": "b7ef365bc8e6bc8f00d94d57e5ae3ddb122aae0e6fd95b5ed423c5d45bf8cdb2",
+  "contract_sha256": "ceb07439faec04c64484496e3866b80d5f86d03f4f82cf3b32febc3c987bff14",
+  "scores_sha256": "8fbc3c8c84ec64385ed2f38c178affb0cd1846aa3912cccfb56ff954644bb0c4",
+  "state_scope": "complete_sequence_in_this_call",
+  "quality_evaluated": false
+}

@@ -1,0 +1,16 @@
+{
+  "schema": "petrochemical.scoring.v1",
+  "data_source": "synthetic",
+  "features": [
+    "temperature",
+    "relative_humidity",
+    "vibration"
+  ],
+  "units": [
+    "K",
+    "percent_RH",
+    "mm_per_s"
+  ],
+  "time_unit": "abstract_sampling_step",
+  "sample_interval": 1
+}

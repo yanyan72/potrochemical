@@ -92,8 +92,10 @@ def candidate_starts(length: int, *, max_duration: int, max_events: int, gap: in
 
 def controlled_scenario(innovations: np.ndarray, ids: np.ndarray, initial: np.ndarray,
                         source: dict[str, Any], config: dict[str, Any], scenario: dict[str, Any],
-                        scales: dict[str, list[float]], seed: int) -> StressData:
-    """Map fresh innovations to regimes and inject exact paired single-channel biases."""
+                        scales: dict[str, list[float]], seed: int, *, split: str = "val_new") -> StressData:
+    """Map innovations to regimes; label development/test provenance explicitly."""
+    if split not in {"val_new", "test"}:
+        raise ValueError("Explicit development or retained-test split required.")
     n, length, p = innovations.shape
     names = list(source["regimes"])
     interval = source["stress"]["transition_interval"]
@@ -135,6 +137,6 @@ def controlled_scenario(innovations: np.ndarray, ids: np.ndarray, initial: np.nd
                 "start": start, "end_exclusive": end, "channels": [channel], "signs": [sign],
                 "duration": scenario["duration"], "magnitude_std": scenario["magnitude"],
                 "offset_from_nearest_transition": start-nearest if nearest is not None else None,
-                "scale_source": "E1c_train_fit_per_true_regime", "split": "val_new",
+                "scale_source": "E1c_train_fit_per_true_regime", "split": split,
                 "corruption_type": "segment_bias"})
     return StressData(clean, observed, mask, truth_state, records, transition, ids, tuple(events))

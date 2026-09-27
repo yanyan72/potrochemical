@@ -1,7 +1,3 @@
-# 当前执行计划：评分组件收尾
-
-2026-09-27起执行[评分组件收尾计划](closeout_execplan.md)。以下为完成的E1g历史记录，独立副本见archive_logistics_e1g_execplan.md。
-
 # E1g：可见工况切换的EWMA重置消融
 
 ## Purpose
