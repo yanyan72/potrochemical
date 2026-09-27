@@ -1,5 +1,9 @@
 # ARCHITECTURE
 
+## v0.1统一组件（2026-09-27）
+
+`scoring_component.py`加载和校验JSON bundle，验证字段/单位/时间/缺失并按完整序列调用因果评分；`score_batch.py`提供CSV→逐传感器scores.csv+哈希metadata入口。`prepare_scoring_demo.py`从已冻结seed42训练模型导出手工示例，不读取测试序列。`run_final_evaluation.py`按冻结协议读取E1c原test、复用E1f受控事件，保存四种固定方法的最终评价。使用说明见SCORING_GUIDE；无跨文件流式状态、真实数据自动训练或质量预测API。
+
 ## 当前储运路径
 
 1. `configs/logistics_e1b.yaml`：示意分布、状态、种子、split规模、污染参数、校准分位数。

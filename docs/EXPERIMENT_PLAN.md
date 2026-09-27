@@ -1,5 +1,9 @@
 # EXPERIMENT_PLAN
 
+## 当前：v0.1已冻结并完成最终验收（2026-09-27）
+
+最终协议FINAL_EVALUATION_PROTOCOL、配置scoring_release.yaml、实现提交9d05f58在test前冻结；5种子×12原E1f场景×4固定方法完成。默认边际EWMA alpha=.2/q99/reset，演示seed42，未从test选优。结果见PROJECT_FINAL_REPORT；原E1c test现已使用，后续不能再称未见测试。下面各阶段关于test保留的表述为历史协议。停止扩展探索性模拟实验，下一阶段待真实数据/质量任务定义另立计划。
+
 ## E1g已完成与项目下一步
 
 E1g同数据同阈值，仅改变EWMA的可见工况重置，5种子×12场景。跨切换条件Recall15.90%→34.17%，但延迟记录更新后clean FPR0.72%→41.18%；保留reset工程默认。方法和结果见METHOD_LOGISTICS_E1G、RESULTS_LOGISTICS_E1G。下一轮先收尾评分组件使用接口和验收，不追加无边界参数搜索；工况估计/延迟识别、连续转场另立协议。最终科研方法尚未冻结，test保留。

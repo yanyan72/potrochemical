@@ -1,0 +1,6 @@
+seed,test_sequences,length,split_disjoint,parameters_refit
+42,12,180,True,False
+43,12,180,True,False
+44,12,180,True,False
+45,12,180,True,False
+46,12,180,True,False

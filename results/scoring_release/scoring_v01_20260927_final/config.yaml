@@ -1,0 +1,20 @@
+release: scoring_v0.1_synthetic
+training_run: results/logistics_e1c/logistics_e1c_20260919_v1
+model_run: results/logistics_e1f/logistics_e1f_20260921_v1
+output_root: results/scoring_release
+seeds:
+- 42
+- 43
+- 44
+- 45
+- 46
+models:
+- regime_marginal__point
+- regime_marginal__ewma
+- regime_conditional__point
+- regime_conditional__ewma
+default_model: regime_marginal__ewma
+demo_seed: 42
+test_event_namespace: 20260927
+record_window_steps: 12
+protocol: docs/FINAL_EVALUATION_PROTOCOL.md

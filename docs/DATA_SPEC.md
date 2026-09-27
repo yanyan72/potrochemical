@@ -1,5 +1,9 @@
 # DATA_SPEC
 
+## v0.1评分接口与最终测试状态（2026-09-27）
+
+输入CSV只接受sequence_id、time_step、recorded_regime和模型规定的传感器列；同一序列时间须连续递增，缺步须显式NaN行。JSON sidecar声明synthetic、特征顺序、单位、abstract_sampling_step和间隔1；不自动转换单位/频率。详情见SCORING_GUIDE。最终原E1c test已按FINAL_EVALUATION_PROTOCOL评价，其12类场景按原始测试轨迹配对复用；此test现已使用。历史运行文件及其中test_evaluated=false反映历史事实，不改写。
+
 ## 数据来源与任务
 
 当前全部为synthetic。用户确认真实数据后续提供，尚无产品、批次、仪表或化验来源可宣称。新储运数据与旧M0数据是不同版本，不能直接比较两者指标差值为方法增益。
