@@ -6,7 +6,7 @@
 
 总报告docs/PROJECT_FINAL_REPORT.md，指南docs/SCORING_GUIDE.md，冻结协议docs/FINAL_EVALUATION_PROTOCOL.md。默认基准F1=.2152、短4步F1=.0527、延迟12步clean FPR=8.39%；性能边界保留，不改方法。原E1c test已使用，之后不得称为未见测试。真实数据与质量预测未完成，等待导师数据字典/样例和产品/标签时间定义；论文另计。
 
-本地收尾文件准备完毕，GitHub上传与最终远程核对待执行；无须重复开发、测试或正式评价。用户既有上传授权有效。如认证缺失，按用户偏好使用GitHub设备授权码；只在本地交付准备好后获取，完成后清理临时凭据。下面是历史交接记录。
+本地收尾文件准备完毕：实现9d05f58、结果与总报告8982d2c。首次push返回缺少GitHub登录凭据，尚未上传，等待设备授权与最终远程核对；无须重复开发、测试或正式评价。用户既有上传授权有效，按用户偏好使用GitHub设备授权码，完成后清理临时凭据。下面是历史交接记录。
 
 更新2026-09-22。读取AGENTS、PROJECT_BRIEF、ARCHITECTURE、DATA_SPEC、EXPERIMENT_PLAN、TASKS、DECISIONS、STATUS、当前ExecPlan。
 用户确认运输仓储主场景、生产Future Work、真实数据后续，并再次授权继续推进和上传GitHub；不需重复征求开发/推送许可。
