@@ -1,0 +1,23 @@
+{
+  "status": "pass",
+  "data_source": "synthetic",
+  "files_hashed": 34,
+  "independent_batches": 160,
+  "full_latent_time_rows": 28800,
+  "visible_input_time_rows": 18880,
+  "view_checks": 40,
+  "counts": {
+    "seed_42/reference_fit": 16,
+    "seed_42/reference_cal": 16,
+    "seed_42/train": 16,
+    "seed_42/val": 16,
+    "seed_42/test": 16,
+    "seed_43/reference_fit": 16,
+    "seed_43/reference_cal": 16,
+    "seed_43/train": 16,
+    "seed_43/val": 16,
+    "seed_43/test": 16
+  },
+  "test_predictive_evaluation": false,
+  "scope": "structural, identity, label formula, causality, paired mask and integrity only"
+}
