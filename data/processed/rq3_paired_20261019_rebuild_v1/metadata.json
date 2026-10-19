@@ -1,0 +1,16 @@
+{
+  "dataset_id": "rq3_paired_20261019_rebuild_v1",
+  "data_source": "synthetic",
+  "source_commit": "unavailable",
+  "tracked_worktree_dirty": null,
+  "source_sha256": "c63312c1236bb703c841203bd5300a8c4712f38231ef21741b10b94ede76571b",
+  "python": "3.14.6",
+  "dependencies": {
+    "numpy": "2.5.3",
+    "PyYAML": "6.0.3"
+  },
+  "test_predictive_evaluation": false,
+  "test_structural_audit": true,
+  "target_unit": "arbitrary_proxy_unit",
+  "time_unit": "abstract_step"
+}
