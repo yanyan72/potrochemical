@@ -1,5 +1,11 @@
 # SESSION_HANDOFF
 
+## 当前交接：2026-10-19 RQ3配对数据
+
+用户已批准逐阶段推进并上传。新协议见 `RQ3_PAIRED_DATA_PROTOCOL.md`、`plans/rq3_paired_data_20261019.md` 和配置 `configs/rq3_paired_data.yaml`。本轮仅生成和审核论文对齐的模拟数据；预测器训练与最终test评价尚未开始。旧评分v0.1保持冻结。新数据是明确标记的synthetic温度暴露代理，不能写成金陵石化真实数据。
+
+阶段1冻结协议；阶段2实现发生器与防泄漏测试；阶段3五种子数据和审计，再同步论文仓库的数据说明。使用独立工作目录，保留原工作目录中已有的两处scores.npz改动。
+
 ## 当前交接：2026-09-27评分组件收尾
 
 用户要求将当前项目收尾、上传GitHub并提供总报告。已完成评分组件v0.1、示例/接口校验、93测试（17.52秒）、compileall/diff检查。冻结实现9d05f58a2661c99e4bb93c629a79c2602ad3b5fb后，正式一次运行results/scoring_release/scoring_v01_20260927_final；5种子×12场景×4方法，215输出hash及E1c177/E1f209来源hash通过。默认regime_marginal__ewma alpha=.2/q99/reset，演示seed42在test前确定；不做新的检测器搜索。

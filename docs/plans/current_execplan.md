@@ -1,4 +1,6 @@
-# 当前执行计划：评分组件收尾
+# 当前执行计划：RQ3配对模拟数据
+
+2026-10-19执行[rq3_paired_data_20261019.md](rq3_paired_data_20261019.md)。下列为评分组件收尾及E1g历史记录，不代表当前预测阶段状态。
 
 2026-09-27起执行[评分组件收尾计划](closeout_execplan.md)。以下为完成的E1g历史记录，独立副本见archive_logistics_e1g_execplan.md。
 
