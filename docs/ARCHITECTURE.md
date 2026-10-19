@@ -1,5 +1,9 @@
 # ARCHITECTURE
 
+## 2026-10-19：RQ3开发预测路径
+
+`rq3_release_audit.py`在原结构审计外检查固定manifest身份、元数据来源及负对照随机流；不修改原数据。`rq3_prediction_pilot.py`复用分工况参考和temporal_reliability，在118步历史窗口上拟合train预处理和岭回归；original val选择alpha，锁定模型后评价十个val视图。预测入口拒绝test，不接受隐藏过程或事件特征。模型、逐批预测和表位于 `results/rq3_prediction/rq3_ridge_pilot_20261019_v1/`；`scripts/verify_rq3_ridge_pilot.py`独立复算存档指标，`scripts/build_rq3_teacher_report.py`从表生成审核Markdown。
+
 ## v0.1统一组件（2026-09-27）
 
 `scoring_component.py`加载和校验JSON bundle，验证字段/单位/时间/缺失并按完整序列调用因果评分；`score_batch.py`提供CSV→逐传感器scores.csv+哈希metadata入口。`prepare_scoring_demo.py`从已冻结seed42训练模型导出手工示例，不读取测试序列。`run_final_evaluation.py`按冻结协议读取E1c原test、复用E1f受控事件，保存四种固定方法的最终评价。使用说明见SCORING_GUIDE；无跨文件流式状态、真实数据自动训练或质量预测API。

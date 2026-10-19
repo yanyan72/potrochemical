@@ -1,5 +1,11 @@
 # DATA_SPEC
 
+## 2026-10-19：RQ3重建数据与首轮预测产物
+
+基础目录 `data/processed/rq3_paired_20261019_rebuild_v1/` 保持原样。每seed原始train1000批、val250批，模型只使用118步可见观测；温度暴露代理和独立null为合成目标。详见 `RQ3_PAIRED_DATA_PROTOCOL.md`。
+
+结果目录 `results/rq3_prediction/rq3_ridge_pilot_20261019_v1/` 的 `seed_*/ridge_models.npz` 保存各组训练特征center/scale、weights/intercept和逐目标所选alpha；`preprocessing_and_score.json`保存填补参数与评分参考/校准。`validation_predictions.npz` 的prediction维度为[10个视图,8个组,250批,2个目标]，另保存ID、目标值及轴名称；这不是新增独立基础数据。随机分数对照通过源train观测和已保存评分模型可再构造。`metrics_by_seed.csv`含总体、截止工况和故障通道/时长分层；配对表、选择表、诊断、来源与产物manifest分别保存。test_predictive_evaluation=false，validation_used_for_selection=true。
+
 ## v0.1评分接口与最终测试状态（2026-09-27）
 
 输入CSV只接受sequence_id、time_step、recorded_regime和模型规定的传感器列；同一序列时间须连续递增，缺步须显式NaN行。JSON sidecar声明synthetic、特征顺序、单位、abstract_sampling_step和间隔1；不自动转换单位/频率。详情见SCORING_GUIDE。最终原E1c test已按FINAL_EVALUATION_PROTOCOL评价，其12类场景按原始测试轨迹配对复用；此test现已使用。历史运行文件及其中test_evaluated=false反映历史事实，不改写。

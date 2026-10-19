@@ -1,5 +1,9 @@
 # EXPERIMENT_PLAN
 
+## 2026-10-19：RQ3岭回归开发验证已执行
+
+协议 `RQ3_RIDGE_PILOT_PROTOCOL_20261019.md` 在正式拟合前提交；五种子、两合成目标、原始train、十个val视图、七个岭回归组与均值对照已完成，结果见导师审核稿。B3平均MAE在9/10条件更高，不据结果重写发生器或追求正面结果。该开发集参与alpha选择，不视为最终测试。普通LSTM和当前新test最终预测评价后续另行冻结；与下文旧评分组件已用test严格分开。
+
 ## 当前：v0.1已冻结并完成最终验收（2026-09-27）
 
 最终协议FINAL_EVALUATION_PROTOCOL、配置scoring_release.yaml、实现提交9d05f58在test前冻结；5种子×12原E1f场景×4固定方法完成。默认边际EWMA alpha=.2/q99/reset，演示seed42，未从test选优。结果见PROJECT_FINAL_REPORT；原E1c test现已使用，后续不能再称未见测试。下面各阶段关于test保留的表述为历史协议。停止扩展探索性模拟实验，下一阶段待真实数据/质量任务定义另立计划。
