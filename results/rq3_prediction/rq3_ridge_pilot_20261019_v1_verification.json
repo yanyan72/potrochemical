@@ -1,0 +1,12 @@
+{
+  "status": "pass",
+  "run_manifest_sha256": "f2d79659d18b67b947b6796124b20a99a6e9232a04785c9abbd4a048a77d24b0",
+  "output_files_hashed": 30,
+  "input_files_hashed": 82,
+  "metric_rows_recomputed": 5760,
+  "paired_rows_recomputed": 300,
+  "summary_rows_recomputed": 1212,
+  "selection_rows_checked": 210,
+  "test_predictive_evaluation": false,
+  "scope": "post-run artifact and arithmetic verification, no model refitting"
+}

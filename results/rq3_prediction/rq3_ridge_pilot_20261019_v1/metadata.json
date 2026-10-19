@@ -1,0 +1,39 @@
+{
+  "run_id": "rq3_ridge_pilot_20261019_v1",
+  "dataset_id": "rq3_paired_20261019_rebuild_v1",
+  "data_source": "synthetic",
+  "created_utc": "2026-10-19T13:17:42.079295+00:00",
+  "implementation_commit": "af7216f8039622de5c58eeb0ae7c327a2109fbd1",
+  "provenance_mode": "explicit commit verified against uploaded source blobs; recorded local SHA-256",
+  "source_sha256": {
+    "src/rq3_prediction_pilot.py": "baaca1414ef22323a59399b8321082d0f2160ee3f415784d6c0f6db946b51a46",
+    "src/rq3_release_audit.py": "83c5eb820c7554bee6531eed22356b3088b302d3ae05767f3214d9da16e22e36",
+    "src/rq3_paired_data.py": "c63312c1236bb703c841203bd5300a8c4712f38231ef21741b10b94ede76571b",
+    "src/sensor_reliability.py": "8f5d84507bdea530fde4d7d1fbb07416a2b06b7760e4a11d0756c4d9f8170989",
+    "src/temporal_reliability.py": "f9bd5edac7256b9dddf6bfa3967a41ce822d49b2daad838bc85a69bc0c4e26b2",
+    "src/logistics_simulator.py": "f5e86be6be7bee2bb9d882425070813bff130bd740890b729b676fa893db3a7c",
+    "src/corruption.py": "66fe0d752cc733ae1c07c4746be2576b09ae0b343e8c86d1427fa8bfc101fe81"
+  },
+  "data_manifest_sha256": "a2224ee148d8b5d61a5cb24fd225d5d56817fc17ebd37753545c8494d7ca47ed",
+  "python": "3.14.6",
+  "dependencies": {
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.0",
+    "PyYAML": "6.0.3"
+  },
+  "test_predictive_evaluation": false,
+  "validation_used_for_selection": true,
+  "prediction_splits_loaded": [
+    "reference_fit",
+    "reference_cal",
+    "train",
+    "val"
+  ],
+  "base_train_batches": 5000,
+  "base_val_batches": 1250,
+  "learned_model_target_pairs": 70,
+  "model_replay_max_abs_difference": 0.0,
+  "B1_B2_max_abs_prediction_difference": 1.5027978861326119e-12,
+  "interpretation": "development validation of synthetic proxies, not final test or industrial quality evidence"
+}

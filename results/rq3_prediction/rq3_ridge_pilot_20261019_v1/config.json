@@ -1,0 +1,49 @@
+{
+  "run_id": "rq3_ridge_pilot_20261019_v1",
+  "dataset_id": "rq3_paired_20261019_rebuild_v1",
+  "data_manifest_sha256": "a2224ee148d8b5d61a5cb24fd225d5d56817fc17ebd37753545c8494d7ca47ed",
+  "generator_sha256": "c63312c1236bb703c841203bd5300a8c4712f38231ef21741b10b94ede76571b",
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "targets": [
+    "arrival_proxy",
+    "null_proxy"
+  ],
+  "groups": [
+    "mean",
+    "B0",
+    "B1",
+    "B2",
+    "B3",
+    "B2Q",
+    "B3Q",
+    "B2R"
+  ],
+  "ridge_alphas": [
+    1.0,
+    100.0,
+    10000.0
+  ],
+  "selection": "original_validation_mae",
+  "evaluation_split": "val",
+  "score_method": "regime_marginal",
+  "ewma_alpha": 0.2,
+  "quantile": 0.99,
+  "random_control_seed": 901,
+  "record_delays": [
+    0,
+    6,
+    12
+  ],
+  "fault_magnitudes": [
+    1.0,
+    2.0,
+    4.0
+  ],
+  "test_predictive_evaluation": false
+}
