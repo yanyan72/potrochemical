@@ -1,0 +1,32 @@
+run_id: rq3_lstm_pilot_20261020_v1
+dataset_id: rq3_paired_20261019_rebuild_v1
+data_manifest_sha256: a2224ee148d8b5d61a5cb24fd225d5d56817fc17ebd37753545c8494d7ca47ed
+generator_sha256: c63312c1236bb703c841203bd5300a8c4712f38231ef21741b10b94ede76571b
+ridge_manifest_sha256: f2d79659d18b67b947b6796124b20a99a6e9232a04785c9abbd4a048a77d24b0
+seeds: [42, 43, 44, 45, 46]
+targets: [arrival_proxy, null_proxy]
+groups: [mean, B0, B2, B3, B2Q, B3Q, B2R]
+score_method: regime_marginal
+ewma_alpha: 0.2
+quantile: 0.99
+random_control_seed: 901
+record_delays: [0, 6, 12]
+fault_magnitudes: [1.0, 2.0, 4.0]
+evaluation_split: val
+test_predictive_evaluation: false
+hidden_size: 32
+num_layers: 1
+readout: mean_hidden
+batch_size: 128
+epochs: 40
+learning_rate: 0.003
+weight_decay: 0.0001
+grad_clip: 1.0
+optimizer: AdamW
+loss: standardized_target_mse
+selection: original_validation_mae_best_epoch
+model_seed_offset: 2000
+shuffle_seed_offset: 9000
+threads: 1
+device: cpu
+constant_train_features: zero_in_all_splits
