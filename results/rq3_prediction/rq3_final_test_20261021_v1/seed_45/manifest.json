@@ -1,0 +1,8 @@
+{
+  "endpoints_by_seed.csv": "9f9968bf24ed3d63f5efe305bc3f310664f57cf07ebe5da8bf7f27c689d5eab4",
+  "evaluation_targets.npz": "31ca00c6d038c911fea816df633896e1b029a34de971d402753e3ba58d680205",
+  "metadata.json": "be036ed2d7c7aa5d550dd672a20d797f889995a179b6eebee6912620fe92aeba",
+  "metrics_by_seed.csv": "8d55ed160a4b29455656a758378026486f019152646e8bbd5ca9bb43e3823b25",
+  "paired_by_seed.csv": "89e94fac0316fcb5ba03b9e2e647228949df79951d3b3ce8192414aed986b5ca",
+  "predictions.npz": "55124686dbaabea434ffd2ef7e522365c38faa2a1f75717cecde85367b523dfc"
+}
