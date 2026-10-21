@@ -1,0 +1,10 @@
+{
+  "metadata.json": "efbee75e64bd7167aaa12529c4e3b8f05bb2aaf25f87c7d6f5d1a273b7d35ac0",
+  "metrics_by_seed.csv": "25863dcd64917ec3eec3b8b66af1be9ad8e20951f5008a4db937fdd34841bc5f",
+  "models.npz": "8f338d00319c0977c0300009740fb9888065474e6209336c195f6a47641598fe",
+  "paired_by_seed.csv": "07c9be0213f8c509cfdd8679501e0defa075c3619347050b3ae822721645a0e1",
+  "parameters.json": "616ff0ac53c6f4bb0e7f8de2beb7660a420cb999a545e50198e81fbbe62b409c",
+  "sequence_ids.json": "73b2b8e5c9b0b8707f687f765b6bf8f9f5d4bfa6afe3fa2d0c7e31901dfef876",
+  "training_history.csv": "7d4713a1beb859b3c66fb5374a8d96b7def0637ea054c688b9029d57bb4ef847",
+  "validation_predictions.npz": "c757b8b22bd352b9eea9ea4b5655c8612c396f9089d2c4117b5e02e7447e5491"
+}
