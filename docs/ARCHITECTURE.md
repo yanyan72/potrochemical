@@ -1,5 +1,9 @@
 # ARCHITECTURE
 
+## 2026-10-21：普通LSTM开发验证路径
+
+rq3_lstm_pilot.py复用rq3_prediction_pilot的开发输入、评分和特征allowlist，以及固定岭回归产物中的评分/填补参数。逐通道train统计、恒定输入屏蔽、单层LSTM均值读出、独立标量目标、原始val选checkpoint；逐seed保存并拒绝覆盖。scripts/verify_rq3_lstm_pilot.py独立复算存档指标，scripts/build_rq3_lstm_teacher_report.py生成审核稿。当前只允许val预测，无test入口；原生成器及岭回归代码保持不变。
+
 ## 2026-10-19：RQ3开发预测路径
 
 `rq3_release_audit.py`在原结构审计外检查固定manifest身份、元数据来源及负对照随机流；不修改原数据。`rq3_prediction_pilot.py`复用分工况参考和temporal_reliability，在118步历史窗口上拟合train预处理和岭回归；original val选择alpha，锁定模型后评价十个val视图。预测入口拒绝test，不接受隐藏过程或事件特征。模型、逐批预测和表位于 `results/rq3_prediction/rq3_ridge_pilot_20261019_v1/`；`scripts/verify_rq3_ridge_pilot.py`独立复算存档指标，`scripts/build_rq3_teacher_report.py`从表生成审核Markdown。

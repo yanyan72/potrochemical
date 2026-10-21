@@ -1,5 +1,9 @@
 # DATA_SPEC
 
+## 2026-10-21：LSTM结果归档
+
+基础10,000批重建数据不变，新增结果为results/rq3_prediction/rq3_lstm_pilot_20261020_v1/，不是新增独立模拟样本。每seed的models.npz存12个独立标量模型state_dict数组；parameters.json存评分/填补、逐通道标准化/恒定掩码、目标尺度、选择轮次及随机种子；training_history.csv保存每模型40轮训练损失及原始val MAE。validation_predictions.npz维度[10视图,7组含均值,250批,2目标]，另含ID、标签和轴名。sequence_ids、分层/配对表、元数据、局部清单分别保存；根目录汇总五seed，共56文件（含manifest），55个清单条目。真实数据仍无，test预测未执行。
+
 ## 2026-10-19：RQ3重建数据与首轮预测产物
 
 基础目录 `data/processed/rq3_paired_20261019_rebuild_v1/` 保持原样。每seed原始train1000批、val250批，模型只使用118步可见观测；温度暴露代理和独立null为合成目标。详见 `RQ3_PAIRED_DATA_PROTOCOL.md`。
