@@ -1,0 +1,28 @@
+seed=43 group=B0 target=arrival_proxy: 40-epoch budget finished, selected=37
+seed=43 group=B0 target=null_proxy: 40-epoch budget finished, selected=1
+seed=43 group=B2 target=arrival_proxy: 40-epoch budget finished, selected=34
+seed=43 group=B2 target=null_proxy: 40-epoch budget finished, selected=20
+seed=43 group=B3 target=arrival_proxy: 40-epoch budget finished, selected=15
+seed=43 group=B3 target=null_proxy: 40-epoch budget finished, selected=3
+seed=43 group=B2Q target=arrival_proxy: 40-epoch budget finished, selected=37
+seed=43 group=B2Q target=null_proxy: 40-epoch budget finished, selected=25
+seed=43 group=B3Q target=arrival_proxy: 40-epoch budget finished, selected=32
+seed=43 group=B3Q target=null_proxy: 40-epoch budget finished, selected=4
+seed=43 group=B2R target=arrival_proxy: 40-epoch budget finished, selected=36
+seed=43 group=B2R target=null_proxy: 40-epoch budget finished, selected=3
+{
+  "seed": 43,
+  "implementation_commit": "2c5ab5f6b32ca7dcaf545be50ebc66cb65988b66",
+  "completed_utc": "2026-10-20T08:49:54.747286+00:00",
+  "elapsed_seconds": 77.63802833399859,
+  "learned_models": 12,
+  "model_replay_max_abs_difference": 0.0,
+  "test_predictive_evaluation": false,
+  "prediction_splits_loaded": [
+    "train",
+    "val",
+    "reference_fit",
+    "reference_cal"
+  ],
+  "data_files_unchanged": true
+}
