@@ -1,0 +1,17 @@
+{
+  "run_id": "rq3_lstm_pilot_20261020_v1",
+  "data_source": "synthetic_rebuilt",
+  "test_predictive_evaluation": false,
+  "validation_used_for_selection": true,
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "learned_models": 60,
+  "epochs_per_model": 40,
+  "data_manifest_sha256": "a2224ee148d8b5d61a5cb24fd225d5d56817fc17ebd37753545c8494d7ca47ed",
+  "model_replay_max_abs_difference": 0.0
+}
