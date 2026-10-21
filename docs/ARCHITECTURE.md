@@ -1,5 +1,11 @@
 # ARCHITECTURE
 
+## 2026-10-21：冻结模型测试入口与独立复核
+
+新增src/rq3_final_test.py，只读取归档参数；显式--execute-frozen-test及协议/实现commit保护正式入口，旧开发入口的test guard保持不变。先写test_use.json，再推断并保存predictions.npz，随后读标签评价。输出预测轴为架构×视图×组×批次×目标；五种子各自保存并拒绝覆盖。source_manifests.json和identity.json记录来源、源码、环境及冻结提交。
+
+--validate-only在旧val上重放，--summarize只汇总已有种子产物。scripts/verify_rq3_final_test.py独立核验源/输出哈希，直接从预测与原标签重算指标、配对差及t区间；不训练模型。全部执行和来源状态见RQ3_FINAL_TEST_TEACHER_REVIEW_20261021.md。完成标志在metadata.json（test_status=used），test_use.json保留首次开始记录。后续新实验不得覆盖此目录。
+
 ## 2026-10-21：普通LSTM开发验证路径
 
 rq3_lstm_pilot.py复用rq3_prediction_pilot的开发输入、评分和特征allowlist，以及固定岭回归产物中的评分/填补参数。逐通道train统计、恒定输入屏蔽、单层LSTM均值读出、独立标量目标、原始val选checkpoint；逐seed保存并拒绝覆盖。scripts/verify_rq3_lstm_pilot.py独立复算存档指标，scripts/build_rq3_lstm_teacher_report.py生成审核稿。当前只允许val预测，无test入口；原生成器及岭回归代码保持不变。

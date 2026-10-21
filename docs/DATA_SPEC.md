@@ -1,5 +1,11 @@
 # DATA_SPEC
 
+## 2026-10-21：RQ3测试结果数据契约
+
+基础模拟数据版本和82条来源清单不变。新增results/rq3_prediction/rq3_final_test_20261021_v1/共47个文件（46个manifest条目加manifest本身）。每seed保存predictions.npz、evaluation_targets.npz、metrics_by_seed.csv、paired_by_seed.csv、endpoints_by_seed.csv、metadata.json、manifest.json。根目录保存冻结配置、来源、test使用标记、三类逐种子/汇总表、完成元数据和manifest。
+
+共2500个基础test批次，五种子独立重复；十个配对视图相关，不能记为25000独立批次。predictions以architecture/view/group/batch/target轴标识，目标及ID另存；事件分层仅在预测保存后评价。endpoint的suite_equal_weight是每seed十视图等权MAE差，随后用五seed作t区间；不是工业发生概率加权。完整复核10080指标/600配对/180端点/36区间通过。当前RQ3 test已使用，后续不能重新标记未见。此前数据说明按当时阶段理解。
+
 ## 2026-10-21：LSTM结果归档
 
 基础10,000批重建数据不变，新增结果为results/rq3_prediction/rq3_lstm_pilot_20261020_v1/，不是新增独立模拟样本。每seed的models.npz存12个独立标量模型state_dict数组；parameters.json存评分/填补、逐通道标准化/恒定掩码、目标尺度、选择轮次及随机种子；training_history.csv保存每模型40轮训练损失及原始val MAE。validation_predictions.npz维度[10视图,7组含均值,250批,2目标]，另含ID、标签和轴名。sequence_ids、分层/配对表、元数据、局部清单分别保存；根目录汇总五seed，共56文件（含manifest），55个清单条目。真实数据仍无，test预测未执行。
