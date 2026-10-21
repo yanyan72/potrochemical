@@ -1,0 +1,52 @@
+{
+  "run_id": "rq3_final_test_20261021_v1",
+  "dataset_id": "rq3_paired_20261019_rebuild_v1",
+  "data_manifest_sha256": "a2224ee148d8b5d61a5cb24fd225d5d56817fc17ebd37753545c8494d7ca47ed",
+  "ridge_manifest_sha256": "f2d79659d18b67b947b6796124b20a99a6e9232a04785c9abbd4a048a77d24b0",
+  "lstm_manifest_sha256": "44da2ac15f61c4cea714c419063964f8345dd728161d45c92e8d8d286029657a",
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "architectures": [
+    "ridge",
+    "lstm"
+  ],
+  "groups": [
+    "mean",
+    "B0",
+    "B2",
+    "B3",
+    "B2Q",
+    "B3Q",
+    "B2R"
+  ],
+  "targets": [
+    "arrival_proxy",
+    "null_proxy"
+  ],
+  "fault_magnitudes": [
+    1.0,
+    2.0,
+    4.0
+  ],
+  "record_delays": [
+    0,
+    6,
+    12
+  ],
+  "random_control_seed": 901,
+  "primary_architecture": "lstm",
+  "primary_target": "arrival_proxy",
+  "primary_comparison": "B3-B2",
+  "primary_scope": "suite_equal_weight",
+  "confidence_level": 0.95,
+  "interval": "paired_seed_student_t",
+  "validation_replay_tolerance": 1e-06,
+  "evaluation_split": "test",
+  "refit": false,
+  "threads": 1
+}

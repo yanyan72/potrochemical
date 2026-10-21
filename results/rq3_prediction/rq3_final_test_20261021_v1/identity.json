@@ -1,0 +1,28 @@
+{
+  "protocol_commit": "82d3fff44bba01628a250af31f765b0f8c2cdfdb",
+  "implementation_commit": "84a74a2c26a6a827d476f3b8ecf71f2531ad4fb8",
+  "source_sha256": {
+    "src/rq3_prediction_pilot.py": "baaca1414ef22323a59399b8321082d0f2160ee3f415784d6c0f6db946b51a46",
+    "src/rq3_release_audit.py": "83c5eb820c7554bee6531eed22356b3088b302d3ae05767f3214d9da16e22e36",
+    "src/rq3_paired_data.py": "c63312c1236bb703c841203bd5300a8c4712f38231ef21741b10b94ede76571b",
+    "src/sensor_reliability.py": "8f5d84507bdea530fde4d7d1fbb07416a2b06b7760e4a11d0756c4d9f8170989",
+    "src/temporal_reliability.py": "f9bd5edac7256b9dddf6bfa3967a41ce822d49b2daad838bc85a69bc0c4e26b2",
+    "src/logistics_simulator.py": "f5e86be6be7bee2bb9d882425070813bff130bd740890b729b676fa893db3a7c",
+    "src/corruption.py": "66fe0d752cc733ae1c07c4746be2576b09ae0b343e8c86d1427fa8bfc101fe81",
+    "src/rq3_lstm_pilot.py": "d05ea71fa63db96bd07ddca697083d8b0089209654f8aebe48d614c78f5ed316",
+    "src/__init__.py": "2631ae9cab02267bfb6a13a4e7b8d4d97b9ac0ad386d7402c655eecf0134e9b3",
+    "src/simulator.py": "5d5aa7d6cf1b97e1ae056f79f9e74486354e735e4ebb84034d0ccef79627937d",
+    "src/rq3_final_test.py": "9d4e07a218670dade82e50f3c9378f3247820c3cdacfa2a47b173403efc5f6fa"
+  },
+  "python": "3.11.17",
+  "dependencies": {
+    "torch": "2.14.1",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.9.1",
+    "PyYAML": "6.0.3"
+  },
+  "created_utc": "2026-10-21T12:21:29.403449+00:00",
+  "data_source": "synthetic_rebuilt",
+  "refitting": false
+}
