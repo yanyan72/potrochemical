@@ -1,0 +1,17 @@
+{
+  "status": "pass",
+  "run_manifest_sha256": "4636d04e1039ed96dd085bcd8d317405d215377778df876008218b5fa033915b",
+  "output_files_hashed": 46,
+  "input_files_hashed": {
+    "data": 82,
+    "ridge": 30,
+    "lstm": 55
+  },
+  "metric_rows_recomputed": 10080,
+  "paired_rows_recomputed": 600,
+  "summary_rows_recomputed": 2136,
+  "endpoint_rows_recomputed": 180,
+  "endpoint_intervals_recomputed": 36,
+  "test_status": "used",
+  "verification_refitted_models": false
+}

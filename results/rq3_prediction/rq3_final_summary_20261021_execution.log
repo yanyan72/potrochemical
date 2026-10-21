@@ -1,0 +1,26 @@
+{
+  "run_id": "rq3_final_test_20261021_v1",
+  "completed_utc": "2026-10-21T12:25:26.558587+00:00",
+  "test_predictive_evaluation": true,
+  "test_status": "used",
+  "refitting": false,
+  "data_source": "synthetic_rebuilt",
+  "primary_endpoint": {
+    "architecture": "lstm",
+    "comparison": "B3-B2",
+    "target": "arrival_proxy",
+    "scope": "suite_equal_weight",
+    "data_repeats": 5,
+    "df": 4,
+    "mae_difference_mean": 0.06257597671332187,
+    "mae_difference_sd": 0.045996484537243094,
+    "ci_low": 0.005463797819490995,
+    "ci_high": 0.11968815560715274,
+    "primary": true,
+    "interval_direction": "higher_error",
+    "confidence_level": 0.95
+  },
+  "unique_test_batches": 2500,
+  "independent_repeats": 5,
+  "scope": "current frozen synthetic mechanism and archived predictors only"
+}
