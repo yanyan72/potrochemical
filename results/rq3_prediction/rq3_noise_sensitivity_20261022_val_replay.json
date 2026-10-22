@@ -1,0 +1,57 @@
+{
+  "status": "pass",
+  "checks": [
+    {
+      "seed": 42,
+      "architecture": "ridge",
+      "max_abs_difference": 0.0
+    },
+    {
+      "seed": 42,
+      "architecture": "lstm",
+      "max_abs_difference": 0.0
+    },
+    {
+      "seed": 43,
+      "architecture": "ridge",
+      "max_abs_difference": 0.0
+    },
+    {
+      "seed": 43,
+      "architecture": "lstm",
+      "max_abs_difference": 0.0
+    },
+    {
+      "seed": 44,
+      "architecture": "ridge",
+      "max_abs_difference": 0.0
+    },
+    {
+      "seed": 44,
+      "architecture": "lstm",
+      "max_abs_difference": 0.0
+    },
+    {
+      "seed": 45,
+      "architecture": "ridge",
+      "max_abs_difference": 0.0
+    },
+    {
+      "seed": 45,
+      "architecture": "lstm",
+      "max_abs_difference": 0.0
+    },
+    {
+      "seed": 46,
+      "architecture": "ridge",
+      "max_abs_difference": 0.0
+    },
+    {
+      "seed": 46,
+      "architecture": "lstm",
+      "max_abs_difference": 0.0
+    }
+  ],
+  "refitting": false,
+  "old_test_predictions": false
+}
