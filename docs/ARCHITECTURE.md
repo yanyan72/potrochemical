@@ -1,5 +1,11 @@
 # ARCHITECTURE
 
+## 2026-10-22：只读评分—预测配对诊断
+
+rq3_score_prediction_audit.py读取旧val可见观测、冻结参考、已有事件和预测；重算评分并独立记录事件新告警/延续告警、未污染通道告警及不可评分缺失。prediction_rows仅用已有B2/B3预测与评价标签计算配对差、改善批次比例和相对原始的退化。没有模型拟合或test预测入口。
+
+paired_batches.npz保存逐批误差和事件评分摘要，score_metrics/prediction_pairs/coverage及五seed汇总提供两条证据链。独立verify脚本从原模型存档重建误差、复算预测配对表并对齐旧结果；评分AP由标准库计算，事件逻辑由手算测试验证。
+
 ## 2026-10-22：正常测量噪声敏感性入口
 
 新增rq3_noise_sensitivity.py，在新namespace用原generate_split生成三档匹配val流；只持久化新敏感性样本，不生成或拟合新train/test。predict_views接受严格可见输入字典，加载原岭回归/LSTM；source_check验证旧数据、模型和final产物，仅对旧test文件做hash。每seed先存可见inputs和独立evaluation_only，再保存predictions，随后读标签计算指标。

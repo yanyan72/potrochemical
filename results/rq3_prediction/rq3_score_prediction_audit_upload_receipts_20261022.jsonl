@@ -1,0 +1,8 @@
+{"commit":"160533f4941c36c1ae673689c8642181c508e979","files":3,"verified":true,"message":"docs: separate consistency-score diagnostics from RQ3 predictive benefit"}
+{"commit":"64f149def1e5613cf9b6de3339126be4ced8bb5f","files":3,"verified":true,"message":"feat: add paired score-versus-prediction diagnostic with event tests"}
+{"commit":"d62a5b36d9ce66db6eb501a590e0e79ac7a880e6","files":7,"verified":true,"message":"results: preserve paired consistency and predictive diagnostics seed 42"}
+{"commit":"354c670c71d72d94058cdaa98643af934e2352c6","files":5,"verified":true,"message":"results: preserve paired consistency and predictive diagnostics seed 43"}
+{"commit":"23f749c7fd343a0d1d687efeeaa4a3c8251a91f9","files":5,"verified":true,"message":"results: preserve paired consistency and predictive diagnostics seed 44"}
+{"commit":"3b5cb7a0eae8d35d734a65025def11dc0e817df8","files":5,"verified":true,"message":"results: preserve paired consistency and predictive diagnostics seed 45"}
+{"commit":"2d19ed0af868053c6f6ed4b2878d0d64a59d2d5c","files":5,"verified":true,"message":"results: preserve paired consistency and predictive diagnostics seed 46"}
+{"commit":"07115b78e1b0e1a828c84c65b2c2e003ce168ac3","files":11,"verified":true,"message":"results: verify paired RQ3 diagnostics and separate detection from prediction"}

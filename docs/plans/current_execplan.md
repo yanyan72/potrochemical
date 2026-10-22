@@ -1,3 +1,5 @@
 # 当前执行计划
 
-2026-10-22：按用户反馈优先复核评分有效性与RQ3预测增量的配对证据，见[rq3_score_prediction_audit_20261022.md](rq3_score_prediction_audit_20261022.md)。只读既有开发集及预测，不重用旧test选择方法。
+2026-10-22：评分有效性与预测增量配对诊断已完成，详见[rq3_score_prediction_audit_20261022.md](rq3_score_prediction_audit_20261022.md)。
+
+下一优先项为共享故障训练的小规模可复现试验与正式协议，尚未启动；当前没有后台训练。旧test已使用，后续不能把它当作未见确认数据。
