@@ -64,7 +64,8 @@ def test_summary_rejects_pseudoreplication():
 
 
 def test_archived_models_small_integration_and_no_overwrite(tmp_path,monkeypatch):
-    if not (ns.DEFAULT_FINAL/'manifest.json').exists():
+    data=ns.DEFAULT_DATA if ns.DEFAULT_DATA.exists() else Path('data/processed/rq3_paired_20261019_rebuild_v1')
+    if not data.exists() or not (ns.DEFAULT_FINAL/'manifest.json').exists():
         pytest.skip('requires published archived RQ3 artifacts')
     cfg=config();cfg.update(seeds=[42,43],batches_per_seed=8,namespace=2026102202,run_id='isolated_noise_fixture')
     import src.rq3_prediction_pilot as ridge
@@ -79,11 +80,11 @@ def test_archived_models_small_integration_and_no_overwrite(tmp_path,monkeypatch
     monkeypatch.setattr(ns,'load_inputs',guarded)
     output=tmp_path/'run'
     for seed in cfg['seeds']:
-        result=ns.run_seed(ns.DEFAULT_DATA,ns.DEFAULT_RIDGE,ns.DEFAULT_LSTM,ns.DEFAULT_FINAL,cfg,output,'0'*40,'0'*40,seed)
+        result=ns.run_seed(data,ns.DEFAULT_RIDGE,ns.DEFAULT_LSTM,ns.DEFAULT_FINAL,cfg,output,'0'*40,'0'*40,seed)
         assert result['models_refitted']==0
-    with pytest.raises(FileExistsError):ns.run_seed(ns.DEFAULT_DATA,ns.DEFAULT_RIDGE,ns.DEFAULT_LSTM,ns.DEFAULT_FINAL,cfg,output,'0'*40,'0'*40,42)
+    with pytest.raises(FileExistsError):ns.run_seed(data,ns.DEFAULT_RIDGE,ns.DEFAULT_LSTM,ns.DEFAULT_FINAL,cfg,output,'0'*40,'0'*40,42)
     ns.summarize(output,cfg)
     from scripts.verify_rq3_noise_sensitivity import verify
-    result=verify(output,ns.DEFAULT_DATA,ns.DEFAULT_RIDGE,ns.DEFAULT_LSTM,ns.DEFAULT_FINAL)
+    result=verify(output,data,ns.DEFAULT_RIDGE,ns.DEFAULT_LSTM,ns.DEFAULT_FINAL)
     assert result['status']=='pass' and result['unique_batches']==16
     assert set(loaded)=={'train'}

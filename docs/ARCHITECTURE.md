@@ -1,5 +1,11 @@
 # ARCHITECTURE
 
+## 2026-10-22：正常测量噪声敏感性入口
+
+新增rq3_noise_sensitivity.py，在新namespace用原generate_split生成三档匹配val流；只持久化新敏感性样本，不生成或拟合新train/test。predict_views接受严格可见输入字典，加载原岭回归/LSTM；source_check验证旧数据、模型和final产物，仅对旧test文件做hash。每seed先存可见inputs和独立evaluation_only，再保存predictions，随后读标签计算指标。
+
+独立scripts/verify_rq3_noise_sensitivity.py不导入本轮预测/汇总代码，按随机流复核观测噪声及标签并从预测重算指标。新增报告生成器和复现说明。已有生成器、评分器、预测模型实现与参数均未改。报告属于正常观测的局部敏感性，旧test已使用状态不变。
+
 ## 2026-10-21：冻结模型测试入口与独立复核
 
 新增src/rq3_final_test.py，只读取归档参数；显式--execute-frozen-test及协议/实现commit保护正式入口，旧开发入口的test guard保持不变。先写test_use.json，再推断并保存predictions.npz，随后读标签评价。输出预测轴为架构×视图×组×批次×目标；五种子各自保存并拒绝覆盖。source_manifests.json和identity.json记录来源、源码、环境及冻结提交。

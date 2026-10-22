@@ -1,5 +1,11 @@
 # DATA_SPEC
 
+## 2026-10-22：新正常测量噪声配对数据
+
+新产物results/rq3_prediction/rq3_noise_sensitivity_20261022_v1/共54文件（manifest含53条），不是旧10000批的重复生成或真实采集。namespace20261022、五seed各250，共1250基础批次；三个噪声标准差倍率0.5/1/2共享truth、targets、IDs，共3750观测版本。可见观测合计442500行、147500个不同批次—时间位置；共享完整潜在过程225000行。
+
+每seed三份inputs_level_0/1/2.npz，只有可见allowlist字段；evaluation_only.npz保存完整潜在过程、真工况、模拟标签噪声、标签和ID；predictions轴为架构×档×组×批次×目标。另存指标、配对差、metadata和清单；根目录保存配置、生成器基础配置、身份、汇总和清单。发生器的预备故障事件未施加，也不作为实际污染存档。原数据/模型/正式test产物不变。
+
 ## 2026-10-21：RQ3测试结果数据契约
 
 基础模拟数据版本和82条来源清单不变。新增results/rq3_prediction/rq3_final_test_20261021_v1/共47个文件（46个manifest条目加manifest本身）。每seed保存predictions.npz、evaluation_targets.npz、metrics_by_seed.csv、paired_by_seed.csv、endpoints_by_seed.csv、metadata.json、manifest.json。根目录保存冻结配置、来源、test使用标记、三类逐种子/汇总表、完成元数据和manifest。

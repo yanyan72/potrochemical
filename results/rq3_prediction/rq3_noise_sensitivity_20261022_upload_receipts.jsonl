@@ -1,0 +1,8 @@
+{"commit":"65a53207b7dbf82d9695e93afe20be2d76c5e061","files":4,"verified":true,"message":"docs: freeze local measurement-noise sensitivity with archived RQ3 models"}
+{"commit":"b5e6e467843153e015467ddc18cf5e69ff707dee","files":8,"verified":true,"message":"feat: validate paired noise generator and frozen RQ3 sensitivity inference"}
+{"commit":"08a6f51e7a15742ce6bf24d4aab3e86202f3586c","files":13,"verified":true,"message":"results: persist paired synthetic noise sensitivity seed 42"}
+{"commit":"33ae4ea400b8c47c413cf02e9bf69358b3d1d4cb","files":10,"verified":true,"message":"results: persist paired synthetic noise sensitivity seed 43"}
+{"commit":"4e58a596fc9c63de85cc6a3e60b398fcbaea388e","files":10,"verified":true,"message":"results: persist paired synthetic noise sensitivity seed 44"}
+{"commit":"d643ff02513bb1a9dca036667f703e2a35e11994","files":10,"verified":true,"message":"results: persist paired synthetic noise sensitivity seed 45"}
+{"commit":"8b4b69fdf72cbbbbb18e7cb49e05aa4c342ca301","files":10,"verified":true,"message":"results: persist paired synthetic noise sensitivity seed 46"}
+{"commit":"7d45a902d8e1c3d51390b9cb736d35d8e88ae24f","files":8,"verified":true,"message":"results: publish independently verified local noise sensitivity summaries"}
