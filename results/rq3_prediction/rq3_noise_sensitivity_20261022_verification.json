@@ -1,0 +1,13 @@
+{
+  "status": "pass",
+  "unique_batches": 1250,
+  "paired_versions": 3750,
+  "output_files_hashed": 53,
+  "metric_rows_recomputed": 1260,
+  "paired_rows_recomputed": 540,
+  "summary_rows_recomputed": 360,
+  "maximum_independent_noise_residual": 0.0,
+  "label_formula_and_random_streams": "pass",
+  "source_artifacts_unchanged": true,
+  "manifest_sha256": "8652db03ee7156f32cdb8d632e3267f5927e5e1327338f319f9cb5d77ac6fc20"
+}

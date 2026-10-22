@@ -1,0 +1,13 @@
+{
+  "completed_utc": "2026-10-22T10:43:29.824663+00:00",
+  "run_id": "rq3_noise_sensitivity_20261022_v1",
+  "scope": "exploratory_frozen_model_normal_measurement_noise",
+  "unique_batches": 1250,
+  "paired_versions": 3750,
+  "independent_model_data_pairs": 5,
+  "new_synthetic_data": true,
+  "refitting": false,
+  "prior_test_status": "used_unchanged",
+  "old_test_predictions": false,
+  "interval_use": "descriptive_only"
+}
