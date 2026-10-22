@@ -1,0 +1,16 @@
+{
+  "seed": 43,
+  "completed_utc": "2026-10-22T10:40:45.397674+00:00",
+  "audit": {
+    "status": "pass",
+    "max_noise_scaling_residual": 5.684341886080802e-14,
+    "latent_targets_ids_equal": true,
+    "unique_batches": 250,
+    "paired_observation_versions": 750,
+    "injected_faults": 0
+  },
+  "models_refitted": 0,
+  "source_files_unchanged": true,
+  "predictions_saved_before_evaluation": true,
+  "new_synthetic_data": true
+}
