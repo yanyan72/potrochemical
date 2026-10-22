@@ -1,0 +1,10 @@
+{
+  "status": "pass",
+  "hashed_output_files": 34,
+  "prediction_rows_recomputed": 860,
+  "prediction_summary_rows_recomputed": 172,
+  "saved_errors_exactly_match_original_archives": true,
+  "development_global_pairs_match_previous_results": true,
+  "missing_not_imputed_as_high_trust": true,
+  "scope": "prediction arithmetic independently recomputed; event semantics covered by unit tests; point AP uses sklearn"
+}

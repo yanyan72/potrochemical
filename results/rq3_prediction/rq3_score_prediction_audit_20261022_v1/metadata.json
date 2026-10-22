@@ -1,0 +1,9 @@
+{
+  "unique_development_batches": 1250,
+  "score_metric_rows": 120,
+  "prediction_pair_rows": 860,
+  "source_files_unchanged": true,
+  "new_training": false,
+  "new_test_predictions": false,
+  "analysis_status": "posthoc_development_only"
+}
