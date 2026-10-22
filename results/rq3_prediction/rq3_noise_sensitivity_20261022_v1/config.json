@@ -1,0 +1,45 @@
+{
+  "architectures": [
+    "ridge",
+    "lstm"
+  ],
+  "groups": [
+    "mean",
+    "B0",
+    "B2",
+    "B3",
+    "B2Q",
+    "B3Q",
+    "B2R"
+  ],
+  "targets": [
+    "arrival_proxy",
+    "null_proxy"
+  ],
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "random_control_seed": 901,
+  "threads": 1,
+  "data_manifest_sha256": "a2224ee148d8b5d61a5cb24fd225d5d56817fc17ebd37753545c8494d7ca47ed",
+  "ridge_manifest_sha256": "f2d79659d18b67b947b6796124b20a99a6e9232a04785c9abbd4a048a77d24b0",
+  "lstm_manifest_sha256": "44da2ac15f61c4cea714c419063964f8345dd728161d45c92e8d8d286029657a",
+  "run_id": "rq3_noise_sensitivity_20261022_v1",
+  "namespace": 20261022,
+  "batches_per_seed": 250,
+  "noise_factors": [
+    0.5,
+    1.0,
+    2.0
+  ],
+  "scope": "exploratory_frozen_model_normal_measurement_noise",
+  "refit": false,
+  "source_split": "val",
+  "inject_faults": false,
+  "confidence_level": 0.95,
+  "source_final_manifest_sha256": "4636d04e1039ed96dd085bcd8d317405d215377778df876008218b5fa033915b"
+}

@@ -1,0 +1,128 @@
+{
+  "dataset_id": "rq3_paired_20261019_rebuild_v1",
+  "data_source": "synthetic",
+  "namespace": 20261019,
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "counts": {
+    "reference_fit": 150,
+    "reference_cal": 100,
+    "train": 1000,
+    "val": 250,
+    "test": 500
+  },
+  "sequence_length": 180,
+  "prediction_time": 119,
+  "observation_delay": 2,
+  "sample_time": 180,
+  "report_available_time": 192,
+  "features": [
+    "temperature",
+    "relative_humidity",
+    "vibration"
+  ],
+  "units": [
+    "K",
+    "percent_RH",
+    "mm_per_s"
+  ],
+  "regimes": [
+    "warehouse",
+    "transit_smooth",
+    "transit_rough"
+  ],
+  "means": [
+    [
+      295.0,
+      50.0,
+      0.4
+    ],
+    [
+      301.0,
+      52.0,
+      1.5
+    ],
+    [
+      304.0,
+      45.0,
+      3.0
+    ]
+  ],
+  "stds": [
+    [
+      2.0,
+      4.0,
+      0.05
+    ],
+    [
+      2.5,
+      5.0,
+      0.15
+    ],
+    [
+      3.0,
+      6.0,
+      0.3
+    ]
+  ],
+  "factor_loadings": [
+    0.8,
+    -0.6,
+    0.5
+  ],
+  "ar_rho": 0.85,
+  "departure_range": [
+    25,
+    50
+  ],
+  "arrival_range": [
+    125,
+    155
+  ],
+  "batch_offset_std": [
+    0.3,
+    0.5,
+    0.01
+  ],
+  "measurement_noise_std": [
+    0.1,
+    0.2,
+    0.005
+  ],
+  "proxy": {
+    "threshold": 298.0,
+    "intercept": 10.0,
+    "coefficient": 0.03,
+    "batch_std": 1.0,
+    "assay_std": 0.5,
+    "null_mean": 25.0,
+    "null_std": 5.0
+  },
+  "faults": {
+    "magnitudes": [
+      1.0,
+      2.0,
+      4.0
+    ],
+    "durations": [
+      4,
+      12,
+      24
+    ],
+    "types": [
+      "bias",
+      "drift",
+      "missing"
+    ]
+  },
+  "record_delays": [
+    0,
+    6,
+    12
+  ]
+}
