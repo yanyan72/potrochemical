@@ -1,0 +1,14 @@
+{
+  "evaluation_commit": "cff769f2676653d980d6b587afebf3c3cb6d563b",
+  "evaluator_sha256": "ba19faddf13d4de63677abc7d6f837d26d5884be16ce53c7949f0bbb495cdc7d",
+  "namespace": 2026102301,
+  "original_training_commit": "dd23e11d9f31bffe16f70737e5f41357b2bf8de5",
+  "training_manifests": {
+    "42": "e4055325f4d9e075e93b99c48c063a0cc2fc23bd812ac812afe80a83d45485f3",
+    "43": "b4fea498c7e9cc03a2cc7221b871127595338dc8d29c1b63d1eca97f5ff411de",
+    "44": "210d97f83866352426a53907f6526352184ee02dca2d671a70366c921ea7b29b",
+    "45": "688a4835ae63d097e84e3d656e6be77916aaef21e49fb4dcd5a6c5d52dd28252",
+    "46": "7cd46715e2387c2bc7e1173041a6c7bd08c6db735ff6175dd8a50d17de71a294"
+  },
+  "reason": "isolate formal test from four automatic smoke-test samples; no research test metrics inspected before amendment"
+}

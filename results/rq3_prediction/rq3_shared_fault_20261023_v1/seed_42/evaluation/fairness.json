@@ -1,0 +1,30 @@
+[
+  {
+    "arm": "clean_N",
+    "common_sha256": "f4355ff54cb73034a049c130f49acd6a817c28bdccf2270ece0e1e542e82f311"
+  },
+  {
+    "arm": "clean_T",
+    "common_sha256": "f4355ff54cb73034a049c130f49acd6a817c28bdccf2270ece0e1e542e82f311"
+  },
+  {
+    "arm": "clean_R",
+    "common_sha256": "f4355ff54cb73034a049c130f49acd6a817c28bdccf2270ece0e1e542e82f311"
+  },
+  {
+    "arm": "shared_N",
+    "common_sha256": "d0c0d74b04c0aa49e56d0dfbd78e770751a3f8d5f9034012baeb182b037c379d"
+  },
+  {
+    "arm": "shared_T",
+    "common_sha256": "d0c0d74b04c0aa49e56d0dfbd78e770751a3f8d5f9034012baeb182b037c379d"
+  },
+  {
+    "arm": "shared_R",
+    "common_sha256": "d0c0d74b04c0aa49e56d0dfbd78e770751a3f8d5f9034012baeb182b037c379d"
+  },
+  {
+    "arm": "shared_O",
+    "common_sha256": "d0c0d74b04c0aa49e56d0dfbd78e770751a3f8d5f9034012baeb182b037c379d"
+  }
+]
