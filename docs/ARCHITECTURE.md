@@ -1,5 +1,11 @@
 # ARCHITECTURE
 
+## 2026-10-23 共享故障公平对照路径
+
+configs/rq3_shared_fault_20261023.yaml → src/rq3_shared_fault.py（复用旧train，构造共享视图，100固定LSTM，train-only预处理）→ training_lock → src/rq3_shared_fault_fresh_test.py（独立namespace2026102301新test；该入口替代原模块的evaluate命令）→ summary。N/T/R公共12维完全一致，总输入统一15维。理想指示O/OG仅诊断，不能进入部署方法；门控是固定参考中心收缩，不改评分公式。
+
+scripts/verify_rq3_shared_fault.py独立复算指标/配对/区间与预算；describe脚本补齐同批通道退化，build_rq3_shared_fault_report脚本生成导师稿。全部记录位于results/rq3_prediction/rq3_shared_fault_20261023_v1；旧模块/数据/模型不覆盖。正式主比较未支持稳定评分增益。
+
 ## 2026-10-22：只读评分—预测配对诊断
 
 rq3_score_prediction_audit.py读取旧val可见观测、冻结参考、已有事件和预测；重算评分并独立记录事件新告警/延续告警、未污染通道告警及不可评分缺失。prediction_rows仅用已有B2/B3预测与评价标签计算配对差、改善批次比例和相对原始的退化。没有模型拟合或test预测入口。

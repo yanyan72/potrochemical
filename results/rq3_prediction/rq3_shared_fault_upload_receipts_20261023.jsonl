@@ -1,0 +1,15 @@
+{"commit":"42db3d131f41dea07c5f27c9b30f509b7861daa0","files":4,"verified":true,"message":"protocol: freeze shared-fault RQ3 controls and bounded mechanism diagnostics"}
+{"commit":"dd23e11d9f31bffe16f70737e5f41357b2bf8de5","files":8,"verified":true,"message":"feat: implement matched shared-fault controls with leakage guards and reproducibility tests"}
+{"commit":"62a0e60b9a2043b19a3be71add5bb3f3a6bd10ad","files":79,"verified":true,"message":"results: persist shared-fault seed 42 training and locked validation checkpoints"}
+{"commit":"61b0a77ec208ec02eb0d2d1860b35c0c7dbce83d","files":76,"verified":true,"message":"results: persist shared-fault seed 43 training with matched budgets"}
+{"commit":"e88c9ef0748c1c3108986cce0b080d365ebae1b6","files":76,"verified":true,"message":"results: persist shared-fault seed 44 training with full histories"}
+{"commit":"cce428a4eab7e88d09db0c373ebb00c74c6863bb","files":76,"verified":true,"message":"results: persist shared-fault seed 45 complete training artifacts"}
+{"commit":"76321f0b1ef33912aa97b34d36d2a236422d79bd","files":76,"verified":true,"message":"results: persist shared-fault seed 46 and finish all 100 registered models"}
+{"commit":"cff769f2676653d980d6b587afebf3c3cb6d563b","files":9,"verified":true,"message":"fix: isolate final evaluation namespace from software fixtures before test inspection"}
+{"commit":"38c007613729e64842c036fc822c219146244b04","files":15,"verified":true,"message":"results: archive seed 42 fresh-test data and all registered predictions"}
+{"commit":"93c294b98857d7fac182515d7266f677c95319a8","files":13,"verified":true,"message":"results: archive seed 43 fresh-test data and complete controls"}
+{"commit":"bc65c4ca950a645e5dcd26155d41201cfeeb9aa1","files":13,"verified":true,"message":"results: archive seed 44 fresh-test data and all model outcomes"}
+{"commit":"ca7245e95cd1cbdd02eccfcbb9b9a39c78cc147e","files":13,"verified":true,"message":"results: archive seed 45 fresh-test data without outcome filtering"}
+{"commit":"bdc63622961e3863eda173815c9eed08e45398f7","files":13,"verified":true,"message":"results: archive seed 46 and finish the registered fresh-test evaluation"}
+{"commit":"3d5a6bf8fd44d4b1d78ae27f1255372ff5f3a599","files":2,"verified":true,"message":"test: use numerical tolerance for decimal metric fixtures and retain final regression log"}
+{"commit":"9c023d3d979acbda0694e911b8242a36d8bbed70","files":19,"verified":true,"message":"results: retain unsupported RQ3 primary outcome and complete bounded diagnostics with independent audit"}

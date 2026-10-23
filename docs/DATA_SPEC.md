@@ -1,5 +1,11 @@
 # DATA_SPEC
 
+## 2026-10-23 新val/test与旧训练复用
+
+新增合成基础样本3750批：val每seed250（namespace20261023），最终test每seed500（namespace2026102301）。3750×118=442500行基础可见观测，3750×180=675000行潜在过程。十视图通过冻结事件/尺度重建，标签共享，不将视图计作独立样本。旧train每seed1000批复用；新train故障namespace20261023/stream7，未重新生成旧过程或质量标签。
+
+根目录new_generator_config.json对应新val及train事件；evaluation_generator_config.json为最终test配置，evaluation_identity.json记录测试前隔离修正。各seed/training保存输入、独立evaluation_only、事件、视图日程、随机索引、模型、选择与日志；evaluation保存新test输入/隐藏真值、事件、所有预测/目标/ID轴及指标。隐藏过程不入X；oracle仅故障/错位指示。447个正式文件含446条根manifest，约37.9 MB；其他诊断/核验文件另存。本次测试已使用，不能当未来未见确认集。
+
 ## 2026-10-22：配对诊断数据契约
 
 results/rq3_prediction/rq3_score_prediction_audit_20261022_v1/含35文件（34个manifest条目加manifest自身），复用旧1250个val批次，不新增独立数据。各seed的paired_batches.npz保存ID、视图、原目标、通道、B2/B3逐批绝对误差（架构×视图×组×批次×目标）、事件评分下降、新告警和可评分率。非事件视图的评分下降为NaN占位；missing事件无可评分值为NaN，绝不能当作高可信或零误差。所有事件/标签仅供评价。
