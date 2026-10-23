@@ -1,0 +1,30 @@
+
+==================================== ERRORS ====================================
+_______________ ERROR collecting tests/test_rq3_shared_fault.py ________________
+../lstm-venv/lib/python3.11/site-packages/_pytest/python.py:508: in importtestmodule
+    mod = import_path(
+../lstm-venv/lib/python3.11/site-packages/_pytest/pathlib.py:596: in import_path
+    importlib.import_module(module_name)
+../python-runtimes/cpython-3.11.17-macos-aarch64-none/lib/python3.11/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1204: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1176: in _find_and_load
+    ???
+<frozen importlib._bootstrap>:1147: in _find_and_load_unlocked
+    ???
+<frozen importlib._bootstrap>:690: in _load_unlocked
+    ???
+../lstm-venv/lib/python3.11/site-packages/_pytest/assertion/rewrite.py:188: in exec_module
+    exec(co, module.__dict__)
+tests/test_rq3_shared_fault.py:9: in <module>
+    from src.rq3_shared_fault import (train_events,make_bundle,arm_features,random_trajectory,
+E     File "/Users/liliyan/Documents/Codex/2026-10-19/2-3-3-3-10-000-2/work/rq3-rebuild-check/src/rq3_shared_fault.py", line 337
+E       out.append(dict(seed=seed,view=view,arm=a,target=t,stratum=s,batches=int(mask.sum()),mae=float(np.abs(e).mean()),rmse=float(np.sqrt((e**2).mean())) )
+E                 ^
+E   SyntaxError: '(' was never closed
+=========================== short test summary info ============================
+ERROR tests/test_rq3_shared_fault.py
+!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+1 error in 5.13s

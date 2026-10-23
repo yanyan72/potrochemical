@@ -1,0 +1,16 @@
+.........                                                                [100%]
+=============================== warnings summary ===============================
+tests/test_rq3_shared_fault.py::test_full_stage_smoke_on_isolated_fixture
+  /Users/liliyan/Documents/Codex/2026-10-19/2-3-3-3-10-000-2/work/rq3-rebuild-check/src/rq3_shared_fault.py:384: RuntimeWarning: invalid value encountered in scalar divide
+    score_rows.append(dict(seed=seed,view=view,stratum=label,point_recall=float(ev['event_alarm_count'][selected].sum()/ev['event_cells'][selected].sum()),fresh_event_recall=float(ev['fresh_alarm'][selected].mean()),availability=float(ev['availability'][selected].mean())))
+
+tests/test_rq3_shared_fault.py::test_full_stage_smoke_on_isolated_fixture
+  /Users/liliyan/Documents/Codex/2026-10-19/2-3-3-3-10-000-2/work/rq3-rebuild-check/src/rq3_shared_fault.py:384: RuntimeWarning: Mean of empty slice
+    score_rows.append(dict(seed=seed,view=view,stratum=label,point_recall=float(ev['event_alarm_count'][selected].sum()/ev['event_cells'][selected].sum()),fresh_event_recall=float(ev['fresh_alarm'][selected].mean()),availability=float(ev['availability'][selected].mean())))
+
+tests/test_rq3_shared_fault.py::test_full_stage_smoke_on_isolated_fixture
+  /Users/liliyan/Documents/Codex/2026-10-19/2-3-3-3-10-000-2/work/lstm-venv/lib/python3.11/site-packages/numpy/_core/_methods.py:142: RuntimeWarning: invalid value encountered in scalar divide
+    ret = ret.dtype.type(ret / rcount)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+9 passed, 3 warnings in 4.98s

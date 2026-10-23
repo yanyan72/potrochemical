@@ -15,7 +15,7 @@
 ## Milestones
 1. 保存协议、配置并上传。
 2. 新模块src/rq3_shared_fault.py，公平性/门控/保存重放/禁用测试门测试；小样本验证通过，保存日志并上传实现。
-3. 复用train，生成新val，按seed训练20模型，保存故障日程/100轮序列预算记录/模型/checkpoint验证并逐seed上传。（每模型实际40轮，100为总模型数；不增加轮数。）
+3. 复用train，生成新val，按seed训练20模型，保存故障日程/固定预算记录/模型/checkpoint验证并逐seed上传。
 4. 全部模型锁定后生成新test并一次评价，逐seed保存与上传；独立重算指标、主区间和公平性记录。
 5. 汇总teacher Markdown、状态、决定与复现说明；上传全部结果，核对旧成果哈希。
 
@@ -39,3 +39,20 @@ train-only标准化/随机轨迹池；旧参考冻结；新val选择模型，新
 
 ## Outcomes and retrospective
 待执行。完成固定预算后停止扩展。
+
+## 阶段执行与验收细则
+
+- 协议阶段：输入旧诊断与用户授权；输出冻结MD/YAML；GitHub逐blob核对。已提交42db3d131f41dea07c5f27c9b30f509b7861daa0。
+- 实现阶段：输入冻结配置；运行 `python -m pytest -q tests/test_rq3_shared_fault.py`；输出测试日志；要求共享输入/种子/预算、数学公式、测试门和两次小训练逐元素可复现全部通过。
+- 训练阶段：`python -m src.rq3_shared_fault train --seed 42 --commit IMPLEMENTATION_SHA`（42至46）；输入旧train/参考，输出每seed新val、20模型、800行轮次日志与manifest；要求320步/模型及重放差0。
+- 评价阶段：`python -m src.rq3_shared_fault evaluate --seed 42 --commit IMPLEMENTATION_SHA`（42至46），全部训练manifest锁定后执行；输出新test与全组预测/指标；要求ID不相交与输入逐组一致。
+- 汇总阶段：`python -m src.rq3_shared_fault summary --commit IMPLEMENTATION_SHA`；运行独立核验脚本；输出主结论/全指标/导师稿/远端证据；要求五seed全收录、主准则不变、所有旧文件不变。
+
+## 2026-10-23 实现进度
+
+- [x] 协议提交42db3d13，先于研究训练。
+- [x] 固定算法模块、独立算术核验脚本与9项专项测试已编写。首次收集因一个括号错误失败，已修复并保留日志；小样本缺少通道时跳过空分层，避免NaN指标，未改研究协议。
+- [x] 两次相同微型训练参数/预测逐元素一致；共享输入、oracle隔离、随机自身排除、预算和模型选择、训练锁与拒绝覆盖测试通过。隔离小样本完整20模型训练/新测试流水线已通过。
+- [ ] 正式五seed训练、测试与独立指标核验。
+
+微型fixture仅软件验证，非RQ3研究结果；不作为100个正式模型以外的择优候选。保留所有测试尝试日志。
