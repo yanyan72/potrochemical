@@ -1,0 +1,59 @@
+{
+  "run_id": "rq3_shared_fault_20261023_v1",
+  "source_dataset": "rq3_paired_20261019_rebuild_v1",
+  "namespace": 20261023,
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "targets": [
+    "arrival_proxy",
+    "null_proxy"
+  ],
+  "clean_groups": [
+    "N",
+    "T",
+    "R"
+  ],
+  "shared_groups": [
+    "N",
+    "T",
+    "R",
+    "O",
+    "TG",
+    "RG",
+    "OG"
+  ],
+  "counts": {
+    "train": 1000,
+    "val": 250,
+    "test": 500
+  },
+  "fault_magnitudes": [
+    1.0,
+    2.0,
+    4.0
+  ],
+  "record_delays": [
+    0,
+    6,
+    12
+  ],
+  "hidden_size": 32,
+  "batch_size": 128,
+  "epochs": 40,
+  "learning_rate": 0.003,
+  "weight_decay": 0.0001,
+  "grad_clip": 1.0,
+  "model_seed_offset": 23000,
+  "shuffle_seed_offset": 33000,
+  "schedule_seed_offset": 73000,
+  "random_control_seed": 1901,
+  "threads": 1,
+  "data_manifest_sha256": "a2224ee148d8b5d61a5cb24fd225d5d56817fc17ebd37753545c8494d7ca47ed",
+  "ridge_manifest_sha256": "f2d79659d18b67b947b6796124b20a99a6e9232a04785c9abbd4a048a77d24b0",
+  "generator_sha256": "c63312c1236bb703c841203bd5300a8c4712f38231ef21741b10b94ede76571b"
+}
