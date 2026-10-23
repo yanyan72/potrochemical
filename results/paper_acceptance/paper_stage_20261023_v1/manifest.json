@@ -1,0 +1,9 @@
+{
+  "batch_paired_differences.csv": "ac2d41d409ff538db7eb4f9b57e7d9689fc3455c74e9d9c285c949e59ecd7c76",
+  "e1b_summary.csv": "35d07aa8fd0a3909d2f9f7a046fd344ee1d0b950b773990208ce557c65cf7fa1",
+  "paper_claim_excerpt.json": "b7db9a629f007e171a9f99efd25ad0fe2de1561041ccf2afed1891c8c6c096db",
+  "repository_review_snapshots.json": "f5b29f821a2596ff7460cdc4e87ce14d8cb82baaa1d87759bbf5314749a9c05b",
+  "review_identity.json": "5aff1498b028cf3c88d6b30f49c75bef6733ca148bbfe6913e71a2b794bc0788",
+  "seed_paired_recalculation.csv": "c67d74381abf6aa51e371bb6b1d02f8a0314278b04fed2eb66bbbdfcb920a6ae",
+  "statistical_structure_audit.json": "417eef7861b01a38249eab667a40f8fd1c5be19a5f4346c5793417a71ff1b57b"
+}

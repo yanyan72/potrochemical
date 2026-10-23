@@ -1,0 +1,85 @@
+{
+  "passed": true,
+  "analysis_only": true,
+  "new_data_generated": false,
+  "new_models_fitted": 0,
+  "original_primary_conclusion_unchanged": true,
+  "primary": [
+    {
+      "comparison": "shared_T-shared_N",
+      "independent_outer_replicates": 5,
+      "df": 4,
+      "mean": 0.008499701885280753,
+      "sd": 0.013996251478315215,
+      "se": 0.006259313947138949,
+      "ci_low": -0.00887893968514946,
+      "ci_high": 0.025878343455710967,
+      "negative_seeds": 1
+    },
+    {
+      "comparison": "shared_T-shared_R",
+      "independent_outer_replicates": 5,
+      "df": 4,
+      "mean": 0.0019789247290815516,
+      "sd": 0.008292030913788124,
+      "se": 0.0037083089589519886,
+      "ci_low": -0.008316991528561822,
+      "ci_high": 0.012274840986724926,
+      "negative_seeds": 3
+    }
+  ],
+  "model_data_mapping": [
+    {
+      "data_seed": 42,
+      "model_seed": 23420,
+      "learned_arms": 10,
+      "same_model_seed_across_arms": true,
+      "independent_model_repeats_within_dataset": 1
+    },
+    {
+      "data_seed": 43,
+      "model_seed": 23430,
+      "learned_arms": 10,
+      "same_model_seed_across_arms": true,
+      "independent_model_repeats_within_dataset": 1
+    },
+    {
+      "data_seed": 44,
+      "model_seed": 23440,
+      "learned_arms": 10,
+      "same_model_seed_across_arms": true,
+      "independent_model_repeats_within_dataset": 1
+    },
+    {
+      "data_seed": 45,
+      "model_seed": 23450,
+      "learned_arms": 10,
+      "same_model_seed_across_arms": true,
+      "independent_model_repeats_within_dataset": 1
+    },
+    {
+      "data_seed": 46,
+      "model_seed": 23460,
+      "learned_arms": 10,
+      "same_model_seed_across_arms": true,
+      "independent_model_repeats_within_dataset": 1
+    }
+  ],
+  "distinct_test_batches": 2500,
+  "source_sha256": {
+    "results/rq3_prediction/rq3_shared_fault_20261023_v1/seed_42/evaluation/predictions.npz": "d261870a35ac75d2a2028442eab845e3c6cbdf15e2a65b7b56555226a06ef492",
+    "results/rq3_prediction/rq3_shared_fault_20261023_v1/seed_43/evaluation/predictions.npz": "550a20f83b4934ba50d9ceb589fe8e3bdb84381678bd0ede7f9dc503a50a79cc",
+    "results/rq3_prediction/rq3_shared_fault_20261023_v1/seed_44/evaluation/predictions.npz": "f2a9ad51a790ae495545c57eba3ad137e358b4b1d40b0aad84d7222fdf41e685",
+    "results/rq3_prediction/rq3_shared_fault_20261023_v1/seed_45/evaluation/predictions.npz": "efaca1ceda2f55dd570636697411d69301fb52c5fe47539272e165c8c14a7de3",
+    "results/rq3_prediction/rq3_shared_fault_20261023_v1/seed_46/evaluation/predictions.npz": "5b33ce2e6880329e56701b32b08dd34fda7cebfcf5687603f9f139c5388b7a20"
+  },
+  "estimand": "Expected paired ten-view equal-weight MAE difference over this synthetic data-and-training-seed procedure, with frozen hyperparameters and selection rule.",
+  "limitations": [
+    "Five outer replicates: t intervals require an approximate distributional assumption and are not distribution-free.",
+    "Data/reference/validation/test draws and model/shuffle seed change together; components of variance are not identifiable.",
+    "Batch uncertainty conditional on fitted models is not a replacement for outer-seed uncertainty.",
+    "100 models, 10 paired views, time points and correlated historical rounds are not independent replications.",
+    "1820 exploratory intervals are unadjusted; no familywise discoveries, equivalence, or universal absence of benefit established.",
+    "The two primary improvements are jointly required; do not choose whichever contrast or subgroup looks favorable."
+  ]
+}
