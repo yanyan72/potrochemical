@@ -17,7 +17,7 @@ ROOT=Path(__file__).resolve().parents[1]
 def fixture():
     cfg=yaml.safe_load((ROOT/'configs/rq3_shared_fault_20261023.yaml').read_text())
     dc=yaml.safe_load((ROOT/'configs/rq3_paired_rebuild_20261019_v1.yaml').read_text())
-    dc['counts']={k:8 for k in dc['counts']};dc['namespace']=20261023
+    dc['counts']={k:8 for k in dc['counts']};dc['namespace']=20990101
     frozen=json.loads((ROOT/'results/rq3_prediction/rq3_ridge_pilot_20261019_v1/seed_42/preprocessing_and_score.json').read_text())
     s=generate_split(dc,42,'val')
     b=make_bundle(s['inputs'],s['events'],np.ones((3,3)),frozen,dc,cfg)
@@ -115,7 +115,8 @@ def test_full_stage_smoke_on_isolated_fixture(fixture,tmp_path):
     from src.rq3_prediction_pilot import write_json,write_csv
     from src.rq3_release_audit import sha256
     cfg,dc,frozen,s,b=fixture;cfg=copy.deepcopy(cfg)
-    cfg.update(epochs=2,batch_size=4,seeds=[42],counts=dict(train=8,val=4,test=4),run_id='SMOKE_NOT_RESEARCH')
+    cfg.update(epochs=2,batch_size=4,seeds=[42],counts=dict(train=8,val=4,test=4),run_id='SMOKE_NOT_RESEARCH',namespace=20990101)
+    assert cfg['namespace'] not in (20261023,2026102301)
     data=tmp_path/'data';ridge=tmp_path/'ridge';out=tmp_path/'result'
     d=data/'seed_42'/'train';d.mkdir(parents=True)
     dc['namespace']=20261019

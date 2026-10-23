@@ -8,11 +8,13 @@ import numpy as np
 from scipy.stats import t
 
 
-def csv_rows(path):
+def csv_rows(path: Path) -> list[dict]:
+    """Read saved result rows."""
     with path.open() as f:return list(csv.DictReader(f))
 
 
-def verify(root):
+def verify(root: Path) -> dict:
+    """Recompute metrics, pairing, uncertainty and fixed-budget evidence."""
     cfg=json.loads((root/'config.json').read_text());checks=dict(files=0,metrics=0,pairs=0,intervals=0,models=0)
     manifest=json.loads((root/'manifest.json').read_text())
     for name,expected in manifest.items():
@@ -20,6 +22,8 @@ def verify(root):
         assert actual==expected,name
         checks['files']+=1
     raw={}
+    evaluation_config=json.loads((root/'evaluation_generator_config.json').read_text())
+    assert evaluation_config['namespace']==2026102301
     for seed in cfg['seeds']:
         tr=root/f'seed_{seed}/training';ev=root/f'seed_{seed}/evaluation'
         m=json.loads((tr/'model_parameters.json').read_text());history=csv_rows(tr/'training_history.csv')
@@ -52,6 +56,8 @@ def verify(root):
             dc=json.loads((root/'new_generator_config.json').read_text());proxy=dc['proxy']
             independent=proxy['intercept']+proxy['coefficient']*np.maximum(truth['clean_process'][...,0]-proxy['threshold'],0).sum(axis=1)+truth['label_noise'].sum(axis=1)
             np.testing.assert_allclose(y[:,0],independent,atol=1e-12,rtol=0)
+        assert all(str(sid).startswith(f'rq3_2026102301_{seed}_test_') for sid in ids)
+        with np.load(tr/'validation/inputs.npz',allow_pickle=False) as f:assert not set(ids)&set(f['sequence_id'])
         events=json.loads((ev/'test/events.json').read_text());ch=np.array([e['channel'] for e in events]);dur=np.array([e['end_exclusive']-e['start'] for e in events])
         for r in csv_rows(ev/'metrics.csv'):
             vi,ai,ti=views.index(r['view']),arms.index(r['arm']),names.index(r['target']);s=r['stratum']

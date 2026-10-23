@@ -1,0 +1,23 @@
+.......F.                                                                [100%]
+=================================== FAILURES ===================================
+________________________ test_metric_and_interval_math _________________________
+
+fixture = ({'run_id': 'rq3_shared_fault_20261023_v1', 'source_dataset': 'rq3_paired_20261019_rebuild_v1', 'namespace': 20261023,....],
+         ...,
+         [1., 1., 1.],
+         [1., 1., 1.],
+         [1., 1., 1.]]]], shape=(10, 8, 118, 3)), ...})
+
+    def test_metric_and_interval_math(fixture):
+        cfg,_,_,s,b=fixture
+        arms=arm_names(cfg)+['mean'];y=s['targets']
+        pred=np.broadcast_to(y,(10,len(arms),*y.shape)).copy();pred[:,0,:,0]+=2
+        rows=metric_rows(pred,y,s['events'],42,cfg,arms,np.zeros((10,8),bool))
+        r=next(r for r in rows if r['view']=='original' and r['arm']==arms[0] and r['target']=='arrival_proxy')
+>       assert r['mae']==r['rmse']==2
+E       assert 2.0000000000000004 == 2
+
+tests/test_rq3_shared_fault.py:109: AssertionError
+=========================== short test summary info ============================
+FAILED tests/test_rq3_shared_fault.py::test_metric_and_interval_math - assert...
+1 failed, 8 passed in 6.59s
