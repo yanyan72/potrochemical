@@ -1,0 +1,3502 @@
+[
+  {
+    "sequence_id": "rq3_2026102301_44_test_000000",
+    "channel": 2,
+    "start": 23,
+    "end_exclusive": 27,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000001",
+    "channel": 1,
+    "start": 69,
+    "end_exclusive": 73,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000002",
+    "channel": 1,
+    "start": 73,
+    "end_exclusive": 77,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000003",
+    "channel": 2,
+    "start": 3,
+    "end_exclusive": 15,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000004",
+    "channel": 1,
+    "start": 77,
+    "end_exclusive": 101,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000005",
+    "channel": 2,
+    "start": 66,
+    "end_exclusive": 90,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000006",
+    "channel": 1,
+    "start": 91,
+    "end_exclusive": 95,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000007",
+    "channel": 2,
+    "start": 1,
+    "end_exclusive": 25,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000008",
+    "channel": 0,
+    "start": 105,
+    "end_exclusive": 109,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000009",
+    "channel": 2,
+    "start": 34,
+    "end_exclusive": 58,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000010",
+    "channel": 2,
+    "start": 70,
+    "end_exclusive": 94,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000011",
+    "channel": 0,
+    "start": 40,
+    "end_exclusive": 44,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000012",
+    "channel": 2,
+    "start": 15,
+    "end_exclusive": 27,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000013",
+    "channel": 0,
+    "start": 77,
+    "end_exclusive": 81,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000014",
+    "channel": 2,
+    "start": 66,
+    "end_exclusive": 78,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000015",
+    "channel": 1,
+    "start": 23,
+    "end_exclusive": 27,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000016",
+    "channel": 1,
+    "start": 35,
+    "end_exclusive": 47,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000017",
+    "channel": 2,
+    "start": 105,
+    "end_exclusive": 117,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000018",
+    "channel": 0,
+    "start": 100,
+    "end_exclusive": 112,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000019",
+    "channel": 1,
+    "start": 57,
+    "end_exclusive": 81,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000020",
+    "channel": 2,
+    "start": 29,
+    "end_exclusive": 33,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000021",
+    "channel": 1,
+    "start": 78,
+    "end_exclusive": 102,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000022",
+    "channel": 0,
+    "start": 41,
+    "end_exclusive": 53,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000023",
+    "channel": 2,
+    "start": 32,
+    "end_exclusive": 44,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000024",
+    "channel": 0,
+    "start": 34,
+    "end_exclusive": 58,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000025",
+    "channel": 2,
+    "start": 100,
+    "end_exclusive": 112,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000026",
+    "channel": 0,
+    "start": 40,
+    "end_exclusive": 44,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000027",
+    "channel": 1,
+    "start": 29,
+    "end_exclusive": 53,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000028",
+    "channel": 1,
+    "start": 37,
+    "end_exclusive": 49,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000029",
+    "channel": 1,
+    "start": 4,
+    "end_exclusive": 28,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000030",
+    "channel": 1,
+    "start": 82,
+    "end_exclusive": 86,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000031",
+    "channel": 1,
+    "start": 57,
+    "end_exclusive": 69,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000032",
+    "channel": 2,
+    "start": 3,
+    "end_exclusive": 15,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000033",
+    "channel": 2,
+    "start": 39,
+    "end_exclusive": 63,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000034",
+    "channel": 2,
+    "start": 72,
+    "end_exclusive": 96,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000035",
+    "channel": 0,
+    "start": 11,
+    "end_exclusive": 35,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000036",
+    "channel": 2,
+    "start": 62,
+    "end_exclusive": 86,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000037",
+    "channel": 1,
+    "start": 46,
+    "end_exclusive": 58,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000038",
+    "channel": 2,
+    "start": 1,
+    "end_exclusive": 5,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000039",
+    "channel": 0,
+    "start": 79,
+    "end_exclusive": 103,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000040",
+    "channel": 2,
+    "start": 72,
+    "end_exclusive": 84,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000041",
+    "channel": 1,
+    "start": 55,
+    "end_exclusive": 79,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000042",
+    "channel": 0,
+    "start": 48,
+    "end_exclusive": 60,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000043",
+    "channel": 2,
+    "start": 33,
+    "end_exclusive": 37,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000044",
+    "channel": 0,
+    "start": 67,
+    "end_exclusive": 79,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000045",
+    "channel": 2,
+    "start": 81,
+    "end_exclusive": 93,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000046",
+    "channel": 1,
+    "start": 38,
+    "end_exclusive": 50,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000047",
+    "channel": 2,
+    "start": 86,
+    "end_exclusive": 90,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000048",
+    "channel": 1,
+    "start": 75,
+    "end_exclusive": 99,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000049",
+    "channel": 2,
+    "start": 17,
+    "end_exclusive": 21,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000050",
+    "channel": 0,
+    "start": 15,
+    "end_exclusive": 27,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000051",
+    "channel": 1,
+    "start": 104,
+    "end_exclusive": 108,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000052",
+    "channel": 0,
+    "start": 36,
+    "end_exclusive": 60,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000053",
+    "channel": 1,
+    "start": 104,
+    "end_exclusive": 116,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000054",
+    "channel": 2,
+    "start": 85,
+    "end_exclusive": 109,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000055",
+    "channel": 2,
+    "start": 90,
+    "end_exclusive": 94,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000056",
+    "channel": 0,
+    "start": 30,
+    "end_exclusive": 34,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000057",
+    "channel": 2,
+    "start": 63,
+    "end_exclusive": 75,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000058",
+    "channel": 1,
+    "start": 38,
+    "end_exclusive": 62,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000059",
+    "channel": 2,
+    "start": 89,
+    "end_exclusive": 113,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000060",
+    "channel": 1,
+    "start": 11,
+    "end_exclusive": 23,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000061",
+    "channel": 1,
+    "start": 91,
+    "end_exclusive": 95,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000062",
+    "channel": 0,
+    "start": 59,
+    "end_exclusive": 71,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000063",
+    "channel": 1,
+    "start": 72,
+    "end_exclusive": 96,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000064",
+    "channel": 1,
+    "start": 53,
+    "end_exclusive": 57,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000065",
+    "channel": 1,
+    "start": 31,
+    "end_exclusive": 35,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000066",
+    "channel": 1,
+    "start": 96,
+    "end_exclusive": 108,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000067",
+    "channel": 1,
+    "start": 41,
+    "end_exclusive": 53,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000068",
+    "channel": 2,
+    "start": 73,
+    "end_exclusive": 85,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000069",
+    "channel": 1,
+    "start": 84,
+    "end_exclusive": 88,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000070",
+    "channel": 2,
+    "start": 50,
+    "end_exclusive": 54,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000071",
+    "channel": 1,
+    "start": 48,
+    "end_exclusive": 52,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000072",
+    "channel": 2,
+    "start": 0,
+    "end_exclusive": 4,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000073",
+    "channel": 1,
+    "start": 25,
+    "end_exclusive": 49,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000074",
+    "channel": 2,
+    "start": 29,
+    "end_exclusive": 41,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000075",
+    "channel": 1,
+    "start": 51,
+    "end_exclusive": 63,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000076",
+    "channel": 2,
+    "start": 48,
+    "end_exclusive": 72,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000077",
+    "channel": 0,
+    "start": 2,
+    "end_exclusive": 6,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000078",
+    "channel": 2,
+    "start": 6,
+    "end_exclusive": 18,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000079",
+    "channel": 1,
+    "start": 79,
+    "end_exclusive": 83,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000080",
+    "channel": 2,
+    "start": 33,
+    "end_exclusive": 57,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000081",
+    "channel": 0,
+    "start": 4,
+    "end_exclusive": 8,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000082",
+    "channel": 1,
+    "start": 43,
+    "end_exclusive": 55,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000083",
+    "channel": 2,
+    "start": 92,
+    "end_exclusive": 104,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000084",
+    "channel": 1,
+    "start": 66,
+    "end_exclusive": 70,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000085",
+    "channel": 2,
+    "start": 31,
+    "end_exclusive": 55,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000086",
+    "channel": 0,
+    "start": 7,
+    "end_exclusive": 31,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000087",
+    "channel": 2,
+    "start": 32,
+    "end_exclusive": 56,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000088",
+    "channel": 2,
+    "start": 50,
+    "end_exclusive": 62,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000089",
+    "channel": 1,
+    "start": 88,
+    "end_exclusive": 92,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000090",
+    "channel": 0,
+    "start": 48,
+    "end_exclusive": 72,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000091",
+    "channel": 1,
+    "start": 47,
+    "end_exclusive": 51,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000092",
+    "channel": 2,
+    "start": 14,
+    "end_exclusive": 18,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000093",
+    "channel": 1,
+    "start": 49,
+    "end_exclusive": 73,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000094",
+    "channel": 1,
+    "start": 40,
+    "end_exclusive": 44,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000095",
+    "channel": 1,
+    "start": 62,
+    "end_exclusive": 86,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000096",
+    "channel": 0,
+    "start": 4,
+    "end_exclusive": 16,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000097",
+    "channel": 1,
+    "start": 50,
+    "end_exclusive": 74,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000098",
+    "channel": 0,
+    "start": 91,
+    "end_exclusive": 115,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000099",
+    "channel": 0,
+    "start": 52,
+    "end_exclusive": 56,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000100",
+    "channel": 0,
+    "start": 38,
+    "end_exclusive": 50,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000101",
+    "channel": 0,
+    "start": 45,
+    "end_exclusive": 49,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000102",
+    "channel": 1,
+    "start": 57,
+    "end_exclusive": 81,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000103",
+    "channel": 2,
+    "start": 7,
+    "end_exclusive": 11,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000104",
+    "channel": 2,
+    "start": 47,
+    "end_exclusive": 59,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000105",
+    "channel": 0,
+    "start": 63,
+    "end_exclusive": 87,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000106",
+    "channel": 2,
+    "start": 47,
+    "end_exclusive": 59,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000107",
+    "channel": 1,
+    "start": 34,
+    "end_exclusive": 38,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000108",
+    "channel": 2,
+    "start": 61,
+    "end_exclusive": 73,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000109",
+    "channel": 1,
+    "start": 2,
+    "end_exclusive": 6,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000110",
+    "channel": 2,
+    "start": 55,
+    "end_exclusive": 79,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000111",
+    "channel": 0,
+    "start": 57,
+    "end_exclusive": 81,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000112",
+    "channel": 2,
+    "start": 112,
+    "end_exclusive": 116,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000113",
+    "channel": 0,
+    "start": 32,
+    "end_exclusive": 36,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000114",
+    "channel": 0,
+    "start": 16,
+    "end_exclusive": 40,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000115",
+    "channel": 2,
+    "start": 102,
+    "end_exclusive": 106,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000116",
+    "channel": 2,
+    "start": 8,
+    "end_exclusive": 32,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000117",
+    "channel": 0,
+    "start": 92,
+    "end_exclusive": 104,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000118",
+    "channel": 0,
+    "start": 54,
+    "end_exclusive": 66,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000119",
+    "channel": 1,
+    "start": 93,
+    "end_exclusive": 105,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000120",
+    "channel": 0,
+    "start": 60,
+    "end_exclusive": 84,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000121",
+    "channel": 2,
+    "start": 22,
+    "end_exclusive": 46,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000122",
+    "channel": 2,
+    "start": 15,
+    "end_exclusive": 19,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000123",
+    "channel": 1,
+    "start": 10,
+    "end_exclusive": 34,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000124",
+    "channel": 0,
+    "start": 41,
+    "end_exclusive": 53,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000125",
+    "channel": 2,
+    "start": 70,
+    "end_exclusive": 94,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000126",
+    "channel": 1,
+    "start": 84,
+    "end_exclusive": 108,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000127",
+    "channel": 2,
+    "start": 100,
+    "end_exclusive": 104,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000128",
+    "channel": 1,
+    "start": 30,
+    "end_exclusive": 54,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000129",
+    "channel": 0,
+    "start": 49,
+    "end_exclusive": 53,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000130",
+    "channel": 0,
+    "start": 35,
+    "end_exclusive": 39,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000131",
+    "channel": 0,
+    "start": 43,
+    "end_exclusive": 55,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000132",
+    "channel": 0,
+    "start": 18,
+    "end_exclusive": 22,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000133",
+    "channel": 2,
+    "start": 31,
+    "end_exclusive": 55,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000134",
+    "channel": 2,
+    "start": 59,
+    "end_exclusive": 83,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000135",
+    "channel": 1,
+    "start": 77,
+    "end_exclusive": 81,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000136",
+    "channel": 2,
+    "start": 1,
+    "end_exclusive": 13,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000137",
+    "channel": 1,
+    "start": 14,
+    "end_exclusive": 18,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000138",
+    "channel": 1,
+    "start": 61,
+    "end_exclusive": 65,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000139",
+    "channel": 0,
+    "start": 77,
+    "end_exclusive": 81,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000140",
+    "channel": 1,
+    "start": 96,
+    "end_exclusive": 108,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000141",
+    "channel": 0,
+    "start": 44,
+    "end_exclusive": 56,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000142",
+    "channel": 2,
+    "start": 92,
+    "end_exclusive": 116,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000143",
+    "channel": 0,
+    "start": 60,
+    "end_exclusive": 84,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000144",
+    "channel": 2,
+    "start": 57,
+    "end_exclusive": 61,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000145",
+    "channel": 0,
+    "start": 39,
+    "end_exclusive": 43,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000146",
+    "channel": 2,
+    "start": 32,
+    "end_exclusive": 36,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000147",
+    "channel": 0,
+    "start": 28,
+    "end_exclusive": 52,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000148",
+    "channel": 0,
+    "start": 37,
+    "end_exclusive": 41,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000149",
+    "channel": 2,
+    "start": 4,
+    "end_exclusive": 16,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000150",
+    "channel": 1,
+    "start": 82,
+    "end_exclusive": 106,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000151",
+    "channel": 2,
+    "start": 4,
+    "end_exclusive": 16,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000152",
+    "channel": 2,
+    "start": 113,
+    "end_exclusive": 117,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000153",
+    "channel": 0,
+    "start": 64,
+    "end_exclusive": 76,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000154",
+    "channel": 1,
+    "start": 22,
+    "end_exclusive": 26,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000155",
+    "channel": 2,
+    "start": 85,
+    "end_exclusive": 109,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000156",
+    "channel": 2,
+    "start": 91,
+    "end_exclusive": 103,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000157",
+    "channel": 0,
+    "start": 65,
+    "end_exclusive": 69,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000158",
+    "channel": 1,
+    "start": 66,
+    "end_exclusive": 90,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000159",
+    "channel": 0,
+    "start": 76,
+    "end_exclusive": 88,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000160",
+    "channel": 0,
+    "start": 68,
+    "end_exclusive": 72,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000161",
+    "channel": 1,
+    "start": 74,
+    "end_exclusive": 78,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000162",
+    "channel": 0,
+    "start": 37,
+    "end_exclusive": 49,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000163",
+    "channel": 0,
+    "start": 97,
+    "end_exclusive": 109,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000164",
+    "channel": 1,
+    "start": 78,
+    "end_exclusive": 90,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000165",
+    "channel": 0,
+    "start": 19,
+    "end_exclusive": 23,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000166",
+    "channel": 0,
+    "start": 2,
+    "end_exclusive": 6,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000167",
+    "channel": 2,
+    "start": 39,
+    "end_exclusive": 63,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000168",
+    "channel": 2,
+    "start": 95,
+    "end_exclusive": 107,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000169",
+    "channel": 2,
+    "start": 66,
+    "end_exclusive": 78,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000170",
+    "channel": 0,
+    "start": 66,
+    "end_exclusive": 90,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000171",
+    "channel": 1,
+    "start": 54,
+    "end_exclusive": 58,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000172",
+    "channel": 0,
+    "start": 93,
+    "end_exclusive": 117,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000173",
+    "channel": 1,
+    "start": 88,
+    "end_exclusive": 100,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000174",
+    "channel": 1,
+    "start": 87,
+    "end_exclusive": 91,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000175",
+    "channel": 0,
+    "start": 58,
+    "end_exclusive": 70,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000176",
+    "channel": 0,
+    "start": 27,
+    "end_exclusive": 51,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000177",
+    "channel": 1,
+    "start": 11,
+    "end_exclusive": 35,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000178",
+    "channel": 2,
+    "start": 27,
+    "end_exclusive": 39,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000179",
+    "channel": 0,
+    "start": 81,
+    "end_exclusive": 105,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000180",
+    "channel": 2,
+    "start": 3,
+    "end_exclusive": 7,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000181",
+    "channel": 2,
+    "start": 95,
+    "end_exclusive": 99,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000182",
+    "channel": 1,
+    "start": 66,
+    "end_exclusive": 90,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000183",
+    "channel": 2,
+    "start": 12,
+    "end_exclusive": 24,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000184",
+    "channel": 2,
+    "start": 94,
+    "end_exclusive": 106,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000185",
+    "channel": 0,
+    "start": 54,
+    "end_exclusive": 66,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000186",
+    "channel": 0,
+    "start": 68,
+    "end_exclusive": 92,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000187",
+    "channel": 0,
+    "start": 66,
+    "end_exclusive": 90,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000188",
+    "channel": 0,
+    "start": 87,
+    "end_exclusive": 91,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000189",
+    "channel": 0,
+    "start": 82,
+    "end_exclusive": 86,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000190",
+    "channel": 1,
+    "start": 86,
+    "end_exclusive": 110,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000191",
+    "channel": 2,
+    "start": 4,
+    "end_exclusive": 16,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000192",
+    "channel": 0,
+    "start": 24,
+    "end_exclusive": 28,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000193",
+    "channel": 1,
+    "start": 80,
+    "end_exclusive": 84,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000194",
+    "channel": 0,
+    "start": 86,
+    "end_exclusive": 98,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000195",
+    "channel": 1,
+    "start": 44,
+    "end_exclusive": 48,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000196",
+    "channel": 2,
+    "start": 86,
+    "end_exclusive": 98,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000197",
+    "channel": 1,
+    "start": 36,
+    "end_exclusive": 48,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000198",
+    "channel": 0,
+    "start": 4,
+    "end_exclusive": 28,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000199",
+    "channel": 1,
+    "start": 96,
+    "end_exclusive": 100,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000200",
+    "channel": 1,
+    "start": 68,
+    "end_exclusive": 72,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000201",
+    "channel": 2,
+    "start": 30,
+    "end_exclusive": 34,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000202",
+    "channel": 0,
+    "start": 37,
+    "end_exclusive": 49,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000203",
+    "channel": 0,
+    "start": 27,
+    "end_exclusive": 31,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000204",
+    "channel": 2,
+    "start": 57,
+    "end_exclusive": 81,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000205",
+    "channel": 0,
+    "start": 8,
+    "end_exclusive": 12,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000206",
+    "channel": 0,
+    "start": 14,
+    "end_exclusive": 38,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000207",
+    "channel": 0,
+    "start": 104,
+    "end_exclusive": 116,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000208",
+    "channel": 1,
+    "start": 14,
+    "end_exclusive": 38,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000209",
+    "channel": 1,
+    "start": 94,
+    "end_exclusive": 118,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000210",
+    "channel": 2,
+    "start": 23,
+    "end_exclusive": 27,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000211",
+    "channel": 0,
+    "start": 25,
+    "end_exclusive": 29,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000212",
+    "channel": 2,
+    "start": 83,
+    "end_exclusive": 95,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000213",
+    "channel": 1,
+    "start": 64,
+    "end_exclusive": 76,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000214",
+    "channel": 0,
+    "start": 53,
+    "end_exclusive": 77,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000215",
+    "channel": 0,
+    "start": 67,
+    "end_exclusive": 91,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000216",
+    "channel": 2,
+    "start": 91,
+    "end_exclusive": 115,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000217",
+    "channel": 1,
+    "start": 33,
+    "end_exclusive": 37,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000218",
+    "channel": 0,
+    "start": 100,
+    "end_exclusive": 104,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000219",
+    "channel": 1,
+    "start": 89,
+    "end_exclusive": 113,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000220",
+    "channel": 1,
+    "start": 22,
+    "end_exclusive": 34,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000221",
+    "channel": 1,
+    "start": 22,
+    "end_exclusive": 46,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000222",
+    "channel": 2,
+    "start": 92,
+    "end_exclusive": 116,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000223",
+    "channel": 0,
+    "start": 96,
+    "end_exclusive": 108,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000224",
+    "channel": 2,
+    "start": 32,
+    "end_exclusive": 56,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000225",
+    "channel": 0,
+    "start": 19,
+    "end_exclusive": 31,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000226",
+    "channel": 1,
+    "start": 14,
+    "end_exclusive": 26,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000227",
+    "channel": 0,
+    "start": 28,
+    "end_exclusive": 40,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000228",
+    "channel": 0,
+    "start": 19,
+    "end_exclusive": 23,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000229",
+    "channel": 2,
+    "start": 23,
+    "end_exclusive": 47,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000230",
+    "channel": 2,
+    "start": 108,
+    "end_exclusive": 112,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000231",
+    "channel": 2,
+    "start": 18,
+    "end_exclusive": 22,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000232",
+    "channel": 0,
+    "start": 49,
+    "end_exclusive": 53,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000233",
+    "channel": 1,
+    "start": 93,
+    "end_exclusive": 117,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000234",
+    "channel": 2,
+    "start": 38,
+    "end_exclusive": 42,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000235",
+    "channel": 1,
+    "start": 98,
+    "end_exclusive": 102,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000236",
+    "channel": 0,
+    "start": 61,
+    "end_exclusive": 85,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000237",
+    "channel": 2,
+    "start": 71,
+    "end_exclusive": 95,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000238",
+    "channel": 1,
+    "start": 10,
+    "end_exclusive": 14,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000239",
+    "channel": 1,
+    "start": 55,
+    "end_exclusive": 79,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000240",
+    "channel": 2,
+    "start": 14,
+    "end_exclusive": 18,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000241",
+    "channel": 0,
+    "start": 89,
+    "end_exclusive": 113,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000242",
+    "channel": 0,
+    "start": 93,
+    "end_exclusive": 97,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000243",
+    "channel": 1,
+    "start": 21,
+    "end_exclusive": 45,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000244",
+    "channel": 0,
+    "start": 59,
+    "end_exclusive": 63,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000245",
+    "channel": 2,
+    "start": 94,
+    "end_exclusive": 118,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000246",
+    "channel": 2,
+    "start": 71,
+    "end_exclusive": 83,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000247",
+    "channel": 2,
+    "start": 20,
+    "end_exclusive": 44,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000248",
+    "channel": 2,
+    "start": 23,
+    "end_exclusive": 27,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000249",
+    "channel": 0,
+    "start": 5,
+    "end_exclusive": 9,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000250",
+    "channel": 2,
+    "start": 94,
+    "end_exclusive": 98,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000251",
+    "channel": 0,
+    "start": 4,
+    "end_exclusive": 16,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000252",
+    "channel": 1,
+    "start": 7,
+    "end_exclusive": 19,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000253",
+    "channel": 0,
+    "start": 77,
+    "end_exclusive": 81,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000254",
+    "channel": 2,
+    "start": 81,
+    "end_exclusive": 85,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000255",
+    "channel": 2,
+    "start": 50,
+    "end_exclusive": 62,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000256",
+    "channel": 2,
+    "start": 72,
+    "end_exclusive": 76,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000257",
+    "channel": 0,
+    "start": 49,
+    "end_exclusive": 53,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000258",
+    "channel": 2,
+    "start": 26,
+    "end_exclusive": 30,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000259",
+    "channel": 2,
+    "start": 97,
+    "end_exclusive": 101,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000260",
+    "channel": 2,
+    "start": 50,
+    "end_exclusive": 54,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000261",
+    "channel": 0,
+    "start": 104,
+    "end_exclusive": 116,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000262",
+    "channel": 0,
+    "start": 44,
+    "end_exclusive": 56,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000263",
+    "channel": 1,
+    "start": 113,
+    "end_exclusive": 117,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000264",
+    "channel": 0,
+    "start": 30,
+    "end_exclusive": 54,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000265",
+    "channel": 0,
+    "start": 72,
+    "end_exclusive": 96,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000266",
+    "channel": 2,
+    "start": 26,
+    "end_exclusive": 38,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000267",
+    "channel": 0,
+    "start": 30,
+    "end_exclusive": 42,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000268",
+    "channel": 2,
+    "start": 108,
+    "end_exclusive": 112,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000269",
+    "channel": 1,
+    "start": 23,
+    "end_exclusive": 35,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000270",
+    "channel": 2,
+    "start": 15,
+    "end_exclusive": 27,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000271",
+    "channel": 0,
+    "start": 67,
+    "end_exclusive": 79,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000272",
+    "channel": 1,
+    "start": 94,
+    "end_exclusive": 106,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000273",
+    "channel": 2,
+    "start": 7,
+    "end_exclusive": 19,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000274",
+    "channel": 1,
+    "start": 13,
+    "end_exclusive": 25,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000275",
+    "channel": 0,
+    "start": 6,
+    "end_exclusive": 30,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000276",
+    "channel": 2,
+    "start": 87,
+    "end_exclusive": 99,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000277",
+    "channel": 2,
+    "start": 78,
+    "end_exclusive": 102,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000278",
+    "channel": 2,
+    "start": 5,
+    "end_exclusive": 17,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000279",
+    "channel": 1,
+    "start": 29,
+    "end_exclusive": 53,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000280",
+    "channel": 0,
+    "start": 30,
+    "end_exclusive": 42,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000281",
+    "channel": 1,
+    "start": 94,
+    "end_exclusive": 118,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000282",
+    "channel": 0,
+    "start": 54,
+    "end_exclusive": 66,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000283",
+    "channel": 1,
+    "start": 37,
+    "end_exclusive": 41,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000284",
+    "channel": 0,
+    "start": 103,
+    "end_exclusive": 115,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000285",
+    "channel": 2,
+    "start": 88,
+    "end_exclusive": 100,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000286",
+    "channel": 0,
+    "start": 60,
+    "end_exclusive": 84,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000287",
+    "channel": 1,
+    "start": 10,
+    "end_exclusive": 22,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000288",
+    "channel": 0,
+    "start": 2,
+    "end_exclusive": 14,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000289",
+    "channel": 0,
+    "start": 50,
+    "end_exclusive": 62,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000290",
+    "channel": 1,
+    "start": 57,
+    "end_exclusive": 69,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000291",
+    "channel": 1,
+    "start": 60,
+    "end_exclusive": 72,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000292",
+    "channel": 1,
+    "start": 81,
+    "end_exclusive": 105,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000293",
+    "channel": 1,
+    "start": 93,
+    "end_exclusive": 117,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000294",
+    "channel": 1,
+    "start": 66,
+    "end_exclusive": 78,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000295",
+    "channel": 2,
+    "start": 37,
+    "end_exclusive": 49,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000296",
+    "channel": 0,
+    "start": 17,
+    "end_exclusive": 21,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000297",
+    "channel": 0,
+    "start": 63,
+    "end_exclusive": 75,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000298",
+    "channel": 0,
+    "start": 60,
+    "end_exclusive": 64,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000299",
+    "channel": 0,
+    "start": 44,
+    "end_exclusive": 68,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000300",
+    "channel": 0,
+    "start": 83,
+    "end_exclusive": 107,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000301",
+    "channel": 2,
+    "start": 37,
+    "end_exclusive": 49,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000302",
+    "channel": 2,
+    "start": 74,
+    "end_exclusive": 78,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000303",
+    "channel": 2,
+    "start": 13,
+    "end_exclusive": 25,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000304",
+    "channel": 1,
+    "start": 21,
+    "end_exclusive": 33,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000305",
+    "channel": 1,
+    "start": 107,
+    "end_exclusive": 111,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000306",
+    "channel": 0,
+    "start": 1,
+    "end_exclusive": 25,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000307",
+    "channel": 1,
+    "start": 64,
+    "end_exclusive": 88,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000308",
+    "channel": 2,
+    "start": 14,
+    "end_exclusive": 18,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000309",
+    "channel": 2,
+    "start": 53,
+    "end_exclusive": 57,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000310",
+    "channel": 2,
+    "start": 22,
+    "end_exclusive": 34,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000311",
+    "channel": 0,
+    "start": 2,
+    "end_exclusive": 6,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000312",
+    "channel": 0,
+    "start": 89,
+    "end_exclusive": 113,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000313",
+    "channel": 0,
+    "start": 11,
+    "end_exclusive": 35,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000314",
+    "channel": 2,
+    "start": 57,
+    "end_exclusive": 61,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000315",
+    "channel": 2,
+    "start": 94,
+    "end_exclusive": 98,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000316",
+    "channel": 1,
+    "start": 10,
+    "end_exclusive": 14,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000317",
+    "channel": 0,
+    "start": 55,
+    "end_exclusive": 79,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000318",
+    "channel": 2,
+    "start": 31,
+    "end_exclusive": 55,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000319",
+    "channel": 0,
+    "start": 84,
+    "end_exclusive": 96,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000320",
+    "channel": 2,
+    "start": 52,
+    "end_exclusive": 76,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000321",
+    "channel": 1,
+    "start": 47,
+    "end_exclusive": 51,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000322",
+    "channel": 2,
+    "start": 85,
+    "end_exclusive": 109,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000323",
+    "channel": 2,
+    "start": 19,
+    "end_exclusive": 43,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000324",
+    "channel": 1,
+    "start": 67,
+    "end_exclusive": 79,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000325",
+    "channel": 2,
+    "start": 101,
+    "end_exclusive": 105,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000326",
+    "channel": 0,
+    "start": 13,
+    "end_exclusive": 25,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000327",
+    "channel": 2,
+    "start": 59,
+    "end_exclusive": 63,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000328",
+    "channel": 1,
+    "start": 36,
+    "end_exclusive": 40,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000329",
+    "channel": 0,
+    "start": 48,
+    "end_exclusive": 72,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000330",
+    "channel": 2,
+    "start": 28,
+    "end_exclusive": 52,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000331",
+    "channel": 2,
+    "start": 84,
+    "end_exclusive": 108,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000332",
+    "channel": 2,
+    "start": 80,
+    "end_exclusive": 84,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000333",
+    "channel": 1,
+    "start": 85,
+    "end_exclusive": 109,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000334",
+    "channel": 2,
+    "start": 34,
+    "end_exclusive": 58,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000335",
+    "channel": 0,
+    "start": 71,
+    "end_exclusive": 83,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000336",
+    "channel": 0,
+    "start": 98,
+    "end_exclusive": 110,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000337",
+    "channel": 1,
+    "start": 11,
+    "end_exclusive": 15,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000338",
+    "channel": 2,
+    "start": 18,
+    "end_exclusive": 42,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000339",
+    "channel": 0,
+    "start": 41,
+    "end_exclusive": 53,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000340",
+    "channel": 1,
+    "start": 2,
+    "end_exclusive": 14,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000341",
+    "channel": 2,
+    "start": 3,
+    "end_exclusive": 15,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000342",
+    "channel": 0,
+    "start": 13,
+    "end_exclusive": 17,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000343",
+    "channel": 2,
+    "start": 14,
+    "end_exclusive": 26,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000344",
+    "channel": 0,
+    "start": 88,
+    "end_exclusive": 92,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000345",
+    "channel": 1,
+    "start": 93,
+    "end_exclusive": 97,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000346",
+    "channel": 1,
+    "start": 16,
+    "end_exclusive": 20,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000347",
+    "channel": 1,
+    "start": 15,
+    "end_exclusive": 19,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000348",
+    "channel": 2,
+    "start": 33,
+    "end_exclusive": 45,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000349",
+    "channel": 0,
+    "start": 61,
+    "end_exclusive": 85,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000350",
+    "channel": 1,
+    "start": 30,
+    "end_exclusive": 34,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000351",
+    "channel": 0,
+    "start": 80,
+    "end_exclusive": 104,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000352",
+    "channel": 1,
+    "start": 61,
+    "end_exclusive": 73,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000353",
+    "channel": 0,
+    "start": 81,
+    "end_exclusive": 93,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000354",
+    "channel": 1,
+    "start": 54,
+    "end_exclusive": 66,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000355",
+    "channel": 0,
+    "start": 46,
+    "end_exclusive": 58,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000356",
+    "channel": 0,
+    "start": 95,
+    "end_exclusive": 99,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000357",
+    "channel": 2,
+    "start": 14,
+    "end_exclusive": 26,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000358",
+    "channel": 0,
+    "start": 69,
+    "end_exclusive": 81,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000359",
+    "channel": 1,
+    "start": 102,
+    "end_exclusive": 114,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000360",
+    "channel": 2,
+    "start": 24,
+    "end_exclusive": 36,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000361",
+    "channel": 1,
+    "start": 44,
+    "end_exclusive": 48,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000362",
+    "channel": 2,
+    "start": 55,
+    "end_exclusive": 79,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000363",
+    "channel": 1,
+    "start": 13,
+    "end_exclusive": 37,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000364",
+    "channel": 0,
+    "start": 67,
+    "end_exclusive": 71,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000365",
+    "channel": 2,
+    "start": 81,
+    "end_exclusive": 105,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000366",
+    "channel": 0,
+    "start": 85,
+    "end_exclusive": 89,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000367",
+    "channel": 2,
+    "start": 68,
+    "end_exclusive": 92,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000368",
+    "channel": 1,
+    "start": 114,
+    "end_exclusive": 118,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000369",
+    "channel": 0,
+    "start": 84,
+    "end_exclusive": 88,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000370",
+    "channel": 2,
+    "start": 90,
+    "end_exclusive": 102,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000371",
+    "channel": 2,
+    "start": 65,
+    "end_exclusive": 77,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000372",
+    "channel": 0,
+    "start": 95,
+    "end_exclusive": 107,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000373",
+    "channel": 2,
+    "start": 64,
+    "end_exclusive": 68,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000374",
+    "channel": 1,
+    "start": 56,
+    "end_exclusive": 60,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000375",
+    "channel": 1,
+    "start": 104,
+    "end_exclusive": 116,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000376",
+    "channel": 2,
+    "start": 22,
+    "end_exclusive": 34,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000377",
+    "channel": 0,
+    "start": 106,
+    "end_exclusive": 110,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000378",
+    "channel": 0,
+    "start": 36,
+    "end_exclusive": 60,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000379",
+    "channel": 0,
+    "start": 80,
+    "end_exclusive": 84,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000380",
+    "channel": 2,
+    "start": 81,
+    "end_exclusive": 93,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000381",
+    "channel": 2,
+    "start": 4,
+    "end_exclusive": 8,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000382",
+    "channel": 2,
+    "start": 49,
+    "end_exclusive": 61,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000383",
+    "channel": 0,
+    "start": 23,
+    "end_exclusive": 27,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000384",
+    "channel": 0,
+    "start": 106,
+    "end_exclusive": 110,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000385",
+    "channel": 2,
+    "start": 30,
+    "end_exclusive": 54,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000386",
+    "channel": 0,
+    "start": 105,
+    "end_exclusive": 117,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000387",
+    "channel": 1,
+    "start": 51,
+    "end_exclusive": 63,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000388",
+    "channel": 1,
+    "start": 80,
+    "end_exclusive": 84,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000389",
+    "channel": 1,
+    "start": 36,
+    "end_exclusive": 40,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000390",
+    "channel": 1,
+    "start": 90,
+    "end_exclusive": 94,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000391",
+    "channel": 0,
+    "start": 87,
+    "end_exclusive": 111,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000392",
+    "channel": 1,
+    "start": 41,
+    "end_exclusive": 65,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000393",
+    "channel": 0,
+    "start": 2,
+    "end_exclusive": 6,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000394",
+    "channel": 1,
+    "start": 31,
+    "end_exclusive": 43,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000395",
+    "channel": 0,
+    "start": 85,
+    "end_exclusive": 89,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000396",
+    "channel": 0,
+    "start": 29,
+    "end_exclusive": 53,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000397",
+    "channel": 1,
+    "start": 66,
+    "end_exclusive": 78,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000398",
+    "channel": 1,
+    "start": 20,
+    "end_exclusive": 24,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000399",
+    "channel": 1,
+    "start": 62,
+    "end_exclusive": 86,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000400",
+    "channel": 0,
+    "start": 38,
+    "end_exclusive": 62,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000401",
+    "channel": 0,
+    "start": 65,
+    "end_exclusive": 77,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000402",
+    "channel": 0,
+    "start": 62,
+    "end_exclusive": 74,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000403",
+    "channel": 0,
+    "start": 65,
+    "end_exclusive": 89,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000404",
+    "channel": 0,
+    "start": 105,
+    "end_exclusive": 109,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000405",
+    "channel": 0,
+    "start": 43,
+    "end_exclusive": 67,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000406",
+    "channel": 1,
+    "start": 67,
+    "end_exclusive": 91,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000407",
+    "channel": 2,
+    "start": 87,
+    "end_exclusive": 111,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000408",
+    "channel": 1,
+    "start": 4,
+    "end_exclusive": 8,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000409",
+    "channel": 1,
+    "start": 3,
+    "end_exclusive": 27,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000410",
+    "channel": 2,
+    "start": 67,
+    "end_exclusive": 79,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000411",
+    "channel": 1,
+    "start": 43,
+    "end_exclusive": 67,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000412",
+    "channel": 2,
+    "start": 36,
+    "end_exclusive": 40,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000413",
+    "channel": 1,
+    "start": 90,
+    "end_exclusive": 102,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000414",
+    "channel": 2,
+    "start": 88,
+    "end_exclusive": 112,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000415",
+    "channel": 1,
+    "start": 14,
+    "end_exclusive": 26,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000416",
+    "channel": 2,
+    "start": 56,
+    "end_exclusive": 80,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000417",
+    "channel": 2,
+    "start": 46,
+    "end_exclusive": 70,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000418",
+    "channel": 0,
+    "start": 9,
+    "end_exclusive": 13,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000419",
+    "channel": 2,
+    "start": 2,
+    "end_exclusive": 6,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000420",
+    "channel": 0,
+    "start": 59,
+    "end_exclusive": 63,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000421",
+    "channel": 1,
+    "start": 73,
+    "end_exclusive": 97,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000422",
+    "channel": 0,
+    "start": 25,
+    "end_exclusive": 49,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000423",
+    "channel": 2,
+    "start": 83,
+    "end_exclusive": 107,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000424",
+    "channel": 1,
+    "start": 106,
+    "end_exclusive": 110,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000425",
+    "channel": 0,
+    "start": 64,
+    "end_exclusive": 88,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000426",
+    "channel": 0,
+    "start": 60,
+    "end_exclusive": 64,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000427",
+    "channel": 0,
+    "start": 10,
+    "end_exclusive": 22,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000428",
+    "channel": 1,
+    "start": 21,
+    "end_exclusive": 33,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000429",
+    "channel": 0,
+    "start": 99,
+    "end_exclusive": 103,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000430",
+    "channel": 1,
+    "start": 65,
+    "end_exclusive": 69,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000431",
+    "channel": 0,
+    "start": 44,
+    "end_exclusive": 68,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000432",
+    "channel": 1,
+    "start": 5,
+    "end_exclusive": 29,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000433",
+    "channel": 2,
+    "start": 31,
+    "end_exclusive": 43,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000434",
+    "channel": 2,
+    "start": 17,
+    "end_exclusive": 21,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000435",
+    "channel": 1,
+    "start": 102,
+    "end_exclusive": 114,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000436",
+    "channel": 0,
+    "start": 52,
+    "end_exclusive": 64,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000437",
+    "channel": 2,
+    "start": 39,
+    "end_exclusive": 51,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000438",
+    "channel": 2,
+    "start": 95,
+    "end_exclusive": 99,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000439",
+    "channel": 1,
+    "start": 17,
+    "end_exclusive": 21,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000440",
+    "channel": 0,
+    "start": 61,
+    "end_exclusive": 85,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000441",
+    "channel": 0,
+    "start": 51,
+    "end_exclusive": 75,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000442",
+    "channel": 0,
+    "start": 66,
+    "end_exclusive": 70,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000443",
+    "channel": 2,
+    "start": 43,
+    "end_exclusive": 55,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000444",
+    "channel": 2,
+    "start": 30,
+    "end_exclusive": 42,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000445",
+    "channel": 0,
+    "start": 92,
+    "end_exclusive": 116,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000446",
+    "channel": 1,
+    "start": 105,
+    "end_exclusive": 117,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000447",
+    "channel": 0,
+    "start": 19,
+    "end_exclusive": 43,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000448",
+    "channel": 0,
+    "start": 65,
+    "end_exclusive": 89,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000449",
+    "channel": 1,
+    "start": 44,
+    "end_exclusive": 68,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000450",
+    "channel": 1,
+    "start": 29,
+    "end_exclusive": 41,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000451",
+    "channel": 2,
+    "start": 93,
+    "end_exclusive": 105,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000452",
+    "channel": 0,
+    "start": 52,
+    "end_exclusive": 76,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000453",
+    "channel": 0,
+    "start": 52,
+    "end_exclusive": 56,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000454",
+    "channel": 2,
+    "start": 80,
+    "end_exclusive": 104,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000455",
+    "channel": 2,
+    "start": 10,
+    "end_exclusive": 22,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000456",
+    "channel": 2,
+    "start": 84,
+    "end_exclusive": 96,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000457",
+    "channel": 0,
+    "start": 58,
+    "end_exclusive": 70,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000458",
+    "channel": 0,
+    "start": 90,
+    "end_exclusive": 94,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000459",
+    "channel": 1,
+    "start": 59,
+    "end_exclusive": 83,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000460",
+    "channel": 0,
+    "start": 34,
+    "end_exclusive": 38,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000461",
+    "channel": 0,
+    "start": 90,
+    "end_exclusive": 94,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000462",
+    "channel": 2,
+    "start": 31,
+    "end_exclusive": 43,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000463",
+    "channel": 2,
+    "start": 100,
+    "end_exclusive": 104,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000464",
+    "channel": 1,
+    "start": 65,
+    "end_exclusive": 89,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000465",
+    "channel": 1,
+    "start": 26,
+    "end_exclusive": 50,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000466",
+    "channel": 0,
+    "start": 40,
+    "end_exclusive": 64,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000467",
+    "channel": 1,
+    "start": 43,
+    "end_exclusive": 67,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000468",
+    "channel": 2,
+    "start": 15,
+    "end_exclusive": 39,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000469",
+    "channel": 0,
+    "start": 68,
+    "end_exclusive": 72,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000470",
+    "channel": 1,
+    "start": 92,
+    "end_exclusive": 104,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000471",
+    "channel": 1,
+    "start": 46,
+    "end_exclusive": 58,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000472",
+    "channel": 2,
+    "start": 20,
+    "end_exclusive": 32,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000473",
+    "channel": 0,
+    "start": 78,
+    "end_exclusive": 90,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000474",
+    "channel": 2,
+    "start": 4,
+    "end_exclusive": 8,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000475",
+    "channel": 2,
+    "start": 31,
+    "end_exclusive": 55,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000476",
+    "channel": 1,
+    "start": 62,
+    "end_exclusive": 86,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000477",
+    "channel": 1,
+    "start": 50,
+    "end_exclusive": 54,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000478",
+    "channel": 0,
+    "start": 73,
+    "end_exclusive": 85,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000479",
+    "channel": 0,
+    "start": 72,
+    "end_exclusive": 76,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000480",
+    "channel": 2,
+    "start": 106,
+    "end_exclusive": 110,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000481",
+    "channel": 0,
+    "start": 52,
+    "end_exclusive": 76,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000482",
+    "channel": 0,
+    "start": 2,
+    "end_exclusive": 6,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000483",
+    "channel": 1,
+    "start": 10,
+    "end_exclusive": 34,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000484",
+    "channel": 1,
+    "start": 58,
+    "end_exclusive": 62,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000485",
+    "channel": 0,
+    "start": 45,
+    "end_exclusive": 69,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000486",
+    "channel": 1,
+    "start": 91,
+    "end_exclusive": 103,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000487",
+    "channel": 0,
+    "start": 14,
+    "end_exclusive": 18,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000488",
+    "channel": 1,
+    "start": 98,
+    "end_exclusive": 110,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000489",
+    "channel": 2,
+    "start": 79,
+    "end_exclusive": 91,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000490",
+    "channel": 1,
+    "start": 60,
+    "end_exclusive": 84,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000491",
+    "channel": 2,
+    "start": 47,
+    "end_exclusive": 71,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000492",
+    "channel": 1,
+    "start": 98,
+    "end_exclusive": 110,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000493",
+    "channel": 1,
+    "start": 46,
+    "end_exclusive": 58,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000494",
+    "channel": 2,
+    "start": 30,
+    "end_exclusive": 42,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000495",
+    "channel": 2,
+    "start": 45,
+    "end_exclusive": 69,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000496",
+    "channel": 2,
+    "start": 53,
+    "end_exclusive": 57,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000497",
+    "channel": 2,
+    "start": 77,
+    "end_exclusive": 81,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000498",
+    "channel": 2,
+    "start": 21,
+    "end_exclusive": 33,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_2026102301_44_test_000499",
+    "channel": 1,
+    "start": 24,
+    "end_exclusive": 28,
+    "sign": 1
+  }
+]
