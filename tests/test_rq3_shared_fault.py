@@ -106,7 +106,7 @@ def test_metric_and_interval_math(fixture):
     pred=np.broadcast_to(y,(10,len(arms),*y.shape)).copy();pred[:,0,:,0]+=2
     rows=metric_rows(pred,y,s['events'],42,cfg,arms,np.zeros((10,8),bool))
     r=next(r for r in rows if r['view']=='original' and r['arm']==arms[0] and r['target']=='arrival_proxy')
-    assert r['mae']==r['rmse']==2
+    np.testing.assert_allclose([r['mae'],r['rmse']],[2.,2.],rtol=0,atol=1e-12)
     ci=interval([-1.]*5);assert ci['mean']==ci['ci_low']==ci['ci_high']==-1
 
 
