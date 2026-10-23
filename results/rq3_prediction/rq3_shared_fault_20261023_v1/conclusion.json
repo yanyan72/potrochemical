@@ -1,0 +1,32 @@
+{
+  "rq3_supported_under_registered_criterion": false,
+  "primary": [
+    {
+      "target": "arrival_proxy",
+      "comparison": "shared_T-shared_N",
+      "view": "suite_equal_weight",
+      "stratum": "all",
+      "mean": 0.008499701885280729,
+      "sd": 0.013996251478315215,
+      "ci_low": -0.008878939685149485,
+      "ci_high": 0.025878343455710943,
+      "negative_seeds": 1,
+      "seeds": 5
+    },
+    {
+      "target": "arrival_proxy",
+      "comparison": "shared_T-shared_R",
+      "view": "suite_equal_weight",
+      "stratum": "all",
+      "mean": 0.001978924729081539,
+      "sd": 0.008292030913788117,
+      "ci_low": -0.008316991528561826,
+      "ci_high": 0.012274840986724905,
+      "negative_seeds": 3,
+      "seeds": 5
+    }
+  ],
+  "models": 100,
+  "source": "synthetic",
+  "scope": "same frozen synthetic mechanism; adaptive research history; no industrial validation"
+}
