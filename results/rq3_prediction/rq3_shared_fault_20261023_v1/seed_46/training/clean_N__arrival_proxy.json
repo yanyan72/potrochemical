@@ -1,0 +1,16 @@
+{
+  "target_center": 24.517952005182305,
+  "target_scale": 5.5560740588474316,
+  "model_seed": 23460,
+  "shuffle_seed": 33460,
+  "initial_state_sha256": "d5567811400f7de9661e01df5c49c4a3e117738424a602a41b2471313eac3c32",
+  "shuffle_sha256": "486318f265ec46412dbc9d91757fe37e117457c8016202240246e3a158b5f163",
+  "schedule_sha256": "913557e30ea27f1cdc9ac9ab582410e80ea6a58890e7f8d6748f119a9de0af38",
+  "selected_epoch": 35,
+  "val_suite_mae": 1.6424124461531613,
+  "optimizer_updates": 320,
+  "training_examples": 40000,
+  "input_channels": 15,
+  "parameter_count": 6305,
+  "replay_max_abs_error": 0.0
+}
