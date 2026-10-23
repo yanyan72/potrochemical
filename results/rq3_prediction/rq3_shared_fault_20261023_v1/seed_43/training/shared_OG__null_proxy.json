@@ -1,0 +1,16 @@
+{
+  "target_center": 25.036929729306934,
+  "target_scale": 5.143604064906602,
+  "model_seed": 23431,
+  "shuffle_seed": 33431,
+  "initial_state_sha256": "7a7dcbfeee4d307978cfd740e3e255da573bf5129af63397032feba13805afdd",
+  "shuffle_sha256": "15650fb6643605850df5361d6873d3be34a75034f90da3e58599aaed3922fd73",
+  "schedule_sha256": "bf9d05f19a4f519f2093a6e875f7872e82db0d0b2c6adb4dd9d9e0917a1b151b",
+  "selected_epoch": 1,
+  "val_suite_mae": 3.9541451238807976,
+  "optimizer_updates": 320,
+  "training_examples": 40000,
+  "input_channels": 15,
+  "parameter_count": 6305,
+  "replay_max_abs_error": 0.0
+}

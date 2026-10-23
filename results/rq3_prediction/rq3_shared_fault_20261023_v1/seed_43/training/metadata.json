@@ -1,0 +1,8 @@
+{
+  "seed": 43,
+  "models": 20,
+  "total_optimizer_updates": 6400,
+  "validation_used_for_selection": true,
+  "test_generated": false,
+  "elapsed_seconds": 319.0881403750027
+}
