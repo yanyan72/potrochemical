@@ -1,0 +1,7 @@
+{
+  "seed": 45,
+  "batches": 500,
+  "models": 20,
+  "test_used": true,
+  "namespace": 2026102301
+}
