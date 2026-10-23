@@ -1,0 +1,21 @@
+{"seed": 44, "arm": "clean_N", "target": "arrival_proxy", "selected_epoch": 26, "elapsed_seconds": 16.4}
+{"seed": 44, "arm": "clean_N", "target": "null_proxy", "selected_epoch": 2, "elapsed_seconds": 31.0}
+{"seed": 44, "arm": "clean_T", "target": "arrival_proxy", "selected_epoch": 27, "elapsed_seconds": 45.9}
+{"seed": 44, "arm": "clean_T", "target": "null_proxy", "selected_epoch": 2, "elapsed_seconds": 61.0}
+{"seed": 44, "arm": "clean_R", "target": "arrival_proxy", "selected_epoch": 27, "elapsed_seconds": 76.1}
+{"seed": 44, "arm": "clean_R", "target": "null_proxy", "selected_epoch": 2, "elapsed_seconds": 91.5}
+{"seed": 44, "arm": "shared_N", "target": "arrival_proxy", "selected_epoch": 27, "elapsed_seconds": 107.0}
+{"seed": 44, "arm": "shared_N", "target": "null_proxy", "selected_epoch": 2, "elapsed_seconds": 123.7}
+{"seed": 44, "arm": "shared_T", "target": "arrival_proxy", "selected_epoch": 23, "elapsed_seconds": 139.7}
+{"seed": 44, "arm": "shared_T", "target": "null_proxy", "selected_epoch": 2, "elapsed_seconds": 156.0}
+{"seed": 44, "arm": "shared_R", "target": "arrival_proxy", "selected_epoch": 23, "elapsed_seconds": 173.7}
+{"seed": 44, "arm": "shared_R", "target": "null_proxy", "selected_epoch": 2, "elapsed_seconds": 190.0}
+{"seed": 44, "arm": "shared_O", "target": "arrival_proxy", "selected_epoch": 26, "elapsed_seconds": 206.2}
+{"seed": 44, "arm": "shared_O", "target": "null_proxy", "selected_epoch": 2, "elapsed_seconds": 226.0}
+{"seed": 44, "arm": "shared_TG", "target": "arrival_proxy", "selected_epoch": 27, "elapsed_seconds": 247.5}
+{"seed": 44, "arm": "shared_TG", "target": "null_proxy", "selected_epoch": 2, "elapsed_seconds": 267.2}
+{"seed": 44, "arm": "shared_RG", "target": "arrival_proxy", "selected_epoch": 32, "elapsed_seconds": 284.8}
+{"seed": 44, "arm": "shared_RG", "target": "null_proxy", "selected_epoch": 2, "elapsed_seconds": 302.6}
+{"seed": 44, "arm": "shared_OG", "target": "arrival_proxy", "selected_epoch": 27, "elapsed_seconds": 323.5}
+{"seed": 44, "arm": "shared_OG", "target": "null_proxy", "selected_epoch": 2, "elapsed_seconds": 339.5}
+{"seed": 44, "models": 20, "total_optimizer_updates": 6400, "validation_used_for_selection": true, "test_generated": false, "elapsed_seconds": 339.52329204099806}

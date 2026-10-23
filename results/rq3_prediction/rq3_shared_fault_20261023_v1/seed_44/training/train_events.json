@@ -1,0 +1,7002 @@
+[
+  {
+    "sequence_id": "rq3_20261019_44_train_000000",
+    "channel": 0,
+    "start": 3,
+    "end_exclusive": 15,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000001",
+    "channel": 0,
+    "start": 51,
+    "end_exclusive": 63,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000002",
+    "channel": 2,
+    "start": 68,
+    "end_exclusive": 92,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000003",
+    "channel": 0,
+    "start": 50,
+    "end_exclusive": 62,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000004",
+    "channel": 1,
+    "start": 68,
+    "end_exclusive": 72,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000005",
+    "channel": 2,
+    "start": 51,
+    "end_exclusive": 75,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000006",
+    "channel": 0,
+    "start": 22,
+    "end_exclusive": 34,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000007",
+    "channel": 1,
+    "start": 42,
+    "end_exclusive": 46,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000008",
+    "channel": 2,
+    "start": 105,
+    "end_exclusive": 117,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000009",
+    "channel": 0,
+    "start": 59,
+    "end_exclusive": 83,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000010",
+    "channel": 0,
+    "start": 86,
+    "end_exclusive": 90,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000011",
+    "channel": 1,
+    "start": 70,
+    "end_exclusive": 82,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000012",
+    "channel": 1,
+    "start": 0,
+    "end_exclusive": 12,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000013",
+    "channel": 1,
+    "start": 68,
+    "end_exclusive": 72,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000014",
+    "channel": 1,
+    "start": 40,
+    "end_exclusive": 44,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000015",
+    "channel": 0,
+    "start": 32,
+    "end_exclusive": 56,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000016",
+    "channel": 2,
+    "start": 57,
+    "end_exclusive": 61,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000017",
+    "channel": 2,
+    "start": 70,
+    "end_exclusive": 74,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000018",
+    "channel": 2,
+    "start": 41,
+    "end_exclusive": 53,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000019",
+    "channel": 1,
+    "start": 75,
+    "end_exclusive": 99,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000020",
+    "channel": 1,
+    "start": 71,
+    "end_exclusive": 95,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000021",
+    "channel": 0,
+    "start": 13,
+    "end_exclusive": 37,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000022",
+    "channel": 1,
+    "start": 82,
+    "end_exclusive": 106,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000023",
+    "channel": 1,
+    "start": 18,
+    "end_exclusive": 30,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000024",
+    "channel": 1,
+    "start": 3,
+    "end_exclusive": 27,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000025",
+    "channel": 0,
+    "start": 86,
+    "end_exclusive": 98,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000026",
+    "channel": 0,
+    "start": 87,
+    "end_exclusive": 99,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000027",
+    "channel": 1,
+    "start": 83,
+    "end_exclusive": 95,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000028",
+    "channel": 1,
+    "start": 54,
+    "end_exclusive": 78,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000029",
+    "channel": 1,
+    "start": 46,
+    "end_exclusive": 58,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000030",
+    "channel": 1,
+    "start": 86,
+    "end_exclusive": 110,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000031",
+    "channel": 0,
+    "start": 73,
+    "end_exclusive": 85,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000032",
+    "channel": 0,
+    "start": 37,
+    "end_exclusive": 61,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000033",
+    "channel": 1,
+    "start": 39,
+    "end_exclusive": 51,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000034",
+    "channel": 2,
+    "start": 3,
+    "end_exclusive": 15,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000035",
+    "channel": 1,
+    "start": 42,
+    "end_exclusive": 66,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000036",
+    "channel": 2,
+    "start": 23,
+    "end_exclusive": 27,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000037",
+    "channel": 1,
+    "start": 68,
+    "end_exclusive": 92,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000038",
+    "channel": 2,
+    "start": 104,
+    "end_exclusive": 108,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000039",
+    "channel": 0,
+    "start": 5,
+    "end_exclusive": 29,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000040",
+    "channel": 2,
+    "start": 22,
+    "end_exclusive": 46,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000041",
+    "channel": 0,
+    "start": 44,
+    "end_exclusive": 48,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000042",
+    "channel": 1,
+    "start": 24,
+    "end_exclusive": 48,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000043",
+    "channel": 2,
+    "start": 30,
+    "end_exclusive": 42,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000044",
+    "channel": 1,
+    "start": 35,
+    "end_exclusive": 47,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000045",
+    "channel": 0,
+    "start": 42,
+    "end_exclusive": 46,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000046",
+    "channel": 1,
+    "start": 63,
+    "end_exclusive": 75,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000047",
+    "channel": 2,
+    "start": 3,
+    "end_exclusive": 15,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000048",
+    "channel": 2,
+    "start": 51,
+    "end_exclusive": 55,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000049",
+    "channel": 1,
+    "start": 73,
+    "end_exclusive": 85,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000050",
+    "channel": 0,
+    "start": 23,
+    "end_exclusive": 35,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000051",
+    "channel": 1,
+    "start": 27,
+    "end_exclusive": 31,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000052",
+    "channel": 0,
+    "start": 4,
+    "end_exclusive": 28,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000053",
+    "channel": 1,
+    "start": 85,
+    "end_exclusive": 109,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000054",
+    "channel": 2,
+    "start": 37,
+    "end_exclusive": 61,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000055",
+    "channel": 2,
+    "start": 100,
+    "end_exclusive": 104,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000056",
+    "channel": 1,
+    "start": 10,
+    "end_exclusive": 22,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000057",
+    "channel": 0,
+    "start": 82,
+    "end_exclusive": 106,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000058",
+    "channel": 0,
+    "start": 27,
+    "end_exclusive": 51,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000059",
+    "channel": 1,
+    "start": 61,
+    "end_exclusive": 65,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000060",
+    "channel": 1,
+    "start": 19,
+    "end_exclusive": 23,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000061",
+    "channel": 0,
+    "start": 77,
+    "end_exclusive": 89,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000062",
+    "channel": 2,
+    "start": 20,
+    "end_exclusive": 32,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000063",
+    "channel": 2,
+    "start": 73,
+    "end_exclusive": 97,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000064",
+    "channel": 1,
+    "start": 7,
+    "end_exclusive": 19,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000065",
+    "channel": 2,
+    "start": 22,
+    "end_exclusive": 34,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000066",
+    "channel": 0,
+    "start": 63,
+    "end_exclusive": 67,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000067",
+    "channel": 2,
+    "start": 92,
+    "end_exclusive": 116,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000068",
+    "channel": 0,
+    "start": 52,
+    "end_exclusive": 64,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000069",
+    "channel": 2,
+    "start": 71,
+    "end_exclusive": 95,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000070",
+    "channel": 0,
+    "start": 7,
+    "end_exclusive": 19,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000071",
+    "channel": 0,
+    "start": 56,
+    "end_exclusive": 68,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000072",
+    "channel": 1,
+    "start": 20,
+    "end_exclusive": 32,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000073",
+    "channel": 1,
+    "start": 2,
+    "end_exclusive": 26,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000074",
+    "channel": 1,
+    "start": 86,
+    "end_exclusive": 98,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000075",
+    "channel": 2,
+    "start": 88,
+    "end_exclusive": 92,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000076",
+    "channel": 2,
+    "start": 68,
+    "end_exclusive": 92,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000077",
+    "channel": 0,
+    "start": 10,
+    "end_exclusive": 14,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000078",
+    "channel": 2,
+    "start": 39,
+    "end_exclusive": 43,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000079",
+    "channel": 1,
+    "start": 11,
+    "end_exclusive": 35,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000080",
+    "channel": 2,
+    "start": 106,
+    "end_exclusive": 118,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000081",
+    "channel": 2,
+    "start": 25,
+    "end_exclusive": 29,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000082",
+    "channel": 2,
+    "start": 1,
+    "end_exclusive": 25,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000083",
+    "channel": 2,
+    "start": 20,
+    "end_exclusive": 44,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000084",
+    "channel": 0,
+    "start": 39,
+    "end_exclusive": 51,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000085",
+    "channel": 2,
+    "start": 87,
+    "end_exclusive": 91,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000086",
+    "channel": 0,
+    "start": 0,
+    "end_exclusive": 24,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000087",
+    "channel": 2,
+    "start": 70,
+    "end_exclusive": 74,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000088",
+    "channel": 1,
+    "start": 40,
+    "end_exclusive": 44,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000089",
+    "channel": 2,
+    "start": 52,
+    "end_exclusive": 76,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000090",
+    "channel": 1,
+    "start": 73,
+    "end_exclusive": 97,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000091",
+    "channel": 2,
+    "start": 14,
+    "end_exclusive": 38,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000092",
+    "channel": 2,
+    "start": 0,
+    "end_exclusive": 24,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000093",
+    "channel": 2,
+    "start": 58,
+    "end_exclusive": 70,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000094",
+    "channel": 0,
+    "start": 26,
+    "end_exclusive": 50,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000095",
+    "channel": 0,
+    "start": 47,
+    "end_exclusive": 59,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000096",
+    "channel": 2,
+    "start": 7,
+    "end_exclusive": 31,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000097",
+    "channel": 1,
+    "start": 84,
+    "end_exclusive": 96,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000098",
+    "channel": 2,
+    "start": 50,
+    "end_exclusive": 54,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000099",
+    "channel": 2,
+    "start": 27,
+    "end_exclusive": 39,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000100",
+    "channel": 1,
+    "start": 106,
+    "end_exclusive": 118,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000101",
+    "channel": 2,
+    "start": 5,
+    "end_exclusive": 17,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000102",
+    "channel": 1,
+    "start": 106,
+    "end_exclusive": 110,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000103",
+    "channel": 2,
+    "start": 48,
+    "end_exclusive": 52,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000104",
+    "channel": 0,
+    "start": 8,
+    "end_exclusive": 32,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000105",
+    "channel": 1,
+    "start": 97,
+    "end_exclusive": 109,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000106",
+    "channel": 2,
+    "start": 12,
+    "end_exclusive": 24,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000107",
+    "channel": 0,
+    "start": 60,
+    "end_exclusive": 64,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000108",
+    "channel": 1,
+    "start": 17,
+    "end_exclusive": 29,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000109",
+    "channel": 0,
+    "start": 75,
+    "end_exclusive": 87,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000110",
+    "channel": 0,
+    "start": 62,
+    "end_exclusive": 74,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000111",
+    "channel": 0,
+    "start": 83,
+    "end_exclusive": 107,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000112",
+    "channel": 2,
+    "start": 13,
+    "end_exclusive": 37,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000113",
+    "channel": 0,
+    "start": 79,
+    "end_exclusive": 83,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000114",
+    "channel": 0,
+    "start": 92,
+    "end_exclusive": 104,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000115",
+    "channel": 0,
+    "start": 96,
+    "end_exclusive": 108,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000116",
+    "channel": 1,
+    "start": 81,
+    "end_exclusive": 85,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000117",
+    "channel": 1,
+    "start": 78,
+    "end_exclusive": 90,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000118",
+    "channel": 0,
+    "start": 75,
+    "end_exclusive": 87,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000119",
+    "channel": 1,
+    "start": 96,
+    "end_exclusive": 108,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000120",
+    "channel": 1,
+    "start": 38,
+    "end_exclusive": 50,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000121",
+    "channel": 0,
+    "start": 13,
+    "end_exclusive": 25,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000122",
+    "channel": 2,
+    "start": 40,
+    "end_exclusive": 52,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000123",
+    "channel": 0,
+    "start": 59,
+    "end_exclusive": 63,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000124",
+    "channel": 1,
+    "start": 10,
+    "end_exclusive": 34,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000125",
+    "channel": 0,
+    "start": 19,
+    "end_exclusive": 43,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000126",
+    "channel": 0,
+    "start": 33,
+    "end_exclusive": 57,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000127",
+    "channel": 0,
+    "start": 88,
+    "end_exclusive": 100,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000128",
+    "channel": 0,
+    "start": 90,
+    "end_exclusive": 102,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000129",
+    "channel": 2,
+    "start": 8,
+    "end_exclusive": 32,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000130",
+    "channel": 2,
+    "start": 57,
+    "end_exclusive": 81,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000131",
+    "channel": 0,
+    "start": 44,
+    "end_exclusive": 56,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000132",
+    "channel": 2,
+    "start": 52,
+    "end_exclusive": 76,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000133",
+    "channel": 0,
+    "start": 72,
+    "end_exclusive": 76,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000134",
+    "channel": 2,
+    "start": 20,
+    "end_exclusive": 24,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000135",
+    "channel": 0,
+    "start": 11,
+    "end_exclusive": 15,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000136",
+    "channel": 2,
+    "start": 2,
+    "end_exclusive": 26,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000137",
+    "channel": 2,
+    "start": 101,
+    "end_exclusive": 113,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000138",
+    "channel": 0,
+    "start": 51,
+    "end_exclusive": 63,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000139",
+    "channel": 1,
+    "start": 107,
+    "end_exclusive": 111,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000140",
+    "channel": 2,
+    "start": 51,
+    "end_exclusive": 75,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000141",
+    "channel": 1,
+    "start": 44,
+    "end_exclusive": 68,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000142",
+    "channel": 2,
+    "start": 15,
+    "end_exclusive": 19,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000143",
+    "channel": 0,
+    "start": 50,
+    "end_exclusive": 62,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000144",
+    "channel": 2,
+    "start": 92,
+    "end_exclusive": 104,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000145",
+    "channel": 1,
+    "start": 72,
+    "end_exclusive": 76,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000146",
+    "channel": 0,
+    "start": 25,
+    "end_exclusive": 29,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000147",
+    "channel": 2,
+    "start": 24,
+    "end_exclusive": 28,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000148",
+    "channel": 2,
+    "start": 2,
+    "end_exclusive": 14,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000149",
+    "channel": 2,
+    "start": 64,
+    "end_exclusive": 76,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000150",
+    "channel": 2,
+    "start": 58,
+    "end_exclusive": 82,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000151",
+    "channel": 2,
+    "start": 66,
+    "end_exclusive": 70,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000152",
+    "channel": 0,
+    "start": 3,
+    "end_exclusive": 7,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000153",
+    "channel": 0,
+    "start": 84,
+    "end_exclusive": 108,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000154",
+    "channel": 2,
+    "start": 82,
+    "end_exclusive": 106,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000155",
+    "channel": 1,
+    "start": 35,
+    "end_exclusive": 47,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000156",
+    "channel": 1,
+    "start": 59,
+    "end_exclusive": 83,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000157",
+    "channel": 2,
+    "start": 87,
+    "end_exclusive": 111,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000158",
+    "channel": 1,
+    "start": 87,
+    "end_exclusive": 111,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000159",
+    "channel": 1,
+    "start": 85,
+    "end_exclusive": 109,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000160",
+    "channel": 1,
+    "start": 6,
+    "end_exclusive": 30,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000161",
+    "channel": 1,
+    "start": 61,
+    "end_exclusive": 65,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000162",
+    "channel": 1,
+    "start": 94,
+    "end_exclusive": 118,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000163",
+    "channel": 1,
+    "start": 96,
+    "end_exclusive": 100,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000164",
+    "channel": 0,
+    "start": 67,
+    "end_exclusive": 91,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000165",
+    "channel": 1,
+    "start": 27,
+    "end_exclusive": 39,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000166",
+    "channel": 0,
+    "start": 68,
+    "end_exclusive": 72,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000167",
+    "channel": 1,
+    "start": 32,
+    "end_exclusive": 36,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000168",
+    "channel": 2,
+    "start": 12,
+    "end_exclusive": 24,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000169",
+    "channel": 2,
+    "start": 64,
+    "end_exclusive": 88,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000170",
+    "channel": 2,
+    "start": 50,
+    "end_exclusive": 54,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000171",
+    "channel": 1,
+    "start": 77,
+    "end_exclusive": 101,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000172",
+    "channel": 0,
+    "start": 100,
+    "end_exclusive": 104,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000173",
+    "channel": 2,
+    "start": 74,
+    "end_exclusive": 78,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000174",
+    "channel": 2,
+    "start": 109,
+    "end_exclusive": 113,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000175",
+    "channel": 2,
+    "start": 67,
+    "end_exclusive": 91,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000176",
+    "channel": 2,
+    "start": 17,
+    "end_exclusive": 41,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000177",
+    "channel": 2,
+    "start": 8,
+    "end_exclusive": 32,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000178",
+    "channel": 0,
+    "start": 89,
+    "end_exclusive": 93,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000179",
+    "channel": 0,
+    "start": 35,
+    "end_exclusive": 59,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000180",
+    "channel": 2,
+    "start": 64,
+    "end_exclusive": 68,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000181",
+    "channel": 1,
+    "start": 0,
+    "end_exclusive": 4,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000182",
+    "channel": 0,
+    "start": 10,
+    "end_exclusive": 14,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000183",
+    "channel": 0,
+    "start": 28,
+    "end_exclusive": 40,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000184",
+    "channel": 2,
+    "start": 53,
+    "end_exclusive": 77,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000185",
+    "channel": 2,
+    "start": 17,
+    "end_exclusive": 21,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000186",
+    "channel": 0,
+    "start": 73,
+    "end_exclusive": 77,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000187",
+    "channel": 1,
+    "start": 62,
+    "end_exclusive": 74,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000188",
+    "channel": 1,
+    "start": 26,
+    "end_exclusive": 50,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000189",
+    "channel": 0,
+    "start": 49,
+    "end_exclusive": 53,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000190",
+    "channel": 2,
+    "start": 60,
+    "end_exclusive": 72,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000191",
+    "channel": 1,
+    "start": 60,
+    "end_exclusive": 64,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000192",
+    "channel": 1,
+    "start": 31,
+    "end_exclusive": 35,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000193",
+    "channel": 0,
+    "start": 1,
+    "end_exclusive": 25,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000194",
+    "channel": 0,
+    "start": 35,
+    "end_exclusive": 59,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000195",
+    "channel": 0,
+    "start": 53,
+    "end_exclusive": 65,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000196",
+    "channel": 0,
+    "start": 12,
+    "end_exclusive": 36,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000197",
+    "channel": 1,
+    "start": 58,
+    "end_exclusive": 82,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000198",
+    "channel": 2,
+    "start": 7,
+    "end_exclusive": 11,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000199",
+    "channel": 2,
+    "start": 86,
+    "end_exclusive": 90,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000200",
+    "channel": 1,
+    "start": 40,
+    "end_exclusive": 64,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000201",
+    "channel": 0,
+    "start": 68,
+    "end_exclusive": 92,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000202",
+    "channel": 1,
+    "start": 64,
+    "end_exclusive": 76,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000203",
+    "channel": 0,
+    "start": 0,
+    "end_exclusive": 24,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000204",
+    "channel": 1,
+    "start": 53,
+    "end_exclusive": 57,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000205",
+    "channel": 1,
+    "start": 3,
+    "end_exclusive": 15,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000206",
+    "channel": 1,
+    "start": 75,
+    "end_exclusive": 79,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000207",
+    "channel": 1,
+    "start": 75,
+    "end_exclusive": 87,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000208",
+    "channel": 0,
+    "start": 2,
+    "end_exclusive": 6,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000209",
+    "channel": 0,
+    "start": 6,
+    "end_exclusive": 10,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000210",
+    "channel": 1,
+    "start": 93,
+    "end_exclusive": 117,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000211",
+    "channel": 1,
+    "start": 76,
+    "end_exclusive": 88,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000212",
+    "channel": 0,
+    "start": 98,
+    "end_exclusive": 102,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000213",
+    "channel": 1,
+    "start": 18,
+    "end_exclusive": 30,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000214",
+    "channel": 0,
+    "start": 91,
+    "end_exclusive": 103,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000215",
+    "channel": 2,
+    "start": 3,
+    "end_exclusive": 7,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000216",
+    "channel": 1,
+    "start": 4,
+    "end_exclusive": 28,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000217",
+    "channel": 2,
+    "start": 109,
+    "end_exclusive": 113,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000218",
+    "channel": 1,
+    "start": 58,
+    "end_exclusive": 82,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000219",
+    "channel": 1,
+    "start": 17,
+    "end_exclusive": 41,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000220",
+    "channel": 0,
+    "start": 63,
+    "end_exclusive": 87,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000221",
+    "channel": 1,
+    "start": 93,
+    "end_exclusive": 97,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000222",
+    "channel": 0,
+    "start": 8,
+    "end_exclusive": 20,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000223",
+    "channel": 0,
+    "start": 96,
+    "end_exclusive": 108,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000224",
+    "channel": 1,
+    "start": 88,
+    "end_exclusive": 112,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000225",
+    "channel": 0,
+    "start": 67,
+    "end_exclusive": 91,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000226",
+    "channel": 2,
+    "start": 38,
+    "end_exclusive": 50,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000227",
+    "channel": 0,
+    "start": 58,
+    "end_exclusive": 70,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000228",
+    "channel": 1,
+    "start": 43,
+    "end_exclusive": 67,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000229",
+    "channel": 1,
+    "start": 79,
+    "end_exclusive": 83,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000230",
+    "channel": 1,
+    "start": 60,
+    "end_exclusive": 84,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000231",
+    "channel": 0,
+    "start": 65,
+    "end_exclusive": 77,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000232",
+    "channel": 1,
+    "start": 12,
+    "end_exclusive": 36,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000233",
+    "channel": 1,
+    "start": 39,
+    "end_exclusive": 43,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000234",
+    "channel": 2,
+    "start": 62,
+    "end_exclusive": 74,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000235",
+    "channel": 2,
+    "start": 74,
+    "end_exclusive": 98,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000236",
+    "channel": 1,
+    "start": 30,
+    "end_exclusive": 34,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000237",
+    "channel": 1,
+    "start": 91,
+    "end_exclusive": 115,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000238",
+    "channel": 0,
+    "start": 104,
+    "end_exclusive": 108,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000239",
+    "channel": 1,
+    "start": 62,
+    "end_exclusive": 86,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000240",
+    "channel": 0,
+    "start": 102,
+    "end_exclusive": 114,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000241",
+    "channel": 1,
+    "start": 63,
+    "end_exclusive": 75,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000242",
+    "channel": 1,
+    "start": 24,
+    "end_exclusive": 28,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000243",
+    "channel": 0,
+    "start": 86,
+    "end_exclusive": 90,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000244",
+    "channel": 0,
+    "start": 36,
+    "end_exclusive": 60,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000245",
+    "channel": 0,
+    "start": 33,
+    "end_exclusive": 57,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000246",
+    "channel": 0,
+    "start": 49,
+    "end_exclusive": 61,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000247",
+    "channel": 0,
+    "start": 78,
+    "end_exclusive": 102,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000248",
+    "channel": 2,
+    "start": 90,
+    "end_exclusive": 94,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000249",
+    "channel": 1,
+    "start": 25,
+    "end_exclusive": 49,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000250",
+    "channel": 1,
+    "start": 74,
+    "end_exclusive": 98,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000251",
+    "channel": 1,
+    "start": 65,
+    "end_exclusive": 77,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000252",
+    "channel": 0,
+    "start": 76,
+    "end_exclusive": 100,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000253",
+    "channel": 0,
+    "start": 87,
+    "end_exclusive": 99,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000254",
+    "channel": 1,
+    "start": 81,
+    "end_exclusive": 105,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000255",
+    "channel": 1,
+    "start": 7,
+    "end_exclusive": 31,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000256",
+    "channel": 0,
+    "start": 83,
+    "end_exclusive": 95,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000257",
+    "channel": 2,
+    "start": 45,
+    "end_exclusive": 69,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000258",
+    "channel": 0,
+    "start": 31,
+    "end_exclusive": 43,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000259",
+    "channel": 0,
+    "start": 51,
+    "end_exclusive": 63,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000260",
+    "channel": 2,
+    "start": 12,
+    "end_exclusive": 16,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000261",
+    "channel": 1,
+    "start": 68,
+    "end_exclusive": 92,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000262",
+    "channel": 1,
+    "start": 3,
+    "end_exclusive": 27,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000263",
+    "channel": 0,
+    "start": 96,
+    "end_exclusive": 108,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000264",
+    "channel": 1,
+    "start": 96,
+    "end_exclusive": 108,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000265",
+    "channel": 1,
+    "start": 67,
+    "end_exclusive": 71,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000266",
+    "channel": 2,
+    "start": 85,
+    "end_exclusive": 89,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000267",
+    "channel": 1,
+    "start": 17,
+    "end_exclusive": 29,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000268",
+    "channel": 1,
+    "start": 19,
+    "end_exclusive": 31,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000269",
+    "channel": 1,
+    "start": 94,
+    "end_exclusive": 106,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000270",
+    "channel": 0,
+    "start": 102,
+    "end_exclusive": 114,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000271",
+    "channel": 2,
+    "start": 86,
+    "end_exclusive": 90,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000272",
+    "channel": 2,
+    "start": 41,
+    "end_exclusive": 53,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000273",
+    "channel": 0,
+    "start": 33,
+    "end_exclusive": 45,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000274",
+    "channel": 1,
+    "start": 74,
+    "end_exclusive": 86,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000275",
+    "channel": 0,
+    "start": 19,
+    "end_exclusive": 31,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000276",
+    "channel": 2,
+    "start": 66,
+    "end_exclusive": 78,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000277",
+    "channel": 2,
+    "start": 103,
+    "end_exclusive": 107,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000278",
+    "channel": 2,
+    "start": 43,
+    "end_exclusive": 47,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000279",
+    "channel": 0,
+    "start": 101,
+    "end_exclusive": 105,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000280",
+    "channel": 1,
+    "start": 14,
+    "end_exclusive": 38,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000281",
+    "channel": 1,
+    "start": 10,
+    "end_exclusive": 34,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000282",
+    "channel": 2,
+    "start": 76,
+    "end_exclusive": 80,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000283",
+    "channel": 2,
+    "start": 7,
+    "end_exclusive": 31,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000284",
+    "channel": 2,
+    "start": 24,
+    "end_exclusive": 36,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000285",
+    "channel": 2,
+    "start": 106,
+    "end_exclusive": 110,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000286",
+    "channel": 2,
+    "start": 84,
+    "end_exclusive": 96,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000287",
+    "channel": 2,
+    "start": 41,
+    "end_exclusive": 53,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000288",
+    "channel": 2,
+    "start": 64,
+    "end_exclusive": 88,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000289",
+    "channel": 1,
+    "start": 51,
+    "end_exclusive": 75,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000290",
+    "channel": 2,
+    "start": 12,
+    "end_exclusive": 16,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000291",
+    "channel": 0,
+    "start": 80,
+    "end_exclusive": 104,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000292",
+    "channel": 1,
+    "start": 99,
+    "end_exclusive": 103,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000293",
+    "channel": 0,
+    "start": 76,
+    "end_exclusive": 88,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000294",
+    "channel": 2,
+    "start": 94,
+    "end_exclusive": 118,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000295",
+    "channel": 0,
+    "start": 8,
+    "end_exclusive": 12,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000296",
+    "channel": 0,
+    "start": 104,
+    "end_exclusive": 108,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000297",
+    "channel": 0,
+    "start": 73,
+    "end_exclusive": 85,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000298",
+    "channel": 0,
+    "start": 39,
+    "end_exclusive": 51,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000299",
+    "channel": 1,
+    "start": 91,
+    "end_exclusive": 103,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000300",
+    "channel": 0,
+    "start": 18,
+    "end_exclusive": 30,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000301",
+    "channel": 0,
+    "start": 112,
+    "end_exclusive": 116,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000302",
+    "channel": 0,
+    "start": 51,
+    "end_exclusive": 63,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000303",
+    "channel": 1,
+    "start": 44,
+    "end_exclusive": 48,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000304",
+    "channel": 0,
+    "start": 38,
+    "end_exclusive": 50,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000305",
+    "channel": 0,
+    "start": 72,
+    "end_exclusive": 84,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000306",
+    "channel": 2,
+    "start": 61,
+    "end_exclusive": 65,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000307",
+    "channel": 2,
+    "start": 40,
+    "end_exclusive": 44,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000308",
+    "channel": 1,
+    "start": 84,
+    "end_exclusive": 88,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000309",
+    "channel": 1,
+    "start": 70,
+    "end_exclusive": 94,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000310",
+    "channel": 0,
+    "start": 70,
+    "end_exclusive": 94,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000311",
+    "channel": 2,
+    "start": 109,
+    "end_exclusive": 113,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000312",
+    "channel": 0,
+    "start": 78,
+    "end_exclusive": 90,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000313",
+    "channel": 0,
+    "start": 72,
+    "end_exclusive": 84,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000314",
+    "channel": 2,
+    "start": 73,
+    "end_exclusive": 77,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000315",
+    "channel": 1,
+    "start": 61,
+    "end_exclusive": 65,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000316",
+    "channel": 1,
+    "start": 83,
+    "end_exclusive": 107,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000317",
+    "channel": 2,
+    "start": 42,
+    "end_exclusive": 54,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000318",
+    "channel": 0,
+    "start": 18,
+    "end_exclusive": 42,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000319",
+    "channel": 0,
+    "start": 55,
+    "end_exclusive": 79,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000320",
+    "channel": 2,
+    "start": 34,
+    "end_exclusive": 58,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000321",
+    "channel": 0,
+    "start": 42,
+    "end_exclusive": 66,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000322",
+    "channel": 0,
+    "start": 26,
+    "end_exclusive": 38,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000323",
+    "channel": 0,
+    "start": 0,
+    "end_exclusive": 12,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000324",
+    "channel": 0,
+    "start": 44,
+    "end_exclusive": 68,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000325",
+    "channel": 2,
+    "start": 46,
+    "end_exclusive": 70,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000326",
+    "channel": 1,
+    "start": 10,
+    "end_exclusive": 34,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000327",
+    "channel": 2,
+    "start": 66,
+    "end_exclusive": 90,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000328",
+    "channel": 2,
+    "start": 58,
+    "end_exclusive": 82,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000329",
+    "channel": 2,
+    "start": 62,
+    "end_exclusive": 86,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000330",
+    "channel": 0,
+    "start": 3,
+    "end_exclusive": 7,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000331",
+    "channel": 0,
+    "start": 46,
+    "end_exclusive": 58,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000332",
+    "channel": 2,
+    "start": 10,
+    "end_exclusive": 22,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000333",
+    "channel": 1,
+    "start": 41,
+    "end_exclusive": 45,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000334",
+    "channel": 2,
+    "start": 19,
+    "end_exclusive": 43,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000335",
+    "channel": 2,
+    "start": 30,
+    "end_exclusive": 42,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000336",
+    "channel": 2,
+    "start": 80,
+    "end_exclusive": 84,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000337",
+    "channel": 2,
+    "start": 72,
+    "end_exclusive": 96,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000338",
+    "channel": 0,
+    "start": 90,
+    "end_exclusive": 114,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000339",
+    "channel": 1,
+    "start": 1,
+    "end_exclusive": 13,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000340",
+    "channel": 2,
+    "start": 76,
+    "end_exclusive": 80,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000341",
+    "channel": 0,
+    "start": 4,
+    "end_exclusive": 16,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000342",
+    "channel": 1,
+    "start": 74,
+    "end_exclusive": 86,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000343",
+    "channel": 0,
+    "start": 64,
+    "end_exclusive": 68,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000344",
+    "channel": 2,
+    "start": 79,
+    "end_exclusive": 103,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000345",
+    "channel": 0,
+    "start": 13,
+    "end_exclusive": 37,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000346",
+    "channel": 0,
+    "start": 11,
+    "end_exclusive": 15,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000347",
+    "channel": 2,
+    "start": 94,
+    "end_exclusive": 98,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000348",
+    "channel": 1,
+    "start": 48,
+    "end_exclusive": 72,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000349",
+    "channel": 0,
+    "start": 24,
+    "end_exclusive": 36,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000350",
+    "channel": 1,
+    "start": 47,
+    "end_exclusive": 71,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000351",
+    "channel": 1,
+    "start": 33,
+    "end_exclusive": 45,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000352",
+    "channel": 0,
+    "start": 106,
+    "end_exclusive": 118,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000353",
+    "channel": 1,
+    "start": 50,
+    "end_exclusive": 74,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000354",
+    "channel": 2,
+    "start": 67,
+    "end_exclusive": 79,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000355",
+    "channel": 1,
+    "start": 19,
+    "end_exclusive": 23,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000356",
+    "channel": 0,
+    "start": 18,
+    "end_exclusive": 30,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000357",
+    "channel": 0,
+    "start": 43,
+    "end_exclusive": 55,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000358",
+    "channel": 1,
+    "start": 71,
+    "end_exclusive": 83,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000359",
+    "channel": 0,
+    "start": 18,
+    "end_exclusive": 22,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000360",
+    "channel": 1,
+    "start": 54,
+    "end_exclusive": 66,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000361",
+    "channel": 1,
+    "start": 108,
+    "end_exclusive": 112,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000362",
+    "channel": 2,
+    "start": 95,
+    "end_exclusive": 99,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000363",
+    "channel": 2,
+    "start": 78,
+    "end_exclusive": 82,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000364",
+    "channel": 2,
+    "start": 83,
+    "end_exclusive": 107,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000365",
+    "channel": 2,
+    "start": 5,
+    "end_exclusive": 29,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000366",
+    "channel": 0,
+    "start": 13,
+    "end_exclusive": 17,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000367",
+    "channel": 0,
+    "start": 32,
+    "end_exclusive": 36,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000368",
+    "channel": 2,
+    "start": 9,
+    "end_exclusive": 33,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000369",
+    "channel": 1,
+    "start": 27,
+    "end_exclusive": 39,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000370",
+    "channel": 2,
+    "start": 97,
+    "end_exclusive": 109,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000371",
+    "channel": 0,
+    "start": 90,
+    "end_exclusive": 114,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000372",
+    "channel": 1,
+    "start": 54,
+    "end_exclusive": 66,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000373",
+    "channel": 2,
+    "start": 16,
+    "end_exclusive": 20,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000374",
+    "channel": 2,
+    "start": 80,
+    "end_exclusive": 104,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000375",
+    "channel": 2,
+    "start": 53,
+    "end_exclusive": 77,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000376",
+    "channel": 0,
+    "start": 41,
+    "end_exclusive": 65,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000377",
+    "channel": 0,
+    "start": 57,
+    "end_exclusive": 81,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000378",
+    "channel": 1,
+    "start": 34,
+    "end_exclusive": 38,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000379",
+    "channel": 0,
+    "start": 77,
+    "end_exclusive": 81,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000380",
+    "channel": 2,
+    "start": 17,
+    "end_exclusive": 29,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000381",
+    "channel": 2,
+    "start": 53,
+    "end_exclusive": 57,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000382",
+    "channel": 0,
+    "start": 4,
+    "end_exclusive": 8,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000383",
+    "channel": 1,
+    "start": 64,
+    "end_exclusive": 76,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000384",
+    "channel": 0,
+    "start": 37,
+    "end_exclusive": 41,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000385",
+    "channel": 1,
+    "start": 35,
+    "end_exclusive": 59,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000386",
+    "channel": 1,
+    "start": 44,
+    "end_exclusive": 68,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000387",
+    "channel": 0,
+    "start": 53,
+    "end_exclusive": 77,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000388",
+    "channel": 0,
+    "start": 59,
+    "end_exclusive": 71,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000389",
+    "channel": 0,
+    "start": 72,
+    "end_exclusive": 96,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000390",
+    "channel": 0,
+    "start": 17,
+    "end_exclusive": 41,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000391",
+    "channel": 1,
+    "start": 1,
+    "end_exclusive": 13,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000392",
+    "channel": 2,
+    "start": 34,
+    "end_exclusive": 38,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000393",
+    "channel": 2,
+    "start": 62,
+    "end_exclusive": 86,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000394",
+    "channel": 2,
+    "start": 58,
+    "end_exclusive": 62,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000395",
+    "channel": 1,
+    "start": 81,
+    "end_exclusive": 85,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000396",
+    "channel": 1,
+    "start": 52,
+    "end_exclusive": 76,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000397",
+    "channel": 0,
+    "start": 75,
+    "end_exclusive": 87,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000398",
+    "channel": 2,
+    "start": 0,
+    "end_exclusive": 4,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000399",
+    "channel": 0,
+    "start": 52,
+    "end_exclusive": 76,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000400",
+    "channel": 0,
+    "start": 59,
+    "end_exclusive": 71,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000401",
+    "channel": 0,
+    "start": 94,
+    "end_exclusive": 118,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000402",
+    "channel": 2,
+    "start": 14,
+    "end_exclusive": 18,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000403",
+    "channel": 1,
+    "start": 20,
+    "end_exclusive": 24,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000404",
+    "channel": 0,
+    "start": 49,
+    "end_exclusive": 53,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000405",
+    "channel": 0,
+    "start": 46,
+    "end_exclusive": 70,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000406",
+    "channel": 0,
+    "start": 77,
+    "end_exclusive": 89,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000407",
+    "channel": 1,
+    "start": 64,
+    "end_exclusive": 68,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000408",
+    "channel": 2,
+    "start": 37,
+    "end_exclusive": 61,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000409",
+    "channel": 0,
+    "start": 70,
+    "end_exclusive": 94,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000410",
+    "channel": 2,
+    "start": 41,
+    "end_exclusive": 53,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000411",
+    "channel": 0,
+    "start": 100,
+    "end_exclusive": 104,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000412",
+    "channel": 1,
+    "start": 74,
+    "end_exclusive": 98,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000413",
+    "channel": 2,
+    "start": 13,
+    "end_exclusive": 37,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000414",
+    "channel": 0,
+    "start": 21,
+    "end_exclusive": 45,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000415",
+    "channel": 2,
+    "start": 64,
+    "end_exclusive": 88,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000416",
+    "channel": 2,
+    "start": 27,
+    "end_exclusive": 39,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000417",
+    "channel": 1,
+    "start": 102,
+    "end_exclusive": 114,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000418",
+    "channel": 0,
+    "start": 35,
+    "end_exclusive": 47,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000419",
+    "channel": 1,
+    "start": 105,
+    "end_exclusive": 117,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000420",
+    "channel": 1,
+    "start": 17,
+    "end_exclusive": 29,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000421",
+    "channel": 0,
+    "start": 33,
+    "end_exclusive": 37,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000422",
+    "channel": 0,
+    "start": 44,
+    "end_exclusive": 68,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000423",
+    "channel": 2,
+    "start": 82,
+    "end_exclusive": 106,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000424",
+    "channel": 0,
+    "start": 34,
+    "end_exclusive": 58,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000425",
+    "channel": 0,
+    "start": 28,
+    "end_exclusive": 40,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000426",
+    "channel": 2,
+    "start": 37,
+    "end_exclusive": 41,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000427",
+    "channel": 2,
+    "start": 91,
+    "end_exclusive": 103,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000428",
+    "channel": 1,
+    "start": 11,
+    "end_exclusive": 35,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000429",
+    "channel": 2,
+    "start": 49,
+    "end_exclusive": 73,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000430",
+    "channel": 2,
+    "start": 23,
+    "end_exclusive": 35,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000431",
+    "channel": 1,
+    "start": 24,
+    "end_exclusive": 28,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000432",
+    "channel": 0,
+    "start": 4,
+    "end_exclusive": 28,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000433",
+    "channel": 0,
+    "start": 2,
+    "end_exclusive": 26,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000434",
+    "channel": 0,
+    "start": 50,
+    "end_exclusive": 74,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000435",
+    "channel": 2,
+    "start": 96,
+    "end_exclusive": 108,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000436",
+    "channel": 2,
+    "start": 0,
+    "end_exclusive": 4,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000437",
+    "channel": 1,
+    "start": 32,
+    "end_exclusive": 56,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000438",
+    "channel": 2,
+    "start": 16,
+    "end_exclusive": 28,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000439",
+    "channel": 1,
+    "start": 46,
+    "end_exclusive": 50,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000440",
+    "channel": 2,
+    "start": 69,
+    "end_exclusive": 93,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000441",
+    "channel": 1,
+    "start": 111,
+    "end_exclusive": 115,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000442",
+    "channel": 0,
+    "start": 28,
+    "end_exclusive": 32,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000443",
+    "channel": 2,
+    "start": 6,
+    "end_exclusive": 10,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000444",
+    "channel": 2,
+    "start": 48,
+    "end_exclusive": 72,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000445",
+    "channel": 1,
+    "start": 79,
+    "end_exclusive": 103,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000446",
+    "channel": 2,
+    "start": 2,
+    "end_exclusive": 26,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000447",
+    "channel": 0,
+    "start": 17,
+    "end_exclusive": 41,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000448",
+    "channel": 0,
+    "start": 111,
+    "end_exclusive": 115,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000449",
+    "channel": 0,
+    "start": 9,
+    "end_exclusive": 33,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000450",
+    "channel": 1,
+    "start": 84,
+    "end_exclusive": 96,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000451",
+    "channel": 2,
+    "start": 100,
+    "end_exclusive": 112,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000452",
+    "channel": 2,
+    "start": 86,
+    "end_exclusive": 110,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000453",
+    "channel": 1,
+    "start": 32,
+    "end_exclusive": 56,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000454",
+    "channel": 0,
+    "start": 43,
+    "end_exclusive": 67,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000455",
+    "channel": 2,
+    "start": 62,
+    "end_exclusive": 74,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000456",
+    "channel": 1,
+    "start": 33,
+    "end_exclusive": 57,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000457",
+    "channel": 2,
+    "start": 2,
+    "end_exclusive": 6,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000458",
+    "channel": 0,
+    "start": 67,
+    "end_exclusive": 91,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000459",
+    "channel": 2,
+    "start": 102,
+    "end_exclusive": 114,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000460",
+    "channel": 0,
+    "start": 59,
+    "end_exclusive": 71,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000461",
+    "channel": 0,
+    "start": 37,
+    "end_exclusive": 41,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000462",
+    "channel": 0,
+    "start": 99,
+    "end_exclusive": 111,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000463",
+    "channel": 0,
+    "start": 72,
+    "end_exclusive": 84,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000464",
+    "channel": 0,
+    "start": 49,
+    "end_exclusive": 61,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000465",
+    "channel": 0,
+    "start": 50,
+    "end_exclusive": 74,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000466",
+    "channel": 1,
+    "start": 1,
+    "end_exclusive": 13,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000467",
+    "channel": 2,
+    "start": 23,
+    "end_exclusive": 47,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000468",
+    "channel": 1,
+    "start": 59,
+    "end_exclusive": 63,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000469",
+    "channel": 0,
+    "start": 63,
+    "end_exclusive": 67,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000470",
+    "channel": 2,
+    "start": 12,
+    "end_exclusive": 36,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000471",
+    "channel": 1,
+    "start": 43,
+    "end_exclusive": 67,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000472",
+    "channel": 1,
+    "start": 7,
+    "end_exclusive": 19,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000473",
+    "channel": 1,
+    "start": 34,
+    "end_exclusive": 46,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000474",
+    "channel": 2,
+    "start": 69,
+    "end_exclusive": 81,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000475",
+    "channel": 1,
+    "start": 52,
+    "end_exclusive": 56,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000476",
+    "channel": 1,
+    "start": 85,
+    "end_exclusive": 89,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000477",
+    "channel": 0,
+    "start": 7,
+    "end_exclusive": 31,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000478",
+    "channel": 2,
+    "start": 40,
+    "end_exclusive": 64,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000479",
+    "channel": 1,
+    "start": 28,
+    "end_exclusive": 52,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000480",
+    "channel": 0,
+    "start": 61,
+    "end_exclusive": 85,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000481",
+    "channel": 0,
+    "start": 97,
+    "end_exclusive": 109,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000482",
+    "channel": 0,
+    "start": 16,
+    "end_exclusive": 40,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000483",
+    "channel": 2,
+    "start": 105,
+    "end_exclusive": 109,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000484",
+    "channel": 1,
+    "start": 92,
+    "end_exclusive": 116,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000485",
+    "channel": 1,
+    "start": 87,
+    "end_exclusive": 91,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000486",
+    "channel": 2,
+    "start": 87,
+    "end_exclusive": 111,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000487",
+    "channel": 2,
+    "start": 24,
+    "end_exclusive": 28,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000488",
+    "channel": 0,
+    "start": 82,
+    "end_exclusive": 106,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000489",
+    "channel": 0,
+    "start": 27,
+    "end_exclusive": 39,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000490",
+    "channel": 1,
+    "start": 84,
+    "end_exclusive": 108,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000491",
+    "channel": 2,
+    "start": 95,
+    "end_exclusive": 99,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000492",
+    "channel": 0,
+    "start": 75,
+    "end_exclusive": 79,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000493",
+    "channel": 0,
+    "start": 59,
+    "end_exclusive": 63,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000494",
+    "channel": 1,
+    "start": 11,
+    "end_exclusive": 35,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000495",
+    "channel": 2,
+    "start": 42,
+    "end_exclusive": 66,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000496",
+    "channel": 1,
+    "start": 61,
+    "end_exclusive": 85,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000497",
+    "channel": 1,
+    "start": 82,
+    "end_exclusive": 106,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000498",
+    "channel": 1,
+    "start": 61,
+    "end_exclusive": 65,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000499",
+    "channel": 2,
+    "start": 4,
+    "end_exclusive": 8,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000500",
+    "channel": 0,
+    "start": 46,
+    "end_exclusive": 50,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000501",
+    "channel": 1,
+    "start": 90,
+    "end_exclusive": 102,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000502",
+    "channel": 1,
+    "start": 91,
+    "end_exclusive": 95,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000503",
+    "channel": 0,
+    "start": 41,
+    "end_exclusive": 65,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000504",
+    "channel": 1,
+    "start": 16,
+    "end_exclusive": 28,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000505",
+    "channel": 1,
+    "start": 82,
+    "end_exclusive": 94,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000506",
+    "channel": 1,
+    "start": 71,
+    "end_exclusive": 95,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000507",
+    "channel": 1,
+    "start": 19,
+    "end_exclusive": 43,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000508",
+    "channel": 2,
+    "start": 77,
+    "end_exclusive": 89,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000509",
+    "channel": 0,
+    "start": 12,
+    "end_exclusive": 24,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000510",
+    "channel": 2,
+    "start": 36,
+    "end_exclusive": 40,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000511",
+    "channel": 0,
+    "start": 49,
+    "end_exclusive": 73,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000512",
+    "channel": 2,
+    "start": 33,
+    "end_exclusive": 45,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000513",
+    "channel": 2,
+    "start": 54,
+    "end_exclusive": 66,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000514",
+    "channel": 1,
+    "start": 36,
+    "end_exclusive": 60,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000515",
+    "channel": 2,
+    "start": 93,
+    "end_exclusive": 105,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000516",
+    "channel": 1,
+    "start": 67,
+    "end_exclusive": 91,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000517",
+    "channel": 1,
+    "start": 68,
+    "end_exclusive": 80,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000518",
+    "channel": 2,
+    "start": 48,
+    "end_exclusive": 52,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000519",
+    "channel": 1,
+    "start": 61,
+    "end_exclusive": 85,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000520",
+    "channel": 0,
+    "start": 69,
+    "end_exclusive": 93,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000521",
+    "channel": 2,
+    "start": 111,
+    "end_exclusive": 115,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000522",
+    "channel": 0,
+    "start": 73,
+    "end_exclusive": 97,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000523",
+    "channel": 2,
+    "start": 78,
+    "end_exclusive": 90,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000524",
+    "channel": 0,
+    "start": 24,
+    "end_exclusive": 36,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000525",
+    "channel": 0,
+    "start": 64,
+    "end_exclusive": 76,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000526",
+    "channel": 0,
+    "start": 26,
+    "end_exclusive": 38,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000527",
+    "channel": 1,
+    "start": 4,
+    "end_exclusive": 28,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000528",
+    "channel": 1,
+    "start": 2,
+    "end_exclusive": 6,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000529",
+    "channel": 1,
+    "start": 70,
+    "end_exclusive": 74,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000530",
+    "channel": 1,
+    "start": 28,
+    "end_exclusive": 40,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000531",
+    "channel": 0,
+    "start": 89,
+    "end_exclusive": 113,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000532",
+    "channel": 0,
+    "start": 50,
+    "end_exclusive": 62,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000533",
+    "channel": 0,
+    "start": 110,
+    "end_exclusive": 114,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000534",
+    "channel": 1,
+    "start": 69,
+    "end_exclusive": 73,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000535",
+    "channel": 0,
+    "start": 61,
+    "end_exclusive": 73,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000536",
+    "channel": 2,
+    "start": 101,
+    "end_exclusive": 113,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000537",
+    "channel": 0,
+    "start": 9,
+    "end_exclusive": 13,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000538",
+    "channel": 0,
+    "start": 27,
+    "end_exclusive": 39,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000539",
+    "channel": 1,
+    "start": 17,
+    "end_exclusive": 41,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000540",
+    "channel": 0,
+    "start": 91,
+    "end_exclusive": 115,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000541",
+    "channel": 1,
+    "start": 71,
+    "end_exclusive": 83,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000542",
+    "channel": 0,
+    "start": 16,
+    "end_exclusive": 28,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000543",
+    "channel": 0,
+    "start": 70,
+    "end_exclusive": 94,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000544",
+    "channel": 0,
+    "start": 109,
+    "end_exclusive": 113,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000545",
+    "channel": 0,
+    "start": 39,
+    "end_exclusive": 43,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000546",
+    "channel": 0,
+    "start": 52,
+    "end_exclusive": 64,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000547",
+    "channel": 0,
+    "start": 46,
+    "end_exclusive": 70,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000548",
+    "channel": 1,
+    "start": 83,
+    "end_exclusive": 107,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000549",
+    "channel": 1,
+    "start": 104,
+    "end_exclusive": 108,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000550",
+    "channel": 2,
+    "start": 28,
+    "end_exclusive": 52,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000551",
+    "channel": 0,
+    "start": 9,
+    "end_exclusive": 33,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000552",
+    "channel": 1,
+    "start": 10,
+    "end_exclusive": 22,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000553",
+    "channel": 0,
+    "start": 60,
+    "end_exclusive": 64,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000554",
+    "channel": 0,
+    "start": 56,
+    "end_exclusive": 60,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000555",
+    "channel": 1,
+    "start": 68,
+    "end_exclusive": 80,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000556",
+    "channel": 1,
+    "start": 28,
+    "end_exclusive": 32,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000557",
+    "channel": 2,
+    "start": 13,
+    "end_exclusive": 25,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000558",
+    "channel": 2,
+    "start": 69,
+    "end_exclusive": 73,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000559",
+    "channel": 2,
+    "start": 72,
+    "end_exclusive": 76,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000560",
+    "channel": 2,
+    "start": 78,
+    "end_exclusive": 90,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000561",
+    "channel": 0,
+    "start": 64,
+    "end_exclusive": 76,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000562",
+    "channel": 1,
+    "start": 33,
+    "end_exclusive": 37,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000563",
+    "channel": 0,
+    "start": 1,
+    "end_exclusive": 13,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000564",
+    "channel": 0,
+    "start": 47,
+    "end_exclusive": 59,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000565",
+    "channel": 2,
+    "start": 15,
+    "end_exclusive": 39,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000566",
+    "channel": 0,
+    "start": 63,
+    "end_exclusive": 75,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000567",
+    "channel": 1,
+    "start": 20,
+    "end_exclusive": 44,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000568",
+    "channel": 1,
+    "start": 80,
+    "end_exclusive": 84,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000569",
+    "channel": 2,
+    "start": 78,
+    "end_exclusive": 102,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000570",
+    "channel": 0,
+    "start": 104,
+    "end_exclusive": 108,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000571",
+    "channel": 0,
+    "start": 84,
+    "end_exclusive": 108,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000572",
+    "channel": 0,
+    "start": 55,
+    "end_exclusive": 59,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000573",
+    "channel": 2,
+    "start": 73,
+    "end_exclusive": 97,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000574",
+    "channel": 1,
+    "start": 58,
+    "end_exclusive": 82,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000575",
+    "channel": 1,
+    "start": 84,
+    "end_exclusive": 96,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000576",
+    "channel": 2,
+    "start": 26,
+    "end_exclusive": 38,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000577",
+    "channel": 0,
+    "start": 77,
+    "end_exclusive": 81,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000578",
+    "channel": 1,
+    "start": 36,
+    "end_exclusive": 60,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000579",
+    "channel": 2,
+    "start": 60,
+    "end_exclusive": 72,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000580",
+    "channel": 1,
+    "start": 90,
+    "end_exclusive": 114,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000581",
+    "channel": 2,
+    "start": 89,
+    "end_exclusive": 101,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000582",
+    "channel": 2,
+    "start": 45,
+    "end_exclusive": 49,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000583",
+    "channel": 1,
+    "start": 74,
+    "end_exclusive": 98,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000584",
+    "channel": 1,
+    "start": 98,
+    "end_exclusive": 102,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000585",
+    "channel": 1,
+    "start": 5,
+    "end_exclusive": 9,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000586",
+    "channel": 2,
+    "start": 51,
+    "end_exclusive": 75,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000587",
+    "channel": 1,
+    "start": 76,
+    "end_exclusive": 100,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000588",
+    "channel": 2,
+    "start": 46,
+    "end_exclusive": 70,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000589",
+    "channel": 2,
+    "start": 26,
+    "end_exclusive": 38,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000590",
+    "channel": 0,
+    "start": 46,
+    "end_exclusive": 50,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000591",
+    "channel": 0,
+    "start": 64,
+    "end_exclusive": 88,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000592",
+    "channel": 2,
+    "start": 62,
+    "end_exclusive": 74,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000593",
+    "channel": 2,
+    "start": 108,
+    "end_exclusive": 112,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000594",
+    "channel": 1,
+    "start": 104,
+    "end_exclusive": 108,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000595",
+    "channel": 1,
+    "start": 20,
+    "end_exclusive": 24,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000596",
+    "channel": 2,
+    "start": 85,
+    "end_exclusive": 109,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000597",
+    "channel": 2,
+    "start": 4,
+    "end_exclusive": 16,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000598",
+    "channel": 2,
+    "start": 66,
+    "end_exclusive": 70,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000599",
+    "channel": 2,
+    "start": 33,
+    "end_exclusive": 45,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000600",
+    "channel": 2,
+    "start": 88,
+    "end_exclusive": 100,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000601",
+    "channel": 1,
+    "start": 44,
+    "end_exclusive": 68,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000602",
+    "channel": 0,
+    "start": 38,
+    "end_exclusive": 62,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000603",
+    "channel": 0,
+    "start": 92,
+    "end_exclusive": 104,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000604",
+    "channel": 1,
+    "start": 22,
+    "end_exclusive": 34,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000605",
+    "channel": 1,
+    "start": 34,
+    "end_exclusive": 46,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000606",
+    "channel": 1,
+    "start": 62,
+    "end_exclusive": 66,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000607",
+    "channel": 2,
+    "start": 94,
+    "end_exclusive": 98,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000608",
+    "channel": 0,
+    "start": 80,
+    "end_exclusive": 84,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000609",
+    "channel": 0,
+    "start": 34,
+    "end_exclusive": 46,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000610",
+    "channel": 0,
+    "start": 65,
+    "end_exclusive": 89,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000611",
+    "channel": 1,
+    "start": 12,
+    "end_exclusive": 16,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000612",
+    "channel": 2,
+    "start": 90,
+    "end_exclusive": 102,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000613",
+    "channel": 0,
+    "start": 58,
+    "end_exclusive": 62,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000614",
+    "channel": 0,
+    "start": 62,
+    "end_exclusive": 74,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000615",
+    "channel": 1,
+    "start": 62,
+    "end_exclusive": 86,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000616",
+    "channel": 0,
+    "start": 25,
+    "end_exclusive": 49,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000617",
+    "channel": 1,
+    "start": 10,
+    "end_exclusive": 22,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000618",
+    "channel": 1,
+    "start": 41,
+    "end_exclusive": 53,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000619",
+    "channel": 2,
+    "start": 55,
+    "end_exclusive": 59,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000620",
+    "channel": 2,
+    "start": 23,
+    "end_exclusive": 47,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000621",
+    "channel": 0,
+    "start": 86,
+    "end_exclusive": 110,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000622",
+    "channel": 0,
+    "start": 44,
+    "end_exclusive": 68,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000623",
+    "channel": 1,
+    "start": 25,
+    "end_exclusive": 29,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000624",
+    "channel": 1,
+    "start": 52,
+    "end_exclusive": 76,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000625",
+    "channel": 2,
+    "start": 15,
+    "end_exclusive": 27,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000626",
+    "channel": 0,
+    "start": 87,
+    "end_exclusive": 99,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000627",
+    "channel": 0,
+    "start": 66,
+    "end_exclusive": 90,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000628",
+    "channel": 1,
+    "start": 47,
+    "end_exclusive": 59,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000629",
+    "channel": 1,
+    "start": 62,
+    "end_exclusive": 86,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000630",
+    "channel": 2,
+    "start": 72,
+    "end_exclusive": 96,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000631",
+    "channel": 2,
+    "start": 68,
+    "end_exclusive": 80,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000632",
+    "channel": 0,
+    "start": 63,
+    "end_exclusive": 67,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000633",
+    "channel": 1,
+    "start": 3,
+    "end_exclusive": 15,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000634",
+    "channel": 2,
+    "start": 32,
+    "end_exclusive": 44,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000635",
+    "channel": 0,
+    "start": 16,
+    "end_exclusive": 20,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000636",
+    "channel": 0,
+    "start": 44,
+    "end_exclusive": 68,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000637",
+    "channel": 0,
+    "start": 40,
+    "end_exclusive": 44,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000638",
+    "channel": 2,
+    "start": 51,
+    "end_exclusive": 75,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000639",
+    "channel": 1,
+    "start": 7,
+    "end_exclusive": 31,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000640",
+    "channel": 2,
+    "start": 23,
+    "end_exclusive": 35,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000641",
+    "channel": 0,
+    "start": 89,
+    "end_exclusive": 113,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000642",
+    "channel": 2,
+    "start": 21,
+    "end_exclusive": 25,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000643",
+    "channel": 0,
+    "start": 78,
+    "end_exclusive": 102,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000644",
+    "channel": 2,
+    "start": 69,
+    "end_exclusive": 93,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000645",
+    "channel": 0,
+    "start": 45,
+    "end_exclusive": 69,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000646",
+    "channel": 2,
+    "start": 13,
+    "end_exclusive": 25,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000647",
+    "channel": 1,
+    "start": 91,
+    "end_exclusive": 103,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000648",
+    "channel": 0,
+    "start": 88,
+    "end_exclusive": 100,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000649",
+    "channel": 0,
+    "start": 110,
+    "end_exclusive": 114,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000650",
+    "channel": 1,
+    "start": 85,
+    "end_exclusive": 89,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000651",
+    "channel": 2,
+    "start": 27,
+    "end_exclusive": 39,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000652",
+    "channel": 0,
+    "start": 19,
+    "end_exclusive": 23,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000653",
+    "channel": 2,
+    "start": 82,
+    "end_exclusive": 94,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000654",
+    "channel": 0,
+    "start": 93,
+    "end_exclusive": 97,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000655",
+    "channel": 1,
+    "start": 97,
+    "end_exclusive": 109,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000656",
+    "channel": 1,
+    "start": 35,
+    "end_exclusive": 47,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000657",
+    "channel": 1,
+    "start": 54,
+    "end_exclusive": 78,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000658",
+    "channel": 0,
+    "start": 79,
+    "end_exclusive": 83,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000659",
+    "channel": 2,
+    "start": 31,
+    "end_exclusive": 43,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000660",
+    "channel": 2,
+    "start": 53,
+    "end_exclusive": 77,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000661",
+    "channel": 0,
+    "start": 40,
+    "end_exclusive": 52,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000662",
+    "channel": 1,
+    "start": 36,
+    "end_exclusive": 40,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000663",
+    "channel": 1,
+    "start": 13,
+    "end_exclusive": 25,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000664",
+    "channel": 0,
+    "start": 53,
+    "end_exclusive": 57,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000665",
+    "channel": 1,
+    "start": 0,
+    "end_exclusive": 4,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000666",
+    "channel": 0,
+    "start": 92,
+    "end_exclusive": 116,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000667",
+    "channel": 0,
+    "start": 78,
+    "end_exclusive": 82,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000668",
+    "channel": 2,
+    "start": 44,
+    "end_exclusive": 68,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000669",
+    "channel": 0,
+    "start": 49,
+    "end_exclusive": 61,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000670",
+    "channel": 0,
+    "start": 42,
+    "end_exclusive": 46,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000671",
+    "channel": 0,
+    "start": 7,
+    "end_exclusive": 11,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000672",
+    "channel": 2,
+    "start": 38,
+    "end_exclusive": 50,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000673",
+    "channel": 0,
+    "start": 54,
+    "end_exclusive": 58,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000674",
+    "channel": 1,
+    "start": 101,
+    "end_exclusive": 105,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000675",
+    "channel": 0,
+    "start": 42,
+    "end_exclusive": 66,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000676",
+    "channel": 0,
+    "start": 55,
+    "end_exclusive": 67,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000677",
+    "channel": 2,
+    "start": 46,
+    "end_exclusive": 50,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000678",
+    "channel": 1,
+    "start": 52,
+    "end_exclusive": 64,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000679",
+    "channel": 0,
+    "start": 2,
+    "end_exclusive": 6,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000680",
+    "channel": 0,
+    "start": 77,
+    "end_exclusive": 101,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000681",
+    "channel": 0,
+    "start": 87,
+    "end_exclusive": 91,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000682",
+    "channel": 1,
+    "start": 95,
+    "end_exclusive": 107,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000683",
+    "channel": 0,
+    "start": 18,
+    "end_exclusive": 42,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000684",
+    "channel": 0,
+    "start": 77,
+    "end_exclusive": 101,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000685",
+    "channel": 0,
+    "start": 39,
+    "end_exclusive": 63,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000686",
+    "channel": 0,
+    "start": 95,
+    "end_exclusive": 107,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000687",
+    "channel": 1,
+    "start": 51,
+    "end_exclusive": 63,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000688",
+    "channel": 0,
+    "start": 97,
+    "end_exclusive": 109,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000689",
+    "channel": 1,
+    "start": 94,
+    "end_exclusive": 118,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000690",
+    "channel": 0,
+    "start": 26,
+    "end_exclusive": 50,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000691",
+    "channel": 0,
+    "start": 80,
+    "end_exclusive": 104,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000692",
+    "channel": 2,
+    "start": 38,
+    "end_exclusive": 50,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000693",
+    "channel": 2,
+    "start": 87,
+    "end_exclusive": 99,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000694",
+    "channel": 1,
+    "start": 57,
+    "end_exclusive": 69,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000695",
+    "channel": 1,
+    "start": 29,
+    "end_exclusive": 53,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000696",
+    "channel": 2,
+    "start": 45,
+    "end_exclusive": 57,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000697",
+    "channel": 2,
+    "start": 55,
+    "end_exclusive": 67,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000698",
+    "channel": 1,
+    "start": 4,
+    "end_exclusive": 8,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000699",
+    "channel": 2,
+    "start": 58,
+    "end_exclusive": 70,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000700",
+    "channel": 0,
+    "start": 81,
+    "end_exclusive": 93,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000701",
+    "channel": 1,
+    "start": 29,
+    "end_exclusive": 41,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000702",
+    "channel": 2,
+    "start": 75,
+    "end_exclusive": 79,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000703",
+    "channel": 0,
+    "start": 88,
+    "end_exclusive": 100,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000704",
+    "channel": 2,
+    "start": 53,
+    "end_exclusive": 65,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000705",
+    "channel": 0,
+    "start": 62,
+    "end_exclusive": 66,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000706",
+    "channel": 0,
+    "start": 37,
+    "end_exclusive": 41,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000707",
+    "channel": 0,
+    "start": 81,
+    "end_exclusive": 85,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000708",
+    "channel": 1,
+    "start": 60,
+    "end_exclusive": 84,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000709",
+    "channel": 2,
+    "start": 17,
+    "end_exclusive": 41,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000710",
+    "channel": 0,
+    "start": 7,
+    "end_exclusive": 19,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000711",
+    "channel": 0,
+    "start": 80,
+    "end_exclusive": 104,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000712",
+    "channel": 1,
+    "start": 31,
+    "end_exclusive": 35,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000713",
+    "channel": 0,
+    "start": 35,
+    "end_exclusive": 47,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000714",
+    "channel": 1,
+    "start": 62,
+    "end_exclusive": 74,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000715",
+    "channel": 1,
+    "start": 63,
+    "end_exclusive": 87,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000716",
+    "channel": 2,
+    "start": 71,
+    "end_exclusive": 75,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000717",
+    "channel": 0,
+    "start": 44,
+    "end_exclusive": 68,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000718",
+    "channel": 1,
+    "start": 98,
+    "end_exclusive": 110,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000719",
+    "channel": 0,
+    "start": 46,
+    "end_exclusive": 50,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000720",
+    "channel": 0,
+    "start": 49,
+    "end_exclusive": 53,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000721",
+    "channel": 1,
+    "start": 0,
+    "end_exclusive": 4,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000722",
+    "channel": 1,
+    "start": 16,
+    "end_exclusive": 20,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000723",
+    "channel": 2,
+    "start": 44,
+    "end_exclusive": 48,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000724",
+    "channel": 2,
+    "start": 20,
+    "end_exclusive": 24,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000725",
+    "channel": 1,
+    "start": 53,
+    "end_exclusive": 65,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000726",
+    "channel": 2,
+    "start": 31,
+    "end_exclusive": 35,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000727",
+    "channel": 2,
+    "start": 71,
+    "end_exclusive": 75,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000728",
+    "channel": 2,
+    "start": 10,
+    "end_exclusive": 34,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000729",
+    "channel": 2,
+    "start": 1,
+    "end_exclusive": 13,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000730",
+    "channel": 1,
+    "start": 26,
+    "end_exclusive": 30,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000731",
+    "channel": 0,
+    "start": 87,
+    "end_exclusive": 99,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000732",
+    "channel": 1,
+    "start": 107,
+    "end_exclusive": 111,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000733",
+    "channel": 0,
+    "start": 25,
+    "end_exclusive": 49,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000734",
+    "channel": 1,
+    "start": 87,
+    "end_exclusive": 99,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000735",
+    "channel": 0,
+    "start": 107,
+    "end_exclusive": 111,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000736",
+    "channel": 0,
+    "start": 19,
+    "end_exclusive": 23,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000737",
+    "channel": 2,
+    "start": 69,
+    "end_exclusive": 81,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000738",
+    "channel": 1,
+    "start": 71,
+    "end_exclusive": 95,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000739",
+    "channel": 1,
+    "start": 24,
+    "end_exclusive": 48,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000740",
+    "channel": 0,
+    "start": 107,
+    "end_exclusive": 111,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000741",
+    "channel": 2,
+    "start": 14,
+    "end_exclusive": 18,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000742",
+    "channel": 0,
+    "start": 41,
+    "end_exclusive": 65,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000743",
+    "channel": 1,
+    "start": 79,
+    "end_exclusive": 103,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000744",
+    "channel": 2,
+    "start": 26,
+    "end_exclusive": 50,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000745",
+    "channel": 1,
+    "start": 91,
+    "end_exclusive": 95,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000746",
+    "channel": 1,
+    "start": 4,
+    "end_exclusive": 16,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000747",
+    "channel": 0,
+    "start": 0,
+    "end_exclusive": 12,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000748",
+    "channel": 0,
+    "start": 16,
+    "end_exclusive": 40,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000749",
+    "channel": 2,
+    "start": 64,
+    "end_exclusive": 68,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000750",
+    "channel": 2,
+    "start": 35,
+    "end_exclusive": 59,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000751",
+    "channel": 0,
+    "start": 65,
+    "end_exclusive": 77,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000752",
+    "channel": 0,
+    "start": 89,
+    "end_exclusive": 93,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000753",
+    "channel": 0,
+    "start": 80,
+    "end_exclusive": 92,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000754",
+    "channel": 0,
+    "start": 61,
+    "end_exclusive": 65,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000755",
+    "channel": 1,
+    "start": 92,
+    "end_exclusive": 116,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000756",
+    "channel": 1,
+    "start": 38,
+    "end_exclusive": 62,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000757",
+    "channel": 1,
+    "start": 90,
+    "end_exclusive": 94,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000758",
+    "channel": 1,
+    "start": 20,
+    "end_exclusive": 44,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000759",
+    "channel": 2,
+    "start": 20,
+    "end_exclusive": 44,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000760",
+    "channel": 2,
+    "start": 8,
+    "end_exclusive": 32,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000761",
+    "channel": 0,
+    "start": 35,
+    "end_exclusive": 47,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000762",
+    "channel": 1,
+    "start": 100,
+    "end_exclusive": 112,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000763",
+    "channel": 0,
+    "start": 2,
+    "end_exclusive": 26,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000764",
+    "channel": 1,
+    "start": 65,
+    "end_exclusive": 89,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000765",
+    "channel": 2,
+    "start": 100,
+    "end_exclusive": 112,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000766",
+    "channel": 1,
+    "start": 38,
+    "end_exclusive": 42,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000767",
+    "channel": 1,
+    "start": 93,
+    "end_exclusive": 117,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000768",
+    "channel": 0,
+    "start": 99,
+    "end_exclusive": 103,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000769",
+    "channel": 2,
+    "start": 60,
+    "end_exclusive": 64,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000770",
+    "channel": 1,
+    "start": 5,
+    "end_exclusive": 9,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000771",
+    "channel": 2,
+    "start": 68,
+    "end_exclusive": 92,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000772",
+    "channel": 1,
+    "start": 77,
+    "end_exclusive": 81,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000773",
+    "channel": 0,
+    "start": 37,
+    "end_exclusive": 61,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000774",
+    "channel": 0,
+    "start": 48,
+    "end_exclusive": 52,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000775",
+    "channel": 2,
+    "start": 1,
+    "end_exclusive": 13,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000776",
+    "channel": 1,
+    "start": 18,
+    "end_exclusive": 42,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000777",
+    "channel": 1,
+    "start": 102,
+    "end_exclusive": 106,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000778",
+    "channel": 2,
+    "start": 79,
+    "end_exclusive": 91,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000779",
+    "channel": 2,
+    "start": 72,
+    "end_exclusive": 96,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000780",
+    "channel": 2,
+    "start": 69,
+    "end_exclusive": 93,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000781",
+    "channel": 1,
+    "start": 58,
+    "end_exclusive": 82,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000782",
+    "channel": 2,
+    "start": 58,
+    "end_exclusive": 82,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000783",
+    "channel": 1,
+    "start": 98,
+    "end_exclusive": 102,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000784",
+    "channel": 0,
+    "start": 30,
+    "end_exclusive": 54,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000785",
+    "channel": 0,
+    "start": 70,
+    "end_exclusive": 82,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000786",
+    "channel": 2,
+    "start": 38,
+    "end_exclusive": 50,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000787",
+    "channel": 0,
+    "start": 74,
+    "end_exclusive": 78,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000788",
+    "channel": 0,
+    "start": 67,
+    "end_exclusive": 79,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000789",
+    "channel": 2,
+    "start": 34,
+    "end_exclusive": 58,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000790",
+    "channel": 2,
+    "start": 9,
+    "end_exclusive": 21,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000791",
+    "channel": 0,
+    "start": 48,
+    "end_exclusive": 52,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000792",
+    "channel": 0,
+    "start": 5,
+    "end_exclusive": 9,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000793",
+    "channel": 1,
+    "start": 24,
+    "end_exclusive": 48,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000794",
+    "channel": 0,
+    "start": 61,
+    "end_exclusive": 73,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000795",
+    "channel": 1,
+    "start": 62,
+    "end_exclusive": 86,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000796",
+    "channel": 2,
+    "start": 39,
+    "end_exclusive": 63,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000797",
+    "channel": 0,
+    "start": 10,
+    "end_exclusive": 14,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000798",
+    "channel": 2,
+    "start": 11,
+    "end_exclusive": 15,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000799",
+    "channel": 1,
+    "start": 44,
+    "end_exclusive": 56,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000800",
+    "channel": 2,
+    "start": 18,
+    "end_exclusive": 42,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000801",
+    "channel": 0,
+    "start": 53,
+    "end_exclusive": 57,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000802",
+    "channel": 1,
+    "start": 103,
+    "end_exclusive": 115,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000803",
+    "channel": 2,
+    "start": 37,
+    "end_exclusive": 49,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000804",
+    "channel": 2,
+    "start": 24,
+    "end_exclusive": 28,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000805",
+    "channel": 2,
+    "start": 94,
+    "end_exclusive": 118,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000806",
+    "channel": 2,
+    "start": 61,
+    "end_exclusive": 65,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000807",
+    "channel": 1,
+    "start": 36,
+    "end_exclusive": 40,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000808",
+    "channel": 2,
+    "start": 4,
+    "end_exclusive": 16,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000809",
+    "channel": 1,
+    "start": 24,
+    "end_exclusive": 28,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000810",
+    "channel": 2,
+    "start": 57,
+    "end_exclusive": 61,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000811",
+    "channel": 0,
+    "start": 57,
+    "end_exclusive": 69,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000812",
+    "channel": 1,
+    "start": 79,
+    "end_exclusive": 103,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000813",
+    "channel": 0,
+    "start": 48,
+    "end_exclusive": 72,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000814",
+    "channel": 0,
+    "start": 2,
+    "end_exclusive": 6,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000815",
+    "channel": 1,
+    "start": 38,
+    "end_exclusive": 62,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000816",
+    "channel": 0,
+    "start": 58,
+    "end_exclusive": 70,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000817",
+    "channel": 0,
+    "start": 100,
+    "end_exclusive": 112,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000818",
+    "channel": 1,
+    "start": 91,
+    "end_exclusive": 115,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000819",
+    "channel": 2,
+    "start": 19,
+    "end_exclusive": 43,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000820",
+    "channel": 1,
+    "start": 22,
+    "end_exclusive": 46,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000821",
+    "channel": 1,
+    "start": 68,
+    "end_exclusive": 92,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000822",
+    "channel": 2,
+    "start": 2,
+    "end_exclusive": 26,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000823",
+    "channel": 0,
+    "start": 82,
+    "end_exclusive": 106,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000824",
+    "channel": 1,
+    "start": 78,
+    "end_exclusive": 90,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000825",
+    "channel": 1,
+    "start": 48,
+    "end_exclusive": 52,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000826",
+    "channel": 2,
+    "start": 78,
+    "end_exclusive": 90,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000827",
+    "channel": 1,
+    "start": 94,
+    "end_exclusive": 106,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000828",
+    "channel": 1,
+    "start": 13,
+    "end_exclusive": 37,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000829",
+    "channel": 1,
+    "start": 34,
+    "end_exclusive": 46,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000830",
+    "channel": 2,
+    "start": 114,
+    "end_exclusive": 118,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000831",
+    "channel": 2,
+    "start": 4,
+    "end_exclusive": 8,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000832",
+    "channel": 0,
+    "start": 48,
+    "end_exclusive": 60,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000833",
+    "channel": 0,
+    "start": 48,
+    "end_exclusive": 60,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000834",
+    "channel": 2,
+    "start": 79,
+    "end_exclusive": 103,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000835",
+    "channel": 0,
+    "start": 14,
+    "end_exclusive": 26,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000836",
+    "channel": 1,
+    "start": 50,
+    "end_exclusive": 62,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000837",
+    "channel": 1,
+    "start": 105,
+    "end_exclusive": 109,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000838",
+    "channel": 0,
+    "start": 8,
+    "end_exclusive": 12,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000839",
+    "channel": 1,
+    "start": 84,
+    "end_exclusive": 96,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000840",
+    "channel": 1,
+    "start": 44,
+    "end_exclusive": 68,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000841",
+    "channel": 0,
+    "start": 54,
+    "end_exclusive": 66,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000842",
+    "channel": 0,
+    "start": 11,
+    "end_exclusive": 23,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000843",
+    "channel": 1,
+    "start": 42,
+    "end_exclusive": 46,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000844",
+    "channel": 2,
+    "start": 13,
+    "end_exclusive": 37,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000845",
+    "channel": 1,
+    "start": 20,
+    "end_exclusive": 24,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000846",
+    "channel": 2,
+    "start": 106,
+    "end_exclusive": 110,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000847",
+    "channel": 1,
+    "start": 46,
+    "end_exclusive": 50,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000848",
+    "channel": 2,
+    "start": 82,
+    "end_exclusive": 94,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000849",
+    "channel": 1,
+    "start": 66,
+    "end_exclusive": 90,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000850",
+    "channel": 2,
+    "start": 21,
+    "end_exclusive": 33,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000851",
+    "channel": 2,
+    "start": 45,
+    "end_exclusive": 57,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000852",
+    "channel": 2,
+    "start": 91,
+    "end_exclusive": 115,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000853",
+    "channel": 0,
+    "start": 50,
+    "end_exclusive": 62,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000854",
+    "channel": 0,
+    "start": 18,
+    "end_exclusive": 30,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000855",
+    "channel": 1,
+    "start": 66,
+    "end_exclusive": 90,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000856",
+    "channel": 0,
+    "start": 108,
+    "end_exclusive": 112,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000857",
+    "channel": 0,
+    "start": 51,
+    "end_exclusive": 63,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000858",
+    "channel": 2,
+    "start": 41,
+    "end_exclusive": 45,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000859",
+    "channel": 2,
+    "start": 17,
+    "end_exclusive": 41,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000860",
+    "channel": 0,
+    "start": 45,
+    "end_exclusive": 57,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000861",
+    "channel": 2,
+    "start": 43,
+    "end_exclusive": 55,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000862",
+    "channel": 2,
+    "start": 95,
+    "end_exclusive": 99,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000863",
+    "channel": 1,
+    "start": 53,
+    "end_exclusive": 65,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000864",
+    "channel": 0,
+    "start": 81,
+    "end_exclusive": 93,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000865",
+    "channel": 1,
+    "start": 82,
+    "end_exclusive": 94,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000866",
+    "channel": 1,
+    "start": 52,
+    "end_exclusive": 56,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000867",
+    "channel": 0,
+    "start": 29,
+    "end_exclusive": 53,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000868",
+    "channel": 1,
+    "start": 57,
+    "end_exclusive": 61,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000869",
+    "channel": 1,
+    "start": 82,
+    "end_exclusive": 86,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000870",
+    "channel": 1,
+    "start": 17,
+    "end_exclusive": 21,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000871",
+    "channel": 0,
+    "start": 111,
+    "end_exclusive": 115,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000872",
+    "channel": 2,
+    "start": 97,
+    "end_exclusive": 101,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000873",
+    "channel": 1,
+    "start": 90,
+    "end_exclusive": 114,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000874",
+    "channel": 2,
+    "start": 64,
+    "end_exclusive": 88,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000875",
+    "channel": 2,
+    "start": 1,
+    "end_exclusive": 5,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000876",
+    "channel": 2,
+    "start": 92,
+    "end_exclusive": 116,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000877",
+    "channel": 2,
+    "start": 58,
+    "end_exclusive": 62,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000878",
+    "channel": 2,
+    "start": 85,
+    "end_exclusive": 89,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000879",
+    "channel": 2,
+    "start": 98,
+    "end_exclusive": 110,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000880",
+    "channel": 2,
+    "start": 54,
+    "end_exclusive": 78,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000881",
+    "channel": 1,
+    "start": 34,
+    "end_exclusive": 38,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000882",
+    "channel": 0,
+    "start": 7,
+    "end_exclusive": 31,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000883",
+    "channel": 2,
+    "start": 104,
+    "end_exclusive": 116,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000884",
+    "channel": 1,
+    "start": 15,
+    "end_exclusive": 39,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000885",
+    "channel": 1,
+    "start": 2,
+    "end_exclusive": 26,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000886",
+    "channel": 1,
+    "start": 30,
+    "end_exclusive": 42,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000887",
+    "channel": 1,
+    "start": 90,
+    "end_exclusive": 94,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000888",
+    "channel": 2,
+    "start": 38,
+    "end_exclusive": 42,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000889",
+    "channel": 2,
+    "start": 67,
+    "end_exclusive": 71,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000890",
+    "channel": 0,
+    "start": 6,
+    "end_exclusive": 18,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000891",
+    "channel": 0,
+    "start": 87,
+    "end_exclusive": 99,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000892",
+    "channel": 0,
+    "start": 48,
+    "end_exclusive": 60,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000893",
+    "channel": 2,
+    "start": 105,
+    "end_exclusive": 109,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000894",
+    "channel": 1,
+    "start": 8,
+    "end_exclusive": 12,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000895",
+    "channel": 1,
+    "start": 81,
+    "end_exclusive": 93,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000896",
+    "channel": 1,
+    "start": 72,
+    "end_exclusive": 76,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000897",
+    "channel": 0,
+    "start": 55,
+    "end_exclusive": 79,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000898",
+    "channel": 2,
+    "start": 91,
+    "end_exclusive": 115,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000899",
+    "channel": 0,
+    "start": 5,
+    "end_exclusive": 29,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000900",
+    "channel": 1,
+    "start": 65,
+    "end_exclusive": 77,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000901",
+    "channel": 1,
+    "start": 22,
+    "end_exclusive": 34,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000902",
+    "channel": 0,
+    "start": 3,
+    "end_exclusive": 7,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000903",
+    "channel": 2,
+    "start": 61,
+    "end_exclusive": 73,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000904",
+    "channel": 0,
+    "start": 12,
+    "end_exclusive": 24,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000905",
+    "channel": 0,
+    "start": 18,
+    "end_exclusive": 30,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000906",
+    "channel": 1,
+    "start": 31,
+    "end_exclusive": 43,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000907",
+    "channel": 1,
+    "start": 40,
+    "end_exclusive": 44,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000908",
+    "channel": 1,
+    "start": 60,
+    "end_exclusive": 72,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000909",
+    "channel": 1,
+    "start": 87,
+    "end_exclusive": 111,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000910",
+    "channel": 1,
+    "start": 44,
+    "end_exclusive": 68,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000911",
+    "channel": 1,
+    "start": 111,
+    "end_exclusive": 115,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000912",
+    "channel": 0,
+    "start": 38,
+    "end_exclusive": 42,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000913",
+    "channel": 0,
+    "start": 50,
+    "end_exclusive": 54,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000914",
+    "channel": 0,
+    "start": 51,
+    "end_exclusive": 63,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000915",
+    "channel": 1,
+    "start": 48,
+    "end_exclusive": 52,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000916",
+    "channel": 2,
+    "start": 47,
+    "end_exclusive": 71,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000917",
+    "channel": 1,
+    "start": 27,
+    "end_exclusive": 31,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000918",
+    "channel": 0,
+    "start": 4,
+    "end_exclusive": 28,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000919",
+    "channel": 1,
+    "start": 70,
+    "end_exclusive": 94,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000920",
+    "channel": 2,
+    "start": 55,
+    "end_exclusive": 59,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000921",
+    "channel": 2,
+    "start": 4,
+    "end_exclusive": 8,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000922",
+    "channel": 2,
+    "start": 54,
+    "end_exclusive": 78,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000923",
+    "channel": 1,
+    "start": 79,
+    "end_exclusive": 83,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000924",
+    "channel": 0,
+    "start": 102,
+    "end_exclusive": 106,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000925",
+    "channel": 1,
+    "start": 89,
+    "end_exclusive": 93,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000926",
+    "channel": 0,
+    "start": 44,
+    "end_exclusive": 68,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000927",
+    "channel": 2,
+    "start": 75,
+    "end_exclusive": 87,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000928",
+    "channel": 1,
+    "start": 92,
+    "end_exclusive": 104,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000929",
+    "channel": 1,
+    "start": 72,
+    "end_exclusive": 96,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000930",
+    "channel": 1,
+    "start": 29,
+    "end_exclusive": 53,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000931",
+    "channel": 2,
+    "start": 36,
+    "end_exclusive": 40,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000932",
+    "channel": 2,
+    "start": 28,
+    "end_exclusive": 40,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000933",
+    "channel": 2,
+    "start": 25,
+    "end_exclusive": 37,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000934",
+    "channel": 1,
+    "start": 87,
+    "end_exclusive": 111,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000935",
+    "channel": 1,
+    "start": 27,
+    "end_exclusive": 31,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000936",
+    "channel": 1,
+    "start": 12,
+    "end_exclusive": 24,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000937",
+    "channel": 0,
+    "start": 83,
+    "end_exclusive": 95,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000938",
+    "channel": 0,
+    "start": 97,
+    "end_exclusive": 101,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000939",
+    "channel": 1,
+    "start": 75,
+    "end_exclusive": 87,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000940",
+    "channel": 2,
+    "start": 16,
+    "end_exclusive": 40,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000941",
+    "channel": 2,
+    "start": 24,
+    "end_exclusive": 48,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000942",
+    "channel": 2,
+    "start": 43,
+    "end_exclusive": 47,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000943",
+    "channel": 0,
+    "start": 9,
+    "end_exclusive": 13,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000944",
+    "channel": 2,
+    "start": 80,
+    "end_exclusive": 104,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000945",
+    "channel": 1,
+    "start": 16,
+    "end_exclusive": 20,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000946",
+    "channel": 1,
+    "start": 56,
+    "end_exclusive": 68,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000947",
+    "channel": 1,
+    "start": 3,
+    "end_exclusive": 27,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000948",
+    "channel": 0,
+    "start": 81,
+    "end_exclusive": 93,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000949",
+    "channel": 2,
+    "start": 83,
+    "end_exclusive": 107,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000950",
+    "channel": 0,
+    "start": 34,
+    "end_exclusive": 38,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000951",
+    "channel": 1,
+    "start": 13,
+    "end_exclusive": 17,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000952",
+    "channel": 2,
+    "start": 33,
+    "end_exclusive": 57,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000953",
+    "channel": 2,
+    "start": 51,
+    "end_exclusive": 75,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000954",
+    "channel": 1,
+    "start": 11,
+    "end_exclusive": 23,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000955",
+    "channel": 0,
+    "start": 17,
+    "end_exclusive": 29,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000956",
+    "channel": 0,
+    "start": 20,
+    "end_exclusive": 24,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000957",
+    "channel": 0,
+    "start": 31,
+    "end_exclusive": 55,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000958",
+    "channel": 1,
+    "start": 87,
+    "end_exclusive": 99,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000959",
+    "channel": 1,
+    "start": 29,
+    "end_exclusive": 53,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000960",
+    "channel": 2,
+    "start": 81,
+    "end_exclusive": 105,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000961",
+    "channel": 0,
+    "start": 87,
+    "end_exclusive": 91,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000962",
+    "channel": 1,
+    "start": 59,
+    "end_exclusive": 63,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000963",
+    "channel": 0,
+    "start": 84,
+    "end_exclusive": 88,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000964",
+    "channel": 2,
+    "start": 22,
+    "end_exclusive": 46,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000965",
+    "channel": 1,
+    "start": 29,
+    "end_exclusive": 41,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000966",
+    "channel": 0,
+    "start": 106,
+    "end_exclusive": 118,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000967",
+    "channel": 1,
+    "start": 30,
+    "end_exclusive": 54,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000968",
+    "channel": 2,
+    "start": 64,
+    "end_exclusive": 88,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000969",
+    "channel": 2,
+    "start": 46,
+    "end_exclusive": 58,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000970",
+    "channel": 0,
+    "start": 25,
+    "end_exclusive": 37,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000971",
+    "channel": 0,
+    "start": 30,
+    "end_exclusive": 34,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000972",
+    "channel": 2,
+    "start": 56,
+    "end_exclusive": 80,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000973",
+    "channel": 2,
+    "start": 60,
+    "end_exclusive": 64,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000974",
+    "channel": 1,
+    "start": 88,
+    "end_exclusive": 92,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000975",
+    "channel": 2,
+    "start": 36,
+    "end_exclusive": 60,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000976",
+    "channel": 1,
+    "start": 96,
+    "end_exclusive": 108,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000977",
+    "channel": 1,
+    "start": 59,
+    "end_exclusive": 83,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000978",
+    "channel": 1,
+    "start": 14,
+    "end_exclusive": 26,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000979",
+    "channel": 0,
+    "start": 26,
+    "end_exclusive": 38,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000980",
+    "channel": 2,
+    "start": 23,
+    "end_exclusive": 35,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000981",
+    "channel": 2,
+    "start": 69,
+    "end_exclusive": 73,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000982",
+    "channel": 0,
+    "start": 12,
+    "end_exclusive": 36,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000983",
+    "channel": 0,
+    "start": 74,
+    "end_exclusive": 78,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000984",
+    "channel": 2,
+    "start": 14,
+    "end_exclusive": 26,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000985",
+    "channel": 1,
+    "start": 27,
+    "end_exclusive": 39,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000986",
+    "channel": 1,
+    "start": 28,
+    "end_exclusive": 40,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000987",
+    "channel": 2,
+    "start": 108,
+    "end_exclusive": 112,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000988",
+    "channel": 2,
+    "start": 86,
+    "end_exclusive": 110,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000989",
+    "channel": 1,
+    "start": 85,
+    "end_exclusive": 109,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000990",
+    "channel": 2,
+    "start": 12,
+    "end_exclusive": 24,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000991",
+    "channel": 0,
+    "start": 106,
+    "end_exclusive": 118,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000992",
+    "channel": 2,
+    "start": 58,
+    "end_exclusive": 70,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000993",
+    "channel": 1,
+    "start": 26,
+    "end_exclusive": 30,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000994",
+    "channel": 1,
+    "start": 97,
+    "end_exclusive": 101,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000995",
+    "channel": 1,
+    "start": 112,
+    "end_exclusive": 116,
+    "sign": 1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000996",
+    "channel": 0,
+    "start": 25,
+    "end_exclusive": 37,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000997",
+    "channel": 0,
+    "start": 59,
+    "end_exclusive": 83,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000998",
+    "channel": 2,
+    "start": 60,
+    "end_exclusive": 64,
+    "sign": -1
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000999",
+    "channel": 2,
+    "start": 74,
+    "end_exclusive": 78,
+    "sign": -1
+  }
+]
