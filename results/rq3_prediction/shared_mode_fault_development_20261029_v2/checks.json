@@ -1,0 +1,44 @@
+[
+  {
+    "seed": 42,
+    "split": "train",
+    "no_fault_hypothesis_reduces_to_soft_all": true,
+    "alarm_replay_exact": true,
+    "batches": 60
+  },
+  {
+    "seed": 42,
+    "split": "val",
+    "no_fault_hypothesis_reduces_to_soft_all": true,
+    "alarm_replay_exact": true,
+    "batches": 60
+  },
+  {
+    "seed": 43,
+    "split": "train",
+    "no_fault_hypothesis_reduces_to_soft_all": true,
+    "alarm_replay_exact": true,
+    "batches": 60
+  },
+  {
+    "seed": 43,
+    "split": "val",
+    "no_fault_hypothesis_reduces_to_soft_all": true,
+    "alarm_replay_exact": true,
+    "batches": 60
+  },
+  {
+    "seed": 44,
+    "split": "train",
+    "no_fault_hypothesis_reduces_to_soft_all": true,
+    "alarm_replay_exact": true,
+    "batches": 60
+  },
+  {
+    "seed": 44,
+    "split": "val",
+    "no_fault_hypothesis_reduces_to_soft_all": true,
+    "alarm_replay_exact": true,
+    "batches": 60
+  }
+]

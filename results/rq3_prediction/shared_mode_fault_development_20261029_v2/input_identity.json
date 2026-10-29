@@ -1,0 +1,12 @@
+{
+  "a0": {
+    "a0_result_commit": "eeb5d454f50127bce5459dfa49985e6f5ba3dcb1",
+    "a0_manifest_git_blob": "a4309f2d5373c7238de3a1a46c1b87d60653e662",
+    "a0_module_git_blob": "fd2545081d8a068e63ad19245e36e6a8c9fec8f5"
+  },
+  "calibration_sha256": {
+    "seed_42/reference_cal/inputs.npz": "955c142012b4d7b2f5f6391d540933c63cb796e135e610bfd9d6133ba7a2119d",
+    "seed_43/reference_cal/inputs.npz": "7e8025086b861a67c1ddfe235597bc4178af2655fa1c790c0ae5ea2d00610f3a",
+    "seed_44/reference_cal/inputs.npz": "04457c27ef9e88643c04ebb68252488a2120d52b2c2fa0498b3e45f04d4c1c7d"
+  }
+}

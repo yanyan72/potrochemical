@@ -1,0 +1,17 @@
+{
+  "status": "FAILED_INCOMPLETE_NOT_A_RESULT",
+  "implementation_commit": "2ee778215c4c343994a956d03fa427de9dd1415e",
+  "reason": "zero-inflation CDF-tail numerical replay tolerance",
+  "scientific_parameters_changed": false,
+  "repaired_commit": "92619f3c065b8f48d105597a95e0b5a31b88d3cf",
+  "complete_attempt": "../shared_mode_fault_development_20261029_v2",
+  "files_sha256": {
+    "candidate_config.json": "877d8f3eab3316c780c6e2f5b58a7685d761a7d8292d4ba39162145ab2b5dd39",
+    "config.json": "4fbf28fbcabd9621f521557627cda541856ace965b8b87c6a36283b0b3b421dd",
+    "identity.json": "0bd3da2e148ee0d1dacf4a880a129d23cf154793bd3e5fade69843b597702825",
+    "input_identity.json": "12a6ff717301669c2132f278d068594ffd4f454e0390a4171a5bc8f3eaf9d6b9",
+    "seed_42/model.json": "ceca6345042fd098fbe3debc0143c7f7b7445498cc689a864b24baa78ca06b38",
+    "seed_42/train_batch_metrics.csv": "16494485f0ff994c63822402a4282be8364da2c433660e3c8b686b1185b15f19",
+    "seed_42/train_scores.npz": "e93cb81db5323bba7ab889c52c0ae3936686b76ad06f8f5b8f678f8b49716f9b"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "candidate_id": "shared_mode_fault_reference_v1",
+  "data_source": "synthetic",
+  "regimes": 3,
+  "channels": 3,
+  "variance_inflation_kappa": 4.0,
+  "fault_initial": [
+    0.97,
+    0.01,
+    0.01,
+    0.01
+  ],
+  "fault_transition": [
+    [
+      0.997,
+      0.001,
+      0.001,
+      0.001
+    ],
+    [
+      0.1,
+      0.9,
+      0.0,
+      0.0
+    ],
+    [
+      0.1,
+      0.0,
+      0.9,
+      0.0
+    ],
+    [
+      0.1,
+      0.0,
+      0.0,
+      0.9
+    ]
+  ],
+  "record_correct_likelihood": 0.9,
+  "source_a0_commit": "eeb5d454f50127bce5459dfa49985e6f5ba3dcb1",
+  "w1_diagnostic_gate": {
+    "minimum_relative_bystander_reduction": 0.5,
+    "maximum_event_recall_loss": 0.05
+  },
+  "scope": "one candidate, fixed first setting; W1 diagnostic and software tests only; no new quality training"
+}

@@ -1,0 +1,13 @@
+test_causal_prefix (test_rq3_shared_mode_fault.SharedPosteriorTests.test_causal_prefix) ... ok
+test_channel_permutation (test_rq3_shared_mode_fault.SharedPosteriorTests.test_channel_permutation) ... ok
+test_exact_no_inflation_reduction (test_rq3_shared_mode_fault.SharedPosteriorTests.test_exact_no_inflation_reduction) ... ok
+test_identical_observation_causes_remain_ambiguous (test_rq3_shared_mode_fault.SharedPosteriorTests.test_identical_observation_causes_remain_ambiguous) ... ok
+test_inputs_unchanged_and_repeatable (test_rq3_shared_mode_fault.SharedPosteriorTests.test_inputs_unchanged_and_repeatable) ... ok
+test_invalid_input_rejected (test_rq3_shared_mode_fault.SharedPosteriorTests.test_invalid_input_rejected) ... ok
+test_no_fault_memory_ablation_is_normalized (test_rq3_shared_mode_fault.SharedPosteriorTests.test_no_fault_memory_ablation_is_normalized) ... ok
+test_normalization_and_fault_mass (test_rq3_shared_mode_fault.SharedPosteriorTests.test_normalization_and_fault_mass) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.017s
+
+OK

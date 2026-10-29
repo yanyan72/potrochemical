@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "manifest_files": 23,
+  "batch_view_arm_records_recounted": 6480,
+  "summary_strata_recounted": 648,
+  "alarm_replay_exact": true,
+  "max_float32_ratio_error": 2.2693696077880077e-07,
+  "decision_independently_recounted": true,
+  "filter_replay_uses_production_core": true,
+  "independent_parts": [
+    "CDF and EWMA arithmetic",
+    "event and point counts",
+    "summary metrics",
+    "development decision"
+  ],
+  "no_fault_ablation_equals_old_soft_all": true,
+  "quality_models_trained": 0,
+  "rq3_supported": false
+}

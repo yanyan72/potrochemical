@@ -1,0 +1,33 @@
+{
+  "run_id": "shared_mode_fault_development_20261029_v1",
+  "candidate_config": "configs/rq3_shared_mode_fault_candidate_20261029.json",
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "splits": [
+    "train",
+    "val"
+  ],
+  "arms": [
+    "joint_full",
+    "no_fault_hypothesis",
+    "no_fault_memory"
+  ],
+  "calibration_quantile": 0.99,
+  "cdf_clip": 1e-12,
+  "alpha": 0.2,
+  "dataset_manifest_sha256": "a2224ee148d8b5d61a5cb24fd225d5d56817fc17ebd37753545c8494d7ca47ed",
+  "gate": {
+    "minimum_loo_bystander_relative_reduction": 0.5,
+    "maximum_event_loss_vs_loo": 0.05,
+    "maximum_clean_fpr": 0.015,
+    "maximum_bystander_fpr": 0.03,
+    "maximum_clean_fpr_increase_vs_soft_all": 0.005,
+    "minimum_vibration_event_gain_vs_soft_all": 0.05,
+    "maximum_other_channel_event_loss_vs_soft_all": 0.05
+  },
+  "selection": "joint_full_only; ablations cannot replace it after viewing results",
+  "scope": "known development inputs; single fixed setting; no quality fitting or test access"
+}
