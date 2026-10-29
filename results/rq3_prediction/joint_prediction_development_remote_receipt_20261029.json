@@ -1,0 +1,15 @@
+{
+  "result_commit": "168ffa4694406bfadb0ae8e34e9a1e7f57488d19",
+  "initial_result_commit": "6bdb1a69cf641d4d80c54ce8c0f9ac42ad6adca1",
+  "archival_fix": "Preserved CRLF in 31 CSV files; numeric results unchanged, no retraining",
+  "files_checked": 148,
+  "old_files_unchanged": 2133,
+  "intentional_document_updates": [
+    "docs/DECISIONS.md",
+    "docs/STATUS.md",
+    "docs/plans/joint_prediction_execplan_20261029.md"
+  ],
+  "models": 21,
+  "training_updates": 6720,
+  "full_results_verified": true
+}
