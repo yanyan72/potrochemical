@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "models": 21,
+  "epochs": 840,
+  "updates": 6720,
+  "metrics": 1008,
+  "paired_rows": 147,
+  "paired_summary_rows": 49,
+  "suite_rows": 21,
+  "manifest_files": 124,
+  "common_initialization": true,
+  "common_budget": true,
+  "all_source_hashes_unchanged": true,
+  "total_training_seconds": 198.9783673749771,
+  "outer_data_seeds": 3,
+  "optimization_seeds": 1,
+  "scope": "development, no new test"
+}

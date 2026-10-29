@@ -1,0 +1,7 @@
+{
+  "post_hoc_analysis": true,
+  "extra_training_models": 0,
+  "paired_clean_is_noisy_observation_not_latent_truth": true,
+  "correction_identity_verified": true,
+  "source_result_manifest": "84f2e1e03a790095c01a5dd15efb6ee6cf8d9f6f9047da624c397837f667c0ba"
+}

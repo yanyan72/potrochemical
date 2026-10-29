@@ -1,0 +1,13 @@
+{
+  "analysis_verification.json": "0622594e9b391cd37e3294a51af6b46be265ff6b844f2f2fd677edb0fd3dd3a0",
+  "correction_error_accounting.csv": "edfea5dc130e214bb43e115fb1bdf9b9ad06710b286e59ec7004ddb5a580c30d",
+  "figures/01_all_models.pdf": "a692862dab585be10a835dc53cfac4c4df6376e4a9a4eef4fb12f3896d664554",
+  "figures/01_all_models.png": "2a382527f02c5842a403289f03931cd0800587a5306c4dc94b1e081fd6db8b23",
+  "figures/02_scenario_effects.pdf": "36778481aaf70d85a53f40ce4d0e55aa5da4431209d8fb402834ce37559cb3d2",
+  "figures/02_scenario_effects.png": "b6e4dc090db9debadad5138fcd44f39cdde7091879d84c27b392d7157dc0d040",
+  "figures/03_channel_effects.pdf": "b6ae515f7585c360bf049fc5c6add68e35fbd66a896cde66bb50e2ad8f43e98c",
+  "figures/03_channel_effects.png": "12883afb9e01dc579fe6e05556747ce7ecb825b7303a649104eb1e43426e3b7f",
+  "scope.json": "8870f430100f9bfbc16cd05eba3d0c37067e173afd06d89fbe14185bd29162b7",
+  "stratified_paired_effects.csv": "bbafbd3573936c57876b845511c3879e2d3478aa77fd4a6753a7a663313b9336",
+  "stratified_paired_summary.csv": "1556c7a51fb37c3fd236798e9835b351d8c1cc7790660d0f48c211bd8c15db08"
+}

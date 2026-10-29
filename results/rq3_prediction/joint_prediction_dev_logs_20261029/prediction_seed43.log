@@ -1,0 +1,7 @@
+{"seed": 43, "arm": "N", "selected_epoch": 37, "val_mae": 1.6704357358916397, "seconds": 9.471629332998418}
+{"seed": 43, "arm": "OT", "selected_epoch": 37, "val_mae": 1.6713514454743184, "seconds": 9.433763207998709}
+{"seed": 43, "arm": "NT", "selected_epoch": 37, "val_mae": 1.6734746403525538, "seconds": 9.4129490829946}
+{"seed": 43, "arm": "ZG", "selected_epoch": 39, "val_mae": 1.6904133059753272, "seconds": 9.41388549999101}
+{"seed": 43, "arm": "NG", "selected_epoch": 37, "val_mae": 1.693486801409607, "seconds": 9.409666209001443}
+{"seed": 43, "arm": "RG", "selected_epoch": 40, "val_mae": 1.6805985728283463, "seconds": 9.504598291998263}
+{"seed": 43, "arm": "AG", "selected_epoch": 37, "val_mae": 1.695609909323635, "seconds": 9.550577208996401}

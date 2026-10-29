@@ -1,0 +1,28 @@
+{
+  "rows": [
+    {
+      "seed": 42,
+      "NG_minus_N": -0.004800912470217078,
+      "NG_minus_RG": -0.01538648120850361,
+      "relative_gain_vs_N": 0.0030160858725767075,
+      "clean_relative_change": 0.009735645025834513
+    },
+    {
+      "seed": 43,
+      "NG_minus_N": 0.023051065517967206,
+      "NG_minus_RG": 0.012888228581260597,
+      "relative_gain_vs_N": -0.013799432700512171,
+      "clean_relative_change": 0.024420450193275163
+    },
+    {
+      "seed": 44,
+      "NG_minus_N": 0.0042785039500390365,
+      "NG_minus_RG": -0.004476649144065092,
+      "relative_gain_vs_N": -0.0027604386151971034,
+      "clean_relative_change": 0.026212641862386997
+    }
+  ],
+  "role": "Descriptive original thresholds, scientific follow-up based on trends and mechanism, not automatic rejection",
+  "new_test_evidence": false,
+  "models": 21
+}

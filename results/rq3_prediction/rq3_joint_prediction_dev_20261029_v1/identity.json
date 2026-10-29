@@ -1,0 +1,15 @@
+{
+  "implementation_commit": "b7d8ff0b3af1c850324def2ee847639130db0792",
+  "python": "3.11.17",
+  "numpy": "2.4.6",
+  "torch": "2.14.1",
+  "source": "synthetic_rebuilt_reused",
+  "test_used": false,
+  "new_latent_processes": 0,
+  "source_sha256": {
+    "rq3_joint_prediction_dev.py": "d306dccdd40fa427234735152cafc38af97e035b976c321938129f9ca4412684",
+    "rq3_uncertainty_a0.py": "0bdea82ede440d748ee4048dddec83a0b690d69f9940c46324711f948ead2013",
+    "rq3_shared_mode_fault.py": "469aeafa79b6901b0a11039f69532cda8b4c06f78346abfa73131326d32cdca0",
+    "rq3_shared_mode_fault_development.py": "5e629fe4bc978a6e0e4af03915d07b89b4c3d226eeecd2d59e27aa1172b1d197"
+  }
+}
