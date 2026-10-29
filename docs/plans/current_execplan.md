@@ -1,5 +1,7 @@
 # Current execution plan
 
+2026-10-29 latest: [9-model selective correction](selective_prediction_execplan_20261029.md), authorized after review of the 21-model findings. Earlier pointers below are history.
+
 2026-10-29: active experiment [21-model joint-score RQ3 development](joint_prediction_execplan_20261029.md). User accepted the scoring screen and authorized prediction experiments. Four-week experimental objective remains unchanged.
 
 ## Previous pointer
