@@ -1,0 +1,17 @@
+{
+  "run_id": "rq3_joint_prediction_dev_20261029_v1",
+  "seeds": [42,43,44],
+  "arms": ["N","OT","NT","ZG","NG","RG","AG"],
+  "views": ["correct_clean","correct_drift1","correct_bias4","delay12_clean","delay12_drift1","delay12_bias4"],
+  "counts": {"train":1000,"val":250},
+  "target":"arrival_proxy",
+  "hidden_size":32,"input_channels":18,"batch_size":128,"epochs":40,
+  "learning_rate":0.003,"weight_decay":0.0001,"grad_clip":1.0,"threads":1,
+  "model_seed":29001,"shuffle_seed":39001,"schedule_seed":49001,"event_seed":2026102902,"random_control_seed":59001,
+  "selection":"minimum six-view validation MAE; earliest tie",
+  "source_dataset_manifest":"a2224ee148d8b5d61a5cb24fd225d5d56817fc17ebd37753545c8494d7ca47ed",
+  "scoring_source_commit":"17e5de117a1a522486a6edcaa9e5720598942bcd",
+  "protocol_change":"Before prediction, replace NR random concatenation with ZG standardized zero-center gating to answer user fusion question; retain RG and AG",
+  "comparisons":[["NT","OT"],["NT","N"],["ZG","NT"],["NG","ZG"],["NG","N"],["NG","RG"],["NG","AG"]],
+  "scope":"Exploratory development, 21 fixed fits, no test, no latent regeneration; original quantitative screen reported descriptively, not sole scientific decision"
+}
