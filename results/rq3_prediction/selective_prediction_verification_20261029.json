@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "new_models": 9,
+  "updates": 2880,
+  "epochs": 360,
+  "training_seconds": 85.89359204300854,
+  "metric_rows": 1440,
+  "paired_rows": 1029,
+  "paired_summary_rows": 343,
+  "manifest_files": 66,
+  "old_predictions_exact": true,
+  "matched_initialization_budget_schedule": true,
+  "source_hashes_unchanged": true,
+  "outer_data_seeds": 3,
+  "optimizer_seeds": 1
+}
