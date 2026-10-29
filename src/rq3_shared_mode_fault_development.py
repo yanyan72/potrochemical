@@ -9,6 +9,12 @@ from rq3_shared_mode_fault import joint_filter
 def score_raw(x,r,model,candidate,cfg,arm):
     kw={'kappa':0.} if arm=='no_fault_hypothesis' else {'fault_memory':False} if arm=='no_fault_memory' else {}
     out=joint_filter(x,r,model,candidate,**kw)
+    if arm=='no_fault_hypothesis':
+        # Exact analytical collapse avoids amplifying ~1e-16 posterior differences
+        # through inverse-normal CDF tails. Check the 12-state implementation first.
+        collapsed=a0.mode_filter(x,r,model,candidate)
+        np.testing.assert_allclose(out['mode'],collapsed,atol=1e-12,rtol=0)
+        out['mode']=collapsed
     mu=np.asarray(model['mu']);sd=np.sqrt(np.diagonal(np.asarray(model['cov']),axis1=1,axis2=2))
     z=((x-np.asarray(model['center']))/model['scale'])[:,:,:,None]-mu.T[None,None,:,:]
     z=z/sd.T[None,None,:,:]
@@ -66,7 +72,7 @@ def run(root,data,candidate,cfg,source_identity,out,commit):
         baselines.append(row)
     out.mkdir(parents=True);a0.dump(out/'config.json',cfg);a0.dump(out/'candidate_config.json',candidate)
     a0.dump(out/'input_identity.json',dict(a0=source_identity,calibration_sha256=calhash))
-    a0.dump(out/'identity.json',dict(implementation_commit=commit,python=sys.version,numpy=np.__version__,platform=platform.platform(),quality_models_trained=0,new_latent_processes=0,test_access=False))
+    a0.dump(out/'identity.json',dict(implementation_commit=commit,attempt_directory=out.name,python=sys.version,numpy=np.__version__,platform=platform.platform(),quality_models_trained=0,new_latent_processes=0,test_access=False))
     started=time.perf_counter();summary=[];checks=[]
     for seed in cfg['seeds']:
         old=root/f'seed_{seed}';sd=out/f'seed_{seed}';sd.mkdir();model=json.loads((old/'model.json').read_text());m=model['modes']

@@ -1,0 +1,25 @@
+Traceback (most recent call last):
+  File "/Users/liliyan/Documents/石化/work/deadline_20261029/src/rq3_shared_mode_fault_development.py", line 121, in <module>
+    a=p.parse_args();run(a.a0_root,a.data,json.loads(a.candidate.read_text()),json.loads(a.config.read_text()),json.loads(a.source_identity.read_text()),a.output,a.commit)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/liliyan/Documents/石化/work/deadline_20261029/src/rq3_shared_mode_fault_development.py", line 96, in run
+    np.testing.assert_allclose(ratio,v['soft_all_ratio'],atol=1e-6,rtol=1e-7)
+  File "/Users/liliyan/Documents/Codex/2026-10-19/2-3-3-3-10-000-2/work/lstm-venv/lib/python3.11/site-packages/numpy/testing/_private/utils.py", line 1768, in assert_allclose
+    assert_array_compare(compare, actual, desired, err_msg=str(err_msg),
+  File "/Users/liliyan/Documents/Codex/2026-10-19/2-3-3-3-10-000-2/work/lstm-venv/lib/python3.11/site-packages/numpy/testing/_private/utils.py", line 983, in assert_array_compare
+    raise AssertionError(msg)
+AssertionError: 
+Not equal to tolerance rtol=1e-07, atol=1e-06
+
+Mismatched elements: 2 / 21240 (0.00942%)
+Mismatch at indices:
+ [32, 42, 0]: 1.614324813905441 (ACTUAL), 1.6143263578414917 (DESIRED)
+ [32, 43, 0]: 2.0377177834067197 (ACTUAL), 2.037719249725342 (DESIRED)
+Max absolute difference among violations: 1.54393605e-06
+Max relative difference among violations: 9.56396483e-07
+ ACTUAL: array([[[0.035163, 0.010609, 0.036226],
+        [0.091722, 0.078806, 0.09817 ],
+        [0.120827, 0.038579, 0.217295],...
+ DESIRED: array([[[0.035163, 0.010609, 0.036226],
+        [0.091722, 0.078806, 0.09817 ],
+        [0.120827, 0.038579, 0.217295],...
