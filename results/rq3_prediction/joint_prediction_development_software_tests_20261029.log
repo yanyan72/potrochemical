@@ -1,0 +1,11 @@
+test_common_features (test_rq3_joint_prediction_dev.PredictionTests.test_common_features) ... ok
+test_event_extension_and_no_input_mutation (test_rq3_joint_prediction_dev.PredictionTests.test_event_extension_and_no_input_mutation) ... ok
+test_gate_limits_and_reference_term (test_rq3_joint_prediction_dev.PredictionTests.test_gate_limits_and_reference_term) ... ok
+test_parameter_capacity (test_rq3_joint_prediction_dev.PredictionTests.test_parameter_capacity) ... ok
+test_random_train_only_and_no_self (test_rq3_joint_prediction_dev.PredictionTests.test_random_train_only_and_no_self) ... ok
+test_tiny_budget_and_replay (test_rq3_joint_prediction_dev.PredictionTests.test_tiny_budget_and_replay) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.825s
+
+OK
