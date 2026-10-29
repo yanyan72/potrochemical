@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "manifest_files": 20,
+  "batch_view_arm_records_recounted": 4320,
+  "alarm_replay_exact": true,
+  "max_float32_ratio_error": 2.2693696077880077e-07,
+  "decision_arithmetic_verified": true,
+  "candidate_real_data_performance_tested": false,
+  "quality_models_trained": 0
+}

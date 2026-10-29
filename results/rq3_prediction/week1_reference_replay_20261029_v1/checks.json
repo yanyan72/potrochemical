@@ -1,0 +1,50 @@
+[
+  {
+    "seed": 42,
+    "split": "train",
+    "batches": 60,
+    "thresholds_unchanged": true,
+    "independent_count_check": true,
+    "quality_labels_read": false
+  },
+  {
+    "seed": 42,
+    "split": "val",
+    "batches": 60,
+    "thresholds_unchanged": true,
+    "independent_count_check": true,
+    "quality_labels_read": false
+  },
+  {
+    "seed": 43,
+    "split": "train",
+    "batches": 60,
+    "thresholds_unchanged": true,
+    "independent_count_check": true,
+    "quality_labels_read": false
+  },
+  {
+    "seed": 43,
+    "split": "val",
+    "batches": 60,
+    "thresholds_unchanged": true,
+    "independent_count_check": true,
+    "quality_labels_read": false
+  },
+  {
+    "seed": 44,
+    "split": "train",
+    "batches": 60,
+    "thresholds_unchanged": true,
+    "independent_count_check": true,
+    "quality_labels_read": false
+  },
+  {
+    "seed": 44,
+    "split": "val",
+    "batches": 60,
+    "thresholds_unchanged": true,
+    "independent_count_check": true,
+    "quality_labels_read": false
+  }
+]

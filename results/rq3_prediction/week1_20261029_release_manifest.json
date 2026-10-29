@@ -1,0 +1,197 @@
+{
+  "date": "2026-10-29",
+  "protocol_commit": "51434f4917eff39330d912f48df3ff658881fae0",
+  "implementation_commit": "965009b16ac2066edb05e9b188c5adfaaacacbc4",
+  "upload_note": "Initial whole-file read exceeded tool output limit before uploading one binary; corrected with bounded chunks; all resulting blobs verified against local Git blob IDs. No scientific files changed.",
+  "files": [
+    {
+      "local_path": "docs/SBS_BLOCKERS_AND_TIMEBOX_20261029.md",
+      "remote_path": "docs/SBS_BLOCKERS_AND_TIMEBOX_20261029.md",
+      "bytes": 1923,
+      "sha256": "226b5e450b9eb5d5c74a927bc923e1db84180506e13bad5fbf9291704ccfe90f",
+      "git_blob": "605fbc0c3cf2eb3a384d4258f37a7936a5fcac45"
+    },
+    {
+      "local_path": "docs/WEEK1_EXECUTED_RESULTS_20261029.md",
+      "remote_path": "docs/WEEK1_EXECUTED_RESULTS_20261029.md",
+      "bytes": 7455,
+      "sha256": "6e00669ecac8cbba84d57d466c1b2423531dd96a7bfeb4a009f51d05af36584f",
+      "git_blob": "a75b4f084e0d630ae5d11bdce5e91198b2c2fa41"
+    },
+    {
+      "local_path": "reference_replay_execution.log",
+      "remote_path": "results/rq3_prediction/week1_20261029_logs/reference_replay_execution.log",
+      "bytes": 3012,
+      "sha256": "74f5e260de3661f9dab231ef6483a5cc3d8fec53aa83bb1dc9f9b2f14107d4b0",
+      "git_blob": "45246b5c1f67bcbd31e434f3fc92b76943146ee3"
+    },
+    {
+      "local_path": "reference_verification.log",
+      "remote_path": "results/rq3_prediction/week1_20261029_logs/reference_verification.log",
+      "bytes": 276,
+      "sha256": "b6de35eb2a72a3f51477d0636272d5d36286238ca6a64bf34e04f55d1f450829",
+      "git_blob": "b3e5a18795c1b16b87d5ecf4948f9c618f4314fb"
+    },
+    {
+      "local_path": "results/week1_reference_replay_20261029_v1/checks.json",
+      "remote_path": "results/rq3_prediction/week1_reference_replay_20261029_v1/checks.json",
+      "bytes": 1017,
+      "sha256": "3e37031a101c33bef6646c1a295cec4f4bcde09ae9dbbfed44438c1856bc5ba5",
+      "git_blob": "08ae5ebd160ed8949b2037cbf303fbd0de6800b2"
+    },
+    {
+      "local_path": "results/week1_reference_replay_20261029_v1/config.json",
+      "remote_path": "results/rq3_prediction/week1_reference_replay_20261029_v1/config.json",
+      "bytes": 811,
+      "sha256": "877d8f3eab3316c780c6e2f5b58a7685d761a7d8292d4ba39162145ab2b5dd39",
+      "git_blob": "508663e86187634216c068351f5a0b6cc94eef5c"
+    },
+    {
+      "local_path": "results/week1_reference_replay_20261029_v1/decision.json",
+      "remote_path": "results/rq3_prediction/week1_reference_replay_20261029_v1/decision.json",
+      "bytes": 3384,
+      "sha256": "c0da3d36c2d76b04e3ca2c5b73055975639bf25c1df221fad798e11e7c48a9a3",
+      "git_blob": "e3bf1069575cd36ae1af290248b1e7956c926817"
+    },
+    {
+      "local_path": "results/week1_reference_replay_20261029_v1/identity.json",
+      "remote_path": "results/rq3_prediction/week1_reference_replay_20261029_v1/identity.json",
+      "bytes": 353,
+      "sha256": "a5b60dbe61c8cf43661de4b37eed7865d5ec187666100f47ce7fd1646942481f",
+      "git_blob": "40016176eae3caf2c811abcaf6d765e61e9e1a74"
+    },
+    {
+      "local_path": "results/week1_reference_replay_20261029_v1/manifest.json",
+      "remote_path": "results/rq3_prediction/week1_reference_replay_20261029_v1/manifest.json",
+      "bytes": 1931,
+      "sha256": "4b79a8e26194a0f9174237e9921711b764d9ceccf087835f30ce96abc27e6501",
+      "git_blob": "aa64f40b9ca68592ba67a6e8e5d1a4b685b12697"
+    },
+    {
+      "local_path": "results/week1_reference_replay_20261029_v1/metrics_by_seed.csv",
+      "remote_path": "results/rq3_prediction/week1_reference_replay_20261029_v1/metrics_by_seed.csv",
+      "bytes": 222823,
+      "sha256": "6cd8a6f4c1c9b260df932b0d1f37291df5797f19b61f0f292dd6ecb0a9914fbb",
+      "git_blob": "ef8de2b5cde34e265a17008c39ea5c70de2fe1e4"
+    },
+    {
+      "local_path": "results/week1_reference_replay_20261029_v1/paired_differences.csv",
+      "remote_path": "results/rq3_prediction/week1_reference_replay_20261029_v1/paired_differences.csv",
+      "bytes": 99721,
+      "sha256": "bba864ead3a3921aa9a3f43f6fb75aaeac65da05cac12bc739d10e938bfd0ec6",
+      "git_blob": "657f867c1c6b71ca3ca0733961ccf8d8d0a4dc2d"
+    },
+    {
+      "local_path": "results/week1_reference_replay_20261029_v1/seed_42/train_batch_metrics.csv",
+      "remote_path": "results/rq3_prediction/week1_reference_replay_20261029_v1/seed_42/train_batch_metrics.csv",
+      "bytes": 116050,
+      "sha256": "a654f571499966e1fc5e35fdabbda43ec02425c69d6b1fd1e91e987829adfeaa",
+      "git_blob": "0d8da2270bc20628b71018d7f1a9a4a32e73caba"
+    },
+    {
+      "local_path": "results/week1_reference_replay_20261029_v1/seed_42/train_scores.npz",
+      "remote_path": "results/rq3_prediction/week1_reference_replay_20261029_v1/seed_42/train_scores.npz",
+      "bytes": 926079,
+      "sha256": "3e1ea32bda590610175f97e29f6cac692c8acb6dc61608c3f13bb5b79ec8ec52",
+      "git_blob": "0330d0629c166d071b0175a6d0119576968204bb"
+    },
+    {
+      "local_path": "results/week1_reference_replay_20261029_v1/seed_42/val_batch_metrics.csv",
+      "remote_path": "results/rq3_prediction/week1_reference_replay_20261029_v1/seed_42/val_batch_metrics.csv",
+      "bytes": 113037,
+      "sha256": "1cbeb2a651c43b2fbdfb052962a226b04babf4c3c3c1d3197946b159fd440710",
+      "git_blob": "bda81c84e3ddad8b6066ba8e43db3d9937ed9a12"
+    },
+    {
+      "local_path": "results/week1_reference_replay_20261029_v1/seed_42/val_scores.npz",
+      "remote_path": "results/rq3_prediction/week1_reference_replay_20261029_v1/seed_42/val_scores.npz",
+      "bytes": 925966,
+      "sha256": "4eb782baab04f85123bef338baa168c861ab1d18dd3b8a4911c2e5d8d16cb282",
+      "git_blob": "f1e9304dcc7542ba2350befd5200647a9dd484cd"
+    },
+    {
+      "local_path": "results/week1_reference_replay_20261029_v1/seed_43/train_batch_metrics.csv",
+      "remote_path": "results/rq3_prediction/week1_reference_replay_20261029_v1/seed_43/train_batch_metrics.csv",
+      "bytes": 115997,
+      "sha256": "e8761c455614ad704681dd2b69e231bf9c0f3502507556937911b96156adee45",
+      "git_blob": "ebea2c87f97fadeeaa4445aa1699566744220fc9"
+    },
+    {
+      "local_path": "results/week1_reference_replay_20261029_v1/seed_43/train_scores.npz",
+      "remote_path": "results/rq3_prediction/week1_reference_replay_20261029_v1/seed_43/train_scores.npz",
+      "bytes": 926317,
+      "sha256": "25ad2f54b426cb586914652c2f4d1ff962dc1f8d82eaa853791e16db006ac5fb",
+      "git_blob": "cfd98fd72aa02b4d37f6fdc67d820d89120e6775"
+    },
+    {
+      "local_path": "results/week1_reference_replay_20261029_v1/seed_43/val_batch_metrics.csv",
+      "remote_path": "results/rq3_prediction/week1_reference_replay_20261029_v1/seed_43/val_batch_metrics.csv",
+      "bytes": 113245,
+      "sha256": "51ee8209d70be3398107cb373e1a6d2ac26c83dce880a5b7b0a7a2f098fd1066",
+      "git_blob": "7f9dab6027e3ff073acc52c485edf255f7aa5648"
+    },
+    {
+      "local_path": "results/week1_reference_replay_20261029_v1/seed_43/val_scores.npz",
+      "remote_path": "results/rq3_prediction/week1_reference_replay_20261029_v1/seed_43/val_scores.npz",
+      "bytes": 925843,
+      "sha256": "e120ec940072a5cc24eb9e40239ac808818f0355fb6e7218daf1c1180830d99c",
+      "git_blob": "9eefa00743d688586c997c094079cdfe05169de9"
+    },
+    {
+      "local_path": "results/week1_reference_replay_20261029_v1/seed_44/train_batch_metrics.csv",
+      "remote_path": "results/rq3_prediction/week1_reference_replay_20261029_v1/seed_44/train_batch_metrics.csv",
+      "bytes": 116730,
+      "sha256": "9cd4a7427b9cff8a99b53aae7e7f94e0326b3aefa3aef3302abde918aad9d85b",
+      "git_blob": "2f99662b24b51985d8410cabbcc851c0d031ad00"
+    },
+    {
+      "local_path": "results/week1_reference_replay_20261029_v1/seed_44/train_scores.npz",
+      "remote_path": "results/rq3_prediction/week1_reference_replay_20261029_v1/seed_44/train_scores.npz",
+      "bytes": 927781,
+      "sha256": "341b53d42a9f0b1ec8f5100b05b2ba87761a69fe149b42d6924e7d7bcf8bff13",
+      "git_blob": "db5538daec9341027aaf7a92f829d5c6251d9091"
+    },
+    {
+      "local_path": "results/week1_reference_replay_20261029_v1/seed_44/val_batch_metrics.csv",
+      "remote_path": "results/rq3_prediction/week1_reference_replay_20261029_v1/seed_44/val_batch_metrics.csv",
+      "bytes": 113403,
+      "sha256": "e79a6dced2959b5bdbcffd9ce559d70c670012fe3d01fb22af25c838eaff29d7",
+      "git_blob": "dccda472505112d3002dfb4d01eee516e9cb74a9"
+    },
+    {
+      "local_path": "results/week1_reference_replay_20261029_v1/seed_44/val_scores.npz",
+      "remote_path": "results/rq3_prediction/week1_reference_replay_20261029_v1/seed_44/val_scores.npz",
+      "bytes": 926637,
+      "sha256": "c669e5e5a034e7424d72c33e51728f37f8aeed73574afb76c3fa9508244dd105",
+      "git_blob": "c7cb28b376f2f6af40838e8a2d102d90d5e45a75"
+    },
+    {
+      "local_path": "results/week1_reference_replay_20261029_v1/source_identity.json",
+      "remote_path": "results/rq3_prediction/week1_reference_replay_20261029_v1/source_identity.json",
+      "bytes": 207,
+      "sha256": "1d73a799e9ab563de45da7a8e88acc051acbf67739d91046135504ae334b67ef",
+      "git_blob": "65ea0b54f892e37820d102dd9093fc382d296371"
+    },
+    {
+      "local_path": "results/week1_reference_replay_20261029_v1/source_unchanged.json",
+      "remote_path": "results/rq3_prediction/week1_reference_replay_20261029_v1/source_unchanged.json",
+      "bytes": 101,
+      "sha256": "c0d55cce6b90904b8709988be7d4172c2c764459466cbe1bb8e4c64e7744981f",
+      "git_blob": "05af5e76a61fa3999662db9161c1787c88bc90d0"
+    },
+    {
+      "local_path": "results/week1_reference_replay_20261029_verification.json",
+      "remote_path": "results/rq3_prediction/week1_reference_replay_20261029_verification.json",
+      "bytes": 294,
+      "sha256": "c500e8d681d8938da06541c32c4505e960e420bfa807198479a2a5314a7fa7f1",
+      "git_blob": "c0d18ed048446f3b7fd9765467eac33616df2806"
+    },
+    {
+      "local_path": "src/verify_week1_reference_replay.py",
+      "remote_path": "src/verify_week1_reference_replay.py",
+      "bytes": 4240,
+      "sha256": "a40f3a54c9674c4f25dfa3f67f698d3d13cf6744e5a93e1112411961f8b33b6a",
+      "git_blob": "5b0b56705d9706113305d4d72cdefc6a66c52678"
+    }
+  ]
+}
