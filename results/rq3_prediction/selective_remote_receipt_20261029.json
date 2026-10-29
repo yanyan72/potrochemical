@@ -1,0 +1,13 @@
+{
+  "commit": "38dea2d4668804b259ead08d7e769b414c70aa87",
+  "files_verified": 86,
+  "old_files_unchanged": 2285,
+  "intentional_document_updates": [
+    "docs/DECISIONS.md",
+    "docs/STATUS.md",
+    "docs/plans/selective_prediction_execplan_20261029.md"
+  ],
+  "new_models": 9,
+  "updates": 2880,
+  "verified": true
+}
