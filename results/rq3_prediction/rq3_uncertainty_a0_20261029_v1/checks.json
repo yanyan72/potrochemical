@@ -1,0 +1,50 @@
+[
+  {
+    "seed": 42,
+    "split": "train",
+    "batches": 60,
+    "labels_shared": true,
+    "paired_observations_equal": true,
+    "legacy_replay": true
+  },
+  {
+    "seed": 42,
+    "split": "val",
+    "batches": 60,
+    "labels_shared": true,
+    "paired_observations_equal": true,
+    "legacy_replay": true
+  },
+  {
+    "seed": 43,
+    "split": "train",
+    "batches": 60,
+    "labels_shared": true,
+    "paired_observations_equal": true,
+    "legacy_replay": true
+  },
+  {
+    "seed": 43,
+    "split": "val",
+    "batches": 60,
+    "labels_shared": true,
+    "paired_observations_equal": true,
+    "legacy_replay": true
+  },
+  {
+    "seed": 44,
+    "split": "train",
+    "batches": 60,
+    "labels_shared": true,
+    "paired_observations_equal": true,
+    "legacy_replay": true
+  },
+  {
+    "seed": 44,
+    "split": "val",
+    "batches": 60,
+    "labels_shared": true,
+    "paired_observations_equal": true,
+    "legacy_replay": true
+  }
+]

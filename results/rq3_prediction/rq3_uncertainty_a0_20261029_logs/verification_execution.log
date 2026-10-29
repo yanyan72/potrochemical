@@ -1,0 +1,1 @@
+{"passed": true, "manifest_files": 64, "batch_arm_view_rows_recounted": 10800, "score_trajectories_replayed": 10800, "alarm_replay_exact": true, "max_float32_ratio_error": 1.904195649160556e-06, "max_float32_probability_error": 2.9802072365470167e-08, "inference": "3 outer data seeds; development; no p values; no quality prediction"}

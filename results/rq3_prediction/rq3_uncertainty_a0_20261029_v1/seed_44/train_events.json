@@ -1,0 +1,542 @@
+[
+  {
+    "sequence_id": "rq3_20261019_44_train_000000",
+    "channel": 1,
+    "sign": 1,
+    "departure": 45,
+    "offset": 18,
+    "start": 63,
+    "end": 75
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000001",
+    "channel": 0,
+    "sign": 1,
+    "departure": 45,
+    "offset": 18,
+    "start": 63,
+    "end": 75
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000002",
+    "channel": 0,
+    "sign": 1,
+    "departure": 50,
+    "offset": -6,
+    "start": 44,
+    "end": 56
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000003",
+    "channel": 0,
+    "sign": -1,
+    "departure": 35,
+    "offset": -6,
+    "start": 29,
+    "end": 41
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000004",
+    "channel": 0,
+    "sign": -1,
+    "departure": 43,
+    "offset": 18,
+    "start": 61,
+    "end": 73
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000005",
+    "channel": 2,
+    "sign": 1,
+    "departure": 25,
+    "offset": -6,
+    "start": 19,
+    "end": 31
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000006",
+    "channel": 1,
+    "sign": -1,
+    "departure": 45,
+    "offset": -6,
+    "start": 39,
+    "end": 51
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000007",
+    "channel": 1,
+    "sign": 1,
+    "departure": 36,
+    "offset": 18,
+    "start": 54,
+    "end": 66
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000008",
+    "channel": 0,
+    "sign": -1,
+    "departure": 32,
+    "offset": -6,
+    "start": 26,
+    "end": 38
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000009",
+    "channel": 1,
+    "sign": 1,
+    "departure": 25,
+    "offset": 18,
+    "start": 43,
+    "end": 55
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000010",
+    "channel": 2,
+    "sign": -1,
+    "departure": 30,
+    "offset": -6,
+    "start": 24,
+    "end": 36
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000011",
+    "channel": 1,
+    "sign": 1,
+    "departure": 35,
+    "offset": -6,
+    "start": 29,
+    "end": 41
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000012",
+    "channel": 2,
+    "sign": 1,
+    "departure": 26,
+    "offset": 18,
+    "start": 44,
+    "end": 56
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000013",
+    "channel": 2,
+    "sign": -1,
+    "departure": 30,
+    "offset": 18,
+    "start": 48,
+    "end": 60
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000014",
+    "channel": 0,
+    "sign": -1,
+    "departure": 43,
+    "offset": -6,
+    "start": 37,
+    "end": 49
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000015",
+    "channel": 1,
+    "sign": -1,
+    "departure": 45,
+    "offset": -6,
+    "start": 39,
+    "end": 51
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000016",
+    "channel": 2,
+    "sign": 1,
+    "departure": 33,
+    "offset": 18,
+    "start": 51,
+    "end": 63
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000017",
+    "channel": 1,
+    "sign": 1,
+    "departure": 41,
+    "offset": -6,
+    "start": 35,
+    "end": 47
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000018",
+    "channel": 2,
+    "sign": -1,
+    "departure": 31,
+    "offset": -6,
+    "start": 25,
+    "end": 37
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000019",
+    "channel": 0,
+    "sign": -1,
+    "departure": 32,
+    "offset": 18,
+    "start": 50,
+    "end": 62
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000020",
+    "channel": 2,
+    "sign": 1,
+    "departure": 43,
+    "offset": 18,
+    "start": 61,
+    "end": 73
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000021",
+    "channel": 1,
+    "sign": 1,
+    "departure": 45,
+    "offset": -6,
+    "start": 39,
+    "end": 51
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000022",
+    "channel": 2,
+    "sign": 1,
+    "departure": 35,
+    "offset": 18,
+    "start": 53,
+    "end": 65
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000023",
+    "channel": 2,
+    "sign": 1,
+    "departure": 35,
+    "offset": -6,
+    "start": 29,
+    "end": 41
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000024",
+    "channel": 0,
+    "sign": 1,
+    "departure": 36,
+    "offset": 18,
+    "start": 54,
+    "end": 66
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000025",
+    "channel": 1,
+    "sign": -1,
+    "departure": 39,
+    "offset": 18,
+    "start": 57,
+    "end": 69
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000026",
+    "channel": 1,
+    "sign": 1,
+    "departure": 34,
+    "offset": -6,
+    "start": 28,
+    "end": 40
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000027",
+    "channel": 0,
+    "sign": 1,
+    "departure": 29,
+    "offset": 18,
+    "start": 47,
+    "end": 59
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000028",
+    "channel": 1,
+    "sign": 1,
+    "departure": 35,
+    "offset": 18,
+    "start": 53,
+    "end": 65
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000029",
+    "channel": 1,
+    "sign": 1,
+    "departure": 31,
+    "offset": 18,
+    "start": 49,
+    "end": 61
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000030",
+    "channel": 2,
+    "sign": 1,
+    "departure": 44,
+    "offset": -6,
+    "start": 38,
+    "end": 50
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000031",
+    "channel": 1,
+    "sign": -1,
+    "departure": 42,
+    "offset": -6,
+    "start": 36,
+    "end": 48
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000032",
+    "channel": 1,
+    "sign": 1,
+    "departure": 31,
+    "offset": -6,
+    "start": 25,
+    "end": 37
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000033",
+    "channel": 0,
+    "sign": 1,
+    "departure": 42,
+    "offset": 18,
+    "start": 60,
+    "end": 72
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000034",
+    "channel": 1,
+    "sign": -1,
+    "departure": 43,
+    "offset": -6,
+    "start": 37,
+    "end": 49
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000035",
+    "channel": 0,
+    "sign": 1,
+    "departure": 32,
+    "offset": -6,
+    "start": 26,
+    "end": 38
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000036",
+    "channel": 2,
+    "sign": -1,
+    "departure": 46,
+    "offset": 18,
+    "start": 64,
+    "end": 76
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000037",
+    "channel": 2,
+    "sign": -1,
+    "departure": 32,
+    "offset": 18,
+    "start": 50,
+    "end": 62
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000038",
+    "channel": 0,
+    "sign": -1,
+    "departure": 43,
+    "offset": -6,
+    "start": 37,
+    "end": 49
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000039",
+    "channel": 2,
+    "sign": -1,
+    "departure": 43,
+    "offset": 18,
+    "start": 61,
+    "end": 73
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000040",
+    "channel": 2,
+    "sign": -1,
+    "departure": 48,
+    "offset": 18,
+    "start": 66,
+    "end": 78
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000041",
+    "channel": 2,
+    "sign": 1,
+    "departure": 41,
+    "offset": -6,
+    "start": 35,
+    "end": 47
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000042",
+    "channel": 2,
+    "sign": -1,
+    "departure": 40,
+    "offset": -6,
+    "start": 34,
+    "end": 46
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000043",
+    "channel": 2,
+    "sign": -1,
+    "departure": 49,
+    "offset": -6,
+    "start": 43,
+    "end": 55
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000044",
+    "channel": 0,
+    "sign": 1,
+    "departure": 33,
+    "offset": -6,
+    "start": 27,
+    "end": 39
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000045",
+    "channel": 0,
+    "sign": -1,
+    "departure": 39,
+    "offset": 18,
+    "start": 57,
+    "end": 69
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000046",
+    "channel": 1,
+    "sign": -1,
+    "departure": 42,
+    "offset": 18,
+    "start": 60,
+    "end": 72
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000047",
+    "channel": 0,
+    "sign": 1,
+    "departure": 26,
+    "offset": 18,
+    "start": 44,
+    "end": 56
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000048",
+    "channel": 1,
+    "sign": -1,
+    "departure": 45,
+    "offset": 18,
+    "start": 63,
+    "end": 75
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000049",
+    "channel": 0,
+    "sign": -1,
+    "departure": 43,
+    "offset": 18,
+    "start": 61,
+    "end": 73
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000050",
+    "channel": 1,
+    "sign": -1,
+    "departure": 40,
+    "offset": 18,
+    "start": 58,
+    "end": 70
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000051",
+    "channel": 0,
+    "sign": -1,
+    "departure": 32,
+    "offset": -6,
+    "start": 26,
+    "end": 38
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000052",
+    "channel": 2,
+    "sign": 1,
+    "departure": 49,
+    "offset": -6,
+    "start": 43,
+    "end": 55
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000053",
+    "channel": 0,
+    "sign": -1,
+    "departure": 40,
+    "offset": 18,
+    "start": 58,
+    "end": 70
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000054",
+    "channel": 2,
+    "sign": -1,
+    "departure": 28,
+    "offset": -6,
+    "start": 22,
+    "end": 34
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000055",
+    "channel": 1,
+    "sign": -1,
+    "departure": 30,
+    "offset": 18,
+    "start": 48,
+    "end": 60
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000056",
+    "channel": 2,
+    "sign": 1,
+    "departure": 40,
+    "offset": 18,
+    "start": 58,
+    "end": 70
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000057",
+    "channel": 0,
+    "sign": 1,
+    "departure": 29,
+    "offset": -6,
+    "start": 23,
+    "end": 35
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000058",
+    "channel": 1,
+    "sign": -1,
+    "departure": 30,
+    "offset": -6,
+    "start": 24,
+    "end": 36
+  },
+  {
+    "sequence_id": "rq3_20261019_44_train_000059",
+    "channel": 0,
+    "sign": 1,
+    "departure": 35,
+    "offset": -6,
+    "start": 29,
+    "end": 41
+  }
+]

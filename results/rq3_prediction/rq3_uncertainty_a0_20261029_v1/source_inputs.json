@@ -1,0 +1,157 @@
+{
+  "/Users/liliyan/Documents/Codex/2026-10-19/2-3-3-3-10-000-2/work/rq3-rebuild-check/rq3_paired_20261019_rebuild_v1/seed_42/reference_fit/inputs.npz": {
+    "remote_path": "data/processed/rq3_paired_20261019_rebuild_v1/seed_42/reference_fit/inputs.npz",
+    "sha256": "60f914420d4134f2d55fa14b99718db8c00384d46107a99b45c270c20676c6d7",
+    "git_blob": "4c2e0c14cc5feeed5c2c1e68faa9c8766f0d0e52"
+  },
+  "/Users/liliyan/Documents/Codex/2026-10-19/2-3-3-3-10-000-2/work/rq3-rebuild-check/rq3_paired_20261019_rebuild_v1/seed_42/reference_cal/inputs.npz": {
+    "remote_path": "data/processed/rq3_paired_20261019_rebuild_v1/seed_42/reference_cal/inputs.npz",
+    "sha256": "955c142012b4d7b2f5f6391d540933c63cb796e135e610bfd9d6133ba7a2119d",
+    "git_blob": "806f356539f6c1ac29617e032befe77de5a165a2"
+  },
+  "/Users/liliyan/Documents/Codex/2026-10-19/2-3-3-3-10-000-2/work/rq3-rebuild-check/rq3_paired_20261019_rebuild_v1/seed_42/train/inputs.npz": {
+    "remote_path": "data/processed/rq3_paired_20261019_rebuild_v1/seed_42/train/inputs.npz",
+    "sha256": "30f67f00b50cda1d315906fc69c60aff8457dc1359728b1ecee56368ef5e91a6",
+    "git_blob": "9fedac5f8050512d6b5014a702b3f9cb7eb3c037"
+  },
+  "/Users/liliyan/Documents/Codex/2026-10-19/2-3-3-3-10-000-2/work/rq3-rebuild-check/rq3_paired_20261019_rebuild_v1/seed_42/val/inputs.npz": {
+    "remote_path": "data/processed/rq3_paired_20261019_rebuild_v1/seed_42/val/inputs.npz",
+    "sha256": "1e69b01d5e801972baabe3c834f0b4749b9a11f746a1b3037cf10b0154d245a8",
+    "git_blob": "445775302d8aae5bbb805e8ec547d633461de1c6"
+  },
+  "/Users/liliyan/Documents/Codex/2026-10-19/2-3-3-3-10-000-2/work/rq3-rebuild-check/rq3_paired_20261019_rebuild_v1/seed_42/train/targets.csv": {
+    "remote_path": "data/processed/rq3_paired_20261019_rebuild_v1/seed_42/train/targets.csv",
+    "sha256": "01306cd9d89d92b653aac41b77b8d7f238a43664569f4b6efefaf7549a95540d",
+    "git_blob": "66c531bb90ad06cb66f5ac9999078763daa6c693"
+  },
+  "/Users/liliyan/Documents/Codex/2026-10-19/2-3-3-3-10-000-2/work/rq3-rebuild-check/rq3_paired_20261019_rebuild_v1/evaluation_only/seed_42/train/truth.npz": {
+    "remote_path": "data/processed/rq3_paired_20261019_rebuild_v1/evaluation_only/seed_42/train/truth.npz",
+    "sha256": "44e2e815175fba66c2cb0abb5161aaa33213e9d4fa2ed69868f2b5b8d588552c",
+    "git_blob": "45a828634823bdb49f026f7b5deecb2e66758fc2"
+  },
+  "/Users/liliyan/Documents/Codex/2026-10-19/2-3-3-3-10-000-2/work/rq3-rebuild-check/rq3_paired_20261019_rebuild_v1/seed_42/val/targets.csv": {
+    "remote_path": "data/processed/rq3_paired_20261019_rebuild_v1/seed_42/val/targets.csv",
+    "sha256": "3b7add65fe793a78c3fb55d24fd66a2c351eae99a699dd3b159b02800d297ed2",
+    "git_blob": "7f4f6d47c2b857b70167e9fab3097f307a152c09"
+  },
+  "/Users/liliyan/Documents/Codex/2026-10-19/2-3-3-3-10-000-2/work/rq3-rebuild-check/rq3_paired_20261019_rebuild_v1/evaluation_only/seed_42/val/truth.npz": {
+    "remote_path": "data/processed/rq3_paired_20261019_rebuild_v1/evaluation_only/seed_42/val/truth.npz",
+    "sha256": "b6a81b73f479e6bf88e3de0350c0c1f4a1b727364410aaf09c00e04200eef1ba",
+    "git_blob": "f0f751f4ebd05c2428ae12a652b95b7e96079796"
+  },
+  "/Users/liliyan/Documents/Codex/2026-10-19/2-3-3-3-10-000-2/work/rq3-rebuild-check/rq3_paired_20261019_rebuild_v1/seed_42/fault_scales.json": {
+    "remote_path": "data/processed/rq3_paired_20261019_rebuild_v1/seed_42/fault_scales.json",
+    "sha256": "1fa3d357d01ed6e304e911eb60839da7898d63195bea099f9adf5df41d0800e7",
+    "git_blob": "299d965f29d7823056d4a5dd929e4b13147368d5"
+  },
+  "/Users/liliyan/Documents/Codex/2026-10-19/2-3-3-3-10-000-2/work/rq3-rebuild-check/results/rq3_prediction/rq3_shared_fault_20261023_v1/seed_42/training/frozen_reference.json": {
+    "remote_path": "results/rq3_prediction/rq3_shared_fault_20261023_v1/seed_42/training/frozen_reference.json",
+    "sha256": "8f4fd629c205c3c9a3909443b0df1010b800ffe50bc7849cb34cd1658c1c98f8",
+    "git_blob": "35aa0658faa198f5b341c51f103ba01218c3012e"
+  },
+  "/Users/liliyan/Documents/Codex/2026-10-19/2-3-3-3-10-000-2/work/rq3-rebuild-check/rq3_paired_20261019_rebuild_v1/seed_43/reference_fit/inputs.npz": {
+    "remote_path": "data/processed/rq3_paired_20261019_rebuild_v1/seed_43/reference_fit/inputs.npz",
+    "sha256": "d2a3174bac5609b3cc8ef6543023a0761e35f811965f9230e34f7aa02e01fe53",
+    "git_blob": "9b19f187a9837f5f01a6f37926d651d1d08f8d9e"
+  },
+  "/Users/liliyan/Documents/Codex/2026-10-19/2-3-3-3-10-000-2/work/rq3-rebuild-check/rq3_paired_20261019_rebuild_v1/seed_43/reference_cal/inputs.npz": {
+    "remote_path": "data/processed/rq3_paired_20261019_rebuild_v1/seed_43/reference_cal/inputs.npz",
+    "sha256": "7e8025086b861a67c1ddfe235597bc4178af2655fa1c790c0ae5ea2d00610f3a",
+    "git_blob": "68a7ae94a9ff72f9a82ee557b8c60331078c0e2c"
+  },
+  "/Users/liliyan/Documents/Codex/2026-10-19/2-3-3-3-10-000-2/work/rq3-rebuild-check/rq3_paired_20261019_rebuild_v1/seed_43/train/inputs.npz": {
+    "remote_path": "data/processed/rq3_paired_20261019_rebuild_v1/seed_43/train/inputs.npz",
+    "sha256": "c690f0aa60a0fcf4b6867b884dca26ef298758ba7f60bccbb738203cf016b765",
+    "git_blob": "a290a78f8ed35da8b321a34e0d5ab8af878e4785"
+  },
+  "/Users/liliyan/Documents/Codex/2026-10-19/2-3-3-3-10-000-2/work/rq3-rebuild-check/rq3_paired_20261019_rebuild_v1/seed_43/val/inputs.npz": {
+    "remote_path": "data/processed/rq3_paired_20261019_rebuild_v1/seed_43/val/inputs.npz",
+    "sha256": "57f58669735585b5166a6bb9341ce948e3298c65bdd912c43943cca65b3e1b44",
+    "git_blob": "b1d17f5dfc7fe010bd37c51417c685322b63c0d6"
+  },
+  "/Users/liliyan/Documents/Codex/2026-10-19/2-3-3-3-10-000-2/work/rq3-rebuild-check/rq3_paired_20261019_rebuild_v1/seed_43/train/targets.csv": {
+    "remote_path": "data/processed/rq3_paired_20261019_rebuild_v1/seed_43/train/targets.csv",
+    "sha256": "d92a016bc27b6b886a43aaf753b5ba5f21ce7df0423c2b0e5fc81372a5b3ae0f",
+    "git_blob": "2512ae21536b7410e6779d46ebcae11f77fbd76b"
+  },
+  "/Users/liliyan/Documents/Codex/2026-10-19/2-3-3-3-10-000-2/work/rq3-rebuild-check/rq3_paired_20261019_rebuild_v1/evaluation_only/seed_43/train/truth.npz": {
+    "remote_path": "data/processed/rq3_paired_20261019_rebuild_v1/evaluation_only/seed_43/train/truth.npz",
+    "sha256": "b117d0d4384b2b882f3dfbf2ae35e4ba347d2cf0ebd8c10b2dab3452200a0897",
+    "git_blob": "145e535f51061aa6e5edf4f5d4b26454597798ac"
+  },
+  "/Users/liliyan/Documents/Codex/2026-10-19/2-3-3-3-10-000-2/work/rq3-rebuild-check/rq3_paired_20261019_rebuild_v1/seed_43/val/targets.csv": {
+    "remote_path": "data/processed/rq3_paired_20261019_rebuild_v1/seed_43/val/targets.csv",
+    "sha256": "9ebf1583433a7deecbc1a2490fca63910f448a2f2675d077c2eae7c7907b6a45",
+    "git_blob": "4f8578cf797e0d802e02e98942f8c5524b64eda9"
+  },
+  "/Users/liliyan/Documents/Codex/2026-10-19/2-3-3-3-10-000-2/work/rq3-rebuild-check/rq3_paired_20261019_rebuild_v1/evaluation_only/seed_43/val/truth.npz": {
+    "remote_path": "data/processed/rq3_paired_20261019_rebuild_v1/evaluation_only/seed_43/val/truth.npz",
+    "sha256": "53118f183e0c43b5bdd35d891952ad7a1116caea716747c14ac357db0a951b38",
+    "git_blob": "bf614e9cb38d21172bccddc1d605a680234a8a3b"
+  },
+  "/Users/liliyan/Documents/Codex/2026-10-19/2-3-3-3-10-000-2/work/rq3-rebuild-check/rq3_paired_20261019_rebuild_v1/seed_43/fault_scales.json": {
+    "remote_path": "data/processed/rq3_paired_20261019_rebuild_v1/seed_43/fault_scales.json",
+    "sha256": "7f8c53598f79de01823a82f1ab8fa1e49e7f638f17285975dcfcabe50ae40e35",
+    "git_blob": "bf997bce2d6ffaaa4581f52f08a0a05cec937939"
+  },
+  "/Users/liliyan/Documents/Codex/2026-10-19/2-3-3-3-10-000-2/work/rq3-rebuild-check/results/rq3_prediction/rq3_shared_fault_20261023_v1/seed_43/training/frozen_reference.json": {
+    "remote_path": "results/rq3_prediction/rq3_shared_fault_20261023_v1/seed_43/training/frozen_reference.json",
+    "sha256": "afc91b5bb3ef7b2e79bbaaae9122f08d81ab5f0caeffafbca540045ad8c7580f",
+    "git_blob": "65abbce1cb1ea37a7b4f94fe6ba848af790eb6db"
+  },
+  "/Users/liliyan/Documents/Codex/2026-10-19/2-3-3-3-10-000-2/work/rq3-rebuild-check/rq3_paired_20261019_rebuild_v1/seed_44/reference_fit/inputs.npz": {
+    "remote_path": "data/processed/rq3_paired_20261019_rebuild_v1/seed_44/reference_fit/inputs.npz",
+    "sha256": "c9c4ef79410d3e33247860d7141a127d7b977f6ef2e07a532b87e81d0cb57a95",
+    "git_blob": "651cdc3dacd40d4d266190df58ee4ba923dd3dcd"
+  },
+  "/Users/liliyan/Documents/Codex/2026-10-19/2-3-3-3-10-000-2/work/rq3-rebuild-check/rq3_paired_20261019_rebuild_v1/seed_44/reference_cal/inputs.npz": {
+    "remote_path": "data/processed/rq3_paired_20261019_rebuild_v1/seed_44/reference_cal/inputs.npz",
+    "sha256": "04457c27ef9e88643c04ebb68252488a2120d52b2c2fa0498b3e45f04d4c1c7d",
+    "git_blob": "cf066c1d62eeb943140fec156ffa1166722f17b2"
+  },
+  "/Users/liliyan/Documents/Codex/2026-10-19/2-3-3-3-10-000-2/work/rq3-rebuild-check/rq3_paired_20261019_rebuild_v1/seed_44/train/inputs.npz": {
+    "remote_path": "data/processed/rq3_paired_20261019_rebuild_v1/seed_44/train/inputs.npz",
+    "sha256": "01f74e86670d7edf514c8c9c5fbe267982b267f26bbe98ecddef10848b5ea967",
+    "git_blob": "5285fa603abdca64717f2b171602516f74dd0b00"
+  },
+  "/Users/liliyan/Documents/Codex/2026-10-19/2-3-3-3-10-000-2/work/rq3-rebuild-check/rq3_paired_20261019_rebuild_v1/seed_44/val/inputs.npz": {
+    "remote_path": "data/processed/rq3_paired_20261019_rebuild_v1/seed_44/val/inputs.npz",
+    "sha256": "a0237faa43a55ea09c712f41cc7ceebfcea67cea8c8c8517c271d106b17dd244",
+    "git_blob": "3f77f8835c0e46c46f726ce0897cf1e7da6ff400"
+  },
+  "/Users/liliyan/Documents/Codex/2026-10-19/2-3-3-3-10-000-2/work/rq3-rebuild-check/rq3_paired_20261019_rebuild_v1/seed_44/train/targets.csv": {
+    "remote_path": "data/processed/rq3_paired_20261019_rebuild_v1/seed_44/train/targets.csv",
+    "sha256": "bb1b0e2dc3f04348a142b132988a85dd975344736fe23637017a0df1cb0e6ea7",
+    "git_blob": "25e662b8627179003c9ec0565a053d4eb535bcfe"
+  },
+  "/Users/liliyan/Documents/Codex/2026-10-19/2-3-3-3-10-000-2/work/rq3-rebuild-check/rq3_paired_20261019_rebuild_v1/evaluation_only/seed_44/train/truth.npz": {
+    "remote_path": "data/processed/rq3_paired_20261019_rebuild_v1/evaluation_only/seed_44/train/truth.npz",
+    "sha256": "05ce69971dfb8d29613a59be934cb437551b9cc4bc7f3b30a1756ed8a57f09dc",
+    "git_blob": "182b97b8517e4af19a7d2b438701b16ba00150e9"
+  },
+  "/Users/liliyan/Documents/Codex/2026-10-19/2-3-3-3-10-000-2/work/rq3-rebuild-check/rq3_paired_20261019_rebuild_v1/seed_44/val/targets.csv": {
+    "remote_path": "data/processed/rq3_paired_20261019_rebuild_v1/seed_44/val/targets.csv",
+    "sha256": "7b63c1a789b3a1d938ab27c07b0c3f7bc4610f4038bc3247d498f0b79183a3dd",
+    "git_blob": "426b4de0c4c56d76f0918502720bb3247481f009"
+  },
+  "/Users/liliyan/Documents/Codex/2026-10-19/2-3-3-3-10-000-2/work/rq3-rebuild-check/rq3_paired_20261019_rebuild_v1/evaluation_only/seed_44/val/truth.npz": {
+    "remote_path": "data/processed/rq3_paired_20261019_rebuild_v1/evaluation_only/seed_44/val/truth.npz",
+    "sha256": "b58c60b732eb8c41d07d5727196ca5399e398352a5ce743984e48e4c3e09754b",
+    "git_blob": "41c256a4cfa0e564ec209a838951dca3506acc46"
+  },
+  "/Users/liliyan/Documents/Codex/2026-10-19/2-3-3-3-10-000-2/work/rq3-rebuild-check/rq3_paired_20261019_rebuild_v1/seed_44/fault_scales.json": {
+    "remote_path": "data/processed/rq3_paired_20261019_rebuild_v1/seed_44/fault_scales.json",
+    "sha256": "3f899b8a0cb6379f848d13fbf7c7d30962fc298ffc55347437065554b57c4cb2",
+    "git_blob": "0e2412549cde0720924234b5501ba21c45845a83"
+  },
+  "/Users/liliyan/Documents/Codex/2026-10-19/2-3-3-3-10-000-2/work/rq3-rebuild-check/results/rq3_prediction/rq3_shared_fault_20261023_v1/seed_44/training/frozen_reference.json": {
+    "remote_path": "results/rq3_prediction/rq3_shared_fault_20261023_v1/seed_44/training/frozen_reference.json",
+    "sha256": "a345421be4469f2e50007fe7229751732b0bf9776cdb75d3917b090d0d0a8a8c",
+    "git_blob": "7d34062f8e11906c67fc01bc3cd14a823ae9c47e"
+  },
+  "/Users/liliyan/Documents/Codex/2026-10-19/2-3-3-3-10-000-2/work/rq3-rebuild-check/src/temporal_reliability.py": {
+    "remote_path": "src/temporal_reliability.py",
+    "sha256": "f9bd5edac7256b9dddf6bfa3967a41ce822d49b2daad838bc85a69bc0c4e26b2",
+    "git_blob": "5e729554af75e5fd86b8412c38a4a3daf823373a"
+  }
+}
