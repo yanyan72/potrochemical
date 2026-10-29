@@ -1,0 +1,9 @@
+test_acceptance_and_common_features (test_rq3_selective_prediction_dev.SelectiveTests.test_acceptance_and_common_features) ... ok
+test_invalid (test_rq3_selective_prediction_dev.SelectiveTests.test_invalid) ... ok
+test_monotonicity_and_bounds (test_rq3_selective_prediction_dev.SelectiveTests.test_monotonicity_and_bounds) ... ok
+test_trigger_boundary (test_rq3_selective_prediction_dev.SelectiveTests.test_trigger_boundary) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.003s
+
+OK
