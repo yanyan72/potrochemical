@@ -1,0 +1,14 @@
+test_balanced_schedule (test_rq3_uncertainty_a0.A0Tests.test_balanced_schedule) ... ok
+test_causal_prefix (test_rq3_uncertainty_a0.A0Tests.test_causal_prefix) ... ok
+test_existing_false_alarm_not_attributable_hit (test_rq3_uncertainty_a0.A0Tests.test_existing_false_alarm_not_attributable_hit) ... ok
+test_fault_independent_of_record_intervention (test_rq3_uncertainty_a0.A0Tests.test_fault_independent_of_record_intervention) ... ok
+test_filter_normalized_and_repeatable (test_rq3_uncertainty_a0.A0Tests.test_filter_normalized_and_repeatable) ... ok
+test_invalid_oracle_rejected (test_rq3_uncertainty_a0.A0Tests.test_invalid_oracle_rejected) ... ok
+test_leave_channel_history_excluded (test_rq3_uncertainty_a0.A0Tests.test_leave_channel_history_excluded) ... ok
+test_no_hidden_cause_identification (test_rq3_uncertainty_a0.A0Tests.test_no_hidden_cause_identification) ... ok
+test_oracle_equals_hard_if_records_correct (test_rq3_uncertainty_a0.A0Tests.test_oracle_equals_hard_if_records_correct) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.039s
+
+OK
