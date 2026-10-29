@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-29",
+  "protocol_commit": "3a4424da2d351aaa444fe26546192f87966c2f2c",
+  "implementation_commit": "4806543b32337a8ae681befec3117fef221425f5",
+  "results_commit": "eeb5d454f50127bce5459dfa49985e6f5ba3dcb1",
+  "published_result_files_verified": 73,
+  "previous_files_unchanged": 1963,
+  "bytes": 29727202,
+  "verification": "recursive committed tree Git blob IDs equal local Git blob IDs; no old blobs changed",
+  "enterprise_raw_data_uploaded": false
+}
