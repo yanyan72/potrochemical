@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "models": 65,
+  "main_models": 50,
+  "null_models": 15,
+  "updates": 20800,
+  "epochs": 2600,
+  "training_seconds": 630.1196425379603,
+  "old_development_predictions_exact": 15,
+  "new_test_batches": 2500,
+  "metric_rows": 5760,
+  "paired_repeat_rows": 4320,
+  "paired_seed_rows": 2520,
+  "summary_rows": 504,
+  "sources_unchanged": true,
+  "outer_seeds": 5,
+  "main_optimizer_repeats": 2
+}

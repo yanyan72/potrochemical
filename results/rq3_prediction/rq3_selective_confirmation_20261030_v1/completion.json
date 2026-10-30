@@ -1,0 +1,11 @@
+{
+  "completed": true,
+  "models": 65,
+  "fresh_test_batches": 2500,
+  "all_scenarios_retained": true,
+  "primary_contrasts_supported_under_prespecified_averaging": true,
+  "joint_fault_extra_predictive_advantage_supported": false,
+  "source_data_unchanged": true,
+  "formal_test_status": "used",
+  "no_further_fits_pending": true
+}

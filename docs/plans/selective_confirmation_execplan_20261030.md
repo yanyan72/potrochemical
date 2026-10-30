@@ -36,15 +36,15 @@ Primary: SG-N and SG-SR mean absolute error differences, equal weights across si
 - [x] User accepted development and authorized fixed65-fit confirmation.
 - [x] Inspected current sources and source-data availability; new seed45/46 reference models require fixed calibration, not method tuning.
 - [x] Implementation and focused tests completed; implementation will be committed before fitting.
-- [ ] 65 fits and training lock uploaded.
-- [ ] New2500-batch held-out evaluation and verification.
-- [ ] Complete evidence package and writing-thread handoff.
+- [x] 2026-10-30: all65 fits,15 original development predictions exactly replayed; training lock ec719f1c46972f1e6e98359cab24b4e8af3daf83 uploaded before fresh test.
+- [x] 2026-10-30: new2500-batch/eight-view heldout evaluation, all65 models;5760 metrics and paired inference independently verified,320 detection diagnostics rebuilt.
+- [x] 2026-10-30: bilingual reports, complete tables and four PNG/PDF figures prepared; writing handoff and final GitHub receipt recorded separately.
 
 ## Decision log
 Keep the selected mapping and parameters unchanged. Reuse first optimization stream for continuity; add an independent second stream. Null controls use only first stream as previously proposed. Joint inference's anomaly-detection value and its conditional predictive increment are reported separately. SBS requires verified process-assay pairing and site execution; no new enterprise data or operations are invented.
 
 ## Surprises and discoveries
-Pending execution; all outcomes, including failures, will be retained.
+SG-N and SG-SR outer-seed intervals below0; NG retains somewhat more strong-fault recovery, SG preserves more normal information. SG-SA has no overall predictive advantage, but joint scoring retains vibration-detection value. Optimizer repeat0 intervals cross0; both repetitions and all adverse strata retained.
 
 ## Outcomes and retrospective
-Pending. Once confirmation is complete, freeze results and prioritize manuscript integration over additional model search.
+65 fits completed; RQ3 supported for the frozen synthetic task under prespecified optimizer averaging. Training630.1 seconds,20800 updates. Formal report and all artifacts delivered; prioritize manuscript integration, no further gate search. Real-process validation and actual manuscript integration remain separate responsibilities.

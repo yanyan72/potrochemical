@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "score_metric_rows": 320,
+  "scoring_rebuilt_from_visible_inputs": true,
+  "counts_independently_recomputed": true,
+  "note": "mode-related columns in per-seed score_metrics use the common full-candidate q; do not interpret those columns as ablation-specific mode-inference accuracy"
+}

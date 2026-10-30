@@ -1,0 +1,14 @@
+{
+  "protocol": "aebddbd41c99bb7e7e9c3365e517f06aea301ab1",
+  "implementation": "01cba22d2b2d6064295d464e0fef023ea7c9a3ba",
+  "training_seed42": "d2a834daf7ee0588736e47bc18efce58d4361c28",
+  "training_seed43": "9747acbfb955311ea7cef94d228bd4629f7e448c",
+  "training_seed44": "cade2b428f232ba7a79465a211af0ded0a1bddd5",
+  "training_seed45": "78181a8620d2ca2a71bd4147c61232013c4df90a",
+  "training_lock": "ec719f1c46972f1e6e98359cab24b4e8af3daf83",
+  "test_seed42": "a3b3e30d632170720a153291004c7a0c6a05ccef",
+  "test_seed43": "94b9ee63d7bbf032bb8905df3bcfe6d63d59eafe",
+  "test_seed44": "ca8e0dc3336540f1caa010f93f34924ebf1851a0",
+  "test_seed45": "45ba7ae1e6f62d2b5fa6e4a2f425be30fc6673fb",
+  "test_seed46": "fb27b26e942d88ee257b6d01ff7dcb61a4518d84"
+}
