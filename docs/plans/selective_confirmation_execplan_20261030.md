@@ -35,7 +35,7 @@ Primary: SG-N and SG-SR mean absolute error differences, equal weights across si
 ## Progress
 - [x] User accepted development and authorized fixed65-fit confirmation.
 - [x] Inspected current sources and source-data availability; new seed45/46 reference models require fixed calibration, not method tuning.
-- [ ] Implementation/tests and GitHub freeze.
+- [x] Implementation and focused tests completed; implementation will be committed before fitting.
 - [ ] 65 fits and training lock uploaded.
 - [ ] New2500-batch held-out evaluation and verification.
 - [ ] Complete evidence package and writing-thread handoff.
