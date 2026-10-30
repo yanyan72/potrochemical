@@ -1,0 +1,12 @@
+{
+  "archive": "training_seed_43.zip",
+  "stage": "training",
+  "seed": 43,
+  "files": 65,
+  "bytes": 595699,
+  "sha256": "c3744bb509c2413bd8ef25b7f5deba6e206197485eb8c2ccafbd245b943b2506",
+  "git_blob": "8577e564701d6e5521e0fa6d2020af6e03e69269",
+  "root_directory": "rq3_selective_confirmation_20261030_v1",
+  "extraction": "python -m zipfile -e ARCHIVE results/rq3_selective_confirmation_20261030_v1",
+  "contains": "all checkpoint arrays, predictions, histories, provenance and local manifest"
+}

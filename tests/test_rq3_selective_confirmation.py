@@ -24,6 +24,18 @@ class ConfirmationTests(unittest.TestCase):
         scaler=b.scaler_fit(b.base_features(q));rnd=q['S'][0];cfg={'trigger_score':np.exp(-.5)}
         n=c.features(q,'N',scaler,rnd,cfg)
         for arm in ['NG','SG','SR','SA']:np.testing.assert_array_equal(c.features(q,arm,scaler,rnd,cfg)[...,3:],n[...,3:])
+    def test_fresh_generator_fixture_is_disjoint_and_repeatable(self):
+        import importlib.util,yaml
+        root=Path('/Users/liliyan/Documents/Codex/2026-10-19/2-3-3-3-10-000-2/work/rq3-rebuild-check')
+        spec=importlib.util.spec_from_file_location('test_generator',root/'src/rq3_paired_data.py');g=importlib.util.module_from_spec(spec);spec.loader.exec_module(g)
+        cfg=yaml.safe_load((root/'rq3_paired_20261019_rebuild_v1/config.yaml').read_text());cfg['namespace']=8675309;cfg['counts']['test']=2
+        self.assertNotEqual(cfg['namespace'],2026103001)
+        a=g.generate_split(cfg,42,'test');b0=g.generate_split(cfg,42,'test')
+        for key in a['inputs']:np.testing.assert_array_equal(a['inputs'][key],b0['inputs'][key])
+        np.testing.assert_array_equal(a['targets'],b0['targets'])
+        cfg['namespace']=8675310;b1=g.generate_split(cfg,42,'test')
+        self.assertFalse(set(a['inputs']['sequence_id'])&set(b1['inputs']['sequence_id']))
+        self.assertFalse(np.array_equal(a['inputs']['observations'],b1['inputs']['observations']))
     def test_two_optimizer_streams_repeatable(self):
         torch.set_num_threads(1);torch.use_deterministic_algorithms(True);rng=np.random.default_rng(123)
         x=rng.normal(size=(2,8,6,18)).astype(np.float32);y=rng.normal(size=8);schedule=np.zeros((2,8),dtype=np.int64)
