@@ -1,0 +1,95 @@
+{
+  "run_id": "rq3_selective_confirmation_20261030_v1",
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "arms": [
+    "N",
+    "NG",
+    "SG",
+    "SR",
+    "SA"
+  ],
+  "views": [
+    "correct_clean",
+    "correct_drift1",
+    "correct_bias4",
+    "delay12_clean",
+    "delay12_drift1",
+    "delay12_bias4"
+  ],
+  "counts": {
+    "train": 1000,
+    "val": 250
+  },
+  "target": "arrival_proxy",
+  "hidden_size": 32,
+  "input_channels": 18,
+  "batch_size": 128,
+  "epochs": 40,
+  "learning_rate": 0.003,
+  "weight_decay": 0.0001,
+  "grad_clip": 1.0,
+  "threads": 1,
+  "schedule_seed": 49001,
+  "event_seed": 2026102902,
+  "random_control_seed": 59001,
+  "selection": "minimum six-view validation MAE; earliest tie",
+  "source_dataset_manifest": "a2224ee148d8b5d61a5cb24fd225d5d56817fc17ebd37753545c8494d7ca47ed",
+  "scoring_source_commit": "17e5de117a1a522486a6edcaa9e5720598942bcd",
+  "comparisons": [
+    [
+      "SG",
+      "N"
+    ],
+    [
+      "SG",
+      "SR"
+    ],
+    [
+      "SG",
+      "NG"
+    ],
+    [
+      "SG",
+      "SA"
+    ],
+    [
+      "SA",
+      "N"
+    ]
+  ],
+  "trigger_score": 0.6065306597126334,
+  "optimization_repeats": [
+    {
+      "model_seed": 29001,
+      "shuffle_seed": 39001
+    },
+    {
+      "model_seed": 29002,
+      "shuffle_seed": 39002
+    }
+  ],
+  "negative_control": {
+    "target": "null_proxy",
+    "arms": [
+      "N",
+      "SG",
+      "SR"
+    ],
+    "optimization_repeat": 0
+  },
+  "test_namespace": 2026103001,
+  "test_event_seed": 2026103002,
+  "test_batches_per_seed": 500,
+  "secondary_views": [
+    "delay6_clean",
+    "delay6_bias4"
+  ],
+  "inference": "average optimization repetitions within data seed, paired t95 CI df4 across five seeds; primary SG-N and SG-SR jointly; all other strata descriptive; leave-one-data-seed and individual optimization repeats reported",
+  "scope": "50 main fits plus 15 null fits; unchanged method; new synthetic test after training lock"
+}

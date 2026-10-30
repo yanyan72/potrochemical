@@ -1,0 +1,16 @@
+{
+  "implementation_commit": "01cba22d2b2d6064295d464e0fef023ea7c9a3ba",
+  "python": "3.11.17",
+  "numpy": "2.4.6",
+  "torch": "2.14.1",
+  "data_source": "synthetic",
+  "source_hashes": {
+    "rq3_joint_prediction_dev.py": "d306dccdd40fa427234735152cafc38af97e035b976c321938129f9ca4412684",
+    "rq3_uncertainty_a0.py": "0bdea82ede440d748ee4048dddec83a0b690d69f9940c46324711f948ead2013",
+    "rq3_shared_mode_fault_development.py": "5e629fe4bc978a6e0e4af03915d07b89b4c3d226eeecd2d59e27aa1172b1d197",
+    "rq3_selective_prediction_dev.py": "a12a546a06c4e090aabb588b8cecc360f2575ef847a7b43073916602558f093c",
+    "rq3_shared_mode_fault.py": "469aeafa79b6901b0a11039f69532cda8b4c06f78346abfa73131326d32cdca0",
+    "rq3_selective_confirmation.py": "1be0318a4758c105cf548a9fa4738061e9375aa0cff80c46ac5ce05578655bbd",
+    "rq3_week1_reference_replay.py": "3524eece35d6bece32b8a297b4bf9aad008693efd2db9a290a3e28338b14ced4"
+  }
+}

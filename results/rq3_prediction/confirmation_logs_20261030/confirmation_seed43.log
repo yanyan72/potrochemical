@@ -1,0 +1,13 @@
+{"stage": "train", "seed": 43, "key": "arrival_proxy_opt0_N", "val_mae": 1.6704357358916397, "epoch": 37}
+{"stage": "train", "seed": 43, "key": "arrival_proxy_opt0_NG", "val_mae": 1.693486801409607, "epoch": 37}
+{"stage": "train", "seed": 43, "key": "arrival_proxy_opt0_SG", "val_mae": 1.66153070252625, "epoch": 39}
+{"stage": "train", "seed": 43, "key": "arrival_proxy_opt0_SR", "val_mae": 1.6731409495375897, "epoch": 37}
+{"stage": "train", "seed": 43, "key": "arrival_proxy_opt0_SA", "val_mae": 1.6610290612901781, "epoch": 39}
+{"stage": "train", "seed": 43, "key": "arrival_proxy_opt1_N", "val_mae": 1.6560586397168717, "epoch": 38}
+{"stage": "train", "seed": 43, "key": "arrival_proxy_opt1_NG", "val_mae": 1.6625924222240724, "epoch": 38}
+{"stage": "train", "seed": 43, "key": "arrival_proxy_opt1_SG", "val_mae": 1.6403300607371172, "epoch": 38}
+{"stage": "train", "seed": 43, "key": "arrival_proxy_opt1_SR", "val_mae": 1.6655305182296294, "epoch": 38}
+{"stage": "train", "seed": 43, "key": "arrival_proxy_opt1_SA", "val_mae": 1.6401261923657815, "epoch": 38}
+{"stage": "train", "seed": 43, "key": "null_proxy_opt0_N", "val_mae": 3.9992956272225118, "epoch": 18}
+{"stage": "train", "seed": 43, "key": "null_proxy_opt0_SG", "val_mae": 3.999169035357902, "epoch": 18}
+{"stage": "train", "seed": 43, "key": "null_proxy_opt0_SR", "val_mae": 3.9994301773989935, "epoch": 18}
