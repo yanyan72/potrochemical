@@ -11,13 +11,26 @@ def npz(p):
 def table(p):return list(csv.DictReader(p.open()))
 def close(a,b):np.testing.assert_allclose(float(a),b,rtol=1e-11,atol=1e-12)
 
-def verify(root):
+def resolve_source(path, repository):
+    original=Path(path)
+    if original.exists():return original
+    if repository is None:raise FileNotFoundError(path)
+    for marker in ['/work/rq3-rebuild-check/','/work/deadline_20261029/','/work/a0_20261029/results/']:
+        if marker in path:
+            rel=path.split(marker,1)[1]
+            if marker.endswith('/results/'):return repository/'results/rq3_prediction'/rel
+            if rel.startswith('rq3_paired_20261019_rebuild_v1/'):return repository/'data/processed'/rel
+            if marker=='/work/deadline_20261029/' and rel.startswith('results/'):return repository/'results/rq3_prediction'/rel.removeprefix('results/')
+            return repository/rel
+    raise FileNotFoundError(path)
+
+def verify(root,repository=None):
     cfg=read(root/'config.json');count=updates=0;seconds=0.;olds=0
     for seed in cfg['seeds']:
         sd=root/'training'/f'seed_{seed}';ed=root/'evaluation'/f'seed_{seed}'
         for folder in [sd,ed]:
             for rel,h in read(folder/'manifest.json').items():assert digest(folder/rel)==h,(folder,rel)
-        for p,h in read(sd/'source_hashes.json').items():assert digest(Path(p))==h,p
+        for p,h in read(sd/'source_hashes.json').items():assert digest(resolve_source(p,repository))==h,p
         fair=read(sd/'fairness.json');assert len(fair)==13
         for rep in [0,1]:
             signatures={tuple(r[k] for k in ['initial_sha256','shuffle_sha256','schedule_sha256','optimizer_updates','parameter_count']) for r in fair if r['repeat']==rep};assert len(signatures)==1
@@ -71,4 +84,4 @@ def verify(root):
     (root/'verification.json').write_text(json.dumps(result,indent=2)+'\n');print(json.dumps(result))
 
 if __name__=='__main__':
-    p=argparse.ArgumentParser();p.add_argument('root',type=Path);verify(p.parse_args().root)
+    p=argparse.ArgumentParser();p.add_argument('root',type=Path);p.add_argument('--repository-root',type=Path);a=p.parse_args();verify(a.root,a.repository_root)
