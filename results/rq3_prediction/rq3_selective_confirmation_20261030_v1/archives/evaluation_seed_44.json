@@ -1,0 +1,12 @@
+{
+  "archive": "evaluation_seed_44.zip",
+  "stage": "evaluation",
+  "seed": 44,
+  "files": 12,
+  "bytes": 3804468,
+  "sha256": "25a7bf3fe0c92ba41f481a25400e9aafe906baff1a62538e018fa8f60e07731b",
+  "git_blob": "7fe50fb8ba0c8376f1da2e403cff65c852dce9a9",
+  "root_directory": "rq3_selective_confirmation_20261030_v1",
+  "extraction": "python -m zipfile -e ARCHIVE results/rq3_selective_confirmation_20261030_v1",
+  "contains": "visible inputs, separate evaluation-only truth/targets, all predictions, events, diagnostics and local manifest"
+}
