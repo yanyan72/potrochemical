@@ -1,3 +1,7 @@
+# Current execution: 2026-10-30
+
+See [Selective confirmation](selective_confirmation_execplan_20261030.md), authorized 50+15 fits.
+
 # Current execution plan
 
 2026-10-29 latest: [9-model selective correction](selective_prediction_execplan_20261029.md), authorized after review of the 21-model findings. Earlier pointers below are history.
