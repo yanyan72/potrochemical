@@ -1,3 +1,7 @@
+# Current execution — 2026-11-01
+
+See [closeout plan](closeout_20261101.md). Frozen65-model experiment; reproducibility and existing-evidence completion, manuscript coordination. Earlier pointers are history.
+
 # Current execution: 2026-10-30
 
 See [Selective confirmation](selective_confirmation_execplan_20261030.md), authorized 50+15 fits.

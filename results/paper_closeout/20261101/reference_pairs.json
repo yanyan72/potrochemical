@@ -1,0 +1,322 @@
+[
+  {
+    "comparison": "pooled_marginal-single_marginal",
+    "scenario": "clean",
+    "regime": "all",
+    "metric": "clean_channel_fpr",
+    "mean": -0.41993055555555553,
+    "sd": 0.006725498154366182,
+    "seed_differences": [
+      -0.42083333333333334,
+      -0.40885416666666663,
+      -0.4248263888888889,
+      -0.41944444444444445,
+      -0.42569444444444443
+    ],
+    "evidence": "posthoc descriptive reanalysis of original validation; no confirmatory p value"
+  },
+  {
+    "comparison": "pooled_marginal-single_marginal",
+    "scenario": "clean",
+    "regime": "warehouse",
+    "metric": "clean_channel_fpr",
+    "mean": -0.008333333333333333,
+    "sd": 0.0027312730421097694,
+    "seed_differences": [
+      -0.0067708333333333336,
+      -0.008333333333333333,
+      -0.010416666666666666,
+      -0.0046875,
+      -0.011458333333333333
+    ],
+    "evidence": "posthoc descriptive reanalysis of original validation; no confirmatory p value"
+  },
+  {
+    "comparison": "pooled_marginal-single_marginal",
+    "scenario": "clean",
+    "regime": "transit_smooth",
+    "metric": "clean_channel_fpr",
+    "mean": -0.5701041666666666,
+    "sd": 0.015527473411845084,
+    "seed_differences": [
+      -0.58125,
+      -0.5515625,
+      -0.5593750000000001,
+      -0.56875,
+      -0.5895833333333333
+    ],
+    "evidence": "posthoc descriptive reanalysis of original validation; no confirmatory p value"
+  },
+  {
+    "comparison": "pooled_marginal-single_marginal",
+    "scenario": "clean",
+    "regime": "transit_rough",
+    "metric": "clean_channel_fpr",
+    "mean": -0.6813541666666667,
+    "sd": 0.014561926252407535,
+    "seed_differences": [
+      -0.6744791666666667,
+      -0.6666666666666666,
+      -0.7046875,
+      -0.6848958333333333,
+      -0.6760416666666667
+    ],
+    "evidence": "posthoc descriptive reanalysis of original validation; no confirmatory p value"
+  },
+  {
+    "comparison": "regime_marginal-pooled_marginal",
+    "scenario": "clean",
+    "regime": "all",
+    "metric": "clean_channel_fpr",
+    "mean": -0.0010763888888888884,
+    "sd": 0.0023045199313951547,
+    "seed_differences": [
+      0.0013888888888888892,
+      -0.004166666666666666,
+      0.0010416666666666664,
+      -0.0019097222222222224,
+      -0.0017361111111111101
+    ],
+    "evidence": "posthoc descriptive reanalysis of original validation; no confirmatory p value"
+  },
+  {
+    "comparison": "regime_marginal-pooled_marginal",
+    "scenario": "clean",
+    "regime": "warehouse",
+    "metric": "clean_channel_fpr",
+    "mean": 0.008333333333333333,
+    "sd": 0.0027312730421097694,
+    "seed_differences": [
+      0.0067708333333333336,
+      0.008333333333333333,
+      0.010416666666666666,
+      0.0046875,
+      0.011458333333333333
+    ],
+    "evidence": "posthoc descriptive reanalysis of original validation; no confirmatory p value"
+  },
+  {
+    "comparison": "regime_marginal-pooled_marginal",
+    "scenario": "clean",
+    "regime": "transit_smooth",
+    "metric": "clean_channel_fpr",
+    "mean": 0.0084375,
+    "sd": 0.0025884945082894125,
+    "seed_differences": [
+      0.008854166666666666,
+      0.006770833333333333,
+      0.009375,
+      0.011979166666666667,
+      0.005208333333333333
+    ],
+    "evidence": "posthoc descriptive reanalysis of original validation; no confirmatory p value"
+  },
+  {
+    "comparison": "regime_marginal-pooled_marginal",
+    "scenario": "clean",
+    "regime": "transit_rough",
+    "metric": "clean_channel_fpr",
+    "mean": -0.02,
+    "sd": 0.006147157343258572,
+    "seed_differences": [
+      -0.011458333333333334,
+      -0.02760416666666667,
+      -0.01666666666666667,
+      -0.022395833333333337,
+      -0.021875
+    ],
+    "evidence": "posthoc descriptive reanalysis of original validation; no confirmatory p value"
+  },
+  {
+    "comparison": "regime_marginal-pooled_marginal",
+    "scenario": "observed",
+    "regime": "all",
+    "metric": "recall",
+    "mean": 0.3155844155844156,
+    "sd": 0.07663988376010686,
+    "seed_differences": [
+      0.2857142857142857,
+      0.24025974025974023,
+      0.35714285714285715,
+      0.26623376623376627,
+      0.42857142857142855
+    ],
+    "evidence": "posthoc descriptive reanalysis of original validation; no confirmatory p value"
+  },
+  {
+    "comparison": "regime_marginal-pooled_marginal",
+    "scenario": "observed",
+    "regime": "warehouse",
+    "metric": "recall",
+    "mean": 0.4341232492997199,
+    "sd": 0.13746305627253463,
+    "seed_differences": [
+      0.38,
+      0.39285714285714285,
+      0.5555555555555556,
+      0.253968253968254,
+      0.5882352941176471
+    ],
+    "evidence": "posthoc descriptive reanalysis of original validation; no confirmatory p value"
+  },
+  {
+    "comparison": "regime_marginal-pooled_marginal",
+    "scenario": "observed",
+    "regime": "transit_smooth",
+    "metric": "recall",
+    "mean": 0.3728649214372648,
+    "sd": 0.07764096049487328,
+    "seed_differences": [
+      0.39534883720930236,
+      0.3703703703703704,
+      0.28571428571428575,
+      0.3235294117647059,
+      0.4893617021276595
+    ],
+    "evidence": "posthoc descriptive reanalysis of original validation; no confirmatory p value"
+  },
+  {
+    "comparison": "regime_marginal-pooled_marginal",
+    "scenario": "observed",
+    "regime": "transit_rough",
+    "metric": "recall",
+    "mean": 0.19062146635298155,
+    "sd": 0.07863029821404413,
+    "seed_differences": [
+      0.13114754098360654,
+      0.08333333333333331,
+      0.26086956521739135,
+      0.24561403508771934,
+      0.2321428571428572
+    ],
+    "evidence": "posthoc descriptive reanalysis of original validation; no confirmatory p value"
+  },
+  {
+    "comparison": "regime_marginal-pooled_marginal",
+    "scenario": "observed",
+    "regime": "all",
+    "metric": "f1",
+    "mean": 0.25543259162729626,
+    "sd": 0.05926594668981214,
+    "seed_differences": [
+      0.20286167101944236,
+      0.2141776184786937,
+      0.28206451612903227,
+      0.2315084449621433,
+      0.34655070754716977
+    ],
+    "evidence": "posthoc descriptive reanalysis of original validation; no confirmatory p value"
+  },
+  {
+    "comparison": "regime_marginal-pooled_marginal",
+    "scenario": "observed",
+    "regime": "warehouse",
+    "metric": "f1",
+    "mean": 0.22736991525168865,
+    "sd": 0.10396606661484896,
+    "seed_differences": [
+      0.2107142857142857,
+      0.09523809523809523,
+      0.3418367346938776,
+      0.16769293924466333,
+      0.32136752136752134
+    ],
+    "evidence": "posthoc descriptive reanalysis of original validation; no confirmatory p value"
+  },
+  {
+    "comparison": "regime_marginal-pooled_marginal",
+    "scenario": "observed",
+    "regime": "transit_smooth",
+    "metric": "f1",
+    "mean": 0.2150430692942199,
+    "sd": 0.0879452505058079,
+    "seed_differences": [
+      0.17247586319751274,
+      0.29523293607800644,
+      0.15051045211473013,
+      0.13318657127132638,
+      0.3238095238095239
+    ],
+    "evidence": "posthoc descriptive reanalysis of original validation; no confirmatory p value"
+  },
+  {
+    "comparison": "regime_marginal-pooled_marginal",
+    "scenario": "observed",
+    "regime": "transit_rough",
+    "metric": "f1",
+    "mean": 0.25598908050184593,
+    "sd": 0.07830403293601106,
+    "seed_differences": [
+      0.17259671367576657,
+      0.169159915285575,
+      0.31817723560842825,
+      0.322841726618705,
+      0.2971698113207547
+    ],
+    "evidence": "posthoc descriptive reanalysis of original validation; no confirmatory p value"
+  },
+  {
+    "comparison": "regime_marginal-regime_conditional",
+    "scenario": "observed",
+    "regime": "all",
+    "metric": "bystander_fpr",
+    "mean": -0.28181818181818186,
+    "sd": 0.052823388181861636,
+    "seed_differences": [
+      -0.29870129870129875,
+      -0.19155844155844157,
+      -0.32467532467532473,
+      -0.2824675324675325,
+      -0.31168831168831174
+    ],
+    "evidence": "posthoc descriptive reanalysis of original validation; no confirmatory p value"
+  },
+  {
+    "comparison": "regime_marginal-regime_conditional",
+    "scenario": "observed",
+    "regime": "warehouse",
+    "metric": "bystander_fpr",
+    "mean": -0.4570690943043884,
+    "sd": 0.042502829680538486,
+    "seed_differences": [
+      -0.48,
+      -0.44642857142857145,
+      -0.5111111111111111,
+      -0.3968253968253968,
+      -0.45098039215686275
+    ],
+    "evidence": "posthoc descriptive reanalysis of original validation; no confirmatory p value"
+  },
+  {
+    "comparison": "regime_marginal-regime_conditional",
+    "scenario": "observed",
+    "regime": "transit_smooth",
+    "metric": "bystander_fpr",
+    "mean": -0.2789279327102769,
+    "sd": 0.06848445171618817,
+    "seed_differences": [
+      -0.313953488372093,
+      -0.19444444444444442,
+      -0.3571428571428571,
+      -0.22058823529411764,
+      -0.30851063829787234
+    ],
+    "evidence": "posthoc descriptive reanalysis of original validation; no confirmatory p value"
+  },
+  {
+    "comparison": "regime_marginal-regime_conditional",
+    "scenario": "observed",
+    "regime": "transit_rough",
+    "metric": "bystander_fpr",
+    "mean": -0.14158611663394646,
+    "sd": 0.04822390523597804,
+    "seed_differences": [
+      -0.13934426229508198,
+      -0.09027777777777778,
+      -0.09782608695652174,
+      -0.19298245614035087,
+      -0.1875
+    ],
+    "evidence": "posthoc descriptive reanalysis of original validation; no confirmatory p value"
+  }
+]
