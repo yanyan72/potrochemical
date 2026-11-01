@@ -1,0 +1,43 @@
+{
+  "date": "2026-11-01",
+  "source": "writing/manuscript; completed by the existing manuscript owner",
+  "status": "complete English Markdown first draft, pending literature and final manuscript QA",
+  "files": [
+    {
+      "path": "Paper_English_20261101.md",
+      "sha256": "b5492db702c577750fb5a846eda6bfee55d503db3fbbdeefc8232da323ff5b19",
+      "git_blob": "8d8462ab62139822a40aa3cfacd5f0772c653f7f",
+      "bytes": 57431
+    },
+    {
+      "path": "Revision_Note_20261101.md",
+      "sha256": "167e3b43c0cbd8603f252af8d643d99ffb989c16a694ee10e5d0cfbf7baee056",
+      "git_blob": "4e61dba32a325428997b0fcf93bc43031cde357f",
+      "bytes": 1345
+    },
+    {
+      "path": "figures/01_primary_confirmation.png",
+      "sha256": "cea6d189b06d50a0f055bd495a3a1f248f4484a23d07a4106bf2e51447f590ea",
+      "git_blob": "2d38028ce1c490faff838fbb488998a17c3aeccb",
+      "bytes": 53963
+    },
+    {
+      "path": "figures/02_six_scenarios.png",
+      "sha256": "2bf0c9ccb96fda0c96090bfb42fafe22267009ac9a798c3e96d014027ddbc6f4",
+      "git_blob": "3f9a2a9b085fbb554907e8988d23ede56fb381ef",
+      "bytes": 62620
+    },
+    {
+      "path": "figures/03_tradeoff_by_seed.png",
+      "sha256": "6e3126d0467234a96137520e3d0c1c82270603ea34d4e606e736e13ebdd2a354",
+      "git_blob": "ca4fcaee0c00f72d5aff031f2b305ddec23ac4ee",
+      "bytes": 120849
+    },
+    {
+      "path": "figures/04_channel_attribution.png",
+      "sha256": "a9c2d635d956293d68f3c1f966e2f4e4037bfff2b6fe697dae5807d86c1b4528",
+      "git_blob": "09c2efaa45c5bc90b920536afb31ea81b6c41e4f",
+      "bytes": 63911
+    }
+  ]
+}
