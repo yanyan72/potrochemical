@@ -1,0 +1,27 @@
+evaluation_seed_42.zip verified
+evaluation_seed_43.zip verified
+evaluation_seed_44.zip verified
+evaluation_seed_45.zip verified
+evaluation_seed_46.zip verified
+training_seed_42.zip verified
+training_seed_43.zip verified
+training_seed_44.zip verified
+training_seed_45.zip verified
+training_seed_46.zip verified
+Traceback (most recent call last):
+  File "/Users/liliyan/Documents/石化/work/deadline_20261029/src/verify_selective_confirmation.py", line 87, in <module>
+    p=argparse.ArgumentParser();p.add_argument('root',type=Path);p.add_argument('--repository-root',type=Path);a=p.parse_args();verify(a.root,a.repository_root)
+                                                                                                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/liliyan/Documents/石化/work/deadline_20261029/src/verify_selective_confirmation.py", line 33, in verify
+    for p,h in read(sd/'source_hashes.json').items():assert digest(resolve_source(p,repository))==h,p
+                                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/liliyan/Documents/石化/work/deadline_20261029/src/verify_selective_confirmation.py", line 17, in resolve_source
+    if repository is None:raise FileNotFoundError(path)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: results/shared_mode_fault_development_20261029_v2/config.json
+Traceback (most recent call last):
+  File "/Users/liliyan/Documents/石化/work/closeout_20261101/src/closeout_audit_20261101.py", line 18, in <module>
+    subprocess.run([sys.executable,str(base/'src/verify_selective_confirmation.py'),str(out)],check=True)
+  File "/Users/liliyan/Documents/Codex/2026-10-19/2-3-3-3-10-000-2/work/python-runtimes/cpython-3.11.17-macos-aarch64-none/lib/python3.11/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/Users/liliyan/Documents/Codex/2026-10-19/2-3-3-3-10-000-2/work/lstm-venv/bin/python', '/Users/liliyan/Documents/石化/work/deadline_20261029/src/verify_selective_confirmation.py', '/Users/liliyan/Documents/石化/work/closeout_20261101/results/restored_confirmation_v2']' returned non-zero exit status 1.

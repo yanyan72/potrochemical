@@ -1,0 +1,12 @@
+evaluation_seed_42.zip verified
+evaluation_seed_43.zip verified
+evaluation_seed_44.zip verified
+evaluation_seed_45.zip verified
+evaluation_seed_46.zip verified
+training_seed_42.zip verified
+training_seed_43.zip verified
+training_seed_44.zip verified
+training_seed_45.zip verified
+training_seed_46.zip verified
+{"passed": true, "models": 65, "main_models": 50, "null_models": 15, "updates": 20800, "epochs": 2600, "training_seconds": 630.1196425379603, "old_development_predictions_exact": 15, "new_test_batches": 2500, "metric_rows": 5760, "paired_repeat_rows": 4320, "paired_seed_rows": 2520, "summary_rows": 504, "sources_unchanged": true, "outer_seeds": 5, "main_optimizer_repeats": 2}
+{"passed": true, "archive_count": 10, "manifest_entries_verified": 400, "models": 65, "new_models": 0, "new_data_batches": 0, "original_unchanged": true, "restored_statistics_identical": true, "scope": "local published archives restored; GitHub blob identities independently compared in remote receipt", "source_result_commit": "5740c4b7f4af64a3043d5e6234a4dc1d48c5e3e2"}

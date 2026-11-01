@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "archive_count": 10,
+  "manifest_entries_verified": 400,
+  "models": 65,
+  "new_models": 0,
+  "new_data_batches": 0,
+  "original_unchanged": true,
+  "restored_statistics_identical": true,
+  "scope": "local published archives restored; GitHub blob identities independently compared in remote receipt",
+  "source_result_commit": "5740c4b7f4af64a3043d5e6234a4dc1d48c5e3e2"
+}

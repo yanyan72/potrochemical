@@ -15,6 +15,11 @@ def resolve_source(path, repository):
     original=Path(path)
     if original.exists():return original
     if repository is None:raise FileNotFoundError(path)
+    if path.startswith('../a0_20261029/results/'):
+        return repository/'results/rq3_prediction'/path.split('/results/',1)[1]
+    if path.startswith('results/'):
+        rel=path.removeprefix('results/')
+        return repository/'results'/rel if rel.startswith('rq3_prediction/') else repository/'results/rq3_prediction'/rel
     for marker in ['/work/rq3-rebuild-check/','/work/deadline_20261029/','/work/a0_20261029/results/']:
         if marker in path:
             rel=path.split(marker,1)[1]

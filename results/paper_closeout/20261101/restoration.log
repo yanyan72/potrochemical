@@ -1,0 +1,21 @@
+evaluation_seed_42.zip verified
+evaluation_seed_43.zip verified
+evaluation_seed_44.zip verified
+evaluation_seed_45.zip verified
+evaluation_seed_46.zip verified
+training_seed_42.zip verified
+training_seed_43.zip verified
+training_seed_44.zip verified
+training_seed_45.zip verified
+training_seed_46.zip verified
+Traceback (most recent call last):
+  File "/Users/liliyan/Documents/石化/work/closeout_20261101/src/closeout_audit_20261101.py", line 14, in <module>
+    for p,h in m.items():assert hashlib.sha256((out/p).read_bytes()).hexdigest()==h,p
+                                               ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/liliyan/Documents/Codex/2026-10-19/2-3-3-3-10-000-2/work/python-runtimes/cpython-3.11.17-macos-aarch64-none/lib/python3.11/pathlib.py", line 1050, in read_bytes
+    with self.open(mode='rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/liliyan/Documents/Codex/2026-10-19/2-3-3-3-10-000-2/work/python-runtimes/cpython-3.11.17-macos-aarch64-none/lib/python3.11/pathlib.py", line 1044, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/liliyan/Documents/石化/work/closeout_20261101/results/restored_confirmation/training/manifest.json'
