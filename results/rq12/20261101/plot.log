@@ -1,0 +1,6 @@
+
+Fontconfig error: No writable cache directories
+	/opt/homebrew/var/cache/fontconfig
+	/Users/liliyan/.cache/fontconfig
+	/Users/liliyan/.fontconfig
+Matplotlib is building the font cache; this may take a moment.

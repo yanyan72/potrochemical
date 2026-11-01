@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/liliyan/Documents/石化/work/rq12_20261101/src/analyze_rq12.py", line 7, in <module>
+    import matplotlib
+ModuleNotFoundError: No module named 'matplotlib'

@@ -1,0 +1,20 @@
+[
+  {
+    "directory": "diagnostic_v1",
+    "manifest_items": 25,
+    "recounted_rows": 99840,
+    "all_passed": true
+  },
+  {
+    "directory": "factorial_validation_v1",
+    "manifest_items": 25,
+    "recounted_rows": 133120,
+    "all_passed": true
+  },
+  {
+    "directory": "rq1_confirmation_v1",
+    "manifest_items": 15,
+    "recounted_rows": 720,
+    "all_passed": true
+  }
+]

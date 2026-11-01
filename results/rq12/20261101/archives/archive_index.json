@@ -1,0 +1,146 @@
+[
+  {
+    "path": "releases/diagnostic_v1_root.zip",
+    "remote_path": "results/rq12/20261101/archives/diagnostic_v1_root.zip",
+    "size": 707315,
+    "sha256": "184599b75446f0a76b67968c23cdb0328745d200b1401da790deb351b3442f04",
+    "git_blob": "57596a09ef003937faa1867e93866db00e494d56",
+    "files": 6
+  },
+  {
+    "path": "releases/diagnostic_v1_seed_42.zip",
+    "remote_path": "results/rq12/20261101/archives/diagnostic_v1_seed_42.zip",
+    "size": 25705402,
+    "sha256": "6468cb2457745d8358b304cc8c8d9bfb3293398f29585dc580ef5da5170c326d",
+    "git_blob": "b40891e44a66d97557d5af03dd95a4764a5cadb3",
+    "files": 4
+  },
+  {
+    "path": "releases/diagnostic_v1_seed_43.zip",
+    "remote_path": "results/rq12/20261101/archives/diagnostic_v1_seed_43.zip",
+    "size": 25865996,
+    "sha256": "fe212d599dc0d0d3bea2dc88ed0e3a1eb736914049ea68cb89f2820126c5f0b6",
+    "git_blob": "3375e821f599853ec98482753171584a9ff6c2c0",
+    "files": 4
+  },
+  {
+    "path": "releases/diagnostic_v1_seed_44.zip",
+    "remote_path": "results/rq12/20261101/archives/diagnostic_v1_seed_44.zip",
+    "size": 25686592,
+    "sha256": "a11e9eab4d1e7678e8a28a9e451568a85fa1fabf573a2f7f0c425719a6cf0046",
+    "git_blob": "436bb3854627518f34f5fa63a3388e948a580e00",
+    "files": 4
+  },
+  {
+    "path": "releases/diagnostic_v1_seed_45.zip",
+    "remote_path": "results/rq12/20261101/archives/diagnostic_v1_seed_45.zip",
+    "size": 25873384,
+    "sha256": "95fb7e26ed3d431e9450c21f95aacfaee81f8d213362d85146feca655047aadf",
+    "git_blob": "949d28705b3d9876e084a3df7fc1fa8e89edd3a6",
+    "files": 4
+  },
+  {
+    "path": "releases/diagnostic_v1_seed_46.zip",
+    "remote_path": "results/rq12/20261101/archives/diagnostic_v1_seed_46.zip",
+    "size": 25515315,
+    "sha256": "a8dd28830d31ca2348f52a278fe176a57039df554e190d02212e4b2d4495eb4a",
+    "git_blob": "23552e1a8a72539023d9b80285ecbfd181777e47",
+    "files": 4
+  },
+  {
+    "path": "releases/factorial_validation_v1_root.zip",
+    "remote_path": "results/rq12/20261101/archives/factorial_validation_v1_root.zip",
+    "size": 973134,
+    "sha256": "1039ed68ba28a3b2fdb95e5dbfef612291903f2fd1950ebf768c118ada9288fd",
+    "git_blob": "c468b9a8a3bec7fd345a30a5605b072856fb282b",
+    "files": 6
+  },
+  {
+    "path": "releases/factorial_validation_v1_seed_42.zip",
+    "remote_path": "results/rq12/20261101/archives/factorial_validation_v1_seed_42.zip",
+    "size": 34476602,
+    "sha256": "4ae8f4e220d59ad2b6a1c8c34a873b5beccd360e93ec5d45e00628aa280720e7",
+    "git_blob": "24f6bebcf4dac5d18457c4438f07b1b11d7789cd",
+    "files": 4
+  },
+  {
+    "path": "releases/factorial_validation_v1_seed_43.zip",
+    "remote_path": "results/rq12/20261101/archives/factorial_validation_v1_seed_43.zip",
+    "size": 34282558,
+    "sha256": "0944e2972fda0dfadd06169f335043400428d25c65edd15aa75f2cb588c9378b",
+    "git_blob": "4f5af4f6afce1f8a7feb876e09d269dc1489259d",
+    "files": 4
+  },
+  {
+    "path": "releases/factorial_validation_v1_seed_44.zip",
+    "remote_path": "results/rq12/20261101/archives/factorial_validation_v1_seed_44.zip",
+    "size": 34479280,
+    "sha256": "49dc88abe24f015dbd14136c91b0f8c75526e9f051795283af48dfb762cfe24b",
+    "git_blob": "3faae6d761e21b59d867bfe2340da1cf1c9e7448",
+    "files": 4
+  },
+  {
+    "path": "releases/factorial_validation_v1_seed_45.zip",
+    "remote_path": "results/rq12/20261101/archives/factorial_validation_v1_seed_45.zip",
+    "size": 34567675,
+    "sha256": "00d4dc1f9e7641637d1ae35e38cb08975c0f35f89dc4b55508eb32ec59459233",
+    "git_blob": "927012a967085f989078442bce24926694864ecc",
+    "files": 4
+  },
+  {
+    "path": "releases/factorial_validation_v1_seed_46.zip",
+    "remote_path": "results/rq12/20261101/archives/factorial_validation_v1_seed_46.zip",
+    "size": 34373901,
+    "sha256": "07fe7a54332463b9bec9634c7a1d12502534201cbe4fa36107b16ef74a83b54a",
+    "git_blob": "045122a76176dc5f2f15abe47f3da1ec0eed199e",
+    "files": 4
+  },
+  {
+    "path": "releases/rq1_confirmation_v1_root.zip",
+    "remote_path": "results/rq12/20261101/archives/rq1_confirmation_v1_root.zip",
+    "size": 15297,
+    "sha256": "4a2b025d9e85a7efcbdd2715863d52bda59933f582ad1f4195e9ff0b1a69e0c0",
+    "git_blob": "efcff2b53f1b6ef1045dab3250aa5769f0616bc7",
+    "files": 6
+  },
+  {
+    "path": "releases/rq1_confirmation_v1_seed_42.zip",
+    "remote_path": "results/rq12/20261101/archives/rq1_confirmation_v1_seed_42.zip",
+    "size": 1579022,
+    "sha256": "1927b9a3a9b5faaeb55a62c01da9a275a6c54dd1fb256af1c826800eb609242e",
+    "git_blob": "770d04156a18282d7190fa463e7ce7eb11c8f0ce",
+    "files": 2
+  },
+  {
+    "path": "releases/rq1_confirmation_v1_seed_43.zip",
+    "remote_path": "results/rq12/20261101/archives/rq1_confirmation_v1_seed_43.zip",
+    "size": 1579380,
+    "sha256": "cc57303a6075792c3d1665b764fa67886957c5dd666a7272f9ea1509de96d73a",
+    "git_blob": "50e2e9ccb2fb16fb2ae5bdb36ef322fb5d503308",
+    "files": 2
+  },
+  {
+    "path": "releases/rq1_confirmation_v1_seed_44.zip",
+    "remote_path": "results/rq12/20261101/archives/rq1_confirmation_v1_seed_44.zip",
+    "size": 1579148,
+    "sha256": "bc8027bdab7a6a8216ffcefab650047469e6766ee6618a817088d5e54fc8476a",
+    "git_blob": "b29cb9ad025a096761f4aa1e9115d75ff753029a",
+    "files": 2
+  },
+  {
+    "path": "releases/rq1_confirmation_v1_seed_45.zip",
+    "remote_path": "results/rq12/20261101/archives/rq1_confirmation_v1_seed_45.zip",
+    "size": 1578603,
+    "sha256": "cfd51c28fd846a7558361c398c3182b5d361f1b60fe34cce4d01b7139b136d7a",
+    "git_blob": "c1658f2567822d83eac318e24e15bbfdde68cac9",
+    "files": 2
+  },
+  {
+    "path": "releases/rq1_confirmation_v1_seed_46.zip",
+    "remote_path": "results/rq12/20261101/archives/rq1_confirmation_v1_seed_46.zip",
+    "size": 1578635,
+    "sha256": "38b46542fb55c01199a6cfbd84e65c6122453f791addb6609d57444ca259c212",
+    "git_blob": "62d7e2dbde6a492ff58165b14d78ba9e31d3c613",
+    "files": 2
+  }
+]
