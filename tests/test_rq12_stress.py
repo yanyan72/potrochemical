@@ -42,3 +42,15 @@ def test_independent_stream_and_original_equations():
  loading=np.array(c['factor_loadings']);v=latent[:,None]*loading+rng.normal(size=(160,3))*np.sqrt(1-loading**2)
  expected=np.array(c['regimes']['warehouse']['mean'])+np.array(c['regimes']['warehouse']['std'])*v
  np.testing.assert_array_equal(a[0],expected)
+
+def test_factorial_reduction_and_causality():
+ from src.rq2_factorial_fault import factorial_filter
+ x=np.random.default_rng(12).normal(size=(2,35,3));r=np.zeros((2,35),int)
+ a=factorial_filter(x,r,MODEL,CAND);b=factorial_filter(x[:,:20],r[:,:20],MODEL,CAND)
+ np.testing.assert_allclose(a['joint'][:,:20],b['joint'],atol=1e-12);np.testing.assert_allclose(a['joint'].sum((-1,-2)),1,atol=1e-12)
+ z=factorial_filter(x,r,MODEL,dict(CAND,variance_inflation_kappa=0))['mode'];_,q=score(x,r,MODEL,CAND,CFG,'soft3');np.testing.assert_allclose(z,q,atol=1e-12)
+
+def test_factorial_joint_fault_evidence():
+ from src.rq2_factorial_fault import factorial_filter
+ model=dict(MODEL,mu=[[0,0,0]]*3);x=np.zeros((1,40,3));x[:,10:30,:2]=8;r=np.zeros((1,40),int)
+ result=factorial_filter(x,r,model,CAND);p=result['fault_channel'];assert (p[0,15:25,:2]>.99).all();assert (p[0,15:25,2]<.1).all()
