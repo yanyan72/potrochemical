@@ -1,0 +1,9 @@
+{
+  "run_id":"rq12_stress_confirmation_20261101_v1",
+  "data_source":"synthetic",
+  "seeds":[42,43,44,45,46],
+  "source_commit":"ce898f5780e2f2087086272077d82d5e312c548f",
+  "rq2":{"batches_per_seed":64,"development_start":0,"validation_start":64,"lags":[0,12],"magnitudes":[2,4],"channel_sets":[[0],[1],[2],[0,1],[0,2],[1,2]],"offsets":[-6,0],"duration":24,"schedule_seed":2026110101,"arms":["joint12","soft3","hard"],"alpha":0.2,"cdf_clip":1e-12,"calibration_quantile":0.99},
+  "rq1":{"namespace":2026110102,"sequences_per_regime":12,"duration":24,"start":48,"magnitudes":[2,4],"methods":["single_marginal","pooled_marginal","regime_marginal"],"primary":["pooled-single clean FPR","regime-pooled bias2 recall"],"inference":"paired seed means, n=5 t95 df4; Holm across the two primary contrasts; secondary contrasts descriptive"},
+  "scope":"RQ2 old development inputs with new paired stress; RQ1 independent random-stream confirmation with frozen references; no RQ3 prediction or manuscript editing"
+}
