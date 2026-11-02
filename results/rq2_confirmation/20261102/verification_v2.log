@@ -1,0 +1,12 @@
+{'rows': 49920, 'passed': True, 'primary_recomputed': True}
+                           point_recall  bystander_fpr  clean_fpr
+lag channels arm                                                 
+0   none     full24                 NaN       0.007812   0.010258
+             joint12                NaN       0.007812   0.010258
+             restricted12           NaN       0.007812   0.010258
+12  2        full24            0.561979       0.009245   0.016875
+             joint12           0.586198       0.007031   0.016553
+             restricted12      0.586198       0.007031   0.016553
+    none     full24                 NaN       0.007899   0.010187
+             joint12                NaN       0.007899   0.010187
+             restricted12           NaN       0.007899   0.010187

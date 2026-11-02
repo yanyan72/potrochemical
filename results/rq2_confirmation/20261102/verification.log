@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/liliyan/Documents/石化/work/rq12_20261101/src/verify_rq2_confirmation.py", line 17, in <module>
+    assert (a&by).sum()==r.bystander_fp and by.sum()==r.bystander_cells
+             ^^^^^^
+  File "/Users/liliyan/Documents/Codex/2026-10-19/2-3-3-3-10-000-2/work/lstm-venv/lib/python3.11/site-packages/numpy/lib/_npyio_impl.py", line 257, in __getitem__
+    return format.read_array(
+           ^^^^^^^^^^^^^^^^^^
+  File "/Users/liliyan/Documents/Codex/2026-10-19/2-3-3-3-10-000-2/work/lstm-venv/lib/python3.11/site-packages/numpy/lib/_format_impl.py", line 869, in read_array
+    data = _read_bytes(fp, read_size, "array data")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/liliyan/Documents/Codex/2026-10-19/2-3-3-3-10-000-2/work/lstm-venv/lib/python3.11/site-packages/numpy/lib/_format_impl.py", line 1013, in _read_bytes
+    r = fp.read(size - len(data))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/liliyan/Documents/Codex/2026-10-19/2-3-3-3-10-000-2/work/python-runtimes/cpython-3.11.17-macos-aarch64-none/lib/python3.11/zipfile.py", line 991, in read
+    data = self._read1(n)
+           ^^^^^^^^^^^^^^
+  File "/Users/liliyan/Documents/Codex/2026-10-19/2-3-3-3-10-000-2/work/python-runtimes/cpython-3.11.17-macos-aarch64-none/lib/python3.11/zipfile.py", line 1074, in _read1
+    data = self._decompressor.decompress(data, n)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

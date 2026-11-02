@@ -1,0 +1,44 @@
+[
+  {
+    "local": "results/confirmation_20261102/root.zip",
+    "name": "root.zip",
+    "size": 806961,
+    "sha": "ae5fd583bd53fe206ed252e0400c4888794f78aa",
+    "sha256": "ceaa501bc69d0d21d40a45ed7b40d13156704d2a333b84119ec0bb8a6ad92b87"
+  },
+  {
+    "local": "results/confirmation_20261102/seed_42.zip",
+    "name": "seed_42.zip",
+    "size": 6564467,
+    "sha": "4175368a3370948362320022c12b3b98c971d464",
+    "sha256": "b8abf4784ef22aa5a7687695b09a2f671e645d66e3bbac18cbc8aa1d44c48442"
+  },
+  {
+    "local": "results/confirmation_20261102/seed_43.zip",
+    "name": "seed_43.zip",
+    "size": 6573201,
+    "sha": "69b2bae3b89262220e22d92b924cb738b0917c01",
+    "sha256": "1dd649d05a743360e0299f479677d960c6c904558ef3016bc6e1c82b820293c7"
+  },
+  {
+    "local": "results/confirmation_20261102/seed_44.zip",
+    "name": "seed_44.zip",
+    "size": 6573585,
+    "sha": "85a02eb27211f42ff0ce69bc44ce9408241bf257",
+    "sha256": "21e436de97ad193d4299c3b52b710cb2bac66be1f5f43d5972d131fca8785043"
+  },
+  {
+    "local": "results/confirmation_20261102/seed_45.zip",
+    "name": "seed_45.zip",
+    "size": 6570120,
+    "sha": "1c75afd259a35b232f8d70a3e89134e5db2c8244",
+    "sha256": "9d5101c34df0cd5781e42d0f6306b01af11487fcdf6f7c8e55ed1abb419e7c8e"
+  },
+  {
+    "local": "results/confirmation_20261102/seed_46.zip",
+    "name": "seed_46.zip",
+    "size": 6574594,
+    "sha": "49e21401b49d5e8d83ad4fa493510173b01c0528",
+    "sha256": "acde656f58a54bc382dbcc98dec37acdc0d449993aff6f76c4c771ab72d7d2f2"
+  }
+]
