@@ -1,3 +1,3 @@
-# Current research status — 2026-11-02
+# Active plan: paper-only closeout
 
-[RQ2 frozen confirmation plan](rq2_confirmation_20261102.md) executed:8 tests,160 fresh batches,26 paired views, structural ablation and independent recount49920 rows. [Findings](../RQ2_CONFIRMATION_20261102.md). No RQ3 or manuscript change. Next: interpret archived recovery tails; no additional method search. DeadlineNovember28.
+Mentor-approved research freeze. See [paper finish plan](paper_finish_20261102.md). SBS paused without restart planning. No new experiments or algorithm changes. Deadline2026-11-28.
