@@ -15,8 +15,8 @@ Read existing artifacts only. Existing results immutable; new manuscript version
 Textual and numeric comparison, exact file hashes and Git tree comparison. Source checks are document verification, not a new scientific experiment. No simulation smoke test is applicable to document-only changes.
 ## Progress
 - [x] Mentor direction received and latest state/AGENTS read.
-- [ ] Project stop rules and active plan updated.
-- [ ] First claim audit and manuscript integration.
+- [x] Project stop rules and active plan updated; commit2281f55e.
+- [x] First claim audit and versioned manuscript integration completed; original11/01 draft preserved.
 - [ ] Full bibliography/legacy-table and final presentation pass.
 ## Decision log
 This plan supersedes all prior proposals to optimize RQ2 recovery tails, add experiments, or follow up/restart SBS. Existing historical records remain for traceability; their pending boxes are inactive.
