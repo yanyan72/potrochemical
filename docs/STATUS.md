@@ -1,3 +1,9 @@
+## 2026-11-25 论文翻译术语统一
+
+按用户要求新增[中英术语表与翻译约定](TRANSLATION_GLOSSARY.md)，统一 trustworthiness estimation、trust score、regime-aware、regime-conditioned 等核心表达，补充参考与校准、并发故障、12/24状态分支、选择性修正、代理预测和结论强度的使用边界。翻译时以该表为术语入口；它属于项目用词约定，不是 TIMC 强制术语。
+
+本次仅新增术语文档和本状态记录；已核对术语与现有方法定义及本轮翻译讨论一致，并检查 Markdown 表格结构。未改动冻结方法、数据、模型或实验产物，未运行新实验，未上传论文正文。
+
 ## 论文整理首轮已完成
 
 已生成[11/02英文核对稿](manuscript_handoff/20261102/Paper_English_20261102_review.md)，保留11/01原稿，补齐已完成RQ1/RQ2新确认，明确24状态评分与12状态RQ3预测的证据区别；首轮核对见[PAPER_CLAIM_AUDIT](PAPER_CLAIM_AUDIT_20261102.md)。全篇旧引文、旧表交叉核验及最终排版尚待后续论文工作；不以此启动新实验。
