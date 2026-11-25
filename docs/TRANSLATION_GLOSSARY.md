@@ -23,6 +23,11 @@
 | 观测一致性 | observation consistency | 可信度的操作性含义；不是另一种独立输出 |
 | 可靠性 | reliability | 文献或确有可靠性含义时使用；不作为本文可信度的同义词 |
 | 工况 | operating regime；后文简称 regime | 首次结合仓储、平稳运输、颠簸运输解释；不为同一潜在状态轮换使用 mode、condition、state |
+| 多工况监测（文献语境） | multimode process monitoring | 介绍采用 multimode 的既有文献时保留原用词；本文方法叙述仍使用 regime。只有上下文所指一致且确需衔接时，首次可写 multi-regime (multimode) monitoring，不把所有 mode 与 regime 无条件视为等义 |
+| 环境条件 | environmental conditions | 如温度、湿度等环境背景，不强行替换为 regime |
+| 运行条件 | operating conditions | 泛指运行环境或约束时使用；特指本文离散工况状态时使用 operating regime |
+| 实验故障场景／设置 | fault scenarios / experimental settings | 组合场景用 dual-sensor fault scenarios 等；幅度、时长、滞后等具体配置用 settings，不将每个“条件”都译成 regime |
+| 适用条件／作用条件 | conditions of applicability / conditions under which the method is effective | 可在句中写 applicable conditions，但应直接说明范围；已评价场景用 evaluated scenarios，不能将观察到收益的场景扩大成完整适用域 |
 | 工况感知 | regime-aware | 总体方法特征；本身不承诺自动识别未知工况 |
 | 工况条件化 | regime-conditioned | 指按工况建立、选择或融合参考，或按工况校准；具体动作须说明 |
 | 工况适配 | regime adaptation | 仅用于确有迁移、域适配或在线适应的机制 |
@@ -63,9 +68,12 @@
 | 双故障 | dual-sensor faults | 明确是两个传感器，而非一个传感器的两种故障类型 |
 | 故障组合 | fault combinations | 三个通道的故障掩码组合 |
 | 可组合的故障解释 | modeling fault combinations / allowing concurrent fault hypotheses | 按句子选择具体动作；不机械使用 combinatorial fault interpretation |
+| 可组合故障建模（名词形式） | fault-combination modeling | 作为主语、图例和表头的统一短语；首次说明它允许多个通道同时故障。正文动词表达仍可用 modeling fault combinations，不另设 concurrent fault-hypothesis modeling 为平行名称 |
+| 组合故障评分（名词场景） | scoring with fault-combination modeling | 表头过长时可用已定义的 full 24-state branch；不将 fault-combination modeling 单独当作评分函数名称 |
 | 工况与故障组合联合推断 | joint inference over operating regimes and fault combinations | 说明模型推断对象；不声称由此消除参考污染 |
 | 故障方差膨胀 | covariance inflation under a fault hypothesis | 解释作用于故障通道的方差；按实际协方差公式表述 |
 | 故障定位 | fault localization | 指通道定位，不等于已诊断物理根因 |
+| 正常通道牵连（机制语境） | spillover to unaffected channels | 首次说明污染经共享工况权重影响其他通道的评价；不特指误报率。若未直接验证传播机制，用 possible spillover 或 may affect unaffected channels；确指误报时使用下一条表达 |
 | 正常通道牵连误报 | false alarms on unaffected channels | 优先于含义较隐晦的 collateral false alarms；报告率时注明事件期间的分母 |
 | 工况权重 | regime weights | 对应 q_t(k)；确需后验表述时注明是在工作模型内的 filtered posterior |
 | 内生反馈 | endogenous feedback | 当前观测影响评价自身的参考 |
@@ -81,7 +89,7 @@
 | --- | --- | --- |
 | 选择性观测修正 | selective observation correction | 接受区域内保留原值，越界后按评分修正 |
 | 评分指导修正 | score-guided correction | 表明评分如何被使用，与附加评分特征区分 |
-| 连续修正 | continuous correction | 本文 NG 对照，强度为 1-S；此处 continuous 不指连续时间 |
+| 连续修正（NG） | unthresholded correction | 首次可写 unthresholded (continuous) correction，后文统一 unthresholded correction，说明强度为 1-S、不使用选择性修正的接受区域门控；unthresholded 仅描述修正门控，不表示评分未经校准。S=1 或观测等于参考中心时可不改变读数，因此不采用 always-on soft correction；continuous 不指连续时间 |
 | 参考中心 | reference center | 明确是由工况权重融合的中心 |
 | 向参考收缩 | shrinkage toward the reference | 可能减少污染误差，也可能引入参考偏差 |
 | 附加评分特征 | trust scores as additional features | 不与选择性修正合并为同一验证结果 |
@@ -112,7 +120,11 @@
 
 短句优先说明主语、动作和对象。However、therefore 等连接词只用于真实逻辑关系，不逐句添加。可使用 We propose、The method combines、Simulation results show 等自然表达，不统一改成被动语态。
 
-## 7. 来源与维护
+## 7. 本轮微调说明（2026-11-25）
+
+结合用户转来的 Gemini 意见，补充文献中的 multimode、故障组合建模的名词形式、各类“条件”的分流、NG 对照的消歧名称及机制层面的 spillover。上述选择以概念和现有公式为依据，不把“审稿人一定如何理解”或“领域文献几乎全部如此”等判断写成事实；它们是翻译约定，不改变冻结实验或模型名称。
+
+## 8. 来源与维护
 
 依据项目《写作skill.md》既定术语，以及2026-11-25本轮翻译讨论整理。这里只保存翻译约定，不含论文正文。TIMC 的投稿格式要求应另查其[官方作者指南](https://journals.sagepub.com/author-instructions/TIM)，不能把本术语表的措辞偏好当成期刊硬性规定。
 
