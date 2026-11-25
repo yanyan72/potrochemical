@@ -1,3 +1,7 @@
+## 2026-11-25 翻译术语细化
+
+根据用户反馈细化[中英术语表](TRANSLATION_GLOSSARY.md)：文献语境保留 multimode，名词形式统一为 fault-combination modeling；区分 environmental/operating conditions、fault scenarios/settings 与适用条件；NG 对照首次写 unthresholded (continuous) correction，后文使用 unthresholded correction；机制性牵连使用 spillover to unaffected channels。已核对与原1-S修正规则一致，未改变模型、实验或论文正文。
+
 ## 2026-11-25 论文翻译术语统一
 
 按用户要求新增[中英术语表与翻译约定](TRANSLATION_GLOSSARY.md)，统一 trustworthiness estimation、trust score、regime-aware、regime-conditioned 等核心表达，补充参考与校准、并发故障、12/24状态分支、选择性修正、代理预测和结论强度的使用边界。翻译时以该表为术语入口；它属于项目用词约定，不是 TIMC 强制术语。
